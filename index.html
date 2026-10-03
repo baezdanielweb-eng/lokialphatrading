@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LokiAlphaTrading Community</title>
+<meta name="description" content="Reportes diarios de mercado: Matutino, Meridiano y Closing. Noticias, NQ/ES y stocks. Aprende • Comparte • Crece.">
+<meta property="og:title" content="LokiAlphaTrading Community">
+<meta property="og:description" content="Reportes diarios de mercado: noticias, NQ/ES y stocks.">
+<meta property="og:image" content="assets/logo.png">
+<meta name="theme-color" content="#04070d">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/favicon.png" alt="" width="36" height="36">
+      <span>Loki<span class="alpha">Alpha</span>trading<small>COMMUNITY</small></span></a>
+    <nav class="nav">
+      <a href="./" aria-current="page">Inicio</a>
+      <a href="archivo.html">Archivo</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <img src="assets/logo.png" alt="LokiAlphaTrading Community" width="220" height="220">
+    <div>
+      <p class="tagline">APRENDE • COMPARTE • CRECE</p>
+      <h1>Loki<span class="alpha">Alpha</span>trading Community</h1>
+      <p>Tres reportes cada día de mercado: el <strong>Matutino</strong> antes de la apertura, el <strong>Meridiano</strong> al mediodía y el <strong>Closing</strong> al cierre. Noticias, futuros del NQ/ES y stocks, con niveles claros y resultados honestos.</p>
+      <div class="cta">
+        <a class="btn primary" href="#ultimo">Ver el último reporte</a>
+        <a class="btn" href="archivo.html">Archivo por fecha</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="ultimo"><p class="loading">Cargando el último reporte…</p></div>
+
+  <section class="section" style="margin-top:48px">
+    <div class="section-head"><div><h3>Nuestros canales</h3><p>Cada reporte se resume en tres grupos de la comunidad.</p></div></div>
+    <div class="channels" id="canales"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="disclaimer"><strong>Contenido educativo, no es asesoría financiera.</strong> Cada operación es responsabilidad de quien la ejecuta. Todas las órdenes (entrada, stop y objetivo) son límite. Horas en ET (Nueva York).</p>
+    <p>© 2026 LokiAlphaTrading Community</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script>iniciarInicio();</script>
+</body>
+</html>

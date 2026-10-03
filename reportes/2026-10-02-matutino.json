@@ -1,0 +1,102 @@
+{
+  "fecha": "2026-10-02",
+  "tipo": "matutino",
+  "titulo": "LokiAlphaTrading - Reporte Matutino",
+  "publicado_en": "2026-10-02T12:50:00Z",
+  "datos": {
+    "generado": "8:50 AM ET",
+    "resumen": "El empleo de septiembre salió muy débil (29K vs 90K esperado). Los yields bajan desde máximos de 2002 y los futuros suben: el NQ queda a 67 puntos de su máximo histórico.",
+    "pulso": [
+      { "etiqueta": "SPY premarket", "valor": "+0.83%", "detalle": "770.32", "dir": "up" },
+      { "etiqueta": "QQQ premarket", "valor": "+1.11%", "detalle": "750.27 · sobre su máximo", "dir": "up" },
+      { "etiqueta": "NQ1!", "valor": "+1.05%", "detalle": "31,084 · máx. hist. 31,151.5", "dir": "up" },
+      { "etiqueta": "Empleo (NFP)", "valor": "29K", "detalle": "esp. 90K · desempleo 4.2%", "dir": "down" }
+    ],
+    "agenda": [
+      { "hora": "8:30", "tema": "Empleo (NFP): 29K vs 90K, desempleo 4.2%, salarios +0.1%", "efecto": "Yields abajo, futuros arriba. Favorece tecnología y semis.", "prob": 10, "estado": "Ya salió" },
+      { "hora": "10:00", "tema": "Logan (Dallas Fed, vota)", "efecto": "Ayer pidió más alzas; un tono duro puede enfriar el impulso del NQ.", "prob": 6 },
+      { "hora": "10:00", "tema": "Pedidos de fábrica", "efecto": "Dato menor; poco impacto esperado.", "prob": 3 },
+      { "hora": "PM", "tema": "Premarket: Nike −8%, onsemi +7%, Synaptics +14%", "efecto": "Movimientos por noticias propias (resultados y compra de Synaptics).", "prob": 4 }
+    ],
+    "nq": {
+      "ultimo": "31,084",
+      "cambio": "+1.05%",
+      "nota": "Último 31,084 (+1.05% vs. el cierre de ayer, 30,760.5). ATR diario: 471 puntos.",
+      "tendencias": [
+        { "marco": "Diaria", "valor": "Alcista", "nota": "Muy por encima de las medias de 20, 50 y 200 días (30,117 / 29,601 / 27,618). RSI 81: sobrecomprado." },
+        { "marco": "1 hora", "valor": "Alcista", "nota": "Ayer recuperó las medias de 20 y 50 en 1 hora y en la noche rompió el máximo de la sesión de ayer (30,883.5). Diario y 1 hora de acuerdo." }
+      ],
+      "escalera": [
+        { "nivel": "Cielo azul", "nota": "Sin resistencia arriba", "tipo": "cielo" },
+        { "nivel": "31,151.5", "nota": "Máximo histórico · +68 pts", "tipo": "resistencia" },
+        { "nivel": "31,095–105", "nota": "Pivote 22/9 + máximo nocturno · +11 a +22 pts", "tipo": "resistencia" },
+        { "nivel": "31,084", "nota": "Precio actual", "tipo": "precio" },
+        { "nivel": "30,968–996", "nota": "Pivotes de junio + briefing de ayer · −88 a −116 pts", "tipo": "soporte" },
+        { "nivel": "30,884–906", "nota": "Máximo de ayer y del 30/9 · −178 a −200 pts", "tipo": "soporte" },
+        { "nivel": "30,760", "nota": "Mínimo nocturno + cierre de ayer · −324 pts", "tipo": "soporte" },
+        { "nivel": "30,529", "nota": "Mínimo de ayer", "tipo": "soporte" }
+      ],
+      "lectura": "El NFP débil baja los yields y el NQ abre a pasos de su máximo histórico. Si sostiene 30,968–30,996, el camino es 31,105 → 31,151.5 y luego cielo azul. Un cierre de 1 hora bajo 30,968 devuelve el precio a 30,884–30,906. Bajo 30,760 falla el gap del NFP. RSI diario 81: no perseguir la apertura, esperar el rango de 15 minutos."
+    },
+    "briefing": {
+      "estado": "pendiente",
+      "texto": "Se publica alrededor de las 9:20 AM ET. Referencia de ayer: Pivote 30,827 · Soporte 30,788 · Resistencia 30,996 · Confluencia 30,372. El NQ abre por encima de todos esos niveles; 30,996 ahora funciona como soporte."
+    },
+    "picks": {
+      "nota": "Día flojo en small caps: 3 selecciones y solo 1 small cap. Stop y objetivo fijos por nivel, según la regla de rompimiento del rango de 15 minutos.",
+      "filas": [
+        { "nivel": "Small", "ticker": "CYPH", "precio": "3.24", "gap": "+11.0%", "catalizador": "Impulso cripto; Cantor Compra $4.90", "stop": "$0.10", "objetivo": "$0.15", "nota": "Vela de ayer cerró en el mínimo; sin noticia propia. Resistencias 3.27 / 3.55" },
+        { "nivel": "Large", "ticker": "ON", "precio": "85.90", "gap": "+7.3%", "catalizador": "Compra de Synaptics pasa a efectivo, $123/acción ($5.7B)", "stop": "$0.50", "objetivo": "$0.75", "nota": "Ayer cerró en el 91% de su rango. Resistencias 86.47 / 87.96" },
+        { "nivel": "Mega", "ticker": "NVDA", "precio": "235.92", "gap": "+2.2%", "catalizador": "NFP débil → yields abajo; semis fuertes (SOXX +1.4%)", "stop": "$1.00", "objetivo": "$1.50", "nota": "Cielo azul sobre 236.00 (máximo de 300 días)" }
+      ],
+      "descartadas": "SDEV (+40%, flotante de 2M, pump), GOW ($13M, Singapur), NU (bajo sus medias de 20/50/200), IOVA (día 4, cerró en el mínimo, RSI 86), SYNA (fijada al precio en efectivo de $123), COGT (sin movimiento). Alterna en large cap: INTC (+2.9%, sin catalizador propio)."
+    },
+    "megas": {
+      "nota": "Ordenado por calidad del setup (tendencia a favor, nivel real, catalizador), con el gap como desempate. \"Noticia\" = agregado por catalizador del día.",
+      "filas": [
+        { "ticker": "ON", "tipo": "Noticia", "sesgo": "Alcista (gap)", "gap": "+7.3%", "catalizador": "Compra de Synaptics en efectivo", "r1": "86.47", "ultimo": "85.90", "s1": "85.55" },
+        { "ticker": "NKE", "tipo": "Noticia", "sesgo": "Bajista · venta en rebote", "gap": "−8.0%", "catalizador": "Ingresos bajo lo esperado, China débil", "r1": "35.02", "ultimo": "32.35", "s1": "—" },
+        { "ticker": "NVDA", "tipo": "Mega", "sesgo": "Alcista · cielo azul", "gap": "+2.2%", "catalizador": "Semis + yields abajo", "r1": "236.00", "ultimo": "235.92", "s1": "234.50" },
+        { "ticker": "PLTR", "tipo": "Mega", "sesgo": "Alcista (RSI 82)", "gap": "+1.3%", "catalizador": "—", "r1": "194.68", "ultimo": "192.45", "s1": "191.80" },
+        { "ticker": "QQQ", "tipo": "Mega", "sesgo": "Alcista · cielo azul", "gap": "+1.1%", "catalizador": "Índice, NFP débil", "r1": "Cielo azul", "ultimo": "750.27", "s1": "748.35" },
+        { "ticker": "MSFT", "tipo": "Mega", "sesgo": "Alcista", "gap": "+1.1%", "catalizador": "—", "r1": "522.85", "ultimo": "518.38", "s1": "517.78" },
+        { "ticker": "META", "tipo": "Mega", "sesgo": "Alcista", "gap": "+0.9%", "catalizador": "—", "r1": "735.88", "ultimo": "732.40", "s1": "728.53" },
+        { "ticker": "MU", "tipo": "Mega", "sesgo": "Alcista", "gap": "+0.6%", "catalizador": "—", "r1": "1108.72", "ultimo": "1104.28", "s1": "1098.90" },
+        { "ticker": "INTC", "tipo": "Mega", "sesgo": "Alcista", "gap": "+2.9%", "catalizador": "—", "r1": "124.73", "ultimo": "123.47", "s1": "122.15" },
+        { "ticker": "SPCX", "tipo": "Mega", "sesgo": "Lateral", "gap": "+1.1%", "catalizador": "—", "r1": "153.78", "ultimo": "149.64", "s1": "149.60" },
+        { "ticker": "GOOGL", "tipo": "Mega", "sesgo": "Lateral", "gap": "+0.8%", "catalizador": "—", "r1": "341.14", "ultimo": "340.98", "s1": "340.64" },
+        { "ticker": "AAPL", "tipo": "Mega", "sesgo": "Lateral", "gap": "+0.6%", "catalizador": "—", "r1": "332.48", "ultimo": "332.18", "s1": "330.81" },
+        { "ticker": "ACN", "tipo": "Noticia", "sesgo": "Día 2, devolviendo", "gap": "−0.7%", "catalizador": "Resultados 4T (ayer)", "r1": "211.04", "ultimo": "210.90", "s1": "210.82" },
+        { "ticker": "AMD", "tipo": "Mega", "sesgo": "Alcista (RSI 74)", "gap": "+2.5%", "catalizador": "—", "r1": "639.00", "ultimo": "631.10", "s1": "619.30" },
+        { "ticker": "TSLA", "tipo": "Mega", "sesgo": "Bajista", "gap": "+0.8%", "catalizador": "—", "r1": "359.79", "ultimo": "356.85", "s1": "355.39" },
+        { "ticker": "AMZN", "tipo": "Mega", "sesgo": "Bajo medias 20/50", "gap": "+1.2%", "catalizador": "—", "r1": "251.83", "ultimo": "251.11", "s1": "251.03" }
+      ]
+    },
+    "soportes": {
+      "nota": "Para rebotes al alza (largos o calls), ordenado por distancia en unidades de ATR diario. Grados: A alcista o retesteo con el mercado a favor · B lateral o mercado mixto · C bajista: solo con vela de recuperación confirmada.",
+      "top3": [
+        { "ticker": "NVDA", "grado": "A", "rr": "1.9", "nivel": "234.50", "texto": "Encima de 236.00 no hay resistencia en 300 días. Un retroceso al pivote de 234.50 que rebote en el Order Block es la entrada; objetivo 241.2." },
+        { "ticker": "ON", "grado": "A", "rr": "1.6", "nivel": "85.55", "texto": "Gap de +7% con noticia propia. Si el retroceso de la apertura sostiene 85.55, objetivo 87.96." },
+        { "ticker": "MSFT", "grado": "A", "rr": "1.2", "nivel": "517.78", "texto": "El techo de agosto ahora es soporte y el precio está justo encima. Objetivo 522.85, el máximo de ayer." }
+      ],
+      "filas": [
+        { "ticker": "SPCX", "precio": "149.64", "soporte": "149.60", "tipo_nivel": "Pivote de agosto", "dist_atr": "0.01", "tendencia": "Lateral", "grado": "B", "objetivo": "153.78", "invalidacion": "148.14", "rr": "2.8" },
+        { "ticker": "AMZN", "precio": "251.11", "soporte": "251.03", "tipo_nivel": "Pivote de julio", "dist_atr": "0.01", "tendencia": "Bajista", "grado": "C", "objetivo": "251.93", "invalidacion": "249.68", "rr": "0.6" },
+        { "ticker": "ACN", "precio": "210.90", "soporte": "210.82", "tipo_nivel": "Pivote de febrero", "dist_atr": "0.01", "tendencia": "Día 2", "grado": "B", "objetivo": "214.18", "invalidacion": "208.34", "rr": "1.3" },
+        { "ticker": "GOOGL", "precio": "340.98", "soporte": "340.64", "tipo_nivel": "Pivotes ago/sep", "dist_atr": "0.04", "tendencia": "Lateral", "grado": "B", "objetivo": "344.46", "invalidacion": "338.28", "rr": "1.3" },
+        { "ticker": "MSFT", "precio": "518.38", "soporte": "517.78", "tipo_nivel": "Retesteo (máx. 28/8)", "dist_atr": "0.05", "tendencia": "Alcista", "grado": "A", "objetivo": "522.85", "invalidacion": "514.73", "rr": "1.2" },
+        { "ticker": "ON", "precio": "85.90", "soporte": "85.55", "tipo_nivel": "Pivote de agosto (gap)", "dist_atr": "0.10", "tendencia": "Alcista", "grado": "A", "objetivo": "87.96", "invalidacion": "84.65", "rr": "1.6" },
+        { "ticker": "PLTR", "precio": "192.45", "soporte": "191.80", "tipo_nivel": "Máximo de ayer", "dist_atr": "0.11", "tendencia": "Alcista", "grado": "A", "objetivo": "194.68", "invalidacion": "190.34", "rr": "1.1" },
+        { "ticker": "MU", "precio": "1104.28", "soporte": "1098.90", "tipo_nivel": "Máximo de ayer", "dist_atr": "0.12", "tendencia": "Alcista", "grado": "A", "objetivo": "1108.72", "invalidacion": "1087.68", "rr": "0.3" },
+        { "ticker": "META", "precio": "732.40", "soporte": "728.53", "tipo_nivel": "Pivote oct 2025", "dist_atr": "0.13", "tendencia": "Alcista", "grado": "A", "objetivo": "740.75", "invalidacion": "721.21", "rr": "0.7" },
+        { "ticker": "TSLA", "precio": "356.85", "soporte": "355.39", "tipo_nivel": "Pivote ago 2025", "dist_atr": "0.14", "tendencia": "Bajista", "grado": "C", "objetivo": "359.79", "invalidacion": "352.70", "rr": "0.7" },
+        { "ticker": "QQQ", "precio": "750.27", "soporte": "748.35", "tipo_nivel": "Retesteo máx. 22/9", "dist_atr": "0.20", "tendencia": "Cielo azul", "grado": "A", "objetivo": "758.1*", "invalidacion": "745.90", "rr": "1.8" },
+        { "ticker": "INTC", "precio": "123.47", "soporte": "122.15", "tipo_nivel": "Máximo de ayer", "dist_atr": "0.20", "tendencia": "Alcista", "grado": "A", "objetivo": "125.62", "invalidacion": "120.47", "rr": "0.7" },
+        { "ticker": "AAPL", "precio": "332.18", "soporte": "330.81", "tipo_nivel": "Pivote del 3/9", "dist_atr": "0.21", "tendencia": "Lateral", "grado": "B", "objetivo": "334.30", "invalidacion": "329.18", "rr": "0.7" },
+        { "ticker": "NVDA", "precio": "235.92", "soporte": "234.50", "tipo_nivel": "Pivote del 4/9", "dist_atr": "0.27", "tendencia": "Cielo azul", "grado": "A", "objetivo": "241.2*", "invalidacion": "233.17", "rr": "1.9" },
+        { "ticker": "AMD", "precio": "631.10", "soporte": "619.30", "tipo_nivel": "Máximo de ayer", "dist_atr": "0.46", "tendencia": "Alcista", "grado": "A", "objetivo": "639.00", "invalidacion": "612.88", "rr": "0.4" }
+      ],
+      "pie": "* Objetivo en cielo azul: soporte + 1 ATR diario, porque no hay resistencia arriba. NKE fuera de la lista (sin soporte debajo)."
+    }
+  }
+}
