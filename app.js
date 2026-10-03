@@ -109,10 +109,6 @@ function seccionNQ(d) {
       `<ul class="ladder">${nq.escalera.map(l => `<li class="${esc(l.tipo)}"><span class="lv">${esc(l.nivel)}</span><span class="nt">${esc(l.nota)}</span></li>`).join('')}</ul>`) : '';
     html += `<div class="nq-grid"><div>${tend}${nq.lectura ? tarjeta('Lectura', null, `<p style="margin:0">${esc(nq.lectura)}</p>`, 'reading') : ''}</div><div>${escalera}</div></div>`;
   }
-  if (d.briefing) {
-    html += tarjeta('Briefing institucional NQ / ES', null,
-      `${d.briefing.estado === 'pendiente' ? '<span class="estado wait">Pendiente</span> ' : ''}<p style="margin:8px 0 0">${esc(d.briefing.texto)}</p>`);
-  }
   html += bloques(d, 'nq');
   return seccion('nq', 'nqes.png', 'NQ / ES', nq ? `NQ1! ${nq.ultimo ?? ''} ${nq.cambio ?? ''}` : '', html);
 }

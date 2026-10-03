@@ -1,0 +1,97 @@
+{
+  "fecha": "2026-10-02",
+  "tipo": "closing",
+  "titulo": "LokiAlphaTrading - Closing",
+  "publicado_en": "2026-10-03T14:15:00Z",
+  "datos": {
+    "generado": "cierre 4:00 PM ET (vie 2 oct)",
+    "resumen": "El empleo débil (29K) enfrió las apuestas de alzas de la Fed y la tecnología lideró: Nasdaq +1.2%. El NQ marcó máximo histórico en 31,282.5 a las 10:25, devolvió ~290 puntos y pasó la tarde lateral, cerrando en el 28% de su rango. Watchlist: 3 de 3 activadas, 1 objetivo (ON). Soportes: los grado A se rompieron más que los B y C.",
+    "pulso": [
+      { "etiqueta": "SPY", "valor": "+0.74%", "detalle": "769.64", "dir": "up" },
+      { "etiqueta": "QQQ", "valor": "+1.02%", "detalle": "749.58 · máx. 754.54", "dir": "up" },
+      { "etiqueta": "IWM", "valor": "+0.90%", "detalle": "281.52", "dir": "up" },
+      { "etiqueta": "NQ1! (cierre 4 PM)", "valor": "31,070", "detalle": "+1.0% · máx. hist. 31,282.5", "dir": "up" },
+      { "etiqueta": "ES1! (cierre 4 PM)", "valor": "7,779", "detalle": "+0.7% · máx. 7,810.25", "dir": "up" },
+      { "etiqueta": "VIX", "valor": "15.30", "detalle": "−6.6%", "dir": "down" },
+      { "etiqueta": "Bono 10 años", "valor": "5.28%", "detalle": "mín. 5.16% tras el NFP", "dir": "flat" }
+    ],
+    "que_movio": "El reporte de empleo de septiembre salió muy débil: 29K empleos vs ~84–90K esperados y desempleo en 4.2%. Eso consolidó la idea de que la Fed se queda quieta en octubre y la tecnología subió desde la apertura. El NQ hizo máximo histórico a las 10:25 y luego devolvió buena parte del gap; el 10 años tocó 5.16% pero cerró cerca de 5.28%. Tesla subió por entregas del 3T mejores de lo esperado (486,532 vs 461,974) y SpaceX (SPCX) por tres lanzamientos en 13 horas. Accenture siguió cayendo el segundo día tras resultados (−6.3%) y Micron devolvió −2%.",
+    "despues_cierre": [
+      { "ticker": "Megacaps", "cambio": "—", "nota": "Sin resultados de megacaps después del cierre. SPY/QQQ planos en el after-hours." },
+      { "ticker": "SDEV", "cambio": "+17%", "nota": "Microcap (descartada en la mañana por flotante de 2M). Movimiento con poco volumen: no es señal." }
+    ],
+    "manana": [
+      { "hora": "9:45", "tema": "PMI de servicios S&P Global (final)", "efecto": "Dato final, normalmente sin sorpresa.", "prob": 3 },
+      { "hora": "10:00", "tema": "ISM de servicios (esp. 55.1, previo 55.4)", "efecto": "Fuerte → yields arriba y presión al NQ cerca de máximos; débil → refuerza la tesis del NFP.", "prob": 7 },
+      { "hora": "Después del cierre", "tema": "Goolsbee (Chicago Fed, no vota en 2026)", "efecto": "Bajo impacto, fuera de horario.", "prob": 2 },
+      { "hora": "Semana", "tema": "Mar: Williams y Bowman (votan) · Mié 2 PM: minutas del FOMC · Jue: Musalem, PepsiCo · Vie: Delta", "efecto": "Las minutas del miércoles son el evento grande de la semana.", "prob": 7 }
+    ],
+    "nq": {
+      "ultimo": "31,070",
+      "cambio": "+1.0%",
+      "nota": "Sesión regular: apertura 31,147.75 · máximo 31,282.5 (10:25, máximo histórico) · mínimo 30,988 (11:25) · cierre 31,070, en el 28% del rango. ATR diario: 484 puntos.",
+      "tendencias": [
+        { "marco": "Diaria", "valor": "Alcista", "nota": "Nuevo máximo histórico y muy por encima de las medias de 20/50/200 días (30,116 / 29,601 / 27,618). Pero la vela dejó una mecha superior larga (~220 pts): rechazo en máximos." },
+        { "marco": "1 hora", "valor": "Lateral", "nota": "Tras el rechazo de las 10:30, máximos más bajos (31,130 → 31,109 → 31,061) y piso firme en 30,988–31,000 toda la tarde." }
+      ],
+      "escalera": [
+        { "nivel": "Cielo azul", "nota": "Sobre 31,282.5 no hay resistencia", "tipo": "cielo" },
+        { "nivel": "31,265–282.5", "nota": "Máximo histórico del viernes · +195 a +212 pts (0.44 ATR)", "tipo": "resistencia" },
+        { "nivel": "31,130", "nota": "Máximo menor de las 11:30 · +60 pts (0.12 ATR)", "tipo": "resistencia" },
+        { "nivel": "31,070", "nota": "Cierre del viernes (4 PM)", "tipo": "precio" },
+        { "nivel": "30,968–995", "nota": "Mínimo del viernes; la zona de soporte de la mañana aguantó · −75 a −102 pts (0.2 ATR)", "tipo": "soporte" },
+        { "nivel": "30,884–906", "nota": "Máximos del 30/9 y 1/10 · −164 a −186 pts", "tipo": "soporte" },
+        { "nivel": "30,760", "nota": "Mínimo nocturno del viernes + cierre del jueves · −310 pts (0.64 ATR)", "tipo": "soporte" },
+        { "nivel": "30,529", "nota": "Mínimo del jueves", "tipo": "soporte" }
+      ],
+      "lectura": "Para el lunes: mientras sostenga 30,968–30,995, el camino es 31,130 y luego el máximo histórico 31,282.5; por encima, cielo azul. Un cierre de 1 hora bajo 30,968 abre 30,884–30,906, y bajo 30,760 se borra todo el gap del NFP. La mecha del viernes pide confirmación: no comprar la apertura si llega directo a 31,265–31,282. ES: resistencia 7,810 (máx. del viernes) y 7,838–7,848.5 (máximo histórico); soporte 7,754 (mín. del viernes), luego 7,723 y 7,673."
+    },
+    "scorecard": {
+      "tasa_activacion": "3/3 (100%)",
+      "tasa_objetivo": "1/3 (33%)",
+      "nota": "Regla ORB de 15 minutos en ambas direcciones, stop y objetivo fijos por nivel. Resultado neto en R: ON +1.5R, NVDA −1R, CYPH ~+0.2R al cierre."
+    },
+    "picks": {
+      "nota": "Rango de apertura 9:30–9:45. Entrada al cierre de la vela de 1 minuto que rompe el rango.",
+      "filas": [
+        { "nivel": "Small", "ticker": "CYPH", "precio": "3.03", "gap": "+3.8%", "catalizador": "Venta bajo 3.06 a las 2:40 PM (entrada 3.05)", "estado": "Activada, sin stop ni objetivo", "max_favor": "+1.3%", "nota": "Rango 3.06–3.42. Cerró en 3.03 (+$0.02); llegó a 3.01, a $0.11 del objetivo 2.90." },
+        { "nivel": "Large", "ticker": "ON", "precio": "84.87", "gap": "+6.0%", "catalizador": "Venta bajo 83.92 a las 10:20 (entrada 83.78)", "estado": "Objetivo alcanzado", "max_favor": "+0.95%", "nota": "Objetivo 83.03 a las 10:31. Abrió bajo el soporte de la mañana (85.55)." },
+        { "nivel": "Mega", "ticker": "NVDA", "precio": "233.95", "gap": "+1.3%", "catalizador": "Compra sobre 237.47 a las 9:58 (entrada 237.51)", "estado": "Invalidada", "max_favor": "+0.16%", "nota": "Stop 236.51 a las 10:08. El rompimiento falló justo en el techo del día (237.88)." }
+      ]
+    },
+    "movers": [
+      { "ticker": "SPCX", "cambio": "+7.35%", "nota": "Tres lanzamientos en 13 horas (Crew-13, Transporter-18, NROL-97)." },
+      { "ticker": "ON", "cambio": "+6.01%", "nota": "Compra de Synaptics pasa a efectivo; abrió fuerte y devolvió la mitad." },
+      { "ticker": "TSLA", "cambio": "+4.65%", "nota": "Entregas 3T: 486,532 vs 461,974 esperadas." },
+      { "ticker": "MU", "cambio": "−2.05%", "nota": "Sigue la toma de ganancias tras resultados." },
+      { "ticker": "NKE", "cambio": "−3.64%", "nota": "Resultados débiles; abrió −8% y recuperó hasta cerrar en el máximo del día." },
+      { "ticker": "ACN", "cambio": "−6.31%", "nota": "Segundo día de caída tras resultados del 4T; cerró en el mínimo." }
+    ],
+    "soportes": {
+      "nota": "Resultado de la tabla de la mañana. Sostuvo = tocó el soporte y no cerró una vela de 5 min bajo la invalidación. Hoy los grado A se rompieron más que los B y C: el NQ giró desde máximos y los nombres de IA/semis (MU, INTC, PLTR) cayeron.",
+      "top3": [
+        { "ticker": "NVDA", "grado": "A", "rr": "1.9", "nivel": "234.50", "resultado": "Sostuvo", "texto": "Tocó 233.60 y rebotó +1.4% hasta 237.88, sin llegar al objetivo 241.2. Cerró en 233.95, bajo el soporte pero sobre la invalidación." },
+        { "ticker": "ON", "grado": "A", "rr": "1.6", "nivel": "85.55", "resultado": "Rompió", "texto": "Abrió debajo del soporte (84.88) y perdió la invalidación a las 9:45. El setup de rebote no existió; sí funcionó la venta ORB." },
+        { "ticker": "MSFT", "grado": "A", "rr": "1.2", "nivel": "517.78", "resultado": "Rompió", "texto": "Rebotó hasta 522.50 (casi: a $0.35 del objetivo 522.85) y rompió la invalidación a las 11:45." }
+      ],
+      "filas": [
+        { "ticker": "SPCX", "soporte": "149.60", "grado": "B", "objetivo": "153.78", "invalidacion": "148.14", "tipo_nivel": "Tocó 9:30 · objetivo 9:45", "tendencia": "Lateral", "rr": "2.8", "resultado": "Objetivo alcanzado" },
+        { "ticker": "AMZN", "soporte": "251.03", "grado": "C", "objetivo": "251.93", "invalidacion": "249.68", "tipo_nivel": "Tocó 9:30 · rebote +1.0%", "tendencia": "Bajista", "rr": "0.6", "resultado": "Objetivo alcanzado" },
+        { "ticker": "ACN", "soporte": "210.82", "grado": "B", "objetivo": "214.18", "invalidacion": "208.34", "tipo_nivel": "Rompió en la primera vela", "tendencia": "Día 2", "rr": "1.3", "resultado": "Rompió" },
+        { "ticker": "GOOGL", "soporte": "340.64", "grado": "B", "objetivo": "344.46", "invalidacion": "338.28", "tipo_nivel": "Mínimo 341.20, no llegó", "tendencia": "Lateral", "rr": "1.3", "resultado": "No tocó" },
+        { "ticker": "MSFT", "soporte": "517.78", "grado": "A", "objetivo": "522.85", "invalidacion": "514.73", "tipo_nivel": "Rebote +0.9% (casi), rompió 11:45", "tendencia": "Alcista", "rr": "1.2", "resultado": "Rompió" },
+        { "ticker": "ON", "soporte": "85.55", "grado": "A", "objetivo": "87.96", "invalidacion": "84.65", "tipo_nivel": "Abrió bajo soporte, rompió 9:45", "tendencia": "Alcista", "rr": "1.6", "resultado": "Rompió" },
+        { "ticker": "PLTR", "soporte": "191.80", "grado": "A", "objetivo": "194.68", "invalidacion": "190.34", "tipo_nivel": "Rebote +1.4% (casi), rompió 11:45", "tendencia": "Alcista", "rr": "1.1", "resultado": "Rompió" },
+        { "ticker": "MU", "soporte": "1098.90", "grado": "A", "objetivo": "1108.72", "invalidacion": "1087.68", "tipo_nivel": "Rebote +0.9% (casi), rompió 10:05", "tendencia": "Alcista", "rr": "0.3", "resultado": "Rompió" },
+        { "ticker": "META", "soporte": "728.53", "grado": "A", "objetivo": "740.75", "invalidacion": "721.21", "tipo_nivel": "Tocó 9:40 · rebote +1.1%", "tendencia": "Alcista", "rr": "0.7", "resultado": "Sostuvo" },
+        { "ticker": "TSLA", "soporte": "355.39", "grado": "C", "objetivo": "359.79", "invalidacion": "352.70", "tipo_nivel": "Abrió arriba (360) y subió", "tendencia": "Bajista", "rr": "0.7", "resultado": "No tocó" },
+        { "ticker": "QQQ", "soporte": "748.35", "grado": "A", "objetivo": "758.1", "invalidacion": "745.90", "tipo_nivel": "Tocó 11:10 · rebote +0.35%", "tendencia": "Cielo azul", "rr": "1.8", "resultado": "Sostuvo" },
+        { "ticker": "INTC", "soporte": "122.15", "grado": "A", "objetivo": "125.62", "invalidacion": "120.47", "tipo_nivel": "Rompió 13:20, cerró en el mínimo", "tendencia": "Alcista", "rr": "0.7", "resultado": "Rompió" },
+        { "ticker": "AAPL", "soporte": "330.81", "grado": "B", "objetivo": "334.30", "invalidacion": "329.18", "tipo_nivel": "Tocó 9:30 · objetivo 10:15", "tendencia": "Lateral", "rr": "0.7", "resultado": "Objetivo alcanzado" },
+        { "ticker": "NVDA", "soporte": "234.50", "grado": "A", "objetivo": "241.2", "invalidacion": "233.17", "tipo_nivel": "Tocó 9:30 · rebote +1.4%", "tendencia": "Cielo azul", "rr": "1.9", "resultado": "Sostuvo" },
+        { "ticker": "AMD", "soporte": "619.30", "grado": "A", "objetivo": "639.00", "invalidacion": "612.88", "tipo_nivel": "Mínimo 628.56, no llegó", "tendencia": "Alcista", "rr": "0.4", "resultado": "No tocó" }
+      ],
+      "pie": "Por grado (solo los que tocaron soporte): A — 0 objetivo, 3 sostuvieron, 5 rompieron · B — 2 objetivo, 1 rompió · C — 1 objetivo. No tocaron: GOOGL, TSLA, AMD. En esta tabla la columna “Tipo de nivel” muestra qué pasó y a qué hora."
+    }
+  }
+}

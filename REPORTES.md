@@ -27,14 +27,13 @@ All text is in **Spanish**. Every field is optional: the site only draws the sec
     "despues_cierre": [ { "ticker": "NKE", "cambio": "−8.0%", "nota": "AH earnings..." } ],
     "manana":   [ /* same shape as agenda: tomorrow's calendar (Closing) */ ],
 
-    // ---- NQ / ES (green) ----
+    // ---- NQ / ES (green) ----   (never include briefing/Jarvis data: local only)
     "nq": {
       "ultimo": "31,084", "cambio": "+1.05%", "nota": "ATR, close reference...",
       "tendencias": [ { "marco": "Diaria", "valor": "Alcista|Bajista|Lateral", "nota": "..." } ],
       "escalera": [ { "nivel": "31,151.5", "nota": "Máximo histórico · +68 pts", "tipo": "cielo|resistencia|precio|soporte" } ],
       "lectura": "If/then read."
     },
-    "briefing": { "estado": "pendiente|listo", "texto": "Summary only. Never name the source or paste its scenarios." },
 
     // ---- Stocks (gold) ----
     "scorecard": { "tasa_activacion": "2/3 (67%)", "tasa_objetivo": "1/2 (50%)", "nota": "..." },
