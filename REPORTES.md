@@ -8,7 +8,9 @@ node scripts/publicar.mjs reportes/YYYY-MM-DD-<tipo>.json
 
 Publicar de nuevo el mismo día y tipo **reemplaza** el reporte (sirve para corregir). El sitio (`index.html` y `archivo.html`) lee Supabase en vivo, así que no hace falta volver a subir el sitio.
 
-All text is in **Spanish**. Every field is optional: the site only draws the sections that exist. Values are strings formatted for display, e.g. `"31,084"`, `"+1.05%"`, `"−8.0%"` (a minus sign or `-` turns red, `+` turns green).
+**Languages:** `datos` is the main version, in **Spanish**. `datos_en` is the **same structure translated to English**; the site's ES/EN switch shows it, and if it's missing, English readers see the Spanish version with a notice. Always write both. Keep numbers, tickers and the `tipo` codes in `escalera` (cielo/resistencia/precio/soporte) identical in both, and translate everything else, including status words (e.g. *Target hit*, *Held*, *Broke*, *Stopped out*, *Not triggered*, *Triggered, no stop or target*).
+
+ Every field is optional: the site only draws the sections that exist. Values are strings formatted for display, e.g. `"31,084"`, `"+1.05%"`, `"−8.0%"` (a minus sign or `-` turns red, `+` turns green).
 
 ```jsonc
 {
@@ -16,6 +18,7 @@ All text is in **Spanish**. Every field is optional: the site only draws the sec
   "tipo": "matutino",                    // matutino | meridiano | closing
   "titulo": "LokiAlphaTrading - Reporte Matutino",   // or "- Reporte Meridiano" / "- Closing"
   "publicado_en": "2026-10-02T12:50:00Z",// optional; defaults to now (UTC)
+  "datos_en": { /* same keys as datos, in English */ },
   "datos": {
     "generado": "8:50 AM ET",
     "resumen": "One or two sentences: what matters today.",

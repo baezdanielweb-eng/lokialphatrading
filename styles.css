@@ -53,6 +53,11 @@ img { max-width: 100%; display: block; }
 .nav a { color: var(--muted); font-weight: 600; font-size: 14px; padding: 8px 12px; border-radius: 8px; }
 .nav a:hover { color: var(--text); text-decoration: none; background: var(--card); }
 .nav a[aria-current="page"] { color: var(--text); background: var(--card-2); }
+.lang { display: inline-flex; margin-left: 6px; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.lang button { background: none; border: 0; color: var(--muted); font: 700 12px/1 var(--font); padding: 8px 9px; cursor: pointer; letter-spacing: .04em; }
+.lang button + button { border-left: 1px solid var(--border); }
+.lang button[aria-pressed="true"] { background: var(--blue); color: #fff; }
+.lang button:hover:not([aria-pressed="true"]) { color: var(--text); }
 
 /* ---------- Hero ---------- */
 .hero { display: grid; grid-template-columns: 220px 1fr; gap: 36px; align-items: center; padding: 48px 0 32px; }
@@ -241,8 +246,16 @@ footer strong { color: var(--text); }
   .event .prob .bar { flex: 1; margin: 0; max-width: 140px; }
   .ladder li { grid-template-columns: 96px minmax(0, 1fr); }
   .brand small { display: none; }
+  .nav a { padding: 8px 8px; }
+  .brand span { font-size: 14px; }
   .tagline { letter-spacing: .16em; font-size: 12px; }
   .tabs { flex-wrap: nowrap; overflow-x: auto; }
   .tab { flex: none; padding: 8px 11px; }
   .tab span { display: none; }
+}
+@media (max-width: 440px) {
+  .brand > span { display: none; }
+  .nav { gap: 2px; }
+  .nav a { padding: 8px 7px; font-size: 13.5px; }
+  .lang button { padding: 8px 7px; }
 }

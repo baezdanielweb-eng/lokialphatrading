@@ -2,7 +2,8 @@
 // Publica (o reemplaza) un reporte en Supabase.
 // Uso: node scripts/publicar.mjs reportes/2026-10-02-matutino.json
 //
-// El JSON debe tener: { fecha: "YYYY-MM-DD", tipo: "matutino"|"meridiano"|"closing", titulo, publicado_en?, datos: {...} }
+// El JSON debe tener: { fecha: "YYYY-MM-DD", tipo: "matutino"|"meridiano"|"closing", titulo, publicado_en?, datos: {...}, datos_en?: {...} }
+// datos = español (principal). datos_en = la misma estructura traducida al inglés (opcional).
 // La clave secreta se pide a la CLI de Supabase en cada ejecución: nunca se imprime ni se guarda en disco.
 
 import { readFileSync } from 'node:fs';
@@ -23,6 +24,7 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(reporte.fecha || '')) throw new Error('fecha deb
 if (!TIPOS.includes(reporte.tipo)) throw new Error(`tipo debe ser uno de: ${TIPOS.join(', ')}`);
 if (!reporte.titulo) throw new Error('falta titulo');
 if (typeof reporte.datos !== 'object') throw new Error('falta datos');
+if (reporte.datos_en && typeof reporte.datos_en !== 'object') throw new Error('datos_en debe ser un objeto');
 
 const claves = JSON.parse(execFileSync('supabase', ['projects', 'api-keys', '--project-ref', REF, '--reveal', '-o', 'json'], {
   encoding: 'utf8',
@@ -36,6 +38,7 @@ const fila = {
   tipo: reporte.tipo,
   titulo: reporte.titulo,
   datos: reporte.datos,
+  ...(reporte.datos_en ? { datos_en: reporte.datos_en } : {}),
   ...(reporte.publicado_en ? { publicado_en: reporte.publicado_en } : {}),
 };
 
@@ -55,4 +58,4 @@ if (!res.ok) {
   process.exit(1);
 }
 const [guardado] = JSON.parse(cuerpo);
-console.log(`Publicado: ${guardado.fecha} · ${guardado.tipo} · id ${guardado.id} · ${guardado.publicado_en}`);
+console.log(`Publicado: ${guardado.fecha} · ${guardado.tipo} · id ${guardado.id} · ${guardado.publicado_en} · inglés: ${guardado.datos_en ? 'sí' : 'no'}`);

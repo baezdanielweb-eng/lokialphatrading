@@ -1,5 +1,7 @@
 // LokiAlphaTrading Community: carga y dibuja los reportes diarios desde Supabase.
 // Clave pública (publishable): segura en el sitio. La tabla solo permite lectura (RLS).
+// Idioma principal: español. Inglés opcional (botón ES/EN): textos de la interfaz en I18N,
+// contenido del reporte en la columna datos_en (si falta, se muestra el español con un aviso).
 
 const SUPABASE_URL = 'https://qyvkrowvinaslxdhvmku.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_4pljPW7l6lTC4qF8RpjCPA_C83MsUqS';
@@ -7,10 +9,119 @@ const SUPABASE_KEY = 'sb_publishable_4pljPW7l6lTC4qF8RpjCPA_C83MsUqS';
 // Enlaces de invitación a los grupos de WhatsApp. Vacío = el botón no se muestra.
 const WHATSAPP = { noticias: '', stocks: '', nq: '' };
 
+// ---------- Idioma ----------
+const I18N = {
+  es: {
+    locale: 'es',
+    'nav.home': 'Inicio', 'nav.archive': 'Archivo',
+    'hero.tagline': 'APRENDE • COMPARTE • CRECE',
+    'hero.text': 'Tres reportes cada día de mercado: el <strong>Matutino</strong> antes de la apertura, el <strong>Meridiano</strong> al mediodía y el <strong>Closing</strong> al cierre. Noticias, futuros del NQ/ES y stocks, con niveles claros y resultados honestos.',
+    'hero.latest': 'Ver el último reporte', 'hero.archive': 'Archivo por fecha',
+    'channels.title': 'Nuestros canales', 'channels.sub': 'Cada reporte se resume en tres grupos de la comunidad.',
+    'channels.join': 'Unirme en WhatsApp',
+    'ch.noticias.t': 'Noticias', 'ch.noticias.d': 'Agenda económica, Fed y titulares con su probabilidad de mover el mercado.',
+    'ch.nq.t': 'NQ / ES Tips', 'ch.nq.d': 'Tendencia y niveles mayores de los futuros del Nasdaq y el S&P 500.',
+    'ch.stocks.t': 'Stocks Tips', 'ch.stocks.d': 'Watchlist del día, ranking de megacaps y soportes para rebotes.',
+    'footer.disclaimer': '<strong>Contenido educativo, no es asesoría financiera.</strong> Cada operación es responsabilidad de quien la ejecuta. Todas las órdenes (entrada, stop y objetivo) son límite. Horas en ET (Nueva York).',
+    'tipo.matutino': 'Matutino', 'tipo.meridiano': 'Meridiano', 'tipo.closing': 'Closing',
+    'titulo.matutino': 'LokiAlphaTrading - Reporte Matutino', 'titulo.meridiano': 'LokiAlphaTrading - Reporte Meridiano', 'titulo.closing': 'LokiAlphaTrading - Closing',
+    'tab.notyet': 'Aún no publicado',
+    'meta.published': 'Publicado', 'meta.data': 'datos', 'meta.limit': 'Órdenes siempre límite',
+    'msg.loading': 'Cargando…', 'msg.loadingLatest': 'Cargando el último reporte…', 'msg.none': 'Todavía no hay reportes publicados.',
+    'msg.noneDay': 'No hay reportes para', 'msg.error': 'No se pudo cargar', 'msg.noEnglish': '',
+    'sec.noticias': 'Noticias', 'sec.noticias.sub': 'Eventos que pueden mover el mercado. Hora en ET (Nueva York).',
+    'sec.nq': 'NQ / ES', 'sec.stocks': 'Stocks', 'sec.stocks.sub': 'Watchlist, megacaps y soportes para rebotes. Órdenes siempre límite.',
+    'prob': 'Prob. de mover el mercado', 'whatMoved': 'Qué movió el mercado', 'afterHours': 'Después del cierre', 'tomorrow': 'Agenda de mañana',
+    'trend': 'Tendencia', 'levels': 'Niveles mayores', 'reading': 'Lectura',
+    'rate.trigger': 'Tasa de activación', 'rate.trigger.d': 'Selecciones que se activaron',
+    'rate.tp': 'Tasa de objetivo', 'rate.tp.d': 'Activadas que llegaron al objetivo',
+    'watchlist': 'Watchlist del día', 'discarded': 'Descartadas:', 'movers': 'Megacaps: mayores movimientos',
+    'top3': 'Los 3 a vigilar', 'review': 'Revisión de soportes de la mañana', 'supports': 'Megacaps más cerca de su soporte', 'ranking': 'Ranking de megacaps',
+    'c.level': 'Nivel', 'c.ticker': 'Ticker', 'c.price': 'Precio', 'c.gap': 'Gap', 'c.status': 'Estado', 'c.maxFav': 'Máx. a favor',
+    'c.catalyst': 'Catalizador', 'c.stop': 'Stop', 'c.target': 'Objetivo', 'c.notes': 'Notas', 'c.move': 'Mov.', 'c.note': 'Nota',
+    'c.change': 'Cambio', 'c.reason': 'Motivo', 'c.support': 'Soporte', 'c.result': 'Resultado', 'c.levelType': 'Tipo de nivel',
+    'c.distAtr': 'Dist. ATR', 'c.trend': 'Tendencia', 'c.grade': 'Grado', 'c.invalidation': 'Invalidación', 'c.type': 'Tipo', 'c.bias': 'Sesgo', 'c.last': 'Último',
+    'cal.prev': 'Mes anterior', 'cal.next': 'Mes siguiente', 'cal.recent': 'Recientes', 'cal.noReports': 'sin reportes', 'cal.dow': ['L', 'M', 'X', 'J', 'V', 'S', 'D'],
+  },
+  en: {
+    locale: 'en-US',
+    'nav.home': 'Home', 'nav.archive': 'Archive',
+    'hero.tagline': 'LEARN • SHARE • GROW',
+    'hero.text': 'Three reports every market day: the <strong>Morning</strong> report before the open, the <strong>Midday</strong> update and the <strong>Closing</strong> report. News, NQ/ES futures and stocks, with clear levels and honest results.',
+    'hero.latest': 'See the latest report', 'hero.archive': 'Archive by date',
+    'channels.title': 'Our channels', 'channels.sub': 'Each report is summarized in three community groups (in Spanish).',
+    'channels.join': 'Join on WhatsApp',
+    'ch.noticias.t': 'News', 'ch.noticias.d': 'Economic calendar, Fed and headlines, scored by how likely they are to move the market.',
+    'ch.nq.t': 'NQ / ES Tips', 'ch.nq.d': 'Trend and major levels for Nasdaq and S&P 500 futures.',
+    'ch.stocks.t': 'Stocks Tips', 'ch.stocks.d': 'Daily watchlist, megacap ranking and bounce supports.',
+    'footer.disclaimer': '<strong>Educational content, not financial advice.</strong> Every trade is the responsibility of whoever places it. All orders (entry, stop and target) are limit orders. Times in ET (New York).',
+    'tipo.matutino': 'Morning', 'tipo.meridiano': 'Midday', 'tipo.closing': 'Closing',
+    'titulo.matutino': 'LokiAlphaTrading - Morning Report', 'titulo.meridiano': 'LokiAlphaTrading - Midday Report', 'titulo.closing': 'LokiAlphaTrading - Closing',
+    'tab.notyet': 'Not published yet',
+    'meta.published': 'Published', 'meta.data': 'data', 'meta.limit': 'Limit orders only',
+    'msg.loading': 'Loading…', 'msg.loadingLatest': 'Loading the latest report…', 'msg.none': 'No reports published yet.',
+    'msg.noneDay': 'No reports for', 'msg.error': 'Could not load', 'msg.noEnglish': 'This report is only available in Spanish.',
+    'sec.noticias': 'News', 'sec.noticias.sub': 'Events that can move the market. Times in ET (New York).',
+    'sec.nq': 'NQ / ES', 'sec.stocks': 'Stocks', 'sec.stocks.sub': 'Watchlist, megacaps and bounce supports. Limit orders only.',
+    'prob': 'Chance of moving the market', 'whatMoved': 'What moved the market', 'afterHours': 'After the close', 'tomorrow': "Tomorrow's calendar",
+    'trend': 'Trend', 'levels': 'Major levels', 'reading': 'Read',
+    'rate.trigger': 'Trigger rate', 'rate.trigger.d': 'Picks that triggered',
+    'rate.tp': 'Target-hit rate', 'rate.tp.d': 'Triggered picks that reached target',
+    'watchlist': "Today's watchlist", 'discarded': 'Cut:', 'movers': 'Megacaps: biggest moves',
+    'top3': 'Top 3 to watch', 'review': 'Morning supports: how they did', 'supports': 'Megacaps closest to support', 'ranking': 'Megacap ranking',
+    'c.level': 'Tier', 'c.ticker': 'Ticker', 'c.price': 'Price', 'c.gap': 'Gap', 'c.status': 'Status', 'c.maxFav': 'Max in favor',
+    'c.catalyst': 'Catalyst', 'c.stop': 'Stop', 'c.target': 'Target', 'c.notes': 'Notes', 'c.move': 'Move', 'c.note': 'Note',
+    'c.change': 'Change', 'c.reason': 'Why', 'c.support': 'Support', 'c.result': 'Result', 'c.levelType': 'Level type',
+    'c.distAtr': 'ATR dist.', 'c.trend': 'Trend', 'c.grade': 'Grade', 'c.invalidation': 'Invalidation', 'c.type': 'Type', 'c.bias': 'Bias', 'c.last': 'Last',
+    'cal.prev': 'Previous month', 'cal.next': 'Next month', 'cal.recent': 'Recent', 'cal.noReports': 'no reports', 'cal.dow': ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+  },
+};
+
+function idiomaInicial() {
+  const q = new URLSearchParams(location.search).get('lang');
+  if (q === 'es' || q === 'en') return q;
+  try { const g = localStorage.getItem('lat-lang'); if (g === 'es' || g === 'en') return g; } catch (e) {}
+  return 'es';
+}
+let LANG = idiomaInicial();
+const T = k => I18N[LANG][k] ?? I18N.es[k] ?? k;
+const LOC = () => T('locale');
+
+// Textos fijos del HTML: <elemento data-i18n="clave">. data-i18n-html permite <strong>.
+function aplicarIdioma() {
+  document.documentElement.lang = LANG;
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = T(el.dataset.i18n); });
+  document.querySelectorAll('[data-i18n-html]').forEach(el => { el.innerHTML = T(el.dataset.i18nHtml); });
+  document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === LANG)));
+}
+
+function montarSelectorIdioma(alCambiar) {
+  const nav = document.querySelector('.nav');
+  if (!nav || nav.querySelector('.lang')) return;
+  const box = document.createElement('div');
+  box.className = 'lang';
+  box.setAttribute('role', 'group');
+  box.setAttribute('aria-label', 'Idioma / Language');
+  box.innerHTML = '<button data-lang="es">ES</button><button data-lang="en">EN</button>';
+  box.addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b || b.dataset.lang === LANG) return;
+    LANG = b.dataset.lang;
+    try { localStorage.setItem('lat-lang', LANG); } catch (err) {}
+    const u = new URL(location.href);
+    LANG === 'es' ? u.searchParams.delete('lang') : u.searchParams.set('lang', LANG);
+    history.replaceState(null, '', u);
+    aplicarIdioma();
+    alCambiar();
+  });
+  nav.appendChild(box);
+  aplicarIdioma();
+}
+
 const TIPOS = [
-  { id: 'matutino', nombre: 'Matutino', hora: '~9:00 AM ET' },
-  { id: 'meridiano', nombre: 'Meridiano', hora: '~12:00 PM ET' },
-  { id: 'closing', nombre: 'Closing', hora: '~5:00 PM ET' },
+  { id: 'matutino', hora: '~9:00 AM ET' },
+  { id: 'meridiano', hora: '~12:00 PM ET' },
+  { id: 'closing', hora: '~5:00 PM ET' },
 ];
 
 // ---------- Datos ----------
@@ -30,18 +141,18 @@ const recientes = n => api(`select=fecha,tipo&order=fecha.desc,publicado_en.desc
 
 // ---------- Utilidades ----------
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
-const fechaLarga = f => new Date(`${f}T12:00:00Z`).toLocaleDateString('es', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
-const fechaCorta = f => new Date(`${f}T12:00:00Z`).toLocaleDateString('es', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
+const fechaLarga = f => new Date(`${f}T12:00:00Z`).toLocaleDateString(LOC(), { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const fechaCorta = f => new Date(`${f}T12:00:00Z`).toLocaleDateString(LOC(), { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
 const horaET = ts => new Date(ts).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' }) + ' ET';
-const tipoNombre = id => TIPOS.find(t => t.id === id)?.nombre ?? id;
+const tipoNombre = id => T(`tipo.${id}`);
 const dirClase = v => (/^\s*[+]/.test(v) ? 'up' : /^\s*[−-]/.test(v) ? 'down' : '');
 
 function estadoBadge(estado) {
   if (!estado) return '';
   const e = estado.toLowerCase();
-  const cls = /objetivo|sostuvo|ganad/.test(e) ? 'ok'
-    : /invalid|stop|rompi|falló|perd/.test(e) ? 'bad'
-    : /activada|en curso/.test(e) ? 'open' : 'wait';
+  const cls = /objetivo|sostuvo|ganad|target|held|\bwin/.test(e) ? 'ok'
+    : /invalid|stop|rompi|falló|perd|broke|fail|loss/.test(e) ? 'bad'
+    : /activada|en curso|triggered|open/.test(e) && !/sin activar|not triggered|untriggered/.test(e) ? 'open' : 'wait';
   return `<span class="estado ${cls}">${esc(estado)}</span>`;
 }
 
@@ -66,6 +177,9 @@ function seccion(clase, icono, titulo, sub, contenido) {
 const tarjeta = (titulo, nota, cuerpo, extra = '') =>
   `<div class="card ${extra}">${titulo ? `<h4>${esc(titulo)}</h4>` : ''}${nota ? `<p class="note">${esc(nota)}</p>` : ''}${cuerpo}</div>`;
 
+const subtitulo = txt => `<h4 style="font:700 15px var(--display);margin:18px 0 10px">${esc(txt)}</h4>`;
+const pctFmt = v => `<span class="${dirClase(v)}">${esc(v ?? '—')}</span>`;
+
 const bloques = (d, seccionId) => (d.bloques ?? [])
   .filter(b => (b.seccion ?? 'stocks') === seccionId)
   .map(b => tarjeta(b.titulo, null, `<p style="margin:0">${esc(b.texto)}</p>`)).join('');
@@ -80,7 +194,7 @@ function agenda(items) {
       <div><div class="topic">${p >= 7 ? '⚠️ ' : ''}${esc(it.tema)}${it.estado ? `<span class="badge-done">${esc(it.estado)}</span>` : ''}</div>
         ${it.efecto ? `<div class="effect">${esc(it.efecto)}</div>` : ''}</div>
       ${p ? `<div class="prob"><span class="n" style="color:${color}">${p}<small style="font-size:11px;color:var(--muted)">/10</small></span>
-        <span class="lbl">Prob. de mover el mercado</span><div class="bar"><i style="width:${p * 10}%;background:${color}"></i></div></div>` : '<div></div>'}
+        <span class="lbl">${esc(T('prob'))}</span><div class="bar"><i style="width:${p * 10}%;background:${color}"></i></div></div>` : '<div></div>'}
     </div>`;
   }).join('')}</div>`;
 }
@@ -88,13 +202,13 @@ function agenda(items) {
 function seccionNoticias(d) {
   let html = '';
   if (d.agenda?.length) html += agenda(d.agenda);
-  if (d.que_movio) html += tarjeta('Qué movió el mercado', null, `<p style="margin:0">${esc(d.que_movio)}</p>`);
-  if (d.despues_cierre?.length) html += tarjeta('Después del cierre', null, tabla(
-    [{ t: 'Ticker', k: 'ticker', cls: 'tk' }, { t: 'Mov.', k: 'cambio', num: true, fmt: v => `<span class="${dirClase(v)}">${esc(v ?? '—')}</span>` }, { t: 'Nota', k: 'nota', cls: 'small' }],
+  if (d.que_movio) html += tarjeta(T('whatMoved'), null, `<p style="margin:0">${esc(d.que_movio)}</p>`);
+  if (d.despues_cierre?.length) html += tarjeta(T('afterHours'), null, tabla(
+    [{ t: T('c.ticker'), k: 'ticker', cls: 'tk' }, { t: T('c.move'), k: 'cambio', num: true, fmt: pctFmt }, { t: T('c.note'), k: 'nota', cls: 'small' }],
     d.despues_cierre));
-  if (d.manana?.length) html += `<h4 style="font:700 15px var(--display);margin:18px 0 10px">Agenda de mañana</h4>` + agenda(d.manana);
+  if (d.manana?.length) html += subtitulo(T('tomorrow')) + agenda(d.manana);
   html += bloques(d, 'noticias');
-  return seccion('noticias', 'news.png', 'Noticias', 'Eventos que pueden mover el mercado. Hora en ET (Nueva York).', html);
+  return seccion('noticias', 'news.png', T('sec.noticias'), T('sec.noticias.sub'), html);
 }
 
 function seccionNQ(d) {
@@ -102,15 +216,15 @@ function seccionNQ(d) {
   let html = '';
   if (nq) {
     const tend = (nq.tendencias ?? []).map(t => `<div class="card">
-      <div class="trend"><span class="eyebrow">Tendencia ${esc(t.marco)}</span>
-      <span class="val ${/alcista/i.test(t.valor) ? 'up' : /bajista/i.test(t.valor) ? 'down' : 'warn'}">${esc(t.valor)}</span></div>
+      <div class="trend"><span class="eyebrow">${esc(T('trend'))} · ${esc(t.marco)}</span>
+      <span class="val ${/alcista|bullish/i.test(t.valor) ? 'up' : /bajista|bearish/i.test(t.valor) ? 'down' : 'warn'}">${esc(t.valor)}</span></div>
       <p class="note" style="margin:6px 0 0">${esc(t.nota)}</p></div>`).join('');
-    const escalera = nq.escalera?.length ? tarjeta('Niveles mayores', nq.nota,
+    const escalera = nq.escalera?.length ? tarjeta(T('levels'), nq.nota,
       `<ul class="ladder">${nq.escalera.map(l => `<li class="${esc(l.tipo)}"><span class="lv">${esc(l.nivel)}</span><span class="nt">${esc(l.nota)}</span></li>`).join('')}</ul>`) : '';
-    html += `<div class="nq-grid"><div>${tend}${nq.lectura ? tarjeta('Lectura', null, `<p style="margin:0">${esc(nq.lectura)}</p>`, 'reading') : ''}</div><div>${escalera}</div></div>`;
+    html += `<div class="nq-grid"><div>${tend}${nq.lectura ? tarjeta(T('reading'), null, `<p style="margin:0">${esc(nq.lectura)}</p>`, 'reading') : ''}</div><div>${escalera}</div></div>`;
   }
   html += bloques(d, 'nq');
-  return seccion('nq', 'nqes.png', 'NQ / ES', nq ? `NQ1! ${nq.ultimo ?? ''} ${nq.cambio ?? ''}` : '', html);
+  return seccion('nq', 'nqes.png', T('sec.nq'), nq ? `NQ1! ${nq.ultimo ?? ''} ${nq.cambio ?? ''}` : '', html);
 }
 
 function seccionStocks(d) {
@@ -119,76 +233,76 @@ function seccionStocks(d) {
   if (d.scorecard) {
     const s = d.scorecard;
     html += `<div class="rates">
-      ${s.tasa_activacion ? `<div class="stat"><span class="eyebrow">Tasa de activación</span><span class="v">${esc(s.tasa_activacion)}</span><span class="d">Selecciones que se activaron</span></div>` : ''}
-      ${s.tasa_objetivo ? `<div class="stat"><span class="eyebrow">Tasa de objetivo</span><span class="v">${esc(s.tasa_objetivo)}</span><span class="d">Activadas que llegaron al objetivo</span></div>` : ''}
+      ${s.tasa_activacion ? `<div class="stat"><span class="eyebrow">${esc(T('rate.trigger'))}</span><span class="v">${esc(s.tasa_activacion)}</span><span class="d">${esc(T('rate.trigger.d'))}</span></div>` : ''}
+      ${s.tasa_objetivo ? `<div class="stat"><span class="eyebrow">${esc(T('rate.tp'))}</span><span class="v">${esc(s.tasa_objetivo)}</span><span class="d">${esc(T('rate.tp.d'))}</span></div>` : ''}
     </div>${s.nota ? `<p class="foot-note" style="margin:-4px 0 12px">${esc(s.nota)}</p>` : ''}`;
   }
 
   if (d.picks?.filas?.length) {
     const conEstado = d.picks.filas.some(f => f.estado);
     const cols = [
-      { t: 'Nivel', k: 'nivel', fmt: v => `<span class="pill">${esc(v)}</span>` },
-      { t: 'Ticker', k: 'ticker', cls: 'tk' },
-      { t: 'Precio', k: 'precio', num: true },
-      { t: 'Gap', k: 'gap', num: true, fmt: v => `<span class="${dirClase(v)}">${esc(v ?? '—')}</span>` },
+      { t: T('c.level'), k: 'nivel', fmt: v => `<span class="pill">${esc(v)}</span>` },
+      { t: T('c.ticker'), k: 'ticker', cls: 'tk' },
+      { t: T('c.price'), k: 'precio', num: true },
+      { t: T('c.gap'), k: 'gap', num: true, fmt: pctFmt },
     ];
-    if (conEstado) cols.push({ t: 'Estado', k: 'estado', fmt: v => estadoBadge(v) }, { t: 'Máx. a favor', k: 'max_favor', num: true });
-    cols.push({ t: 'Catalizador', k: 'catalizador', cls: 'small' });
-    if (!conEstado) cols.push({ t: 'Stop', k: 'stop', num: true }, { t: 'Objetivo', k: 'objetivo', num: true });
-    cols.push({ t: 'Notas', k: 'nota', cls: 'small' });
-    html += tarjeta('Watchlist del día', d.picks.nota, tabla(cols, d.picks.filas) +
-      (d.picks.descartadas ? `<p class="foot-note"><strong>Descartadas:</strong> ${esc(d.picks.descartadas)}</p>` : ''));
+    if (conEstado) cols.push({ t: T('c.status'), k: 'estado', fmt: v => estadoBadge(v) }, { t: T('c.maxFav'), k: 'max_favor', num: true });
+    cols.push({ t: T('c.catalyst'), k: 'catalizador', cls: 'small' });
+    if (!conEstado) cols.push({ t: T('c.stop'), k: 'stop', num: true }, { t: T('c.target'), k: 'objetivo', num: true });
+    cols.push({ t: T('c.notes'), k: 'nota', cls: 'small' });
+    html += tarjeta(T('watchlist'), d.picks.nota, tabla(cols, d.picks.filas) +
+      (d.picks.descartadas ? `<p class="foot-note"><strong>${esc(T('discarded'))}</strong> ${esc(d.picks.descartadas)}</p>` : ''));
   }
 
-  if (d.movers?.length) html += tarjeta('Megacaps: mayores movimientos', null, tabla(
-    [{ t: 'Ticker', k: 'ticker', cls: 'tk' }, { t: 'Cambio', k: 'cambio', num: true, fmt: v => `<span class="${dirClase(v)}">${esc(v ?? '—')}</span>` }, { t: 'Motivo', k: 'nota', cls: 'small' }],
+  if (d.movers?.length) html += tarjeta(T('movers'), null, tabla(
+    [{ t: T('c.ticker'), k: 'ticker', cls: 'tk' }, { t: T('c.change'), k: 'cambio', num: true, fmt: pctFmt }, { t: T('c.reason'), k: 'nota', cls: 'small' }],
     d.movers));
 
   const sp = d.soportes;
   if (sp) {
-    let cuerpo = '';
-    if (sp.top3?.length) cuerpo += `<h4 style="font:700 15px var(--display);margin:4px 0 10px">Los 3 a vigilar</h4><div class="top3">${sp.top3.map(t => `<div class="card">
+    if (sp.top3?.length) html += subtitulo(T('top3')) + `<div class="top3">${sp.top3.map(t => `<div class="card">
       <div class="trend"><strong class="tk" style="font:700 16px var(--mono)">${esc(t.ticker)}</strong>
       <span><span class="grade ${esc(t.grado)}">${esc(t.grado)}</span> <span class="eyebrow">R:R ${esc(t.rr)}</span></span></div>
       <div class="lvl">${esc(t.nivel)}</div>${t.resultado ? estadoBadge(t.resultado) + ' ' : ''}<p>${esc(t.texto)}</p></div>`).join('')}</div>`;
-    if (sp.revision?.length) cuerpo += tarjeta('Revisión de soportes de la mañana', null, tabla(
-      [{ t: 'Ticker', k: 'ticker', cls: 'tk' }, { t: 'Soporte', k: 'nivel', num: true }, { t: 'Resultado', k: 'resultado', fmt: v => estadoBadge(v) }, { t: 'Nota', k: 'nota', cls: 'small' }],
+    if (sp.revision?.length) html += tarjeta(T('review'), null, tabla(
+      [{ t: T('c.ticker'), k: 'ticker', cls: 'tk' }, { t: T('c.support'), k: 'nivel', num: true }, { t: T('c.result'), k: 'resultado', fmt: v => estadoBadge(v) }, { t: T('c.note'), k: 'nota', cls: 'small' }],
       sp.revision));
-    if (sp.filas?.length) cuerpo += tarjeta('Megacaps más cerca de su soporte', sp.nota, tabla([
+    if (sp.filas?.length) html += tarjeta(T('supports'), sp.nota, tabla([
       { t: '#', k: '_i', num: true, fmt: (_, f) => sp.filas.indexOf(f) + 1 },
-      { t: 'Ticker', k: 'ticker', cls: 'tk' },
-      { t: 'Precio', k: 'precio', num: true },
-      { t: 'Soporte', k: 'soporte', num: true },
-      { t: 'Tipo de nivel', k: 'tipo_nivel', cls: 'small' },
-      { t: 'Dist. ATR', k: 'dist_atr', num: true },
-      { t: 'Tendencia', k: 'tendencia' },
-      { t: 'Grado', k: 'grado', fmt: v => `<span class="grade ${esc(v)}">${esc(v)}</span>` },
-      { t: 'Objetivo', k: 'objetivo', num: true },
-      { t: 'Invalidación', k: 'invalidacion', num: true },
+      { t: T('c.ticker'), k: 'ticker', cls: 'tk' },
+      { t: T('c.price'), k: 'precio', num: true },
+      { t: T('c.support'), k: 'soporte', num: true },
+      { t: T('c.levelType'), k: 'tipo_nivel', cls: 'small' },
+      { t: T('c.distAtr'), k: 'dist_atr', num: true },
+      { t: T('c.trend'), k: 'tendencia' },
+      { t: T('c.grade'), k: 'grado', fmt: v => `<span class="grade ${esc(v)}">${esc(v)}</span>` },
+      { t: T('c.target'), k: 'objetivo', num: true },
+      { t: T('c.invalidation'), k: 'invalidacion', num: true },
       { t: 'R:R', k: 'rr', num: true, fmt: v => `<span class="${parseFloat(v) < 1 ? 'warn' : ''}">${esc(v ?? '—')}</span>` },
-      ...(sp.filas.some(f => f.resultado) ? [{ t: 'Resultado', k: 'resultado', fmt: v => estadoBadge(v) }] : []),
+      ...(sp.filas.some(f => f.resultado) ? [{ t: T('c.result'), k: 'resultado', fmt: v => estadoBadge(v) }] : []),
     ], sp.filas) + (sp.pie ? `<p class="foot-note">${esc(sp.pie)}</p>` : ''));
-    html += cuerpo;
   }
 
-  if (d.megas?.filas?.length) html += tarjeta('Ranking de megacaps', d.megas.nota, tabla([
+  if (d.megas?.filas?.length) html += tarjeta(T('ranking'), d.megas.nota, tabla([
     { t: '#', k: '_i', num: true, fmt: (_, f) => d.megas.filas.indexOf(f) + 1 },
-    { t: 'Ticker', k: 'ticker', cls: 'tk' },
-    { t: 'Tipo', k: 'tipo', fmt: v => `<span class="pill">${esc(v)}</span>` },
-    { t: 'Sesgo', k: 'sesgo' },
-    { t: 'Gap', k: 'gap', num: true, fmt: v => `<span class="${dirClase(v)}">${esc(v ?? '—')}</span>` },
-    { t: 'Catalizador', k: 'catalizador', cls: 'small' },
+    { t: T('c.ticker'), k: 'ticker', cls: 'tk' },
+    { t: T('c.type'), k: 'tipo', fmt: v => `<span class="pill">${esc(v)}</span>` },
+    { t: T('c.bias'), k: 'sesgo' },
+    { t: T('c.gap'), k: 'gap', num: true, fmt: pctFmt },
+    { t: T('c.catalyst'), k: 'catalizador', cls: 'small' },
     { t: 'R1', k: 'r1', num: true },
-    { t: 'Último', k: 'ultimo', num: true },
+    { t: T('c.last'), k: 'ultimo', num: true },
     { t: 'S1', k: 's1', num: true },
   ], d.megas.filas));
 
   html += bloques(d, 'stocks');
-  return seccion('stocks', 'stocks.png', 'Stocks', 'Watchlist, megacaps y soportes para rebotes. Órdenes siempre límite.', html);
+  return seccion('stocks', 'stocks.png', T('sec.stocks'), T('sec.stocks.sub'), html);
 }
 
 function renderReporte(r) {
-  const d = r.datos ?? {};
+  const enIngles = LANG === 'en' && r.datos_en;
+  const d = (enIngles ? r.datos_en : r.datos) ?? {};
+  const aviso = LANG === 'en' && !r.datos_en ? `<div class="summary" style="border-left-color:var(--orange)">${esc(T('msg.noEnglish'))}</div>` : '';
   const pulso = d.pulso?.length ? `<div class="pulse">${d.pulso.map(p => `<div class="stat">
     <span class="eyebrow">${esc(p.etiqueta)}</span>
     <span class="v ${p.dir === 'up' ? 'up' : p.dir === 'down' ? 'down' : ''}">${esc(p.valor)}</span>
@@ -196,9 +310,10 @@ function renderReporte(r) {
   return `
     <div class="report-head">
       <span class="eyebrow">${esc(fechaLarga(r.fecha))}</span>
-      <h2>${esc(r.titulo)}</h2>
-      <div class="meta">Publicado ${esc(horaET(r.publicado_en))}${d.generado ? ` · datos ${esc(d.generado)}` : ''} · Órdenes siempre límite</div>
+      <h2>${esc(LANG === 'en' ? T(`titulo.${r.tipo}`) : r.titulo)}</h2>
+      <div class="meta">${esc(T('meta.published'))} ${esc(horaET(r.publicado_en))}${d.generado ? ` · ${esc(T('meta.data'))} ${esc(d.generado)}` : ''} · ${esc(T('meta.limit'))}</div>
     </div>
+    ${aviso}
     ${d.resumen ? `<div class="summary">${esc(d.resumen)}</div>` : ''}
     ${pulso}
     ${seccionNoticias(d)}
@@ -209,8 +324,8 @@ function renderReporte(r) {
 // ---------- Vista de un día (pestañas) ----------
 function renderDia(el, fecha, reportes, tipoInicial, alCambiar) {
   if (!reportes.length) {
-    el.innerHTML = `<p class="empty">No hay reportes para ${esc(fechaLarga(fecha))}.</p>`;
-    return;
+    el.innerHTML = `<p class="empty">${esc(T('msg.noneDay'))} ${esc(fechaLarga(fecha))}.</p>`;
+    return () => {};
   }
   const porTipo = Object.fromEntries(reportes.map(r => [r.tipo, r]));
   let actual = porTipo[tipoInicial] ? tipoInicial : reportes[reportes.length - 1].tipo;
@@ -218,7 +333,7 @@ function renderDia(el, fecha, reportes, tipoInicial, alCambiar) {
   const pintar = () => {
     el.innerHTML = `<div class="tabs" role="tablist">${TIPOS.map(t => `
       <button class="tab" role="tab" data-tipo="${t.id}" aria-selected="${t.id === actual}" ${porTipo[t.id] ? '' : 'disabled'}
-        title="${porTipo[t.id] ? '' : 'Aún no publicado'}"><i class="dot"></i>${t.nombre}<span style="color:var(--faint);font-weight:500">${porTipo[t.id] ? horaET(porTipo[t.id].publicado_en) : t.hora}</span></button>`).join('')}
+        title="${porTipo[t.id] ? '' : esc(T('tab.notyet'))}"><i class="dot"></i>${esc(tipoNombre(t.id))}<span style="color:var(--faint);font-weight:500">${porTipo[t.id] ? horaET(porTipo[t.id].publicado_en) : t.hora}</span></button>`).join('')}
       </div><div id="reporte">${renderReporte(porTipo[actual])}</div>`;
     el.querySelectorAll('.tab:not(:disabled)').forEach(b => b.addEventListener('click', () => {
       actual = b.dataset.tipo;
@@ -228,18 +343,22 @@ function renderDia(el, fecha, reportes, tipoInicial, alCambiar) {
   };
   pintar();
   alCambiar?.(actual);
+  return pintar;
 }
 
 // ---------- Página: Inicio ----------
 async function iniciarInicio() {
   const el = document.getElementById('ultimo');
+  let repintar = () => {};
+  montarSelectorIdioma(() => { renderCanales(); repintar(); });
   renderCanales();
+  el.innerHTML = `<p class="loading">${esc(T('msg.loadingLatest'))}</p>`;
   try {
     const fecha = await ultimaFecha();
-    if (!fecha) { el.innerHTML = '<p class="empty">Todavía no hay reportes publicados.</p>'; return; }
-    renderDia(el, fecha, await reportesDe(fecha));
+    if (!fecha) { el.innerHTML = `<p class="empty">${esc(T('msg.none'))}</p>`; return; }
+    repintar = renderDia(el, fecha, await reportesDe(fecha));
   } catch (e) {
-    el.innerHTML = `<p class="empty">No se pudo cargar el reporte (${esc(e.message)}).</p>`;
+    el.innerHTML = `<p class="empty">${esc(T('msg.error'))} (${esc(e.message)}).</p>`;
   }
 }
 
@@ -247,14 +366,14 @@ function renderCanales() {
   const el = document.getElementById('canales');
   if (!el) return;
   const canales = [
-    { id: 'noticias', icono: 'news.png', titulo: 'Noticias', texto: 'Agenda económica, Fed y titulares con su probabilidad de mover el mercado.' },
-    { id: 'nq', icono: 'nqes.png', titulo: 'NQ / ES Tips', texto: 'Tendencia y niveles mayores de los futuros del Nasdaq y el S&P 500.' },
-    { id: 'stocks', icono: 'stocks.png', titulo: 'Stocks Tips', texto: 'Watchlist del día, ranking de megacaps y soportes para rebotes.' },
+    { id: 'noticias', icono: 'news.png' },
+    { id: 'nq', icono: 'nqes.png' },
+    { id: 'stocks', icono: 'stocks.png' },
   ];
   el.innerHTML = canales.map(c => `<div class="channel ${c.id}">
-    <img src="assets/${c.icono}" alt="LokiAlphaTrading ${esc(c.titulo)}" width="96" height="96">
-    <h4>${esc(c.titulo)}</h4><p>${esc(c.texto)}</p>
-    ${WHATSAPP[c.id] ? `<a class="btn" href="${esc(WHATSAPP[c.id])}" target="_blank" rel="noopener">Unirme en WhatsApp</a>` : ''}
+    <img src="assets/${c.icono}" alt="LokiAlphaTrading ${esc(T(`ch.${c.id}.t`))}" width="96" height="96">
+    <h4>${esc(T(`ch.${c.id}.t`))}</h4><p>${esc(T(`ch.${c.id}.d`))}</p>
+    ${WHATSAPP[c.id] ? `<a class="btn" href="${esc(WHATSAPP[c.id])}" target="_blank" rel="noopener">${esc(T('channels.join'))}</a>` : ''}
   </div>`).join('');
 }
 
@@ -266,6 +385,9 @@ async function iniciarArchivo() {
   let seleccion = params.get('fecha');
   let tipoSel = params.get('tipo');
   let mes;
+  let repintarDia = () => {};
+
+  montarSelectorIdioma(() => { pintarCalendario(); repintarDia(); });
 
   const hoyET = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
   const iso = (y, m, d) => `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
@@ -279,6 +401,7 @@ async function iniciarArchivo() {
     const q = new URLSearchParams();
     if (seleccion) q.set('fecha', seleccion);
     if (tipoSel) q.set('tipo', tipoSel);
+    if (LANG !== 'es') q.set('lang', LANG);
     history.replaceState(null, '', `?${q}`);
   };
 
@@ -288,25 +411,25 @@ async function iniciarArchivo() {
     const indice = await indiceEntre(iso(mes.y, mes.m, 1), iso(mes.y, mes.m, dias)).catch(() => []);
     const porDia = {};
     indice.forEach(r => (porDia[r.fecha] ??= []).push(r.tipo));
-    const nm = new Date(Date.UTC(mes.y, mes.m, 1)).toLocaleDateString('es', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+    const nm = new Date(Date.UTC(mes.y, mes.m, 1)).toLocaleDateString(LOC(), { month: 'long', year: 'numeric', timeZone: 'UTC' });
     const nombreMes = nm.charAt(0).toUpperCase() + nm.slice(1);
 
-    let celdas = ['L', 'M', 'X', 'J', 'V', 'S', 'D'].map(d => `<div class="dow">${d}</div>`).join('');
+    let celdas = T('cal.dow').map(d => `<div class="dow">${d}</div>`).join('');
     celdas += '<div></div>'.repeat(inicio);
     for (let d = 1; d <= dias; d++) {
       const f = iso(mes.y, mes.m, d);
       const tipos = porDia[f] ?? [];
       const cls = ['day', tipos.length && 'has', f === seleccion && 'sel', f === hoyET && 'today'].filter(Boolean).join(' ');
-      celdas += `<button class="${cls}" data-fecha="${f}" ${tipos.length ? '' : 'disabled'} aria-label="${fechaLarga(f)}${tipos.length ? '' : ', sin reportes'}">
+      celdas += `<button class="${cls}" data-fecha="${f}" ${tipos.length ? '' : 'disabled'} aria-label="${fechaLarga(f)}${tipos.length ? '' : ', ' + T('cal.noReports')}">
         ${d}<span class="dots">${TIPOS.filter(t => tipos.includes(t.id)).map(t => `<i class="${t.id}"></i>`).join('')}</span></button>`;
     }
 
     cal.innerHTML = `
-      <div class="cal-head"><button id="prev" aria-label="Mes anterior">‹</button><strong>${esc(nombreMes)}</strong><button id="next" aria-label="Mes siguiente">›</button></div>
+      <div class="cal-head"><button id="prev" aria-label="${esc(T('cal.prev'))}">‹</button><strong>${esc(nombreMes)}</strong><button id="next" aria-label="${esc(T('cal.next'))}">›</button></div>
       <div class="cal-grid">${celdas}</div>
-      <div class="legend">${TIPOS.map(t => `<span><i class="${t.id}"></i>${t.nombre}</span>`).join('')}</div>
-      <div class="recent"><span class="eyebrow">Recientes</span>
-        ${[...new Set(ultimos.map(r => r.fecha))].slice(0, 7).map(f => `<a href="?fecha=${f}" data-fecha="${f}">${esc(fechaCorta(f))}<span>${ultimos.filter(r => r.fecha === f).map(r => tipoNombre(r.tipo)).join(' · ')}</span></a>`).join('') || '<p class="foot-note">Sin reportes aún.</p>'}
+      <div class="legend">${TIPOS.map(t => `<span><i class="${t.id}"></i>${esc(tipoNombre(t.id))}</span>`).join('')}</div>
+      <div class="recent"><span class="eyebrow">${esc(T('cal.recent'))}</span>
+        ${[...new Set(ultimos.map(r => r.fecha))].slice(0, 7).map(f => `<a href="?fecha=${f}" data-fecha="${f}">${esc(fechaCorta(f))}<span>${ultimos.filter(r => r.fecha === f).map(r => tipoNombre(r.tipo)).join(' · ')}</span></a>`).join('') || `<p class="foot-note">${esc(T('msg.none'))}</p>`}
       </div>`;
 
     cal.querySelector('#prev').onclick = () => { mes = mes.m ? { y: mes.y, m: mes.m - 1 } : { y: mes.y - 1, m: 11 }; pintarCalendario(); };
@@ -323,12 +446,12 @@ async function iniciarArchivo() {
   }
 
   async function cargarDia() {
-    if (!seleccion) { vista.innerHTML = '<p class="empty">Todavía no hay reportes publicados.</p>'; return; }
-    vista.innerHTML = '<p class="loading">Cargando…</p>';
+    if (!seleccion) { vista.innerHTML = `<p class="empty">${esc(T('msg.none'))}</p>`; return; }
+    vista.innerHTML = `<p class="loading">${esc(T('msg.loading'))}</p>`;
     try {
-      renderDia(vista, seleccion, await reportesDe(seleccion), tipoSel, t => { tipoSel = t; actualizarURL(); });
+      repintarDia = renderDia(vista, seleccion, await reportesDe(seleccion), tipoSel, t => { tipoSel = t; actualizarURL(); });
     } catch (e) {
-      vista.innerHTML = `<p class="empty">No se pudo cargar (${esc(e.message)}).</p>`;
+      vista.innerHTML = `<p class="empty">${esc(T('msg.error'))} (${esc(e.message)}).</p>`;
     }
   }
 

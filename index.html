@@ -22,8 +22,8 @@
     <a class="brand" href="./"><img src="assets/favicon.png" alt="" width="36" height="36">
       <span>Loki<span class="alpha">Alpha</span>trading<small>COMMUNITY</small></span></a>
     <nav class="nav">
-      <a href="./" aria-current="page">Inicio</a>
-      <a href="archivo.html">Archivo</a>
+      <a href="./" aria-current="page" data-i18n="nav.home">Inicio</a>
+      <a href="archivo.html" data-i18n="nav.archive">Archivo</a>
     </nav>
   </div>
 </header>
@@ -32,12 +32,12 @@
   <section class="hero">
     <img src="assets/logo.png" alt="LokiAlphaTrading Community" width="220" height="220">
     <div>
-      <p class="tagline">APRENDE • COMPARTE • CRECE</p>
+      <p class="tagline" data-i18n="hero.tagline">APRENDE • COMPARTE • CRECE</p>
       <h1>Loki<span class="alpha">Alpha</span>trading Community</h1>
-      <p>Tres reportes cada día de mercado: el <strong>Matutino</strong> antes de la apertura, el <strong>Meridiano</strong> al mediodía y el <strong>Closing</strong> al cierre. Noticias, futuros del NQ/ES y stocks, con niveles claros y resultados honestos.</p>
+      <p data-i18n-html="hero.text">Tres reportes cada día de mercado: el <strong>Matutino</strong> antes de la apertura, el <strong>Meridiano</strong> al mediodía y el <strong>Closing</strong> al cierre. Noticias, futuros del NQ/ES y stocks, con niveles claros y resultados honestos.</p>
       <div class="cta">
-        <a class="btn primary" href="#ultimo">Ver el último reporte</a>
-        <a class="btn" href="archivo.html">Archivo por fecha</a>
+        <a class="btn primary" href="#ultimo" data-i18n="hero.latest">Ver el último reporte</a>
+        <a class="btn" href="archivo.html" data-i18n="hero.archive">Archivo por fecha</a>
       </div>
     </div>
   </section>
@@ -45,14 +45,14 @@
   <div id="ultimo"><p class="loading">Cargando el último reporte…</p></div>
 
   <section class="section" style="margin-top:48px">
-    <div class="section-head"><div><h3>Nuestros canales</h3><p>Cada reporte se resume en tres grupos de la comunidad.</p></div></div>
+    <div class="section-head"><div><h3 data-i18n="channels.title">Nuestros canales</h3><p data-i18n="channels.sub">Cada reporte se resume en tres grupos de la comunidad.</p></div></div>
     <div class="channels" id="canales"></div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <p class="disclaimer"><strong>Contenido educativo, no es asesoría financiera.</strong> Cada operación es responsabilidad de quien la ejecuta. Todas las órdenes (entrada, stop y objetivo) son límite. Horas en ET (Nueva York).</p>
+    <p class="disclaimer" data-i18n-html="footer.disclaimer"><strong>Contenido educativo, no es asesoría financiera.</strong> Cada operación es responsabilidad de quien la ejecuta. Todas las órdenes (entrada, stop y objetivo) son límite. Horas en ET (Nueva York).</p>
     <p>© 2026 LokiAlphaTrading Community</p>
   </div>
 </footer>
