@@ -7,6 +7,9 @@ const SUPABASE_URL = 'https://qyvkrowvinaslxdhvmku.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_4pljPW7l6lTC4qF8RpjCPA_C83MsUqS';
 
 // Enlaces de invitación a los grupos de WhatsApp. Vacío = el botón no se muestra.
+// Redes sociales.
+const TIKTOK = 'https://www.tiktok.com/@tradeaconloki';
+
 const WHATSAPP = { noticias: 'https://chat.whatsapp.com/L2ZrdwgmF32GQb0OQ7yufX?mode=gi_t', stocks: 'https://chat.whatsapp.com/K9l8jF7tYQNDREPnglAgGS?mode=gi_t', nq: 'https://chat.whatsapp.com/KGTg3x7aSY04ZooumMn7vj?mode=gi_t' };
 
 // ---------- Idioma ----------
@@ -25,7 +28,7 @@ const I18N = {
     'hero.text': 'Tres reportes cada día de mercado: el <strong>Matutino</strong> antes de la apertura, el <strong>Meridiano</strong> al mediodía y el <strong>Closing</strong> al cierre. Noticias, futuros del NQ/ES y stocks, con niveles claros y resultados honestos.',
     'hero.latest': 'Ver el último reporte', 'hero.archive': 'Archivo por fecha',
     'channels.title': 'Nuestros canales', 'channels.sub': 'Cada reporte se resume en tres grupos de la comunidad.',
-    'channels.join': 'Unirme en WhatsApp',
+    'channels.join': 'Unirme en WhatsApp', 'follow.tiktok': 'Síguenos en TikTok', 'follow.label': 'Síguenos',
     'ch.noticias.t': 'Noticias', 'ch.noticias.d': 'Agenda económica, Fed y titulares con su probabilidad de mover el mercado.',
     'ch.nq.t': 'NQ / ES Tips', 'ch.nq.d': 'Tendencia y niveles mayores de los futuros del Nasdaq y el S&P 500.',
     'ch.stocks.t': 'Stocks Tips', 'ch.stocks.d': 'Watchlist del día, ranking de megacaps y soportes para rebotes.',
@@ -64,7 +67,7 @@ const I18N = {
     'hero.text': 'Three reports every market day: the <strong>Morning</strong> report before the open, the <strong>Midday</strong> update and the <strong>Closing</strong> report. News, NQ/ES futures and stocks, with clear levels and honest results.',
     'hero.latest': 'See the latest report', 'hero.archive': 'Archive by date',
     'channels.title': 'Our channels', 'channels.sub': 'Each report is summarized in three community groups (in Spanish).',
-    'channels.join': 'Join on WhatsApp',
+    'channels.join': 'Join on WhatsApp', 'follow.tiktok': 'Follow us on TikTok', 'follow.label': 'Follow us',
     'ch.noticias.t': 'News', 'ch.noticias.d': 'Economic calendar, Fed and headlines, scored by how likely they are to move the market.',
     'ch.nq.t': 'NQ / ES Tips', 'ch.nq.d': 'Trend and major levels for Nasdaq and S&P 500 futures.',
     'ch.stocks.t': 'Stocks Tips', 'ch.stocks.d': 'Daily watchlist, megacap ranking and bounce supports.',
@@ -442,7 +445,7 @@ function renderCanales() {
     <img src="assets/${c.icono}" alt="LokiAlphaTrading ${esc(T(`ch.${c.id}.t`))}" width="96" height="96">
     <h4>${esc(T(`ch.${c.id}.t`))}</h4><p>${esc(T(`ch.${c.id}.d`))}</p>
     ${WHATSAPP[c.id] ? `<a class="btn" href="${esc(WHATSAPP[c.id])}" target="_blank" rel="noopener">${esc(T('channels.join'))}</a>` : ''}
-  </div>`).join('');
+  </div>`).join('') + `<div class="follow"><a class="btn tiktok" href="${esc(TIKTOK)}" target="_blank" rel="noopener">${esc(T('follow.tiktok'))} · @tradeaconloki</a></div>`;
 }
 
 // ---------- Página: Archivo ----------

@@ -311,3 +311,10 @@ a.ext { font-weight: 600; font-size: 13px; }
   .day-nav .day-label { order: -1; width: 100%; padding: 0; }
   .day-nav .btn { flex: 1; justify-content: center; }
 }
+
+/* Redes sociales */
+.follow { grid-column: 1 / -1; display: flex; justify-content: center; margin-top: 6px; }
+.btn.tiktok { background: #fff; color: #000; border-color: #fff; font-weight: 700; }
+.btn.tiktok:hover { filter: brightness(.92); text-decoration: none; }
+footer .social { margin: 6px 0 10px; }
+footer .social a { font-weight: 600; }

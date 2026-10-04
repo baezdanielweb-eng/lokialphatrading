@@ -186,8 +186,33 @@ slides.forEach((cuerpo, i) => {
     { stdio: 'ignore' });
 });
 
+// ---------- Títulos sugeridos (salen de los datos del día) ----------
+const diaLargo = fecha.toLocaleDateString('es', { weekday: 'long', timeZone: 'UTC' });
+const num = v => parseFloat(String(v ?? '').replace(/[^\d.\-−+]/g, '').replace('−', '-'));
+const titulos = [];
+// 1. Récord + giro (si el NQ marcó máximo histórico y hubo una caída grande sin evento).
+if (giro && /histórico/i.test(nq.nota ?? '')) titulos.push(`El Nasdaq tocó récord… y devolvió ${Math.abs(num(giro.nq))} puntos 📉`);
+// 2. El evento programado que más movió el NQ.
+const evProg = eventos.filter(e => e.nq && e.nq !== '—' && !/Sin evento|Apertura|Cierre/i.test(e.evento))
+  .sort((a, b) => Math.abs(num(b.nq)) - Math.abs(num(a.nq)))[0];
+if (evProg) {
+  const corto = evProg.evento.split(':')[0].replace(/\s*\(.*?\)\s*/g, ' ').trim();
+  titulos.push(`${corto}: el Nasdaq ${num(evProg.nq) >= 0 ? 'subió' : 'cayó'} ${Math.abs(num(evProg.nq))} puntos. Luego esto pasó 👀`);
+}
+// 3. Resultados honestos.
+if (picks.length && sc.tasa_objetivo) {
+  const obj = picks.filter(p => /objetivo alcanzado/i.test(p.estado ?? '')).length;
+  titulos.push(`${picks.length} trades, ${obj} al objetivo: así nos fue el ${diaLargo} (sin filtros)`);
+}
+// Respaldo: cierre del NQ.
+if (titulos.length < 3 && nq.ultimo) titulos.push(`El Nasdaq cerró ${nq.cambio ?? ''} en ${nq.ultimo}: niveles para la próxima sesión`.replace('  ', ' '));
+
 // ---------- Texto para la publicación ----------
-const caption = `${d.resumen?.split('. ').slice(0, 2).join('. ')}.
+const caption = `TÍTULOS SUGERIDOS (elige uno):
+${titulos.slice(0, 3).map((t, i) => `${i + 1}. ${t}`).join('\n')}
+
+DESCRIPCIÓN:
+${d.resumen?.split('. ').slice(0, 2).join('. ')}.
 
 📊 Resultados del día: ${sc.tasa_activacion} activadas, ${sc.tasa_objetivo} al objetivo. Publicamos aciertos y errores.
 📈 Niveles del NQ para el lunes, pivotes y volumen: reporte completo en el link de la bio.
@@ -195,6 +220,8 @@ const caption = `${d.resumen?.split('. ').slice(0, 2).join('. ')}.
 
 Contenido educativo, no es asesoría financiera. Órdenes siempre límite.
 
-#trading #tradingenespañol #nasdaq #NQ #futuros #daytrading #bolsa #acciones #inversiones #LokiAlphaTrading`;
+#trading #tradingenespañol #nasdaq #NQ #futuros #daytrading #bolsa #acciones #inversiones #LokiAlphaTrading
+
+TikTok: www.tiktok.com/@tradeaconloki`;
 writeFileSync(join(out, 'caption.txt'), caption);
 console.log(`Listo: ${slides.length} diapositivas en ${out}`);
