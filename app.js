@@ -7,7 +7,7 @@ const SUPABASE_URL = 'https://qyvkrowvinaslxdhvmku.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_4pljPW7l6lTC4qF8RpjCPA_C83MsUqS';
 
 // Enlaces de invitación a los grupos de WhatsApp. Vacío = el botón no se muestra.
-const WHATSAPP = { noticias: '', stocks: '', nq: 'https://chat.whatsapp.com/KGTg3x7aSY04ZooumMn7vj?mode=gi_t' };
+const WHATSAPP = { noticias: '', stocks: 'https://chat.whatsapp.com/K9l8jF7tYQNDREPnglAgGS?mode=gi_t', nq: 'https://chat.whatsapp.com/KGTg3x7aSY04ZooumMn7vj?mode=gi_t' };
 
 // ---------- Idioma ----------
 const I18N = {
