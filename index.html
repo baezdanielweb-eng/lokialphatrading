@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com https://qyvkrowvinaslxdhvmku.supabase.co; connect-src https://qyvkrowvinaslxdhvmku.supabase.co; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LokiAlphaTrading Community</title>
 <meta name="description" content="Reportes diarios de mercado: Matutino, Meridiano y Closing. Noticias, NQ/ES y stocks. Aprende • Comparte • Crece.">
@@ -13,9 +15,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=9">
 </head>
-<body>
+<body data-page="inicio">
 
 <header class="topbar">
   <div class="wrap">
@@ -26,6 +28,7 @@
       <a href="noticias.html" data-i18n="nav.news">Noticias</a>
       <a href="nq.html" data-i18n="nav.nq">NQ / ES</a>
       <a href="stocks.html" data-i18n="nav.stocks">Stocks</a>
+      <a href="educacion.html" data-i18n="nav.edu">Educación</a>
       <a href="archivo.html" data-i18n="nav.archive">Archivo</a>
     </nav>
   </div>
@@ -61,7 +64,6 @@
   </div>
 </footer>
 
-<script src="app.js?v=6"></script>
-<script>iniciarInicio();</script>
+<script src="app.js?v=9"></script>
 </body>
 </html>

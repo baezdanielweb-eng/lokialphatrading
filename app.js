@@ -16,7 +16,14 @@ const WHATSAPP = { noticias: 'https://chat.whatsapp.com/L2ZrdwgmF32GQb0OQ7yufX?m
 const I18N = {
   es: {
     locale: 'es',
-    'nav.home': 'Inicio', 'nav.archive': 'Archivo', 'nav.news': 'Noticias', 'nav.nq': 'NQ / ES', 'nav.stocks': 'Stocks',
+    'nav.home': 'Inicio', 'nav.archive': 'Archivo', 'nav.news': 'Noticias', 'nav.nq': 'NQ / ES', 'nav.stocks': 'Stocks', 'nav.edu': 'Educación',
+    'edu.sub': 'Aprende a operar paso a paso: videos, slides y PDFs por nivel y tema, con ejemplos de nuestros reportes reales.',
+    'edu.start': 'Empieza aquí', 'edu.start.sub': 'La ruta recomendada si estás empezando, en orden.', 'edu.all': 'Todo', 'edu.level': 'Nivel', 'edu.topic': 'Tema', 'edu.format': 'Formato',
+    'edu.search': 'Buscar…', 'edu.count': 'lecciones', 'edu.count1': 'lección', 'edu.none': 'No hay lecciones con esos filtros.', 'edu.empty': 'Pronto publicaremos las primeras lecciones.',
+    'edu.watch': 'Ver video', 'edu.open': 'Abrir', 'edu.apply': 'Aplícalo hoy', 'edu.close': 'Cerrar',
+    'lvl.basico': 'Básico', 'lvl.intermedio': 'Intermedio', 'lvl.avanzado': 'Avanzado',
+    'tema.fundamentos': 'Fundamentos', 'tema.tecnico': 'Análisis técnico', 'tema.estrategias': 'Estrategias', 'tema.riesgo': 'Gestión de riesgo', 'tema.psicologia': 'Psicología', 'tema.futuros': 'Futuros NQ/ES', 'tema.macro': 'Noticias y macro', 'tema.herramientas': 'Herramientas',
+    'fmt.video': 'Video', 'fmt.slides': 'Slides', 'fmt.pdf': 'PDF',
     'page.noticias.sub': 'Agenda económica, titulares del mercado y lo que lo movió, con enlaces a la fuente original.',
     'page.nq.sub': 'Tendencia, niveles mayores y lectura del NQ y el ES en cada reporte del día.',
     'page.stocks.sub': 'Watchlist, resultados, megacaps y soportes para rebotes del día.',
@@ -55,7 +62,14 @@ const I18N = {
   },
   en: {
     locale: 'en-US',
-    'nav.home': 'Home', 'nav.archive': 'Archive', 'nav.news': 'News', 'nav.nq': 'NQ / ES', 'nav.stocks': 'Stocks',
+    'nav.home': 'Home', 'nav.archive': 'Archive', 'nav.news': 'News', 'nav.nq': 'NQ / ES', 'nav.stocks': 'Stocks', 'nav.edu': 'Education',
+    'edu.sub': 'Learn to trade step by step: videos, slides and PDFs by level and topic, with examples from our real reports.',
+    'edu.start': 'Start here', 'edu.start.sub': 'The recommended path if you are new, in order.', 'edu.all': 'All', 'edu.level': 'Level', 'edu.topic': 'Topic', 'edu.format': 'Format',
+    'edu.search': 'Search…', 'edu.count': 'lessons', 'edu.count1': 'lesson', 'edu.none': 'No lessons match those filters.', 'edu.empty': 'The first lessons are coming soon.',
+    'edu.watch': 'Watch video', 'edu.open': 'Open', 'edu.apply': 'Apply it today', 'edu.close': 'Close',
+    'lvl.basico': 'Beginner', 'lvl.intermedio': 'Intermediate', 'lvl.avanzado': 'Advanced',
+    'tema.fundamentos': 'Fundamentals', 'tema.tecnico': 'Technical analysis', 'tema.estrategias': 'Strategies', 'tema.riesgo': 'Risk management', 'tema.psicologia': 'Psychology', 'tema.futuros': 'NQ/ES futures', 'tema.macro': 'News and macro', 'tema.herramientas': 'Tools',
+    'fmt.video': 'Video', 'fmt.slides': 'Slides', 'fmt.pdf': 'PDF',
     'page.noticias.sub': 'Economic calendar, market headlines and what moved the market, with links to the original source.',
     'page.nq.sub': 'Trend, major levels and the NQ and ES read in each of the day\'s reports.',
     'page.stocks.sub': 'Watchlist, results, megacaps and bounce supports for the day.',
@@ -151,7 +165,8 @@ async function api(query) {
 }
 
 const ultimaFecha = async () => (await api('select=fecha&order=fecha.desc&limit=1'))[0]?.fecha;
-const reportesDe = fecha => api(`select=*&fecha=eq.${fecha}&order=publicado_en.asc`);
+const fechaValida = f => (/^\d{4}-\d{2}-\d{2}$/.test(f || '') ? f : null);
+const reportesDe = fecha => api(`select=*&fecha=eq.${fechaValida(fecha) ?? '1900-01-01'}&order=publicado_en.asc`);
 const indiceEntre = (desde, hasta) =>
   api(`select=fecha,tipo&fecha=gte.${desde}&fecha=lte.${hasta}&order=fecha.asc`);
 const recientes = n => api(`select=fecha,tipo&order=fecha.desc,publicado_en.desc&limit=${n}`);
@@ -453,7 +468,7 @@ async function iniciarArchivo() {
   const cal = document.getElementById('calendario');
   const vista = document.getElementById('vista');
   const params = new URLSearchParams(location.search);
-  let seleccion = params.get('fecha');
+  let seleccion = fechaValida(params.get('fecha'));
   let tipoSel = params.get('tipo');
   let mes;
   let repintarDia = () => {};
@@ -535,7 +550,7 @@ async function iniciarSeccion(id) {
   const vista = document.getElementById('vista');
   const navDia = document.getElementById('nav-dia');
   const params = new URLSearchParams(location.search);
-  let fecha = params.get('fecha');
+  let fecha = fechaValida(params.get('fecha'));
   let tipoSel = params.get('tipo');
   let repintar = () => {};
   let vecinos = {};
@@ -583,3 +598,114 @@ async function iniciarSeccion(id) {
   montarSelectorIdioma(() => { pintarNav(); repintar(); });
   await cargar();
 }
+
+// ---------- Página: Educación ----------
+const NIVELES = ['basico', 'intermedio', 'avanzado'];
+const TEMAS = ['fundamentos', 'tecnico', 'estrategias', 'riesgo', 'psicologia', 'futuros', 'macro', 'herramientas'];
+const FORMATOS = ['video', 'slides', 'pdf'];
+const ICONO_FMT = { video: '▶', slides: '▤', pdf: '📄' };
+
+async function iniciarEducacion() {
+  const ruta = document.getElementById('ruta');
+  const filtros = document.getElementById('filtros');
+  const lista = document.getElementById('lista');
+  const q = new URLSearchParams(location.search);
+  const f = { nivel: q.get('nivel') || '', tema: q.get('tema') || '', formato: q.get('formato') || '', texto: '' };
+  let lecciones = [];
+
+  const txt = (l, campo) => (LANG === 'en' && l[`${campo}_en`]) || l[campo] || '';
+  const ytId = id => (/^[A-Za-z0-9_-]{11}$/.test(id || '') ? id : null);
+  const enlaceInterno = u => (typeof u === 'string' && /^[a-z]+\.html(\?[\w=&%.-]*)?$/i.test(u) ? u : urlSegura(u));
+
+  const miniatura = l => {
+    const id = ytId(l.youtube_id);
+    return l.formato === 'video' && id
+      ? `<div class="thumb"><img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="" loading="lazy"><span class="play">▶</span></div>`
+      : `<div class="thumb doc ${esc(l.formato)}"><span>${ICONO_FMT[l.formato] ?? ''}</span><b>${esc(T('fmt.' + l.formato))}</b></div>`;
+  };
+
+  const tarjetaLeccion = (l, paso) => {
+    const apl = enlaceInterno(l.aplicalo_url);
+    return `<article class="lesson" data-id="${l.id}">
+      ${paso ? `<span class="step">${paso}</span>` : ''}
+      <button class="lesson-open" data-id="${l.id}" aria-label="${esc(txt(l, 'titulo'))}">${miniatura(l)}</button>
+      <div class="lesson-body">
+        <div class="h-meta"><span class="lvl ${esc(l.nivel)}">${esc(T('lvl.' + l.nivel))}</span><span class="cat">${esc(T('tema.' + l.tema))}</span>${l.duracion ? `<span class="src">${esc(l.duracion)}</span>` : ''}</div>
+        <h4>${esc(txt(l, 'titulo'))}</h4>
+        ${txt(l, 'descripcion') ? `<p>${esc(txt(l, 'descripcion'))}</p>` : ''}
+        <div class="links">
+          <button class="btn small lesson-open" data-id="${l.id}">${ICONO_FMT[l.formato] ?? ''} ${esc(T(l.formato === 'video' ? 'edu.watch' : 'edu.open'))}</button>
+          ${apl ? `<a class="ext" href="${esc(apl)}">${esc(T('edu.apply'))}${txt(l, 'aplicalo_texto') ? ': ' + esc(txt(l, 'aplicalo_texto')) : ''} →</a>` : ''}
+        </div>
+      </div></article>`;
+  };
+
+  function abrir(id) {
+    const l = lecciones.find(x => String(x.id) === String(id));
+    if (!l) return;
+    if (l.formato !== 'video') { const u = urlSegura(l.archivo_url); if (u) window.open(u, '_blank', 'noopener'); return; }
+    const yid = ytId(l.youtube_id); if (!yid) return;
+    const m = document.createElement('div');
+    m.className = 'modal';
+    m.innerHTML = `<div class="modal-box" role="dialog" aria-modal="true" aria-label="${esc(txt(l, 'titulo'))}">
+      <div class="modal-head"><strong>${esc(txt(l, 'titulo'))}</strong><button class="btn small" data-cerrar>${esc(T('edu.close'))} ✕</button></div>
+      <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${yid}?autoplay=1&rel=0" title="${esc(txt(l, 'titulo'))}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div></div>`;
+    const cerrar = () => { m.remove(); document.removeEventListener('keydown', tecla); };
+    const tecla = e => { if (e.key === 'Escape') cerrar(); };
+    m.addEventListener('click', e => { if (e.target === m || e.target.closest('[data-cerrar]')) cerrar(); });
+    document.addEventListener('keydown', tecla);
+    document.body.appendChild(m);
+  }
+
+  function pintarFiltros() {
+    const etiqueta = { nivel: 'edu.level', tema: 'edu.topic', formato: 'edu.format' };
+    const grupo = (clave, valores, pref) => `<div class="chips" role="group" aria-label="${esc(T(etiqueta[clave]))}">
+      <span class="eyebrow">${esc(T(etiqueta[clave]))}</span>
+      ${['', ...valores].map(v => `<button class="chip ${pref}${v}" data-k="${clave}" data-v="${v}" aria-pressed="${f[clave] === v}">${esc(v ? T(pref + v) : T('edu.all'))}</button>`).join('')}</div>`;
+    filtros.innerHTML = grupo('nivel', NIVELES, 'lvl.') + grupo('tema', TEMAS, 'tema.') + grupo('formato', FORMATOS, 'fmt.') +
+      `<input class="search" type="search" placeholder="${esc(T('edu.search'))}" value="${esc(f.texto)}">`;
+    filtros.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+      const k = b.dataset.k;
+      f[k] = b.dataset.v; pintarFiltros(); pintarLista();
+      const u = new URL(location.href); f[k] ? u.searchParams.set(k, f[k]) : u.searchParams.delete(k); history.replaceState(null, '', u);
+    }));
+    filtros.querySelector('.search').addEventListener('input', e => { f.texto = e.target.value; pintarLista(); });
+  }
+
+  function pintarRuta() {
+    const r = lecciones.filter(l => l.ruta_inicio != null).sort((a, b) => a.ruta_inicio - b.ruta_inicio);
+    ruta.innerHTML = r.length ? `<div class="section-head"><div><h3>${esc(T('edu.start'))}</h3><p>${esc(T('edu.start.sub'))}</p></div></div>
+      <div class="lessons path">${r.map((l, i) => tarjetaLeccion(l, i + 1)).join('')}</div>` : '';
+  }
+
+  function pintarLista() {
+    if (!lecciones.length) { lista.innerHTML = `<p class="empty">${esc(T('edu.empty'))}</p>`; return; }
+    const t = f.texto.trim().toLowerCase();
+    const res = lecciones.filter(l => (!f.nivel || l.nivel === f.nivel) && (!f.tema || l.tema === f.tema) && (!f.formato || l.formato === f.formato) &&
+      (!t || `${txt(l, 'titulo')} ${txt(l, 'descripcion')} ${T('tema.' + l.tema)}`.toLowerCase().includes(t)));
+    lista.innerHTML = `<p class="foot-note" style="margin:0 0 12px">${res.length} ${esc(T(res.length === 1 ? 'edu.count1' : 'edu.count'))}</p>` +
+      (res.length ? `<div class="lessons">${res.map(l => tarjetaLeccion(l)).join('')}</div>` : `<p class="empty">${esc(T('edu.none'))}</p>`);
+  }
+
+  document.addEventListener('click', e => { const b = e.target.closest('.lesson-open'); if (b) abrir(b.dataset.id); });
+  montarSelectorIdioma(() => { pintarFiltros(); pintarRuta(); pintarLista(); });
+  pintarFiltros();
+  lista.innerHTML = `<p class="loading">${esc(T('msg.loading'))}</p>`;
+  try {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/lecciones?select=*&order=orden.asc,creado_en.desc`, { headers: { apikey: SUPABASE_KEY } });
+    if (!res.ok) throw new Error(`Supabase ${res.status}`);
+    lecciones = await res.json();
+  } catch (e) {
+    lista.innerHTML = `<p class="empty">${esc(T('msg.error'))} (${esc(e.message)}).</p>`; return;
+  }
+  pintarRuta(); pintarLista();
+}
+
+// ---------- Arranque (sin scripts en línea, para que la CSP los pueda prohibir) ----------
+document.addEventListener('DOMContentLoaded', () => {
+  const p = document.body.dataset.page || '';
+  if (p === 'inicio') iniciarInicio();
+  else if (p === 'archivo') iniciarArchivo();
+  else if (p === 'educacion') iniciarEducacion();
+  else if (p.startsWith('seccion:')) iniciarSeccion(p.slice(8));
+});

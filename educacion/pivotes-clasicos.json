@@ -1,0 +1,15 @@
+{
+  "titulo": "Pivotes clásicos: qué son y cómo usarlos",
+  "titulo_en": "Classic pivots: what they are and how to use them",
+  "descripcion": "La fórmula, cómo leerlos en el día y un ejemplo real con los niveles del NQ y ES del 2 de octubre.",
+  "descripcion_en": "The formula, how to read them during the day, and a real example with NQ and ES levels from October 2.",
+  "nivel": "intermedio",
+  "tema": "tecnico",
+  "formato": "pdf",
+  "duracion": "4 páginas",
+  "orden": 50,
+  "aplicalo_url": "nq.html?fecha=2026-10-02&tipo=closing",
+  "aplicalo_texto": "pivotes del 2 oct",
+  "aplicalo_texto_en": "Oct 2 pivots",
+  "publicado": true
+}

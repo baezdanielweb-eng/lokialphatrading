@@ -5,8 +5,8 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com https://qyvkrowvinaslxdhvmku.supabase.co; connect-src https://qyvkrowvinaslxdhvmku.supabase.co; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Stocks · LokiAlphaTrading</title>
-<meta name="description" content="Watchlist del día, resultados, megacaps y soportes para rebotes.">
+<title>Educación · LokiAlphaTrading</title>
+<meta name="description" content="Aprende a operar paso a paso: videos, slides y PDFs por nivel y tema, con ejemplos de reportes reales.">
 <meta name="theme-color" content="#04070d">
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css?v=9">
 </head>
-<body data-page="seccion:stocks">
+<body data-page="educacion">
 
 <header class="topbar">
   <div class="wrap">
@@ -24,20 +24,21 @@
       <a href="./" data-i18n="nav.home">Inicio</a>
       <a href="noticias.html" data-i18n="nav.news">Noticias</a>
       <a href="nq.html" data-i18n="nav.nq">NQ / ES</a>
-      <a href="stocks.html" aria-current="page" data-i18n="nav.stocks">Stocks</a>
-      <a href="educacion.html" data-i18n="nav.edu">Educación</a>
+      <a href="stocks.html" data-i18n="nav.stocks">Stocks</a>
+      <a href="educacion.html" aria-current="page" data-i18n="nav.edu">Educación</a>
       <a href="archivo.html" data-i18n="nav.archive">Archivo</a>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="page-head stocks">
-    <img src="assets/stocks.png" alt="" width="64" height="64">
-    <div><h1 data-i18n="nav.stocks">Stocks</h1><p data-i18n="page.stocks.sub"></p></div>
+  <div class="page-head edu">
+    <img src="assets/logo.png" alt="" width="64" height="64">
+    <div><h1 data-i18n="nav.edu">Educación</h1><p data-i18n="edu.sub"></p></div>
   </div>
-  <div class="day-nav" id="nav-dia"></div>
-  <div id="vista"><p class="loading">Cargando…</p></div>
+  <section class="section" id="ruta"></section>
+  <div class="filters" id="filtros"></div>
+  <div id="lista"></div>
 </main>
 
 <footer>

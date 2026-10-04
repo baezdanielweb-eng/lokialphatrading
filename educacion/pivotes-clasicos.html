@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Pivotes clásicos — LokiAlphaTrading</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@700;800&display=block" rel="stylesheet">
+<style>
+  @page { size: Letter; margin: 18mm 18mm 20mm; }
+  * { box-sizing: border-box; }
+  body { font: 11pt/1.55 'Inter', sans-serif; color: #14213a; margin: 0; }
+  h1 { font: 800 26pt/1.1 'Montserrat', sans-serif; margin: 0 0 6px; letter-spacing: -.01em; }
+  h2 { font: 800 15pt/1.2 'Montserrat', sans-serif; margin: 22px 0 8px; color: #1556c0; break-after: avoid; }
+  p { margin: 0 0 9px; }
+  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; font: 800 12pt 'Montserrat', sans-serif; }
+  .brand img { width: 40px; height: 40px; border-radius: 50%; }
+  .brand .a { color: #2f8cff; }
+  .meta { color: #5a6780; font-size: 10pt; margin-bottom: 14px; }
+  .tag { display: inline-block; font: 700 8.5pt 'Inter'; padding: 3px 8px; border-radius: 5px; margin-right: 6px; }
+  .t1 { background: #fbf0dc; color: #a86a12; } .t2 { background: #e6eafb; color: #2b48d1; }
+  .lead { font-size: 12pt; color: #3a4660; }
+  .box { border: 1.5px solid #d8dde6; border-radius: 10px; padding: 12px 16px; margin: 10px 0 12px; break-inside: avoid; }
+  .box.key { border-color: #2f8cff; background: #f3f7ff; }
+  .box.warn { border-color: #e3a23a; background: #fff8ec; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; font-size: 10.5pt; break-inside: avoid; }
+  th { text-align: left; font: 700 8.5pt 'Montserrat'; letter-spacing: .06em; text-transform: uppercase; color: #5a6780; border-bottom: 1.5px solid #d8dde6; padding: 6px 8px; }
+  td { padding: 6px 8px; border-bottom: 1px solid #eceff4; vertical-align: top; }
+  td.n { font-family: 'JetBrains Mono', monospace; text-align: right; white-space: nowrap; }
+  .r { color: #be3829; font-weight: 700; } .s { color: #11774a; font-weight: 700; }
+  ol, ul { margin: 0 0 10px; padding-left: 20px; } li { margin-bottom: 4px; }
+  .foot { margin-top: 22px; padding-top: 10px; border-top: 1px solid #d8dde6; color: #5a6780; font-size: 9pt; }
+  .pb { break-before: page; }
+</style>
+</head>
+<body>
+  <div class="brand"><img src="../assets/favicon.png" alt=""><span>Loki<span class="a">Alpha</span>trading · Educación</span></div>
+  <h1>Pivotes clásicos: qué son y cómo usarlos</h1>
+  <div class="meta"><span class="tag t1">Intermedio</span><span class="tag t2">Análisis técnico</span> Ejemplo real: NQ y ES, viernes 2 de octubre de 2026</div>
+  <p class="lead">Los pivotes clásicos son siete niveles que salen de una cuenta simple con el máximo, el mínimo y el cierre de la sesión anterior. Muchos traders los miran, por eso el precio suele reaccionar cerca de ellos. No predicen nada solos: sirven como mapa de zonas a vigilar.</p>
+
+  <h2>1. La fórmula</h2>
+  <p>Con <b>H</b> = máximo, <b>L</b> = mínimo y <b>C</b> = cierre de la sesión regular anterior (9:30–4:00 ET):</p>
+  <div class="box key mono">
+    P  = (H + L + C) ÷ 3<br>
+    R1 = 2·P − L &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S1 = 2·P − H<br>
+    R2 = P + (H − L) &nbsp; S2 = P − (H − L)<br>
+    R3 = H + 2·(P − L) &nbsp; S3 = L − 2·(H − P)
+  </div>
+  <p><b>P</b> es el punto central. Las <span class="r">R</span> son resistencias por encima y las <span class="s">S</span> son soportes por debajo. Se calculan una vez, antes de la apertura, y no cambian durante el día.</p>
+
+  <h2>2. Ejemplo real: los pivotes del lunes 5 de octubre</h2>
+  <p>El viernes 2 de octubre el NQ hizo en la sesión regular: H = 31,282.5 · L = 30,988 · C = 31,070. El ES: H = 7,810.25 · L = 7,754 · C = 7,779.</p>
+  <p>Para el NQ: P = (31,282.5 + 30,988 + 31,070) ÷ 3 = <b class="mono">31,113.5</b>. Con eso salen los demás:</p>
+  <table>
+    <thead><tr><th>Nivel</th><th style="text-align:right">NQ</th><th style="text-align:right">ES</th><th>¿Coincide con algo?</th></tr></thead>
+    <tbody>
+      <tr><td class="r">R3</td><td class="n">31,533.5</td><td class="n">7,864.4</td><td>Sobre máximos históricos: solo en extensión.</td></tr>
+      <tr><td class="r">R2</td><td class="n">31,408</td><td class="n">7,837.3</td><td>ES: casi igual a 7,838 (máximo del 13/8).</td></tr>
+      <tr><td class="r">R1</td><td class="n">31,239</td><td class="n">7,808.2</td><td>ES: casi igual al máximo del viernes (7,810).</td></tr>
+      <tr><td><b>P</b></td><td class="n">31,113.5</td><td class="n">7,781.1</td><td>NQ: cerca del máximo menor de las 11:30 (31,130).</td></tr>
+      <tr><td class="s">S1</td><td class="n">30,944.5</td><td class="n">7,751.9</td><td>Justo bajo los mínimos del viernes.</td></tr>
+      <tr><td class="s">S2</td><td class="n">30,819</td><td class="n">7,724.8</td><td>ES: coincide con 7,723–7,724 (mínimo nocturno y cierre del jueves).</td></tr>
+      <tr><td class="s">S3</td><td class="n">30,650</td><td class="n">7,695.7</td><td>NQ: por encima del mínimo del jueves (30,529).</td></tr>
+    </tbody>
+  </table>
+  <div class="box key"><b>La idea clave:</b> un pivote vale más cuando <b>coincide</b> con un nivel de estructura (un máximo o mínimo anterior, un cierre, una zona donde el precio ya giró). El S2 del ES en 7,724.8 junto al 7,723 es el mejor ejemplo de la tabla: dos razones distintas apuntan al mismo lugar.</div>
+
+  <h2 class="pb">3. Cómo usarlos en el día</h2>
+  <ol>
+    <li><b>Antes de la apertura</b>, marca P, R1 y S1 en el gráfico. Son los que más se tocan; R2/S2 y R3/S3 solo en días de mucho movimiento.</li>
+    <li><b>Lee dónde abre el precio respecto a P.</b> Abrir y sostenerse sobre P favorece compras hacia R1; abrir y quedarse bajo P favorece ventas hacia S1.</li>
+    <li><b>Espera la reacción, no la anticipes.</b> Que el precio llegue a un pivote no es una entrada. La entrada es la vela que confirma el rechazo o la ruptura (por ejemplo, con el indicador de Order Blocks).</li>
+    <li><b>Usa el siguiente pivote como objetivo y el anterior como referencia del stop.</b> Calcula el R:R antes de entrar: si el objetivo está más cerca que el stop, no vale la pena.</li>
+    <li><b>Cruza con los eventos.</b> Un dato fuerte (empleo, inflación, ISM) puede atravesar dos pivotes en minutos. En el reporte de NQ/ES publicamos cómo reaccionó el mercado a cada evento.</li>
+  </ol>
+
+  <div class="box warn"><b>Errores comunes</b>
+    <ul style="margin-top:6px">
+      <li>Comprar en S1 solo porque “es soporte”, sin esperar confirmación.</li>
+      <li>Usar el cierre de la sesión completa (24 h) en un día y el de la sesión regular en otro: elige uno y sé consistente. Nosotros usamos la sesión regular.</li>
+      <li>Marcar los siete niveles y llenar el gráfico de líneas: menos es más.</li>
+      <li>Olvidar que en días de tendencia fuerte el precio puede ignorar varios pivotes seguidos.</li>
+    </ul>
+  </div>
+
+  <h2>4. Aplícalo hoy</h2>
+  <p>En la página <b>NQ / ES</b> de cada reporte Closing publicamos los pivotes de la próxima sesión, con notas de dónde coinciden con estructura, más el volumen por hora y la reacción a cada evento. Abre el del 2 de octubre y compara la tabla de arriba con lo que hizo el NQ el lunes:</p>
+  <p class="mono" style="font-size:10pt">lokialphatrading.pages.dev/nq.html?fecha=2026-10-02&amp;tipo=closing</p>
+
+  <h2>Resumen</h2>
+  <ul>
+    <li>Siete niveles a partir del máximo, mínimo y cierre de la sesión anterior.</li>
+    <li>P marca el sesgo del día; R1 y S1 son los más útiles.</li>
+    <li>Valen más cuando coinciden con estructura.</li>
+    <li>Son zonas para vigilar, no señales: espera la confirmación y usa siempre órdenes límite.</li>
+  </ul>
+
+  <div class="foot">LokiAlphaTrading Community · lokialphatrading.pages.dev · TikTok @tradeaconloki<br>
+  Contenido educativo, no es asesoría financiera. Cada operación es responsabilidad de quien la ejecuta. Órdenes siempre límite.</div>
+</body>
+</html>

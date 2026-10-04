@@ -318,3 +318,43 @@ a.ext { font-weight: 600; font-size: 13px; }
 .btn.tiktok:hover { filter: brightness(.92); text-decoration: none; }
 footer .social { margin: 6px 0 10px; }
 footer .social a { font-weight: 600; }
+
+/* ---------- Educación ---------- */
+.page-head.edu h1 { color: var(--text); }
+.filters { display: grid; gap: 10px; margin: 18px 0 22px; }
+.chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.chips .eyebrow { width: 84px; flex: none; }
+.chip { border: 1px solid var(--border); background: var(--card); color: var(--muted); font: 600 13px/1 var(--font); padding: 8px 12px; border-radius: 999px; cursor: pointer; }
+.chip:hover { color: var(--text); }
+.chip[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+.chip.lvl\.basico[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #052e14; }
+.chip.lvl\.intermedio[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #2e2300; }
+.chip.lvl\.avanzado[aria-pressed="true"] { background: var(--red); border-color: var(--red); }
+.search { width: 100%; max-width: 360px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--card); color: var(--text); font: inherit; }
+.lessons { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-bottom: 28px; }
+.lesson { position: relative; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+.lesson .step { position: absolute; top: 10px; left: 10px; z-index: 2; width: 30px; height: 30px; border-radius: 50%; background: var(--blue); color: #fff; font: 800 14px/30px var(--display); text-align: center; }
+.lesson-open { all: unset; cursor: pointer; display: block; }
+button.lesson-open:focus-visible { outline: 2px solid var(--blue); }
+.thumb { position: relative; aspect-ratio: 16 / 9; background: var(--card-2); display: grid; place-items: center; overflow: hidden; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; }
+.thumb .play { position: absolute; width: 54px; height: 54px; border-radius: 50%; background: rgba(0, 0, 0, .65); color: #fff; display: grid; place-items: center; font-size: 20px; }
+.thumb.doc { gap: 4px; align-content: center; text-align: center; }
+.thumb.doc span { font-size: 40px; }
+.thumb.doc b { font: 800 13px/1 var(--display); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.thumb.pdf { background: linear-gradient(135deg, #1a1030, #0c1322); }
+.thumb.slides { background: linear-gradient(135deg, #102a1a, #0c1322); }
+.lesson-body { padding: 14px 16px 16px; display: grid; gap: 6px; }
+.lesson-body h4 { font: 700 16px/1.3 var(--font); margin: 2px 0 0; }
+.lesson-body p { margin: 0; color: var(--muted); font-size: 13.5px; }
+.lvl { font: 700 11px/1 var(--font); padding: 4px 7px; border-radius: 6px; }
+.lvl.basico { background: rgba(34, 197, 94, .15); color: var(--green); }
+.lvl.intermedio { background: rgba(245, 184, 0, .15); color: var(--gold); }
+.lvl.avanzado { background: rgba(239, 68, 68, .15); color: var(--red); }
+.btn.small { padding: 7px 11px; font-size: 13px; }
+.modal { position: fixed; inset: 0; z-index: 50; background: rgba(0, 0, 0, .78); display: grid; place-items: center; padding: 16px; }
+.modal-box { width: min(960px, 100%); background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.modal-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 14px; }
+.video { aspect-ratio: 16 / 9; background: #000; }
+.video iframe { width: 100%; height: 100%; border: 0; display: block; }
+@media (max-width: 760px) { .chips .eyebrow { width: 100%; } }

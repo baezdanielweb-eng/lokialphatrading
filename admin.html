@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com https://qyvkrowvinaslxdhvmku.supabase.co; connect-src https://qyvkrowvinaslxdhvmku.supabase.co; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin · LokiAlphaTrading</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#04070d">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=9">
+<style>
+  .admin { padding: 28px 0 60px; }
+  .admin h1 { font: 800 28px/1.1 var(--display); margin: 0 0 4px; }
+  .admin .sub { color: var(--muted); margin: 0 0 20px; }
+  .login { max-width: 420px; }
+  .field { display: grid; gap: 6px; margin-bottom: 12px; }
+  .field label { font: 700 12px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .field input, .field select, .field textarea { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit; }
+  .field textarea { min-height: 70px; resize: vertical; }
+  .field .hint { font-size: 12px; color: var(--faint); }
+  .grid-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 16px; }
+  .grid-form .full { grid-column: 1 / -1; }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 16px; }
+  .bar .who { margin-left: auto; color: var(--muted); font-size: 13px; }
+  .msg { min-height: 1.2em; font-size: 14px; margin: 8px 0; }
+  .msg.ok { color: var(--green); } .msg.err { color: var(--red); }
+  .tbl-actions { display: flex; gap: 6px; }
+  .pub { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+  .btn.danger { border-color: rgba(239, 68, 68, .5); color: var(--red); }
+  .drafts { color: var(--orange); font-weight: 700; }
+  @media (max-width: 720px) { .grid-form { grid-template-columns: minmax(0, 1fr); } }
+</style>
+</head>
+<body data-page="admin">
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/favicon.png" alt="" width="36" height="36">
+      <span>Loki<span class="alpha">Alpha</span>trading<small>ADMIN</small></span></a>
+    <nav class="nav">
+      <a href="./">Sitio</a>
+      <a href="educacion.html">Educación</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap admin" id="app"><p class="loading">Cargando…</p></main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js" integrity="sha384-Rj26LVGvoeRVR6+mwQmFfcR3QOBEwT+ZmuCWpuiqeTzJpCs0ER4ITAWGb4Hiy3Ok" crossorigin="anonymous"></script>
+<script src="admin.js?v=9"></script>
+</body>
+</html>
