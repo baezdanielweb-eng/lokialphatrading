@@ -13,7 +13,14 @@ const WHATSAPP = { noticias: 'https://chat.whatsapp.com/L2ZrdwgmF32GQb0OQ7yufX?m
 const I18N = {
   es: {
     locale: 'es',
-    'nav.home': 'Inicio', 'nav.archive': 'Archivo',
+    'nav.home': 'Inicio', 'nav.archive': 'Archivo', 'nav.news': 'Noticias', 'nav.nq': 'NQ / ES', 'nav.stocks': 'Stocks',
+    'page.noticias.sub': 'Agenda económica, titulares del mercado y lo que lo movió, con enlaces a la fuente original.',
+    'page.nq.sub': 'Tendencia, niveles mayores y lectura del NQ y el ES en cada reporte del día.',
+    'page.stocks.sub': 'Watchlist, resultados, megacaps y soportes para rebotes del día.',
+    'day.prev': 'Día anterior', 'day.next': 'Día siguiente', 'day.archive': 'Archivo completo',
+    'vol': 'Volumen', 'vol.session': 'Sesión', 'vol.contracts': 'Contratos', 'vol.avg20': 'Prom. 20 días', 'vol.rel': 'Relativo', 'vol.byHour': 'Volumen por hora (sesión regular)', 'vol.hour': 'Hora', 'vol.range': 'Rango', 'vol.move': 'Mov.',
+    'piv': 'Pivotes clásicos', 'piv.level': 'Nivel', 'events': 'Eventos y reacción del mercado', 'ev.time': 'Hora', 'ev.event': 'Evento', 'ev.nq': 'NQ', 'ev.es': 'ES', 'ev.read': 'Lectura',
+    'headlines': 'Titulares del mercado', 'readMore': 'Leer artículo completo', 'moreInfo': 'Más información', 'seeAllNews': 'Ver todas las noticias',
     'hero.tagline': 'APRENDE • COMPARTE • CRECE',
     'hero.text': 'Tres reportes cada día de mercado: el <strong>Matutino</strong> antes de la apertura, el <strong>Meridiano</strong> al mediodía y el <strong>Closing</strong> al cierre. Noticias, futuros del NQ/ES y stocks, con niveles claros y resultados honestos.',
     'hero.latest': 'Ver el último reporte', 'hero.archive': 'Archivo por fecha',
@@ -45,7 +52,14 @@ const I18N = {
   },
   en: {
     locale: 'en-US',
-    'nav.home': 'Home', 'nav.archive': 'Archive',
+    'nav.home': 'Home', 'nav.archive': 'Archive', 'nav.news': 'News', 'nav.nq': 'NQ / ES', 'nav.stocks': 'Stocks',
+    'page.noticias.sub': 'Economic calendar, market headlines and what moved the market, with links to the original source.',
+    'page.nq.sub': 'Trend, major levels and the NQ and ES read in each of the day\'s reports.',
+    'page.stocks.sub': 'Watchlist, results, megacaps and bounce supports for the day.',
+    'day.prev': 'Previous day', 'day.next': 'Next day', 'day.archive': 'Full archive',
+    'vol': 'Volume', 'vol.session': 'Session', 'vol.contracts': 'Contracts', 'vol.avg20': '20-day avg', 'vol.rel': 'Relative', 'vol.byHour': 'Volume by hour (regular session)', 'vol.hour': 'Hour', 'vol.range': 'Range', 'vol.move': 'Move',
+    'piv': 'Classic pivots', 'piv.level': 'Level', 'events': 'Events and market reaction', 'ev.time': 'Time', 'ev.event': 'Event', 'ev.nq': 'NQ', 'ev.es': 'ES', 'ev.read': 'Read',
+    'headlines': 'Market headlines', 'readMore': 'Read full article', 'moreInfo': 'More info', 'seeAllNews': 'See all news',
     'hero.tagline': 'LEARN • SHARE • GROW',
     'hero.text': 'Three reports every market day: the <strong>Morning</strong> report before the open, the <strong>Midday</strong> update and the <strong>Closing</strong> report. News, NQ/ES futures and stocks, with clear levels and honest results.',
     'hero.latest': 'See the latest report', 'hero.archive': 'Archive by date',
@@ -145,6 +159,12 @@ const fechaLarga = f => new Date(`${f}T12:00:00Z`).toLocaleDateString(LOC(), { w
 const fechaCorta = f => new Date(`${f}T12:00:00Z`).toLocaleDateString(LOC(), { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
 const horaET = ts => new Date(ts).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' }) + ' ET';
 const tipoNombre = id => T(`tipo.${id}`);
+// Solo enlaces https externos; cualquier otra cosa se descarta.
+const urlSegura = u => (typeof u === 'string' && /^https:\/\/[^\s"'<>]+$/i.test(u) ? u : null);
+const enlaceExt = (url, texto, fuente) => {
+  const u = urlSegura(url);
+  return u ? `<a class="ext" href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(texto)} ↗</a>${fuente ? `<span class="src">${esc(fuente)}</span>` : ''}` : '';
+};
 const dirClase = v => (/^\s*[+]/.test(v) ? 'up' : /^\s*[−-]/.test(v) ? 'down' : '');
 
 function estadoBadge(estado) {
@@ -192,36 +212,84 @@ function agenda(items) {
     return `<div class="event ${p >= 7 ? 'hot' : ''}">
       <div class="time">${esc(it.hora)}</div>
       <div><div class="topic">${p >= 7 ? '⚠️ ' : ''}${esc(it.tema)}${it.estado ? `<span class="badge-done">${esc(it.estado)}</span>` : ''}</div>
-        ${it.efecto ? `<div class="effect">${esc(it.efecto)}</div>` : ''}</div>
+        ${it.efecto ? `<div class="effect">${esc(it.efecto)}</div>` : ''}
+        ${it.enlace ? `<div class="links">${enlaceExt(it.enlace, T('moreInfo'), it.fuente)}</div>` : ''}</div>
       ${p ? `<div class="prob"><span class="n" style="color:${color}">${p}<small style="font-size:11px;color:var(--muted)">/10</small></span>
         <span class="lbl">${esc(T('prob'))}</span><div class="bar"><i style="width:${p * 10}%;background:${color}"></i></div></div>` : '<div></div>'}
     </div>`;
   }).join('')}</div>`;
 }
 
-function seccionNoticias(d) {
+function titulares(items) {
+  return `<div class="headlines">${items.map(h => `<article class="headline">
+    <div class="h-meta">${h.hora && h.hora !== '—' ? `<span class="time">${esc(h.hora)}</span>` : ''}${(h.tickers ?? []).map(t => `<span class="pill">${esc(t)}</span>`).join('')}${h.categoria ? `<span class="cat">${esc(h.categoria)}</span>` : ''}</div>
+    <h4>${esc(h.titulo)}</h4>
+    ${h.resumen ? `<p>${esc(h.resumen)}</p>` : ''}
+    <div class="links">${enlaceExt(h.url, T('readMore'), h.fuente)}</div>
+  </article>`).join('')}</div>`;
+}
+
+// completo = página de Noticias (incluye titulares). En el inicio solo se enlaza a ella.
+function seccionNoticias(d, r, completo) {
   let html = '';
   if (d.agenda?.length) html += agenda(d.agenda);
   if (d.que_movio) html += tarjeta(T('whatMoved'), null, `<p style="margin:0">${esc(d.que_movio)}</p>`);
+  if (completo && d.titulares?.length) html += subtitulo(T('headlines')) + titulares(d.titulares);
   if (d.despues_cierre?.length) html += tarjeta(T('afterHours'), null, tabla(
     [{ t: T('c.ticker'), k: 'ticker', cls: 'tk' }, { t: T('c.move'), k: 'cambio', num: true, fmt: pctFmt }, { t: T('c.note'), k: 'nota', cls: 'small' }],
     d.despues_cierre));
   if (d.manana?.length) html += subtitulo(T('tomorrow')) + agenda(d.manana);
   html += bloques(d, 'noticias');
+  if (!completo && html) html += `<p class="more-link"><a href="noticias.html?fecha=${esc(r.fecha)}&tipo=${esc(r.tipo)}${LANG !== 'es' ? '&lang=' + LANG : ''}">${esc(T('seeAllNews'))}${d.titulares?.length ? ` (${d.titulares.length})` : ''} →</a></p>`;
   return seccion('noticias', 'news.png', T('sec.noticias'), T('sec.noticias.sub'), html);
 }
 
-function seccionNQ(d) {
+// Bloque de un futuro (NQ o ES): tendencias, escalera de niveles y lectura.
+function bloqueFuturo(f, titulo) {
+  if (!f) return '';
+  const tend = (f.tendencias ?? []).map(t => `<div class="card">
+    <div class="trend"><span class="eyebrow">${esc(T('trend'))} · ${esc(t.marco)}</span>
+    <span class="val ${/alcista|bullish/i.test(t.valor) ? 'up' : /bajista|bearish/i.test(t.valor) ? 'down' : 'warn'}">${esc(t.valor)}</span></div>
+    <p class="note" style="margin:6px 0 0">${esc(t.nota)}</p></div>`).join('');
+  const escalera = f.escalera?.length ? tarjeta(titulo ? `${T('levels')} · ${titulo}` : T('levels'), f.nota,
+    `<ul class="ladder">${f.escalera.map(l => `<li class="${esc(l.tipo)}"><span class="lv">${esc(l.nivel)}</span><span class="nt">${esc(l.nota)}</span></li>`).join('')}</ul>`) : '';
+  return `<div class="nq-grid"><div>${tend}${f.lectura ? tarjeta(T('reading'), null, `<p style="margin:0">${esc(f.lectura)}</p>`, 'reading') : ''}</div><div>${escalera}</div></div>`;
+}
+
+// completo = página NQ/ES: agrega ES, volumen, pivotes y eventos cruzados.
+function seccionNQ(d, completo) {
   const nq = d.nq;
   let html = '';
-  if (nq) {
-    const tend = (nq.tendencias ?? []).map(t => `<div class="card">
-      <div class="trend"><span class="eyebrow">${esc(T('trend'))} · ${esc(t.marco)}</span>
-      <span class="val ${/alcista|bullish/i.test(t.valor) ? 'up' : /bajista|bearish/i.test(t.valor) ? 'down' : 'warn'}">${esc(t.valor)}</span></div>
-      <p class="note" style="margin:6px 0 0">${esc(t.nota)}</p></div>`).join('');
-    const escalera = nq.escalera?.length ? tarjeta(T('levels'), nq.nota,
-      `<ul class="ladder">${nq.escalera.map(l => `<li class="${esc(l.tipo)}"><span class="lv">${esc(l.nivel)}</span><span class="nt">${esc(l.nota)}</span></li>`).join('')}</ul>`) : '';
-    html += `<div class="nq-grid"><div>${tend}${nq.lectura ? tarjeta(T('reading'), null, `<p style="margin:0">${esc(nq.lectura)}</p>`, 'reading') : ''}</div><div>${escalera}</div></div>`;
+  if (nq) html += bloqueFuturo(nq, completo && d.es ? 'NQ1!' : '');
+  if (completo) {
+    if (d.es) html += subtitulo(`ES1! ${d.es.ultimo ?? ''} ${d.es.cambio ?? ''}`) + bloqueFuturo(d.es, 'ES1!');
+    const v = d.volumen;
+    if (v) {
+      let cuerpo = '';
+      if (v.filas?.length) cuerpo += tabla([
+        { t: '', k: 'simbolo', cls: 'tk' }, { t: T('vol.session'), k: 'sesion' },
+        { t: T('vol.contracts'), k: 'volumen', num: true }, { t: T('vol.avg20'), k: 'promedio20', num: true },
+        { t: T('vol.rel'), k: 'relativo', num: true }, { t: T('c.note'), k: 'nota', cls: 'small' },
+      ], v.filas);
+      if (v.horas?.length) cuerpo += `<h4 style="font:700 14px var(--display);margin:16px 0 8px">${esc(T('vol.byHour'))}</h4>` + tabla([
+        { t: T('vol.hour'), k: 'hora', cls: 'tk' },
+        { t: 'NQ', k: 'nq_vol', num: true, fmt: (x, f) => `${esc(x ?? '—')}<span class="volbar"><i style="width:${Math.round((f.nq_pct ?? 0))}%"></i></span>` },
+        { t: `NQ ${T('vol.range')}`, k: 'nq_rango', num: true }, { t: `NQ ${T('vol.move')}`, k: 'nq_mov', num: true, fmt: pctFmt },
+        { t: 'ES', k: 'es_vol', num: true }, { t: `ES ${T('vol.move')}`, k: 'es_mov', num: true, fmt: pctFmt },
+        { t: T('c.note'), k: 'nota', cls: 'small' },
+      ], v.horas);
+      html += tarjeta(T('vol'), v.resumen, cuerpo);
+    }
+    const pv = d.pivotes;
+    if (pv?.filas?.length) html += tarjeta(T('piv'), pv.nota, tabla([
+      { t: T('piv.level'), k: 'nombre', fmt: x => `<span class="pill piv-${/^R/.test(x) ? 'r' : /^S/.test(x) ? 's' : 'p'}">${esc(x)}</span>` },
+      { t: 'NQ', k: 'nq', num: true }, { t: 'ES', k: 'es', num: true }, { t: T('c.note'), k: 'nota', cls: 'small' },
+    ], pv.filas));
+    if (d.eventos?.length) html += tarjeta(T('events'), null, tabla([
+      { t: T('ev.time'), k: 'hora', cls: 'tk' }, { t: T('ev.event'), k: 'evento' },
+      { t: T('ev.nq'), k: 'nq', num: true, fmt: pctFmt }, { t: T('ev.es'), k: 'es', num: true, fmt: pctFmt },
+      { t: T('ev.read'), k: 'lectura', cls: 'small' },
+    ], d.eventos));
   }
   html += bloques(d, 'nq');
   return seccion('nq', 'nqes.png', T('sec.nq'), nq ? `NQ1! ${nq.ultimo ?? ''} ${nq.cambio ?? ''}` : '', html);
@@ -299,7 +367,7 @@ function seccionStocks(d) {
   return seccion('stocks', 'stocks.png', T('sec.stocks'), T('sec.stocks.sub'), html);
 }
 
-function renderReporte(r) {
+function renderReporte(r, solo) {
   const enIngles = LANG === 'en' && r.datos_en;
   const d = (enIngles ? r.datos_en : r.datos) ?? {};
   const aviso = LANG === 'en' && !r.datos_en ? `<div class="summary" style="border-left-color:var(--orange)">${esc(T('msg.noEnglish'))}</div>` : '';
@@ -316,13 +384,13 @@ function renderReporte(r) {
     ${aviso}
     ${d.resumen ? `<div class="summary">${esc(d.resumen)}</div>` : ''}
     ${pulso}
-    ${seccionNoticias(d)}
-    ${seccionNQ(d)}
-    ${seccionStocks(d)}`;
+    ${!solo || solo === 'noticias' ? seccionNoticias(d, r, solo === 'noticias') : ''}
+    ${!solo || solo === 'nq' ? seccionNQ(d, solo === 'nq') : ''}
+    ${!solo || solo === 'stocks' ? seccionStocks(d) : ''}`;
 }
 
 // ---------- Vista de un día (pestañas) ----------
-function renderDia(el, fecha, reportes, tipoInicial, alCambiar) {
+function renderDia(el, fecha, reportes, tipoInicial, alCambiar, solo) {
   if (!reportes.length) {
     el.innerHTML = `<p class="empty">${esc(T('msg.noneDay'))} ${esc(fechaLarga(fecha))}.</p>`;
     return () => {};
@@ -334,7 +402,7 @@ function renderDia(el, fecha, reportes, tipoInicial, alCambiar) {
     el.innerHTML = `<div class="tabs" role="tablist">${TIPOS.map(t => `
       <button class="tab" role="tab" data-tipo="${t.id}" aria-selected="${t.id === actual}" ${porTipo[t.id] ? '' : 'disabled'}
         title="${porTipo[t.id] ? '' : esc(T('tab.notyet'))}"><i class="dot"></i>${esc(tipoNombre(t.id))}<span style="color:var(--faint);font-weight:500">${porTipo[t.id] ? horaET(porTipo[t.id].publicado_en) : t.hora}</span></button>`).join('')}
-      </div><div id="reporte">${renderReporte(porTipo[actual])}</div>`;
+      </div><div id="reporte">${renderReporte(porTipo[actual], solo)}</div>`;
     el.querySelectorAll('.tab:not(:disabled)').forEach(b => b.addEventListener('click', () => {
       actual = b.dataset.tipo;
       pintar();
@@ -457,4 +525,58 @@ async function iniciarArchivo() {
 
   await pintarCalendario();
   await cargarDia();
+}
+
+// ---------- Páginas: Noticias / NQ-ES / Stocks ----------
+async function iniciarSeccion(id) {
+  const vista = document.getElementById('vista');
+  const navDia = document.getElementById('nav-dia');
+  const params = new URLSearchParams(location.search);
+  let fecha = params.get('fecha');
+  let tipoSel = params.get('tipo');
+  let repintar = () => {};
+  let vecinos = {};
+
+  const actualizarURL = () => {
+    const q = new URLSearchParams();
+    if (fecha) q.set('fecha', fecha);
+    if (tipoSel) q.set('tipo', tipoSel);
+    if (LANG !== 'es') q.set('lang', LANG);
+    history.replaceState(null, '', `?${q}`);
+  };
+
+  const pintarNav = () => {
+    if (!fecha) { navDia.innerHTML = ''; return; }
+    const boton = (f, txt, cls) => f
+      ? `<a class="btn ${cls}" href="?fecha=${f}" data-fecha="${f}">${esc(txt)}</a>`
+      : `<span class="btn ${cls}" aria-disabled="true">${esc(txt)}</span>`;
+    navDia.innerHTML = `${boton(vecinos.prev, '← ' + T('day.prev'), 'prev')}
+      <span class="day-label">${esc(fechaLarga(fecha).charAt(0).toUpperCase() + fechaLarga(fecha).slice(1))}</span>
+      ${boton(vecinos.next, T('day.next') + ' →', 'next')}
+      <a class="archive-link" href="archivo.html?fecha=${fecha}${LANG !== 'es' ? '&lang=' + LANG : ''}">${esc(T('day.archive'))}</a>`;
+    navDia.querySelectorAll('[data-fecha]').forEach(a => a.addEventListener('click', e => {
+      e.preventDefault(); fecha = a.dataset.fecha; tipoSel = null; cargar();
+    }));
+  };
+
+  async function cargar() {
+    vista.innerHTML = `<p class="loading">${esc(T('msg.loading'))}</p>`;
+    try {
+      if (!fecha) fecha = await ultimaFecha();
+      if (!fecha) { vista.innerHTML = `<p class="empty">${esc(T('msg.none'))}</p>`; return; }
+      const [reps, prev, next] = await Promise.all([
+        reportesDe(fecha),
+        api(`select=fecha&fecha=lt.${fecha}&order=fecha.desc&limit=1`),
+        api(`select=fecha&fecha=gt.${fecha}&order=fecha.asc&limit=1`),
+      ]);
+      vecinos = { prev: prev[0]?.fecha, next: next[0]?.fecha };
+      pintarNav();
+      repintar = renderDia(vista, fecha, reps, tipoSel, t => { tipoSel = t; actualizarURL(); }, id);
+    } catch (e) {
+      vista.innerHTML = `<p class="empty">${esc(T('msg.error'))} (${esc(e.message)}).</p>`;
+    }
+  }
+
+  montarSelectorIdioma(() => { pintarNav(); repintar(); });
+  await cargar();
 }

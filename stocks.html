@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archivo · LokiAlphaTrading</title>
-<meta name="description" content="Archivo de reportes diarios de LokiAlphaTrading Community por fecha.">
+<title>Stocks · LokiAlphaTrading</title>
+<meta name="description" content="Watchlist del día, resultados, megacaps y soportes para rebotes.">
 <meta name="theme-color" content="#04070d">
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,17 +22,19 @@
       <a href="./" data-i18n="nav.home">Inicio</a>
       <a href="noticias.html" data-i18n="nav.news">Noticias</a>
       <a href="nq.html" data-i18n="nav.nq">NQ / ES</a>
-      <a href="stocks.html" data-i18n="nav.stocks">Stocks</a>
-      <a href="archivo.html" aria-current="page" data-i18n="nav.archive">Archivo</a>
+      <a href="stocks.html" aria-current="page" data-i18n="nav.stocks">Stocks</a>
+      <a href="archivo.html" data-i18n="nav.archive">Archivo</a>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="archive">
-    <aside class="calendar" id="calendario"><p class="loading">Cargando…</p></aside>
-    <div id="vista"><p class="loading">Cargando…</p></div>
+  <div class="page-head stocks">
+    <img src="assets/stocks.png" alt="" width="64" height="64">
+    <div><h1 data-i18n="nav.stocks">Stocks</h1><p data-i18n="page.stocks.sub"></p></div>
   </div>
+  <div class="day-nav" id="nav-dia"></div>
+  <div id="vista"><p class="loading">Cargando…</p></div>
 </main>
 
 <footer>
@@ -43,6 +45,6 @@
 </footer>
 
 <script src="app.js?v=4"></script>
-<script>iniciarArchivo();</script>
+<script>iniciarSeccion('stocks');</script>
 </body>
 </html>

@@ -74,19 +74,25 @@
         "hora": "10:00",
         "tema": "ISM de servicios (esp. 55.1, previo 55.4)",
         "efecto": "Fuerte → yields arriba y presión al NQ cerca de máximos; débil → refuerza la tesis del NFP.",
-        "prob": 7
+        "prob": 7,
+        "enlace": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+        "fuente": "ISM"
       },
       {
         "hora": "Después del cierre",
         "tema": "Goolsbee (Chicago Fed, no vota en 2026)",
         "efecto": "Bajo impacto, fuera de horario.",
-        "prob": 2
+        "prob": 2,
+        "enlace": "https://www.piie.com/events/policy-speech-austan-d-goolsbee-president-and-ceo-federal-reserve-bank-chicago",
+        "fuente": "PIIE"
       },
       {
         "hora": "Semana",
         "tema": "Mar: Williams y Bowman (votan) · Mié 2 PM: minutas del FOMC · Jue: Musalem, PepsiCo · Vie: Delta",
         "efecto": "Las minutas del miércoles son el evento grande de la semana.",
-        "prob": 7
+        "prob": 7,
+        "enlace": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+        "fuente": "Federal Reserve"
       }
     ],
     "nq": {
@@ -417,7 +423,321 @@
         }
       ],
       "pie": "Por grado (solo los que tocaron soporte): A — 0 objetivo, 3 sostuvieron, 5 rompieron · B — 2 objetivo, 1 rompió · C — 1 objetivo. No tocaron: GOOGL, TSLA, AMD. En esta tabla la columna “Tipo de nivel” muestra qué pasó y a qué hora."
-    }
+    },
+    "es": {
+      "ultimo": "7,779",
+      "cambio": "+0.7%",
+      "nota": "Sesión regular: apertura 7,789.5 · máximo 7,810.25 (10:40) · mínimo 7,754 (11:25) · cierre 7,779, en el 44% del rango. ATR diario: 83 puntos. Máximo histórico: 7,848.5 (22/9).",
+      "tendencias": [
+        {
+          "marco": "Diaria",
+          "valor": "Alcista",
+          "nota": "Sobre las medias de 20/50/200 días (7,717 / 7,689 / 7,257), pero 0.9% bajo su máximo histórico: el ES va detrás del NQ."
+        },
+        {
+          "marco": "1 hora",
+          "valor": "Lateral",
+          "nota": "Mismo giro que el NQ a las 10:40; la tarde quedó entre 7,765 y 7,784."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "7,838–7,848.5",
+          "nota": "Máximo del 13/8 + máximo histórico del 22/9 · +59 a +70 pts (0.8 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,810.25",
+          "nota": "Máximo del viernes · +31 pts (0.38 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,779",
+          "nota": "Cierre del viernes (4 PM)",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "7,754",
+          "nota": "Mínimo del viernes · −25 pts (0.3 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,723–7,725",
+          "nota": "Mínimo nocturno + cierre del jueves + pivote S2 · −55 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,672.75",
+          "nota": "Mínimo del jueves · −106 pts (1.3 ATR)",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "El ES necesita superar 7,810 (máximo del viernes y pivote R1) para ir por su máximo histórico 7,848.5. Perder 7,754 abre 7,723–7,725, donde coinciden el mínimo nocturno, el cierre del jueves y el pivote S2."
+    },
+    "volumen": {
+      "resumen": "Volumen normal pese al máximo histórico: el NQ operó 1.02× su promedio de 20 días y el ES 1.08×. La mitad del volumen de la sesión regular llegó en las dos primeras horas, incluido el giro desde máximos.",
+      "filas": [
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Completa (Globex)",
+          "volumen": "573,488",
+          "promedio20": "564,359",
+          "relativo": "1.02×",
+          "nota": "Sesión regular: 409,775 (71%)."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Completa (Globex)",
+          "volumen": "1,763,424",
+          "promedio20": "1,632,875",
+          "relativo": "1.08×",
+          "nota": "Sesión regular: 1,345,484 (76%)."
+        }
+      ],
+      "horas": [
+        {
+          "hora": "9:30",
+          "nq_vol": "129,032",
+          "nq_pct": 100,
+          "nq_rango": "31,056–31,282.5",
+          "nq_mov": "+117.75",
+          "es_vol": "370,762",
+          "es_mov": "+14.75",
+          "nota": "Primera hora: 31% del volumen de la sesión. Máximo histórico a las 10:25."
+        },
+        {
+          "hora": "10:30",
+          "nq_vol": "96,118",
+          "nq_pct": 74,
+          "nq_rango": "30,988–31,273.5",
+          "nq_mov": "−202",
+          "es_vol": "312,049",
+          "es_mov": "−33.25",
+          "nota": "Giro: −294 pts desde el máximo con el volumen más alto después de la apertura."
+        },
+        {
+          "hora": "11:30",
+          "nq_vol": "55,807",
+          "nq_pct": 43,
+          "nq_rango": "31,027.5–31,130.25",
+          "nq_mov": "+8.25",
+          "es_vol": "194,294",
+          "es_mov": "+1.5",
+          "nota": "Rebote débil hasta 31,130 (máximo menor)."
+        },
+        {
+          "hora": "12:30",
+          "nq_vol": "38,610",
+          "nq_pct": 30,
+          "nq_rango": "31,001.75–31,109.25",
+          "nq_mov": "−63.25",
+          "es_vol": "129,964",
+          "es_mov": "−5",
+          "nota": "Nuevo intento bajista; el soporte 30,995–31,000 aguanta."
+        },
+        {
+          "hora": "13:30",
+          "nq_vol": "30,435",
+          "nq_pct": 24,
+          "nq_rango": "30,994.75–31,061.25",
+          "nq_mov": "+28.75",
+          "es_vol": "110,008",
+          "es_mov": "+5",
+          "nota": "Tarde quieta, rango estrecho."
+        },
+        {
+          "hora": "14:30",
+          "nq_vol": "27,704",
+          "nq_pct": 21,
+          "nq_rango": "31,017–31,061.5",
+          "nq_mov": "+14.5",
+          "es_vol": "88,177",
+          "es_mov": "+3.25",
+          "nota": "El volumen más bajo del día."
+        },
+        {
+          "hora": "15:30",
+          "nq_vol": "32,069",
+          "nq_pct": 25,
+          "nq_rango": "31,039.5–31,090.75",
+          "nq_mov": "+19.5",
+          "es_vol": "140,230",
+          "es_mov": "+3.5",
+          "nota": "Cierre con flujo de fin de semana (vela de 3:55 con 12.6K)."
+        }
+      ]
+    },
+    "pivotes": {
+      "nota": "Pivotes clásicos para el lunes, calculados con el máximo, mínimo y cierre de la sesión regular del viernes. Las notas marcan dónde coinciden con niveles de estructura.",
+      "filas": [
+        {
+          "nombre": "R3",
+          "nq": "31,533.5",
+          "es": "7,864.4",
+          "nota": "Sobre máximos históricos: solo en extensión."
+        },
+        {
+          "nombre": "R2",
+          "nq": "31,408",
+          "es": "7,837.3",
+          "nota": "ES: coincide con 7,838 (máx. del 13/8)."
+        },
+        {
+          "nombre": "R1",
+          "nq": "31,239",
+          "es": "7,808.2",
+          "nota": "ES: casi igual al máximo del viernes (7,810)."
+        },
+        {
+          "nombre": "P",
+          "nq": "31,113.5",
+          "es": "7,781.1",
+          "nota": "NQ: cerca del máximo menor 31,130. El cierre quedó justo debajo en ambos."
+        },
+        {
+          "nombre": "S1",
+          "nq": "30,944.5",
+          "es": "7,751.9",
+          "nota": "Justo bajo los mínimos del viernes (30,988 / 7,754)."
+        },
+        {
+          "nombre": "S2",
+          "nq": "30,819",
+          "es": "7,724.8",
+          "nota": "ES: confluencia con 7,723–7,724 (mínimo nocturno y cierre del jueves)."
+        },
+        {
+          "nombre": "S3",
+          "nq": "30,650",
+          "es": "7,695.7",
+          "nota": "NQ: por encima del mínimo del jueves (30,529)."
+        }
+      ]
+    },
+    "eventos": [
+      {
+        "hora": "8:30",
+        "evento": "Empleo (NFP): 29K vs ~84–90K",
+        "nq": "+387",
+        "es": "+65.5",
+        "lectura": "Antes de la apertura. Medido desde el cierre del jueves hasta la apertura regular: el gap del día salió del dato."
+      },
+      {
+        "hora": "9:30–9:45",
+        "evento": "Apertura (rango de 15 min)",
+        "nq": "+30",
+        "es": "+10.75",
+        "lectura": "Rango 31,056–31,182 con 45K contratos; el mínimo de la apertura no se volvió a tocar hasta las 10:30."
+      },
+      {
+        "hora": "10:00",
+        "evento": "Logan (Fed, vota) + pedidos de fábrica",
+        "nq": "+80",
+        "es": "+15.5",
+        "lectura": "Sin reacción negativa: el NQ siguió subiendo hasta el máximo histórico de las 10:25 (vela de 10:00 con 12.5K)."
+      },
+      {
+        "hora": "10:25–11:25",
+        "evento": "Sin evento programado",
+        "nq": "−294.5",
+        "es": "−56.25",
+        "lectura": "Toma de ganancias en máximos con 96K contratos. Freno en 30,988, dentro de la zona de soporte de la mañana."
+      },
+      {
+        "hora": "14:00–16:00",
+        "evento": "Cierre de semana",
+        "nq": "+22",
+        "es": "+4.5",
+        "lectura": "Rango de 80 pts y volumen bajo; cierre en 31,070, bajo el pivote P del lunes."
+      },
+      {
+        "hora": "Lun 10:00",
+        "evento": "ISM de servicios (esp. 55.1) — a vigilar",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Fuerte → presión en yields; vigilar P 31,113 / S1 30,944. Débil → apoyo para ir por R1 31,239 y el máximo histórico."
+      }
+    ],
+    "titulares": [
+      {
+        "hora": "8:30",
+        "categoria": "Macro",
+        "tickers": [
+          "SPY",
+          "QQQ"
+        ],
+        "titulo": "Empleo de septiembre: solo 29K y desempleo en 4.2%",
+        "resumen": "El dato salió muy por debajo de lo esperado y el mercado subió: crece la expectativa de que la Fed no suba tasas en octubre.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-2-135416764.html"
+      },
+      {
+        "categoria": "Mercado",
+        "tickers": [
+          "NVDA",
+          "QQQ"
+        ],
+        "titulo": "Nvidia lleva al Nasdaq a un máximo intradía histórico",
+        "resumen": "La tecnología lideró tras el empleo débil; el Nasdaq marcó récord intradía antes de devolver parte de la subida.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html"
+      },
+      {
+        "hora": "Mediodía",
+        "categoria": "Fed",
+        "tickers": [],
+        "titulo": "El dato débil enfría las apuestas de alzas de la Fed",
+        "resumen": "Resumen de mediodía: el mercado redujo la probabilidad de más alzas de tasas tras el reporte de empleo.",
+        "fuente": "The Motley Fool",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "TSLA"
+        ],
+        "titulo": "Tesla supera lo esperado en entregas del 3T",
+        "resumen": "486,532 vehículos entregados contra ~461,974 esperados; la acción cerró +4.65% en 370.59.",
+        "fuente": "The Motley Fool",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-today-oct-2-tesla-rises-on-q3-delivery-beat/"
+      },
+      {
+        "categoria": "Fuente oficial",
+        "tickers": [
+          "TSLA"
+        ],
+        "titulo": "Tesla: reporte oficial (8-K) de producción y entregas",
+        "resumen": "El documento presentado ante la SEC con las cifras del trimestre.",
+        "fuente": "SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026064366/tsla-20261002.htm"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "SPCX"
+        ],
+        "titulo": "SpaceX sube 7% tras tres lanzamientos en 13 horas",
+        "resumen": "Crew-13, la misión Transporter-18 y el Falcon Heavy NROL-97 salieron en menos de un día.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-jumps-7-3-210011551.html"
+      },
+      {
+        "categoria": "Semana",
+        "tickers": [],
+        "titulo": "La semana: ISM de servicios, minutas de la Fed y empleo de Canadá",
+        "resumen": "ISM el lunes, minutas del FOMC el miércoles y sentimiento del consumidor el viernes.",
+        "fuente": "investingLive",
+        "url": "https://investinglive.com/news/week-ahead-ism-services-fed-minutes-and-canadian-jobs-lead-the-economic-calendar-be-aware/"
+      },
+      {
+        "categoria": "Fed",
+        "tickers": [],
+        "titulo": "Calendario oficial de la Fed: octubre 2026",
+        "resumen": "Discursos y publicaciones de la Reserva Federal del mes, incluidas las minutas.",
+        "fuente": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-october.htm"
+      }
+    ]
   },
   "datos_en": {
     "generado": "close 4:00 PM ET (Fri Oct 2)",
@@ -490,19 +810,25 @@
         "hora": "10:00",
         "tema": "ISM services (exp. 55.1, prior 55.4)",
         "efecto": "Strong → yields up and pressure on NQ near highs; weak → reinforces the NFP story.",
-        "prob": 7
+        "prob": 7,
+        "enlace": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+        "fuente": "ISM"
       },
       {
         "hora": "After close",
         "tema": "Goolsbee (Chicago Fed, not a 2026 voter)",
         "efecto": "Low impact, outside market hours.",
-        "prob": 2
+        "prob": 2,
+        "enlace": "https://www.piie.com/events/policy-speech-austan-d-goolsbee-president-and-ceo-federal-reserve-bank-chicago",
+        "fuente": "PIIE"
       },
       {
         "hora": "Week",
         "tema": "Tue: Williams and Bowman (voters) · Wed 2 PM: FOMC minutes · Thu: Musalem, PepsiCo · Fri: Delta",
         "efecto": "Wednesday's minutes are the big event of the week.",
-        "prob": 7
+        "prob": 7,
+        "enlace": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+        "fuente": "Federal Reserve"
       }
     ],
     "nq": {
@@ -833,6 +1159,320 @@
         }
       ],
       "pie": "By grade (touched only): A — 0 target, 3 held, 5 broke · B — 2 target, 1 broke · C — 1 target. Not touched: GOOGL, TSLA, AMD. The \"Level type\" column shows what happened and when."
-    }
+    },
+    "es": {
+      "ultimo": "7,779",
+      "cambio": "+0.7%",
+      "nota": "Regular session: open 7,789.5 · high 7,810.25 (10:40) · low 7,754 (11:25) · close 7,779, at 44% of the range. Daily ATR: 83 points. All-time high: 7,848.5 (9/22).",
+      "tendencias": [
+        {
+          "marco": "Daily",
+          "valor": "Bullish",
+          "nota": "Above the 20/50/200-day averages (7,717 / 7,689 / 7,257), but 0.9% below its all-time high: ES is lagging NQ."
+        },
+        {
+          "marco": "1 hour",
+          "valor": "Sideways",
+          "nota": "Same reversal as NQ at 10:40; the afternoon stayed between 7,765 and 7,784."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "7,838–7,848.5",
+          "nota": "8/13 high + 9/22 all-time high · +59 to +70 pts (0.8 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,810.25",
+          "nota": "Friday high · +31 pts (0.38 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,779",
+          "nota": "Friday close (4 PM)",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "7,754",
+          "nota": "Friday low · −25 pts (0.3 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,723–7,725",
+          "nota": "Overnight low + Thursday close + S2 pivot · −55 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,672.75",
+          "nota": "Thursday low · −106 pts (1.3 ATR)",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "ES needs to clear 7,810 (Friday high and R1 pivot) to go for its 7,848.5 all-time high. Losing 7,754 opens 7,723–7,725, where the overnight low, Thursday close and S2 pivot line up."
+    },
+    "volumen": {
+      "resumen": "Normal volume despite the all-time high: NQ traded 1.02× its 20-day average and ES 1.08×. Half of the regular-session volume came in the first two hours, including the reversal from the highs.",
+      "filas": [
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Full (Globex)",
+          "volumen": "573,488",
+          "promedio20": "564,359",
+          "relativo": "1.02×",
+          "nota": "Regular session: 409,775 (71%)."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Full (Globex)",
+          "volumen": "1,763,424",
+          "promedio20": "1,632,875",
+          "relativo": "1.08×",
+          "nota": "Regular session: 1,345,484 (76%)."
+        }
+      ],
+      "horas": [
+        {
+          "hora": "9:30",
+          "nq_vol": "129,032",
+          "nq_pct": 100,
+          "nq_rango": "31,056–31,282.5",
+          "nq_mov": "+117.75",
+          "es_vol": "370,762",
+          "es_mov": "+14.75",
+          "nota": "First hour: 31% of session volume. All-time high at 10:25."
+        },
+        {
+          "hora": "10:30",
+          "nq_vol": "96,118",
+          "nq_pct": 74,
+          "nq_rango": "30,988–31,273.5",
+          "nq_mov": "−202",
+          "es_vol": "312,049",
+          "es_mov": "−33.25",
+          "nota": "Reversal: −294 pts from the high on the heaviest volume after the open."
+        },
+        {
+          "hora": "11:30",
+          "nq_vol": "55,807",
+          "nq_pct": 43,
+          "nq_rango": "31,027.5–31,130.25",
+          "nq_mov": "+8.25",
+          "es_vol": "194,294",
+          "es_mov": "+1.5",
+          "nota": "Weak bounce to 31,130 (lower high)."
+        },
+        {
+          "hora": "12:30",
+          "nq_vol": "38,610",
+          "nq_pct": 30,
+          "nq_rango": "31,001.75–31,109.25",
+          "nq_mov": "−63.25",
+          "es_vol": "129,964",
+          "es_mov": "−5",
+          "nota": "Another dip; the 30,995–31,000 floor holds."
+        },
+        {
+          "hora": "13:30",
+          "nq_vol": "30,435",
+          "nq_pct": 24,
+          "nq_rango": "30,994.75–31,061.25",
+          "nq_mov": "+28.75",
+          "es_vol": "110,008",
+          "es_mov": "+5",
+          "nota": "Quiet afternoon, narrow range."
+        },
+        {
+          "hora": "14:30",
+          "nq_vol": "27,704",
+          "nq_pct": 21,
+          "nq_rango": "31,017–31,061.5",
+          "nq_mov": "+14.5",
+          "es_vol": "88,177",
+          "es_mov": "+3.25",
+          "nota": "Lowest volume of the day."
+        },
+        {
+          "hora": "15:30",
+          "nq_vol": "32,069",
+          "nq_pct": 25,
+          "nq_rango": "31,039.5–31,090.75",
+          "nq_mov": "+19.5",
+          "es_vol": "140,230",
+          "es_mov": "+3.5",
+          "nota": "Close with end-of-week flows (3:55 candle, 12.6K)."
+        }
+      ]
+    },
+    "pivotes": {
+      "nota": "Classic pivots for Monday, from Friday's regular-session high, low and close. Notes mark where they line up with structure levels.",
+      "filas": [
+        {
+          "nombre": "R3",
+          "nq": "31,533.5",
+          "es": "7,864.4",
+          "nota": "Above all-time highs: extension only."
+        },
+        {
+          "nombre": "R2",
+          "nq": "31,408",
+          "es": "7,837.3",
+          "nota": "ES: lines up with 7,838 (8/13 high)."
+        },
+        {
+          "nombre": "R1",
+          "nq": "31,239",
+          "es": "7,808.2",
+          "nota": "ES: almost equal to Friday's high (7,810)."
+        },
+        {
+          "nombre": "P",
+          "nq": "31,113.5",
+          "es": "7,781.1",
+          "nota": "NQ: near the 31,130 lower high. Both closed just below it."
+        },
+        {
+          "nombre": "S1",
+          "nq": "30,944.5",
+          "es": "7,751.9",
+          "nota": "Just below Friday's lows (30,988 / 7,754)."
+        },
+        {
+          "nombre": "S2",
+          "nq": "30,819",
+          "es": "7,724.8",
+          "nota": "ES: confluence with 7,723–7,724 (overnight low and Thursday close)."
+        },
+        {
+          "nombre": "S3",
+          "nq": "30,650",
+          "es": "7,695.7",
+          "nota": "NQ: above Thursday's low (30,529)."
+        }
+      ]
+    },
+    "eventos": [
+      {
+        "hora": "8:30",
+        "evento": "Jobs (NFP): 29K vs ~84–90K",
+        "nq": "+387",
+        "es": "+65.5",
+        "lectura": "Before the open. Measured from Thursday's close to the regular open: the day's gap came from the report."
+      },
+      {
+        "hora": "9:30–9:45",
+        "evento": "Open (15-min range)",
+        "nq": "+30",
+        "es": "+10.75",
+        "lectura": "Range 31,056–31,182 on 45K contracts; the opening low wasn't revisited until 10:30."
+      },
+      {
+        "hora": "10:00",
+        "evento": "Logan (Fed, voter) + factory orders",
+        "nq": "+80",
+        "es": "+15.5",
+        "lectura": "No negative reaction: NQ kept rising to the 10:25 all-time high (10:00 candle, 12.5K)."
+      },
+      {
+        "hora": "10:25–11:25",
+        "evento": "No scheduled event",
+        "nq": "−294.5",
+        "es": "−56.25",
+        "lectura": "Profit-taking at the highs on 96K contracts. Stopped at 30,988, inside the morning support zone."
+      },
+      {
+        "hora": "14:00–16:00",
+        "evento": "End of week",
+        "nq": "+22",
+        "es": "+4.5",
+        "lectura": "80-pt range on low volume; closed at 31,070, below Monday's P pivot."
+      },
+      {
+        "hora": "Mon 10:00",
+        "evento": "ISM services (exp. 55.1) — watch",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Strong → pressure on yields; watch P 31,113 / S1 30,944. Weak → support for a run at R1 31,239 and the all-time high."
+      }
+    ],
+    "titulares": [
+      {
+        "hora": "8:30",
+        "categoria": "Macro",
+        "tickers": [
+          "SPY",
+          "QQQ"
+        ],
+        "titulo": "September jobs: only 29K and unemployment at 4.2%",
+        "resumen": "The report came in far below expectations and stocks rose: hopes grew that the Fed holds rates in October.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-2-135416764.html"
+      },
+      {
+        "categoria": "Market",
+        "tickers": [
+          "NVDA",
+          "QQQ"
+        ],
+        "titulo": "Nvidia leads the Nasdaq to an intraday record",
+        "resumen": "Tech led after the weak jobs data; the Nasdaq set an intraday record before giving back part of the gain.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html"
+      },
+      {
+        "hora": "Midday",
+        "categoria": "Fed",
+        "tickers": [],
+        "titulo": "Weak data cools bets on Fed hikes",
+        "resumen": "Midday recap: the market lowered the odds of more rate hikes after the jobs report.",
+        "fuente": "The Motley Fool",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "TSLA"
+        ],
+        "titulo": "Tesla beats Q3 delivery estimates",
+        "resumen": "486,532 vehicles delivered vs ~461,974 expected; the stock closed +4.65% at 370.59.",
+        "fuente": "The Motley Fool",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-today-oct-2-tesla-rises-on-q3-delivery-beat/"
+      },
+      {
+        "categoria": "Primary source",
+        "tickers": [
+          "TSLA"
+        ],
+        "titulo": "Tesla: official production and deliveries filing (8-K)",
+        "resumen": "The SEC filing with the quarter's figures.",
+        "fuente": "SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026064366/tsla-20261002.htm"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "SPCX"
+        ],
+        "titulo": "SpaceX jumps 7% after three launches in 13 hours",
+        "resumen": "Crew-13, the Transporter-18 mission and the NROL-97 Falcon Heavy all launched in under a day.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-jumps-7-3-210011551.html"
+      },
+      {
+        "categoria": "Week ahead",
+        "tickers": [],
+        "titulo": "Week ahead: ISM services, Fed minutes and Canadian jobs",
+        "resumen": "ISM on Monday, FOMC minutes on Wednesday and consumer sentiment on Friday.",
+        "fuente": "investingLive",
+        "url": "https://investinglive.com/news/week-ahead-ism-services-fed-minutes-and-canadian-jobs-lead-the-economic-calendar-be-aware/"
+      },
+      {
+        "categoria": "Fed",
+        "tickers": [],
+        "titulo": "Official Fed calendar: October 2026",
+        "resumen": "The Federal Reserve's speeches and releases for the month, including the minutes.",
+        "fuente": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-october.htm"
+      }
+    ]
   }
 }

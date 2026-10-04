@@ -25,7 +25,12 @@ Publicar de nuevo el mismo día y tipo **reemplaza** el reporte (sirve para corr
     "pulso": [ { "etiqueta": "SPY premarket", "valor": "+0.83%", "detalle": "770.32", "dir": "up|down|flat" } ],
 
     // ---- Noticias (blue) ----
-    "agenda":   [ { "hora": "8:30", "tema": "...", "efecto": "...", "prob": 10, "estado": "Ya salió" } ],
+    "agenda":   [ { "hora": "8:30", "tema": "...", "efecto": "...", "prob": 10, "estado": "Ya salió",
+                    "enlace": "https://… (optional: official release or article)", "fuente": "BLS" } ],
+    // Market headlines: shown on the Noticias page (the homepage links to it). 6–12 items.
+    "titulares": [ { "hora": "8:30", "categoria": "Macro|Fed|Empresas|Geopolítica|Semana|…", "tickers": ["TSLA"],
+                     "titulo": "Our own headline", "resumen": "1–2 sentences IN OUR OWN WORDS (never copy article text)",
+                     "fuente": "CNBC", "url": "https://… (the article from WebSearch results; https only)" } ],
     "que_movio": "Closing: what moved the market today.",
     "despues_cierre": [ { "ticker": "NKE", "cambio": "−8.0%", "nota": "AH earnings..." } ],
     "manana":   [ /* same shape as agenda: tomorrow's calendar (Closing) */ ],
@@ -37,6 +42,15 @@ Publicar de nuevo el mismo día y tipo **reemplaza** el reporte (sirve para corr
       "escalera": [ { "nivel": "31,151.5", "nota": "Máximo histórico · +68 pts", "tipo": "cielo|resistencia|precio|soporte" } ],
       "lectura": "If/then read."
     },
+    // ---- NQ/ES page only (expanded) ----
+    "es": { /* same shape as "nq": ultimo, cambio, nota, tendencias, escalera, lectura */ },
+    "volumen": { "resumen": "...",
+      "filas": [ { "simbolo": "NQ1!", "sesion": "Completa (Globex)", "volumen": "573,488", "promedio20": "564,359", "relativo": "1.02×", "nota": "..." } ],
+      "horas": [ { "hora": "9:30", "nq_vol": "129,032", "nq_pct": 100, "nq_rango": "31,056–31,282.5", "nq_mov": "+117.75",
+                   "es_vol": "370,762", "es_mov": "+14.75", "nota": "..." } ] },   // nq_pct = bar width vs the biggest hour
+    "pivotes": { "nota": "Classic floor pivots from the prior regular session H/L/C",
+      "filas": [ { "nombre": "R3|R2|R1|P|S1|S2|S3", "nq": "31,533.5", "es": "7,864.4", "nota": "confluence with structure" } ] },
+    "eventos": [ { "hora": "10:00", "evento": "...", "nq": "+80", "es": "+15.5", "lectura": "how the market reacted (or what to watch)" } ],
 
     // ---- Stocks (gold) ----
     "scorecard": { "tasa_activacion": "2/3 (67%)", "tasa_objetivo": "1/2 (50%)", "nota": "..." },
