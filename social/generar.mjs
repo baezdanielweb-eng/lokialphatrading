@@ -65,7 +65,7 @@ function pagina(n, total, cuerpo, pie = '') {
   return `<!doctype html><html lang="es"><head><meta charset="utf-8">${fuentes}<style>${css}</style></head><body>
   <div class="top"><img src="file://${assets}/favicon.png"><div class="brand">Loki<span class="a">Alpha</span>trading<small>COMMUNITY</small></div><div class="pager">${n}/${total}</div></div>
   <main>${cuerpo}</main>
-  <div class="foot"><span>${pie || 'Educativo, no es asesoría financiera'}</span><b>@lokialphatrading</b></div>
+  <div class="foot"><span>${pie || 'Educativo, no es asesoría financiera'}</span><b>@tradeaconloki</b></div>
   </body></html>`;
 }
 
