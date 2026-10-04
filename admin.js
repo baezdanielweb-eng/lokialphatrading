@@ -57,9 +57,16 @@ function pantallaLogin() {
     m.className = 'msg'; m.textContent = 'Enviando…';
     const { error } = await db.auth.signInWithOtp({
       email: document.getElementById('email').value.trim().toLowerCase(),
-      options: { emailRedirectTo: location.origin + location.pathname },
+      // Solo cuentas existentes: los registros nuevos están desactivados en Supabase.
+      options: { emailRedirectTo: location.origin + location.pathname, shouldCreateUser: false },
     });
-    if (error) { m.className = 'msg err'; m.textContent = 'No se pudo enviar: ' + error.message; return; }
+    if (error) {
+      m.className = 'msg err';
+      m.textContent = /signup|not allowed|not found/i.test(error.message)
+        ? 'Ese correo no tiene acceso de administrador.'
+        : 'No se pudo enviar: ' + error.message;
+      return;
+    }
     m.className = 'msg ok'; m.textContent = 'Listo. Revisa tu correo y abre el enlace en este mismo navegador.';
   };
 }
