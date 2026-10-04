@@ -171,7 +171,8 @@
           "catalizador": "Venta bajo 3.06 a las 2:40 PM (entrada 3.05)",
           "estado": "Activada, sin stop ni objetivo",
           "max_favor": "+1.3%",
-          "nota": "Rango 3.06–3.42. Cerró en 3.03 (+$0.02); llegó a 3.01, a $0.11 del objetivo 2.90."
+          "nota": "Rango 3.06–3.42. Cerró en 3.03 (+$0.02); llegó a 3.01, a $0.11 del objetivo 2.90.",
+          "resultado_r": "~+0.2R"
         },
         {
           "nivel": "Large",
@@ -181,7 +182,8 @@
           "catalizador": "Venta bajo 83.92 a las 10:20 (entrada 83.78)",
           "estado": "Objetivo alcanzado",
           "max_favor": "+0.95%",
-          "nota": "Objetivo 83.03 a las 10:31. Abrió bajo el soporte de la mañana (85.55)."
+          "nota": "Objetivo 83.03 a las 10:31. Abrió bajo el soporte de la mañana (85.55).",
+          "resultado_r": "+1.5R"
         },
         {
           "nivel": "Mega",
@@ -191,7 +193,8 @@
           "catalizador": "Compra sobre 237.47 a las 9:58 (entrada 237.51)",
           "estado": "Invalidada",
           "max_favor": "+0.16%",
-          "nota": "Stop 236.51 a las 10:08. El rompimiento falló justo en el techo del día (237.88)."
+          "nota": "Stop 236.51 a las 10:08. El rompimiento falló justo en el techo del día (237.88).",
+          "resultado_r": "−1R"
         }
       ]
     },
@@ -907,7 +910,8 @@
           "catalizador": "Short below 3.06 at 2:40 PM (entry 3.05)",
           "estado": "Triggered, no stop or target",
           "max_favor": "+1.3%",
-          "nota": "Range 3.06–3.42. Closed at 3.03 (+$0.02); reached 3.01, $0.11 short of the 2.90 target."
+          "nota": "Range 3.06–3.42. Closed at 3.03 (+$0.02); reached 3.01, $0.11 short of the 2.90 target.",
+          "resultado_r": "~+0.2R"
         },
         {
           "nivel": "Large",
@@ -917,7 +921,8 @@
           "catalizador": "Short below 83.92 at 10:20 (entry 83.78)",
           "estado": "Target hit",
           "max_favor": "+0.95%",
-          "nota": "Target 83.03 at 10:31. Opened below the morning support (85.55)."
+          "nota": "Target 83.03 at 10:31. Opened below the morning support (85.55).",
+          "resultado_r": "+1.5R"
         },
         {
           "nivel": "Mega",
@@ -927,7 +932,8 @@
           "catalizador": "Long above 237.47 at 9:58 (entry 237.51)",
           "estado": "Stopped out",
           "max_favor": "+0.16%",
-          "nota": "Stop 236.51 at 10:08. The breakout failed right at the day's high (237.88)."
+          "nota": "Stop 236.51 at 10:08. The breakout failed right at the day's high (237.88).",
+          "resultado_r": "−1R"
         }
       ]
     },

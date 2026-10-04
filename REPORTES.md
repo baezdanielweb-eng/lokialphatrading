@@ -58,7 +58,7 @@ Publicar de nuevo el mismo día y tipo **reemplaza** el reporte (sirve para corr
       "nota": "...",
       "filas": [ { "nivel": "Small|Large|Mega", "ticker": "ON", "precio": "85.90", "gap": "+7.3%",
                    "catalizador": "...", "stop": "$0.50", "objetivo": "$0.75", "nota": "...",
-                   "estado": "Objetivo alcanzado", "max_favor": "+1.8%" } ],   // estado/max_favor: Meridiano + Closing
+                   "estado": "Objetivo alcanzado", "max_favor": "+1.8%", "resultado_r": "+1.5R" } ],   // estado/max_favor: Meridiano + Closing; resultado_r: Closing
       "descartadas": "..."
     },
     "movers": [ { "ticker": "NVDA", "cambio": "+3.1%", "nota": "why" } ],
