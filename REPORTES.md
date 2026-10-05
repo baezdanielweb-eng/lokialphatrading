@@ -75,7 +75,7 @@ Publicar de nuevo el mismo día y tipo **reemplaza** el reporte (sirve para corr
                                            "catalizador": "...", "r1": "86.47", "ultimo": "85.90", "s1": "85.55" } ] },
 
     // ---- Social carousel (social/generar.mjs; not shown on the site) ----
-    "redes": { "gancho": "Hook, max ~10 words, one idea", "subgancho": "Optional second line",
+    "redes": { "gancho": "Hook, max ~10 words, one idea", "subgancho": "Optional second line", "sub2": "Optional short subtitle for slide 2",
                "pick": "TICKER" },   // Matutino chooses the pick of the day; Meridiano/Closing repeat the same ticker
 
     // ---- Free blocks, in any section ----

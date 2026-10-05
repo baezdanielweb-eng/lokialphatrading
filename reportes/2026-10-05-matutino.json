@@ -1,0 +1,1623 @@
+{
+  "fecha": "2026-10-05",
+  "tipo": "matutino",
+  "titulo": "LokiAlphaTrading - Reporte Matutino",
+  "datos": {
+    "generado": "8:05 AM ET",
+    "resumen": "Brasil domina la mañana: tras la primera vuelta (Bolsonaro 47% vs Lula 45%), los ADR brasileños suben entre 8% y 14%. El NQ abre plano, 47 puntos bajo el cierre del viernes, a la espera del ISM de servicios de las 10:00.",
+    "pulso": [
+      {
+        "etiqueta": "SPY premarket",
+        "valor": "−0.04%",
+        "detalle": "769.33",
+        "dir": "down"
+      },
+      {
+        "etiqueta": "QQQ premarket",
+        "valor": "−0.17%",
+        "detalle": "748.34 · máx. 754.54",
+        "dir": "down"
+      },
+      {
+        "etiqueta": "NQ1!",
+        "valor": "31,023",
+        "detalle": "−47 pts vs viernes · noche 30,957–31,221",
+        "dir": "down"
+      },
+      {
+        "etiqueta": "Bono 10 años",
+        "valor": "5.27%",
+        "detalle": "cerca de máximos de 2002",
+        "dir": "flat"
+      }
+    ],
+    "agenda": [
+      {
+        "hora": "Noche",
+        "tema": "Brasil: Bolsonaro 47% vs Lula 45% en primera vuelta; segunda vuelta a fin de mes",
+        "efecto": "ADR brasileños +8% a +14% (Itaú, Bradesco, Petrobras, Nu). No mueve al NQ.",
+        "prob": 4,
+        "estado": "Ya salió",
+        "enlace": "https://www.investing.com/news/stock-market-news/us-shares-of-brazilian-companies-rally-after-first-round-election-result-4931194",
+        "fuente": "Investing.com"
+      },
+      {
+        "hora": "PM",
+        "tema": "Intel −3.9%: TSMC en conversaciones con Terafab (Musk)",
+        "efecto": "Presión sobre semis y sobre INTC en particular.",
+        "prob": 4,
+        "enlace": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-4931638",
+        "fuente": "Investing.com"
+      },
+      {
+        "hora": "10:00",
+        "tema": "ISM de servicios (esp. 55.2, previo 55.4; precios esp. 73)",
+        "efecto": "Con el 10 años en 5.27%, un dato fuerte presiona yields y al NQ; uno débil refuerza la pausa de la Fed.",
+        "prob": 8,
+        "enlace": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+        "fuente": "ISM"
+      },
+      {
+        "hora": "Después del cierre",
+        "tema": "Goolsbee (Chicago Fed, no vota en 2026)",
+        "efecto": "Bajo impacto, fuera de horario.",
+        "prob": 2
+      }
+    ],
+    "titulares": [
+      {
+        "hora": "Noche",
+        "categoria": "Macro",
+        "tickers": [
+          "ITUB",
+          "BBD",
+          "PBR",
+          "NU"
+        ],
+        "titulo": "Los ADR brasileños se disparan tras la primera vuelta",
+        "resumen": "Flavio Bolsonaro superó las encuestas con 47% frente al 45% de Lula; el mercado espera un giro favorable a los activos de Brasil antes de la segunda vuelta.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/us-shares-of-brazilian-companies-rally-after-first-round-election-result-4931194"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "ITUB",
+          "PTC",
+          "DKNG"
+        ],
+        "titulo": "Los que más se mueven: Itaú, PTC y DraftKings",
+        "resumen": "PTC sube 36% por la compra de Schneider Electric a $205 por acción; DraftKings gana 5% tras una mejora de Bank of America.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/stocks-making-the-biggest-moves-premarket-dkng-itub-ptc.html"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "INTC"
+        ],
+        "titulo": "Intel cae: TSMC negocia con el proyecto Terafab de Musk",
+        "resumen": "Intel era el único socio de fabricación nombrado públicamente para la planta de Texas; la noticia abre dudas sobre su negocio de fundición.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-4931638"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "NVDA"
+        ],
+        "titulo": "Morgan Stanley vuelve a nombrar a Nvidia su favorita en semis",
+        "resumen": "Tras reunirse con la directiva, el banco destaca una valuación poco exigente y mantiene un objetivo de $300. NVDA marcó récord el viernes en 237.88.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-back-morgan-stanley-124934015.html"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "CBRS"
+        ],
+        "titulo": "Cerebras rebota: Altman la llama \"socio cercano\" de OpenAI",
+        "resumen": "La acción sube cerca de 5% en premarket después de una semana de caídas por reportes de que OpenAI eligió chips de Nvidia para un modelo nuevo.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/cerebras-systems-shares-jump-in-premarket-after-altman-comments-93CH-4931397"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "HOG"
+        ],
+        "titulo": "Citi sube a Harley-Davidson a Compra",
+        "resumen": "Objetivo de $33 por mejor impulso en ventas minoristas y un lanzamiento importante previsto para 2027.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/harley-davidson-has-struggled-in-recent-years-citi-says-buy-the-stock.html"
+      },
+      {
+        "categoria": "Macro",
+        "tickers": [],
+        "titulo": "Petróleo cerca de $100 y bonos cerca de 5%: los gráficos de la semana",
+        "resumen": "La combinación de energía cara y tasas altas mantiene cautela en las acciones pese a que el S&P 500 está a menos de 1% de su récord.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/articles/oil-near-100-treasury-yields-092931226.html"
+      },
+      {
+        "categoria": "Semana",
+        "tickers": [],
+        "titulo": "La semana: minutas de la Fed y bonos ponen a prueba el rally",
+        "resumen": "Semana tranquila en datos; las minutas del miércoles y el rumbo de los yields son la clave.",
+        "fuente": "FXEmpire",
+        "url": "https://fxempire.com/forecasts/article/the-week-ahead-fed-minutes-and-bond-yields-test-the-fourth-quarter-stock-rally-1635019"
+      }
+    ],
+    "nq": {
+      "ultimo": "31,023",
+      "cambio": "−0.15%",
+      "nota": "Último 31,023 (−47 pts vs el cierre del viernes, 31,070). Noche: 30,957.5 – 31,221.25. ATR diario: 478 puntos.",
+      "tendencias": [
+        {
+          "marco": "Diaria",
+          "valor": "Alcista",
+          "nota": "Sobre las medias de 20, 50 y 200 días (30,189 / 29,655 / 27,648). RSI 79: sobrecomprado, a 0.85% del máximo histórico."
+        },
+        {
+          "marco": "1 hora",
+          "valor": "Lateral",
+          "nota": "Máximos más bajos desde el récord del viernes y bajo el pivote P (31,113.5). Diario alcista, 1 hora sin dirección."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "Cielo azul",
+          "nota": "Sobre 31,282.5 no hay resistencia",
+          "tipo": "cielo"
+        },
+        {
+          "nivel": "31,265–282.5",
+          "nota": "Máximo histórico del viernes · +242 a +260 pts (0.5 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,221",
+          "nota": "Máximo nocturno · +198 pts (0.41 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,113–130",
+          "nota": "Pivote P + máximo menor del viernes · +91 a +107 pts (0.2 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,023",
+          "nota": "Precio actual",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "30,957",
+          "nota": "Mínimo nocturno (perforó 30,968 y lo recuperó) · −66 pts (0.14 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "30,884–906",
+          "nota": "Máximos del 30/9 y 1/10 · −117 a −139 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "30,760",
+          "nota": "Cierre del jueves + mínimo nocturno del viernes · −263 pts (0.55 ATR)",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "El NQ abre bajo el pivote P después de perforar en la noche la zona 30,968–30,995 (mínimo 30,957.5) y recuperarla. Mientras sostenga 30,957, el rebote apunta a 31,113–31,130; recuperar 31,130 abre 31,221 y el máximo histórico. Un cierre de 1 hora bajo 30,957 lleva a 30,884–30,906. El ISM de las 10:00 decide: no operar la vela de las 10:00."
+    },
+    "es": {
+      "ultimo": "7,773",
+      "cambio": "−0.08%",
+      "nota": "Último 7,773 (−6 pts vs el cierre del viernes, 7,779). Noche: 7,760.25 – 7,793. ATR diario: 80 puntos. Máximo histórico: 7,848.5 (22/9).",
+      "tendencias": [
+        {
+          "marco": "Diaria",
+          "valor": "Alcista",
+          "nota": "Sobre las medias de 20/50/200 días (7,719 / 7,696 / 7,262), a 0.94% del máximo histórico."
+        },
+        {
+          "marco": "1 hora",
+          "valor": "Lateral",
+          "nota": "Entre 7,760 y 7,793 toda la noche, bajo el pivote P (7,781)."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "7,838–7,848.5",
+          "nota": "Máximo del 13/8 + máximo histórico · +65 a +76 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,808–7,810",
+          "nota": "Pivote R1 + máximo del viernes · +35 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,781–7,793",
+          "nota": "Pivote P + máximo nocturno · +8 a +20 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,773",
+          "nota": "Precio actual",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "7,752–7,760",
+          "nota": "Mínimo nocturno + mínimo del viernes + pivote S1 · −13 a −21 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,723–7,725",
+          "nota": "Pivote S2 + cierre del jueves · −48 a −50 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,673",
+          "nota": "Mínimo del jueves · −100 pts",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "El ES está atrapado entre 7,760 y 7,793. Superar 7,793 abre 7,808–7,810; perder 7,752 apunta a 7,723–7,725, donde coinciden el pivote S2 y el cierre del jueves."
+    },
+    "volumen": {
+      "resumen": "El viernes el volumen fue normal pese al máximo histórico (NQ 1.02× y ES 1.08× su promedio de 20 días). La noche va tranquila: 106K contratos de NQ en un rango de 264 puntos.",
+      "filas": [
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Viernes completo",
+          "volumen": "573,488",
+          "promedio20": "564,359",
+          "relativo": "1.02×",
+          "nota": "Sesión regular 409,775 (71%)."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Viernes completo",
+          "volumen": "1,763,424",
+          "promedio20": "1,632,875",
+          "relativo": "1.08×",
+          "nota": "Sesión regular 1,345,484 (76%)."
+        },
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Noche (hasta 8:05)",
+          "volumen": "106,464",
+          "promedio20": "—",
+          "relativo": "—",
+          "nota": "Rango 30,957.5–31,221.25."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Noche (hasta 8:05)",
+          "volumen": "185,078",
+          "promedio20": "—",
+          "relativo": "—",
+          "nota": "Rango 7,760.25–7,793."
+        }
+      ]
+    },
+    "pivotes": {
+      "nota": "Pivotes clásicos de hoy, con el máximo, mínimo y cierre de la sesión regular del viernes. NQ y ES abren bajo el pivote P.",
+      "filas": [
+        {
+          "nombre": "R3",
+          "nq": "31,533.5",
+          "es": "7,864.4",
+          "nota": "Sobre máximos históricos: solo en extensión."
+        },
+        {
+          "nombre": "R2",
+          "nq": "31,408",
+          "es": "7,837.3",
+          "nota": "ES: coincide con 7,838 (máx. del 13/8)."
+        },
+        {
+          "nombre": "R1",
+          "nq": "31,239",
+          "es": "7,808.2",
+          "nota": "NQ: sobre el máximo nocturno 31,221. ES: casi igual al máximo del viernes."
+        },
+        {
+          "nombre": "P",
+          "nq": "31,113.5",
+          "es": "7,781.1",
+          "nota": "Ambos abren debajo: sesgo intradía bajista mientras no lo recuperen."
+        },
+        {
+          "nombre": "S1",
+          "nq": "30,944.5",
+          "es": "7,751.9",
+          "nota": "NQ: justo bajo el mínimo nocturno 30,957.5. ES: junto al mínimo del viernes 7,754."
+        },
+        {
+          "nombre": "S2",
+          "nq": "30,819",
+          "es": "7,724.8",
+          "nota": "ES: confluencia con 7,723–7,724 (cierre del jueves)."
+        },
+        {
+          "nombre": "S3",
+          "nq": "30,650",
+          "es": "7,695.7",
+          "nota": "NQ: sobre el mínimo del jueves (30,529)."
+        }
+      ]
+    },
+    "eventos": [
+      {
+        "hora": "Noche",
+        "evento": "Elección en Brasil",
+        "nq": "−39",
+        "es": "−4.25",
+        "lectura": "Del cierre del viernes (settlement) a ahora. El impacto se concentra en los ADR brasileños, no en los índices."
+      },
+      {
+        "hora": "10:00",
+        "evento": "ISM de servicios (esp. 55.2) — a vigilar",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Fuerte → yields arriba: vigilar 30,957 / S1 30,944 (ES 7,752). Débil → recuperar P 31,113 (ES 7,781) y buscar R1 31,239."
+      },
+      {
+        "hora": "Después del cierre",
+        "evento": "Goolsbee (no vota)",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Fuera de horario, bajo impacto."
+      }
+    ],
+    "picks": {
+      "nota": "Día dominado por Brasil: tres de las cuatro selecciones son ADR brasileños con gaps de 8% a 14%. No perseguir la apertura: stop y objetivo fijos por nivel según el rango de 15 minutos.",
+      "filas": [
+        {
+          "nivel": "Small",
+          "ticker": "ITUB",
+          "precio": "9.78",
+          "gap": "+13.9%",
+          "catalizador": "Itaú: banca brasileña tras la primera vuelta; JPMorgan positivo",
+          "stop": "$0.10",
+          "objetivo": "$0.15",
+          "nota": "Premarket sobre el máximo de 52 semanas (9.49): cielo azul. Cerró el viernes en su máximo."
+        },
+        {
+          "nivel": "Small",
+          "ticker": "BBD",
+          "precio": "4.16",
+          "gap": "+14.0%",
+          "catalizador": "Bradesco: mismo catalizador (elección en Brasil)",
+          "stop": "$0.10",
+          "objetivo": "$0.15",
+          "nota": "Máximo de 52 semanas 4.23 justo arriba. Volumen promedio 30M."
+        },
+        {
+          "nivel": "Large",
+          "ticker": "PBR",
+          "precio": "23.38",
+          "gap": "+8.0%",
+          "catalizador": "Petrobras: giro político + Brent cerca de $100",
+          "stop": "$0.50",
+          "objetivo": "$0.75",
+          "nota": "Premarket sobre el máximo de 52 semanas (21.99): cielo azul. Cerró el viernes en su máximo."
+        },
+        {
+          "nivel": "Mega",
+          "ticker": "NVDA",
+          "precio": "235.28",
+          "gap": "+0.6%",
+          "catalizador": "Morgan Stanley la volvió a nombrar top pick en semis",
+          "stop": "$1.00",
+          "objetivo": "$1.50",
+          "nota": "Récord del viernes 237.88; cielo azul arriba. RSI 83: sobrecomprada."
+        }
+      ],
+      "descartadas": "NU (+11.8% pero en tendencia bajista, bajo sus medias), VALE (bajista), HOG (volumen 1.9M, RSI 20), ZNTL (menos de $3), DKNG (cerca del mínimo de 52 semanas pese a la mejora), PTC (fijada al precio de compra de $205), CBRS (rebote en tendencia bajista). Alterna small: ABEV (+10%, $3.30)."
+    },
+    "megas": {
+      "nota": "Ordenado por calidad del setup (tendencia a favor, nivel real, catalizador), con el gap como desempate. \"Noticia\" = agregado por catalizador del día. Ninguna megacap reporta resultados en los próximos 2 días hábiles.",
+      "filas": [
+        {
+          "ticker": "NVDA",
+          "tipo": "Mega",
+          "sesgo": "Alcista · cerca de récord",
+          "gap": "+0.6%",
+          "catalizador": "Top pick de Morgan Stanley",
+          "r1": "236.00",
+          "ultimo": "235.28",
+          "s1": "233.60"
+        },
+        {
+          "ticker": "INTC",
+          "tipo": "Noticia",
+          "sesgo": "Bajista hoy · venta en rebote",
+          "gap": "−3.9%",
+          "catalizador": "TSMC negocia con Terafab",
+          "r1": "116.77",
+          "ultimo": "114.65",
+          "s1": "109.61"
+        },
+        {
+          "ticker": "MSFT",
+          "tipo": "Mega",
+          "sesgo": "Alcista",
+          "gap": "+0.5%",
+          "catalizador": "—",
+          "r1": "522.50",
+          "ultimo": "519.89",
+          "s1": "515.65"
+        },
+        {
+          "ticker": "PLTR",
+          "tipo": "Mega",
+          "sesgo": "Alcista (RSI 75)",
+          "gap": "+0.3%",
+          "catalizador": "—",
+          "r1": "194.68",
+          "ultimo": "189.27",
+          "s1": "184.81"
+        },
+        {
+          "ticker": "META",
+          "tipo": "Mega",
+          "sesgo": "Alcista",
+          "gap": "−0.2%",
+          "catalizador": "—",
+          "r1": "741.58",
+          "ultimo": "726.90",
+          "s1": "713.19"
+        },
+        {
+          "ticker": "QQQ",
+          "tipo": "Mega",
+          "sesgo": "Alcista",
+          "gap": "−0.2%",
+          "catalizador": "Índice",
+          "r1": "754.54",
+          "ultimo": "748.34",
+          "s1": "744.67"
+        },
+        {
+          "ticker": "AAPL",
+          "tipo": "Mega",
+          "sesgo": "Alcista",
+          "gap": "−0.2%",
+          "catalizador": "—",
+          "r1": "334.30",
+          "ultimo": "332.88",
+          "s1": "330.81"
+        },
+        {
+          "ticker": "TSLA",
+          "tipo": "Mega",
+          "sesgo": "Alcista",
+          "gap": "−0.9%",
+          "catalizador": "Entregas del 3T (viernes)",
+          "r1": "374.60",
+          "ultimo": "367.30",
+          "s1": "364.46"
+        },
+        {
+          "ticker": "SPCX",
+          "tipo": "Mega",
+          "sesgo": "Alcista",
+          "gap": "−0.4%",
+          "catalizador": "—",
+          "r1": "159.84",
+          "ultimo": "158.40",
+          "s1": "155.00"
+        },
+        {
+          "ticker": "CBRS",
+          "tipo": "Noticia",
+          "sesgo": "Bajista · rebote",
+          "gap": "+4.6%",
+          "catalizador": "Altman: \"socio cercano\"",
+          "r1": "177.53",
+          "ultimo": "174.14",
+          "s1": "168.71"
+        },
+        {
+          "ticker": "GOOGL",
+          "tipo": "Mega",
+          "sesgo": "Lateral",
+          "gap": "−0.1%",
+          "catalizador": "—",
+          "r1": "345.77",
+          "ultimo": "343.21",
+          "s1": "341.16"
+        },
+        {
+          "ticker": "MU",
+          "tipo": "Mega",
+          "sesgo": "Alcista",
+          "gap": "−0.5%",
+          "catalizador": "—",
+          "r1": "1089.12",
+          "ultimo": "1069.90",
+          "s1": "1042.40"
+        },
+        {
+          "ticker": "AMD",
+          "tipo": "Mega",
+          "sesgo": "Alcista (RSI 84)",
+          "gap": "−0.9%",
+          "catalizador": "—",
+          "r1": "639.00",
+          "ultimo": "628.54",
+          "s1": "596.07"
+        },
+        {
+          "ticker": "AMZN",
+          "tipo": "Mega",
+          "sesgo": "Bajista",
+          "gap": "−0.1%",
+          "catalizador": "—",
+          "r1": "253.56",
+          "ultimo": "251.23",
+          "s1": "250.02"
+        }
+      ]
+    },
+    "soportes": {
+      "nota": "Para rebotes al alza (largos o calls), ordenado por distancia en ATR diario. Con el NQ bajo su pivote y el viernes de giro, el mercado está mixto: nadie llega a grado A hoy. C = bajista o con noticia negativa: solo con vela de recuperación confirmada.",
+      "top3": [
+        {
+          "ticker": "GOOGL",
+          "grado": "B",
+          "rr": "2.0",
+          "nivel": "341.16",
+          "texto": "El mínimo del viernes está a 0.22 ATR. Si rebota en el Order Block, objetivo 345.77 (máximo del viernes)."
+        },
+        {
+          "ticker": "TSLA",
+          "grado": "B",
+          "rr": "3.5",
+          "nivel": "364.46",
+          "texto": "Pivote de marzo a 0.25 ATR, tras el buen dato de entregas. Objetivo 374.60, el máximo del viernes."
+        },
+        {
+          "ticker": "AAPL",
+          "grado": "B",
+          "rr": "2.2",
+          "nivel": "330.81",
+          "texto": "Pivote del 3/9, ya probado el viernes. Objetivo 334.30."
+        }
+      ],
+      "filas": [
+        {
+          "ticker": "GOOGL",
+          "precio": "343.21",
+          "soporte": "341.16",
+          "tipo_nivel": "Mínimo del viernes",
+          "dist_atr": "0.22",
+          "tendencia": "Lateral",
+          "grado": "B",
+          "objetivo": "345.77",
+          "invalidacion": "338.87",
+          "rr": "2.0"
+        },
+        {
+          "ticker": "AMZN",
+          "precio": "251.23",
+          "soporte": "250.02",
+          "tipo_nivel": "Mínimo del viernes",
+          "dist_atr": "0.23",
+          "tendencia": "Bajista",
+          "grado": "C",
+          "objetivo": "253.56",
+          "invalidacion": "248.68",
+          "rr": "2.6"
+        },
+        {
+          "ticker": "TSLA",
+          "precio": "367.30",
+          "soporte": "364.46",
+          "tipo_nivel": "Pivote del 20/3",
+          "dist_atr": "0.25",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "374.60",
+          "invalidacion": "361.60",
+          "rr": "3.5"
+        },
+        {
+          "ticker": "AAPL",
+          "precio": "332.88",
+          "soporte": "330.81",
+          "tipo_nivel": "Pivote del 3/9",
+          "dist_atr": "0.32",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "334.30",
+          "invalidacion": "329.19",
+          "rr": "2.2"
+        },
+        {
+          "ticker": "NVDA",
+          "precio": "235.28",
+          "soporte": "233.60",
+          "tipo_nivel": "Mínimo del viernes",
+          "dist_atr": "0.33",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "236.00",
+          "invalidacion": "232.31",
+          "rr": "1.9"
+        },
+        {
+          "ticker": "MSFT",
+          "precio": "519.89",
+          "soporte": "515.65",
+          "tipo_nivel": "Pivote del 3/9",
+          "dist_atr": "0.36",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "522.50",
+          "invalidacion": "512.69",
+          "rr": "2.3"
+        },
+        {
+          "ticker": "QQQ",
+          "precio": "748.34",
+          "soporte": "744.67",
+          "tipo_nivel": "Pivote del 22/6",
+          "dist_atr": "0.37",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "754.54",
+          "invalidacion": "742.22",
+          "rr": "4.0"
+        },
+        {
+          "ticker": "CBRS",
+          "precio": "174.14",
+          "soporte": "168.71",
+          "tipo_nivel": "Pivote del 29/7",
+          "dist_atr": "0.45",
+          "tendencia": "Bajista",
+          "grado": "C",
+          "objetivo": "177.53",
+          "invalidacion": "165.71",
+          "rr": "2.9"
+        },
+        {
+          "ticker": "META",
+          "precio": "726.90",
+          "soporte": "713.19",
+          "tipo_nivel": "Pivote del 28/9",
+          "dist_atr": "0.47",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "741.58",
+          "invalidacion": "705.96",
+          "rr": "3.9"
+        },
+        {
+          "ticker": "SPCX",
+          "precio": "158.40",
+          "soporte": "155.00",
+          "tipo_nivel": "Pivote del 8/9",
+          "dist_atr": "0.55",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "159.84",
+          "invalidacion": "153.45",
+          "rr": "3.1"
+        },
+        {
+          "ticker": "MU",
+          "precio": "1069.90",
+          "soporte": "1042.40",
+          "tipo_nivel": "Pivote del 9/9",
+          "dist_atr": "0.65",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "1089.12",
+          "invalidacion": "1031.84",
+          "rr": "4.4"
+        },
+        {
+          "ticker": "INTC",
+          "precio": "114.65",
+          "soporte": "109.61",
+          "tipo_nivel": "Pivote del 15/7",
+          "dist_atr": "0.76",
+          "tendencia": "Noticia negativa",
+          "grado": "C",
+          "objetivo": "116.77",
+          "invalidacion": "107.96",
+          "rr": "4.3"
+        },
+        {
+          "ticker": "PLTR",
+          "precio": "189.27",
+          "soporte": "184.81",
+          "tipo_nivel": "Pivote del 29/9",
+          "dist_atr": "0.78",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "194.68",
+          "invalidacion": "183.37",
+          "rr": "6.9"
+        },
+        {
+          "ticker": "AMD",
+          "precio": "628.54",
+          "soporte": "596.07",
+          "tipo_nivel": "Pivote del 28/9",
+          "dist_atr": "1.29",
+          "tendencia": "Alcista",
+          "grado": "B",
+          "objetivo": "639.00",
+          "invalidacion": "589.76",
+          "rr": "6.8"
+        }
+      ],
+      "pie": "Invalidación = soporte − 0.25 ATR. El viernes los grado A se rompieron más que los B y C en un día de giro desde máximos: hoy el tablero es solo de referencia, la entrada la da el Order Block."
+    },
+    "semana": {
+      "eventos": [
+        {
+          "dia": "Lun",
+          "hora": "10:00",
+          "tema": "ISM de servicios",
+          "prob": 8
+        },
+        {
+          "dia": "Mar",
+          "hora": "9:05",
+          "tema": "Williams (Fed NY, vota)",
+          "prob": 5
+        },
+        {
+          "dia": "Mar",
+          "hora": "10:45",
+          "tema": "Bowman (Fed, vota)",
+          "prob": 5
+        },
+        {
+          "dia": "Mié",
+          "hora": "2:00 PM",
+          "tema": "Minutas del FOMC",
+          "prob": 7
+        },
+        {
+          "dia": "Jue",
+          "hora": "8:30",
+          "tema": "Solicitudes de desempleo",
+          "prob": 5
+        },
+        {
+          "dia": "Jue",
+          "hora": "BMO",
+          "tema": "Resultados de PepsiCo",
+          "prob": 3
+        },
+        {
+          "dia": "Vie",
+          "hora": "BMO",
+          "tema": "Resultados de Delta",
+          "prob": 3
+        }
+      ]
+    },
+    "redes": {
+      "pick": "ITUB",
+      "gancho": "Brasil vuela: Itaú +14% tras la elección",
+      "subgancho": "El NQ abre plano antes del ISM de las 10:00.",
+      "sub2": "Perforó 30,968 en la noche y lo recuperó. La clave: el ISM de las 10:00."
+    }
+  },
+  "datos_en": {
+    "generado": "8:05 AM ET",
+    "resumen": "Brazil dominates the morning: after the first round (Bolsonaro 47% vs Lula 45%), Brazilian ADRs are up 8% to 14%. NQ opens flat, 47 points below Friday's close, ahead of the 10:00 ISM services report.",
+    "pulso": [
+      {
+        "etiqueta": "SPY premarket",
+        "valor": "−0.04%",
+        "detalle": "769.33",
+        "dir": "down"
+      },
+      {
+        "etiqueta": "QQQ premarket",
+        "valor": "−0.17%",
+        "detalle": "748.34 · high 754.54",
+        "dir": "down"
+      },
+      {
+        "etiqueta": "NQ1!",
+        "valor": "31,023",
+        "detalle": "−47 pts vs Friday · overnight 30,957–31,221",
+        "dir": "down"
+      },
+      {
+        "etiqueta": "10-year yield",
+        "valor": "5.27%",
+        "detalle": "near 2002 highs",
+        "dir": "flat"
+      }
+    ],
+    "agenda": [
+      {
+        "hora": "Overnight",
+        "tema": "Brazil: Bolsonaro 47% vs Lula 45% in the first round; runoff at month-end",
+        "efecto": "Brazilian ADRs +8% to +14% (Itaú, Bradesco, Petrobras, Nu). Not moving NQ.",
+        "prob": 4,
+        "estado": "Out",
+        "enlace": "https://www.investing.com/news/stock-market-news/us-shares-of-brazilian-companies-rally-after-first-round-election-result-4931194",
+        "fuente": "Investing.com"
+      },
+      {
+        "hora": "PM",
+        "tema": "Intel −3.9%: TSMC in talks with Musk's Terafab",
+        "efecto": "Pressure on semis, and on INTC in particular.",
+        "prob": 4,
+        "enlace": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-4931638",
+        "fuente": "Investing.com"
+      },
+      {
+        "hora": "10:00",
+        "tema": "ISM services (exp. 55.2, prior 55.4; prices exp. 73)",
+        "efecto": "With the 10-year at 5.27%, a strong print pressures yields and NQ; a weak one supports a Fed pause.",
+        "prob": 8,
+        "enlace": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+        "fuente": "ISM"
+      },
+      {
+        "hora": "After close",
+        "tema": "Goolsbee (Chicago Fed, not a 2026 voter)",
+        "efecto": "Low impact, outside market hours.",
+        "prob": 2
+      }
+    ],
+    "titulares": [
+      {
+        "hora": "Overnight",
+        "categoria": "Macro",
+        "tickers": [
+          "ITUB",
+          "BBD",
+          "PBR",
+          "NU"
+        ],
+        "titulo": "Brazilian ADRs soar after the first round",
+        "resumen": "Flavio Bolsonaro beat the polls with 47% to Lula's 45%; markets expect a friendlier turn for Brazilian assets ahead of the runoff.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/us-shares-of-brazilian-companies-rally-after-first-round-election-result-4931194"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "ITUB",
+          "PTC",
+          "DKNG"
+        ],
+        "titulo": "Biggest movers: Itaú, PTC and DraftKings",
+        "resumen": "PTC jumps 36% on Schneider Electric's $205-per-share buyout; DraftKings gains 5% after a Bank of America upgrade.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/stocks-making-the-biggest-moves-premarket-dkng-itub-ptc.html"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "INTC"
+        ],
+        "titulo": "Intel falls: TSMC in talks with Musk's Terafab project",
+        "resumen": "Intel had been the only publicly named manufacturing partner for the Texas plant; the news raises doubts about its foundry business.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-4931638"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "NVDA"
+        ],
+        "titulo": "Morgan Stanley names Nvidia its top semiconductor pick again",
+        "resumen": "After meeting management, the bank cites an undemanding valuation and keeps a $300 target. NVDA hit a record 237.88 on Friday.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-back-morgan-stanley-124934015.html"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "CBRS"
+        ],
+        "titulo": "Cerebras rebounds: Altman calls it a \"close partner\" of OpenAI",
+        "resumen": "The stock is up about 5% premarket after a week of losses on reports that OpenAI chose Nvidia chips for a new model.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/cerebras-systems-shares-jump-in-premarket-after-altman-comments-93CH-4931397"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "HOG"
+        ],
+        "titulo": "Citi upgrades Harley-Davidson to Buy",
+        "resumen": "$33 target on improving retail momentum and a major product launch planned for 2027.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/harley-davidson-has-struggled-in-recent-years-citi-says-buy-the-stock.html"
+      },
+      {
+        "categoria": "Macro",
+        "tickers": [],
+        "titulo": "Oil near $100 and yields near 5%: charts for the week",
+        "resumen": "Expensive energy and high rates keep stocks cautious even with the S&P 500 within 1% of its record.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/articles/oil-near-100-treasury-yields-092931226.html"
+      },
+      {
+        "categoria": "Week ahead",
+        "tickers": [],
+        "titulo": "The week: Fed minutes and bonds test the rally",
+        "resumen": "A quiet data week; Wednesday's minutes and the path of yields are the keys.",
+        "fuente": "FXEmpire",
+        "url": "https://fxempire.com/forecasts/article/the-week-ahead-fed-minutes-and-bond-yields-test-the-fourth-quarter-stock-rally-1635019"
+      }
+    ],
+    "nq": {
+      "ultimo": "31,023",
+      "cambio": "−0.15%",
+      "nota": "Last 31,023 (−47 pts vs Friday's close, 31,070). Overnight: 30,957.5 – 31,221.25. Daily ATR: 478 points.",
+      "tendencias": [
+        {
+          "marco": "Daily",
+          "valor": "Bullish",
+          "nota": "Above the 20, 50 and 200-day averages (30,189 / 29,655 / 27,648). RSI 79: overbought, 0.85% below the all-time high."
+        },
+        {
+          "marco": "1 hour",
+          "valor": "Sideways",
+          "nota": "Lower highs since Friday's record and below the P pivot (31,113.5). Daily bullish, 1-hour directionless."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "Blue sky",
+          "nota": "No resistance above 31,282.5",
+          "tipo": "cielo"
+        },
+        {
+          "nivel": "31,265–282.5",
+          "nota": "Friday's all-time high · +242 to +260 pts (0.5 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,221",
+          "nota": "Overnight high · +198 pts (0.41 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,113–130",
+          "nota": "P pivot + Friday's lower high · +91 to +107 pts (0.2 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,023",
+          "nota": "Current price",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "30,957",
+          "nota": "Overnight low (pierced 30,968 and recovered) · −66 pts (0.14 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "30,884–906",
+          "nota": "9/30 and 10/1 highs · −117 to −139 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "30,760",
+          "nota": "Thursday close + Friday overnight low · −263 pts (0.55 ATR)",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "NQ opens below the P pivot after piercing the 30,968–30,995 zone overnight (low 30,957.5) and recovering it. As long as it holds 30,957, a bounce targets 31,113–31,130; reclaiming 31,130 opens 31,221 and the all-time high. A 1-hour close below 30,957 leads to 30,884–30,906. The 10:00 ISM decides: don't trade the 10:00 candle."
+    },
+    "es": {
+      "ultimo": "7,773",
+      "cambio": "−0.08%",
+      "nota": "Last 7,773 (−6 pts vs Friday's close, 7,779). Overnight: 7,760.25 – 7,793. Daily ATR: 80 points. All-time high: 7,848.5 (9/22).",
+      "tendencias": [
+        {
+          "marco": "Daily",
+          "valor": "Bullish",
+          "nota": "Above the 20/50/200-day averages (7,719 / 7,696 / 7,262), 0.94% below the all-time high."
+        },
+        {
+          "marco": "1 hour",
+          "valor": "Sideways",
+          "nota": "Between 7,760 and 7,793 all night, below the P pivot (7,781)."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "7,838–7,848.5",
+          "nota": "8/13 high + all-time high · +65 to +76 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,808–7,810",
+          "nota": "R1 pivot + Friday's high · +35 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,781–7,793",
+          "nota": "P pivot + overnight high · +8 to +20 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,773",
+          "nota": "Current price",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "7,752–7,760",
+          "nota": "Overnight low + Friday's low + S1 pivot · −13 to −21 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,723–7,725",
+          "nota": "S2 pivot + Thursday's close · −48 to −50 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,673",
+          "nota": "Thursday's low · −100 pts",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "ES is stuck between 7,760 and 7,793. Clearing 7,793 opens 7,808–7,810; losing 7,752 targets 7,723–7,725, where the S2 pivot and Thursday's close line up."
+    },
+    "volumen": {
+      "resumen": "Friday's volume was normal despite the all-time high (NQ 1.02× and ES 1.08× their 20-day average). The overnight session is quiet: 106K NQ contracts over a 264-point range.",
+      "filas": [
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Friday full",
+          "volumen": "573,488",
+          "promedio20": "564,359",
+          "relativo": "1.02×",
+          "nota": "Regular session 409,775 (71%)."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Friday full",
+          "volumen": "1,763,424",
+          "promedio20": "1,632,875",
+          "relativo": "1.08×",
+          "nota": "Regular session 1,345,484 (76%)."
+        },
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Overnight (to 8:05)",
+          "volumen": "106,464",
+          "promedio20": "—",
+          "relativo": "—",
+          "nota": "Range 30,957.5–31,221.25."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Overnight (to 8:05)",
+          "volumen": "185,078",
+          "promedio20": "—",
+          "relativo": "—",
+          "nota": "Range 7,760.25–7,793."
+        }
+      ]
+    },
+    "pivotes": {
+      "nota": "Today's classic pivots, from Friday's regular-session high, low and close. NQ and ES open below the P pivot.",
+      "filas": [
+        {
+          "nombre": "R3",
+          "nq": "31,533.5",
+          "es": "7,864.4",
+          "nota": "Above all-time highs: extension only."
+        },
+        {
+          "nombre": "R2",
+          "nq": "31,408",
+          "es": "7,837.3",
+          "nota": "ES: lines up with 7,838 (8/13 high)."
+        },
+        {
+          "nombre": "R1",
+          "nq": "31,239",
+          "es": "7,808.2",
+          "nota": "NQ: above the 31,221 overnight high. ES: almost equal to Friday's high."
+        },
+        {
+          "nombre": "P",
+          "nq": "31,113.5",
+          "es": "7,781.1",
+          "nota": "Both open below it: intraday bearish tilt until reclaimed."
+        },
+        {
+          "nombre": "S1",
+          "nq": "30,944.5",
+          "es": "7,751.9",
+          "nota": "NQ: just below the 30,957.5 overnight low. ES: next to Friday's 7,754 low."
+        },
+        {
+          "nombre": "S2",
+          "nq": "30,819",
+          "es": "7,724.8",
+          "nota": "ES: confluence with 7,723–7,724 (Thursday's close)."
+        },
+        {
+          "nombre": "S3",
+          "nq": "30,650",
+          "es": "7,695.7",
+          "nota": "NQ: above Thursday's low (30,529)."
+        }
+      ]
+    },
+    "eventos": [
+      {
+        "hora": "Overnight",
+        "evento": "Brazil election",
+        "nq": "−39",
+        "es": "−4.25",
+        "lectura": "From Friday's settlement to now. The impact is concentrated in Brazilian ADRs, not the indexes."
+      },
+      {
+        "hora": "10:00",
+        "evento": "ISM services (exp. 55.2) — watch",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Strong → yields up: watch 30,957 / S1 30,944 (ES 7,752). Weak → reclaim P 31,113 (ES 7,781) and look for R1 31,239."
+      },
+      {
+        "hora": "After close",
+        "evento": "Goolsbee (not a voter)",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Outside market hours, low impact."
+      }
+    ],
+    "picks": {
+      "nota": "A Brazil-driven day: three of the four picks are Brazilian ADRs gapping 8% to 14%. Don't chase the open: fixed stop and target by tier, per the 15-minute range.",
+      "filas": [
+        {
+          "nivel": "Small",
+          "ticker": "ITUB",
+          "precio": "9.78",
+          "gap": "+13.9%",
+          "catalizador": "Itaú: Brazilian banks after the first round; JPMorgan positive",
+          "stop": "$0.10",
+          "objetivo": "$0.15",
+          "nota": "Premarket above the 52-week high (9.49): blue sky. Closed Friday at its high."
+        },
+        {
+          "nivel": "Small",
+          "ticker": "BBD",
+          "precio": "4.16",
+          "gap": "+14.0%",
+          "catalizador": "Bradesco: same catalyst (Brazil election)",
+          "stop": "$0.10",
+          "objetivo": "$0.15",
+          "nota": "52-week high 4.23 just above. Average volume 30M."
+        },
+        {
+          "nivel": "Large",
+          "ticker": "PBR",
+          "precio": "23.38",
+          "gap": "+8.0%",
+          "catalizador": "Petrobras: political shift + Brent near $100",
+          "stop": "$0.50",
+          "objetivo": "$0.75",
+          "nota": "Premarket above the 52-week high (21.99): blue sky. Closed Friday at its high."
+        },
+        {
+          "nivel": "Mega",
+          "ticker": "NVDA",
+          "precio": "235.28",
+          "gap": "+0.6%",
+          "catalizador": "Morgan Stanley named it top semiconductor pick again",
+          "stop": "$1.00",
+          "objetivo": "$1.50",
+          "nota": "Friday's record 237.88; blue sky above. RSI 83: overbought."
+        }
+      ],
+      "descartadas": "NU (+11.8% but in a downtrend, below its averages), VALE (bearish), HOG (1.9M volume, RSI 20), ZNTL (under $3), DKNG (near its 52-week low despite the upgrade), PTC (pinned to the $205 buyout price), CBRS (bounce in a downtrend). Small-cap alternate: ABEV (+10%, $3.30)."
+    },
+    "megas": {
+      "nota": "Ranked by setup quality (trend in favor, real level, catalyst), with the gap as tiebreaker. \"News\" = added for a same-day catalyst. No megacap reports earnings in the next 2 trading days.",
+      "filas": [
+        {
+          "ticker": "NVDA",
+          "tipo": "Mega",
+          "sesgo": "Bullish · near record",
+          "gap": "+0.6%",
+          "catalizador": "Morgan Stanley top pick",
+          "r1": "236.00",
+          "ultimo": "235.28",
+          "s1": "233.60"
+        },
+        {
+          "ticker": "INTC",
+          "tipo": "News",
+          "sesgo": "Bearish today · sell the bounce",
+          "gap": "−3.9%",
+          "catalizador": "TSMC talks with Terafab",
+          "r1": "116.77",
+          "ultimo": "114.65",
+          "s1": "109.61"
+        },
+        {
+          "ticker": "MSFT",
+          "tipo": "Mega",
+          "sesgo": "Bullish",
+          "gap": "+0.5%",
+          "catalizador": "—",
+          "r1": "522.50",
+          "ultimo": "519.89",
+          "s1": "515.65"
+        },
+        {
+          "ticker": "PLTR",
+          "tipo": "Mega",
+          "sesgo": "Bullish (RSI 75)",
+          "gap": "+0.3%",
+          "catalizador": "—",
+          "r1": "194.68",
+          "ultimo": "189.27",
+          "s1": "184.81"
+        },
+        {
+          "ticker": "META",
+          "tipo": "Mega",
+          "sesgo": "Bullish",
+          "gap": "−0.2%",
+          "catalizador": "—",
+          "r1": "741.58",
+          "ultimo": "726.90",
+          "s1": "713.19"
+        },
+        {
+          "ticker": "QQQ",
+          "tipo": "Mega",
+          "sesgo": "Bullish",
+          "gap": "−0.2%",
+          "catalizador": "Index",
+          "r1": "754.54",
+          "ultimo": "748.34",
+          "s1": "744.67"
+        },
+        {
+          "ticker": "AAPL",
+          "tipo": "Mega",
+          "sesgo": "Bullish",
+          "gap": "−0.2%",
+          "catalizador": "—",
+          "r1": "334.30",
+          "ultimo": "332.88",
+          "s1": "330.81"
+        },
+        {
+          "ticker": "TSLA",
+          "tipo": "Mega",
+          "sesgo": "Bullish",
+          "gap": "−0.9%",
+          "catalizador": "Q3 deliveries (Friday)",
+          "r1": "374.60",
+          "ultimo": "367.30",
+          "s1": "364.46"
+        },
+        {
+          "ticker": "SPCX",
+          "tipo": "Mega",
+          "sesgo": "Bullish",
+          "gap": "−0.4%",
+          "catalizador": "—",
+          "r1": "159.84",
+          "ultimo": "158.40",
+          "s1": "155.00"
+        },
+        {
+          "ticker": "CBRS",
+          "tipo": "News",
+          "sesgo": "Bearish · bounce",
+          "gap": "+4.6%",
+          "catalizador": "Altman: \"close partner\"",
+          "r1": "177.53",
+          "ultimo": "174.14",
+          "s1": "168.71"
+        },
+        {
+          "ticker": "GOOGL",
+          "tipo": "Mega",
+          "sesgo": "Sideways",
+          "gap": "−0.1%",
+          "catalizador": "—",
+          "r1": "345.77",
+          "ultimo": "343.21",
+          "s1": "341.16"
+        },
+        {
+          "ticker": "MU",
+          "tipo": "Mega",
+          "sesgo": "Bullish",
+          "gap": "−0.5%",
+          "catalizador": "—",
+          "r1": "1089.12",
+          "ultimo": "1069.90",
+          "s1": "1042.40"
+        },
+        {
+          "ticker": "AMD",
+          "tipo": "Mega",
+          "sesgo": "Bullish (RSI 84)",
+          "gap": "−0.9%",
+          "catalizador": "—",
+          "r1": "639.00",
+          "ultimo": "628.54",
+          "s1": "596.07"
+        },
+        {
+          "ticker": "AMZN",
+          "tipo": "Mega",
+          "sesgo": "Bearish",
+          "gap": "−0.1%",
+          "catalizador": "—",
+          "r1": "253.56",
+          "ultimo": "251.23",
+          "s1": "250.02"
+        }
+      ]
+    },
+    "soportes": {
+      "nota": "For upside bounces (longs or calls), sorted by distance in daily ATR. With NQ below its pivot after Friday's reversal, the tape is mixed: nothing reaches grade A today. C = bearish or negative news: only with a confirmed reclaim candle.",
+      "top3": [
+        {
+          "ticker": "GOOGL",
+          "grado": "B",
+          "rr": "2.0",
+          "nivel": "341.16",
+          "texto": "Friday's low is 0.22 ATR away. If it bounces off the Order Block, target 345.77 (Friday's high)."
+        },
+        {
+          "ticker": "TSLA",
+          "grado": "B",
+          "rr": "3.5",
+          "nivel": "364.46",
+          "texto": "March pivot 0.25 ATR away, after the strong delivery numbers. Target 374.60, Friday's high."
+        },
+        {
+          "ticker": "AAPL",
+          "grado": "B",
+          "rr": "2.2",
+          "nivel": "330.81",
+          "texto": "9/3 pivot, already tested Friday. Target 334.30."
+        }
+      ],
+      "filas": [
+        {
+          "ticker": "GOOGL",
+          "precio": "343.21",
+          "soporte": "341.16",
+          "tipo_nivel": "Friday's low",
+          "dist_atr": "0.22",
+          "tendencia": "Sideways",
+          "grado": "B",
+          "objetivo": "345.77",
+          "invalidacion": "338.87",
+          "rr": "2.0"
+        },
+        {
+          "ticker": "AMZN",
+          "precio": "251.23",
+          "soporte": "250.02",
+          "tipo_nivel": "Friday's low",
+          "dist_atr": "0.23",
+          "tendencia": "Bearish",
+          "grado": "C",
+          "objetivo": "253.56",
+          "invalidacion": "248.68",
+          "rr": "2.6"
+        },
+        {
+          "ticker": "TSLA",
+          "precio": "367.30",
+          "soporte": "364.46",
+          "tipo_nivel": "3/20 pivot",
+          "dist_atr": "0.25",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "374.60",
+          "invalidacion": "361.60",
+          "rr": "3.5"
+        },
+        {
+          "ticker": "AAPL",
+          "precio": "332.88",
+          "soporte": "330.81",
+          "tipo_nivel": "9/3 pivot",
+          "dist_atr": "0.32",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "334.30",
+          "invalidacion": "329.19",
+          "rr": "2.2"
+        },
+        {
+          "ticker": "NVDA",
+          "precio": "235.28",
+          "soporte": "233.60",
+          "tipo_nivel": "Friday's low",
+          "dist_atr": "0.33",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "236.00",
+          "invalidacion": "232.31",
+          "rr": "1.9"
+        },
+        {
+          "ticker": "MSFT",
+          "precio": "519.89",
+          "soporte": "515.65",
+          "tipo_nivel": "9/3 pivot",
+          "dist_atr": "0.36",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "522.50",
+          "invalidacion": "512.69",
+          "rr": "2.3"
+        },
+        {
+          "ticker": "QQQ",
+          "precio": "748.34",
+          "soporte": "744.67",
+          "tipo_nivel": "6/22 pivot",
+          "dist_atr": "0.37",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "754.54",
+          "invalidacion": "742.22",
+          "rr": "4.0"
+        },
+        {
+          "ticker": "CBRS",
+          "precio": "174.14",
+          "soporte": "168.71",
+          "tipo_nivel": "7/29 pivot",
+          "dist_atr": "0.45",
+          "tendencia": "Bearish",
+          "grado": "C",
+          "objetivo": "177.53",
+          "invalidacion": "165.71",
+          "rr": "2.9"
+        },
+        {
+          "ticker": "META",
+          "precio": "726.90",
+          "soporte": "713.19",
+          "tipo_nivel": "9/28 pivot",
+          "dist_atr": "0.47",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "741.58",
+          "invalidacion": "705.96",
+          "rr": "3.9"
+        },
+        {
+          "ticker": "SPCX",
+          "precio": "158.40",
+          "soporte": "155.00",
+          "tipo_nivel": "9/8 pivot",
+          "dist_atr": "0.55",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "159.84",
+          "invalidacion": "153.45",
+          "rr": "3.1"
+        },
+        {
+          "ticker": "MU",
+          "precio": "1069.90",
+          "soporte": "1042.40",
+          "tipo_nivel": "9/9 pivot",
+          "dist_atr": "0.65",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "1089.12",
+          "invalidacion": "1031.84",
+          "rr": "4.4"
+        },
+        {
+          "ticker": "INTC",
+          "precio": "114.65",
+          "soporte": "109.61",
+          "tipo_nivel": "7/15 pivot",
+          "dist_atr": "0.76",
+          "tendencia": "Negative news",
+          "grado": "C",
+          "objetivo": "116.77",
+          "invalidacion": "107.96",
+          "rr": "4.3"
+        },
+        {
+          "ticker": "PLTR",
+          "precio": "189.27",
+          "soporte": "184.81",
+          "tipo_nivel": "9/29 pivot",
+          "dist_atr": "0.78",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "194.68",
+          "invalidacion": "183.37",
+          "rr": "6.9"
+        },
+        {
+          "ticker": "AMD",
+          "precio": "628.54",
+          "soporte": "596.07",
+          "tipo_nivel": "9/28 pivot",
+          "dist_atr": "1.29",
+          "tendencia": "Bullish",
+          "grado": "B",
+          "objetivo": "639.00",
+          "invalidacion": "589.76",
+          "rr": "6.8"
+        }
+      ],
+      "pie": "Invalidation = support − 0.25 ATR. On Friday, A-grade names broke more often than B and C on a reversal from highs: today the board is reference only; the Order Block gives the entry."
+    },
+    "semana": {
+      "eventos": [
+        {
+          "dia": "Mon",
+          "hora": "10:00",
+          "tema": "ISM services",
+          "prob": 8
+        },
+        {
+          "dia": "Tue",
+          "hora": "9:05",
+          "tema": "Williams (NY Fed, voter)",
+          "prob": 5
+        },
+        {
+          "dia": "Tue",
+          "hora": "10:45",
+          "tema": "Bowman (Fed, voter)",
+          "prob": 5
+        },
+        {
+          "dia": "Wed",
+          "hora": "2:00 PM",
+          "tema": "FOMC minutes",
+          "prob": 7
+        },
+        {
+          "dia": "Thu",
+          "hora": "8:30",
+          "tema": "Jobless claims",
+          "prob": 5
+        },
+        {
+          "dia": "Thu",
+          "hora": "BMO",
+          "tema": "PepsiCo earnings",
+          "prob": 3
+        },
+        {
+          "dia": "Fri",
+          "hora": "BMO",
+          "tema": "Delta earnings",
+          "prob": 3
+        }
+      ]
+    },
+    "redes": {
+      "pick": "ITUB",
+      "gancho": "Brazil takes off: Itaú +14% after the election",
+      "subgancho": "NQ opens flat ahead of the 10:00 ISM.",
+      "sub2": "It pierced 30,968 overnight and recovered it. The key: the 10:00 ISM."
+    }
+  }
+}

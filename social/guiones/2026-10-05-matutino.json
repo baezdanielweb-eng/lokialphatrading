@@ -1,0 +1,23 @@
+{
+  "titulo": "Plan de la semana · Lunes 5 de octubre",
+  "carrusel": "social/2026-10-05-matutino",
+  "voz": "eleven:nPczCjzI2devNBz1zQrb",
+  "nombreVoz": "brian",
+  "bloques": [
+    { "slide": 1, "partes": [
+      { "decir": "Arranca la semana y Brasil vuela: Itaú sube catorce por ciento tras la elección.", "texto": "Brasil vuela: Itaú +14% tras la elección" }
+    ]},
+    { "slide": 2, "partes": [
+      { "decir": "El Nasdaq abre plano, cerca de su máximo histórico. Soporte clave en treinta mil novecientos cincuenta y siete; arriba, treinta y un mil ciento trece.", "texto": "NQ · soporte 30,957 · resistencia 31,113" }
+    ]},
+    { "slide": 4, "partes": [
+      { "decir": "Hoy a las diez sale el ISM de servicios. El miércoles a las dos, las minutas de la Fed: el evento grande de la semana.", "texto": "Hoy 10:00 ISM · Mié 2 PM minutas de la Fed ⚠️" }
+    ]},
+    { "slide": 3, "partes": [
+      { "decir": "Nuestro pick de hoy: Itaú, sobre su máximo de cincuenta y dos semanas. Esperamos el rango de quince minutos.", "texto": "Pick de hoy: ITUB · esperamos el rango de 15 min" }
+    ]},
+    { "slide": 5, "partes": [
+      { "decir": "Plan completo en el link de la bio. Contenido educativo, no es asesoría financiera.", "texto": "Plan completo en el link de la bio 👆" }
+    ]}
+  ]
+}

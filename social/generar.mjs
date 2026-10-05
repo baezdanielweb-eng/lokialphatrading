@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 // Carrusel SIMPLE del día (PNG 1080×1350): una idea por slide, pocas palabras, números grandes.
-// Uso: node social/generar.mjs reportes/<fecha>-<tipo>.json [--pick TICKER]
+// Uso: node social/generar.mjs reportes/<fecha>-<tipo>.json [--pick TICKER] [--video]
+//   --video: las slides son fondo del video (lunes/viernes); se oculta "Desliza →" porque no se publica el carrusel.
 //   Matutino  (5): gancho · noche + niveles NQ/ES · pick del día · noticia clave · CTA
 //   Meridiano (4): gancho · qué está pasando · cómo va el pick · CTA
 //   Closing   (5): gancho · cierre NQ/ES · resultado del pick · noticias de mañana · CTA
 // Los datos salen del mismo JSON del sitio. Campo opcional datos.redes = { gancho, subgancho, pick }:
-// lo escriben las skills; si falta, el gancho se arma con los datos y el pick es el primero de la watchlist.
+// (+ sub2 opcional: subtítulo corto de la slide 2) lo escriben las skills; si falta, el gancho se arma con los datos y el pick es el primero de la watchlist.
 // Semanal (si existe datos.semana, lo escriben las skills):
 //   Lunes, Matutino: "Lo que viene esta semana" reemplaza la noticia clave (datos.semana.eventos).
 //   Viernes, Closing: se agrega "La semana en números" (salida de social/semana.mjs).
@@ -25,6 +26,7 @@ const args = process.argv.slice(2);
 const archivo = args.find(a => !a.startsWith('--'));
 if (!archivo) { console.error('Uso: node social/generar.mjs <reporte.json> [--pick TICKER]'); process.exit(1); }
 const pickArg = args.includes('--pick') ? args[args.indexOf('--pick') + 1] : null;
+const modoVideo = args.includes('--video');
 const r = JSON.parse(readFileSync(resolve(RAIZ, archivo), 'utf8'));
 const d = r.datos;
 const redes = d.redes ?? {};
@@ -116,7 +118,7 @@ function gancho() {
 }
 const slideGancho = () => { const [g1, g2] = gancho(); return `
   <h1>${esc(g1)}</h1>${g2 ? `<p class="sub">${esc(g2)}</p>` : ''}
-  <div style="display:flex;align-items:center;gap:16px"><img src="file://${assets}/nqes.png" style="width:78px;height:78px;border-radius:50%"><img src="file://${assets}/stocks.png" style="width:78px;height:78px;border-radius:50%"><img src="file://${assets}/news.png" style="width:78px;height:78px;border-radius:50%"><span style="font-size:28px;color:var(--muted);margin-left:8px">Desliza →</span></div>`; };
+  <div style="display:flex;align-items:center;gap:16px"><img src="file://${assets}/nqes.png" style="width:78px;height:78px;border-radius:50%"><img src="file://${assets}/stocks.png" style="width:78px;height:78px;border-radius:50%"><img src="file://${assets}/news.png" style="width:78px;height:78px;border-radius:50%">${modoVideo ? '' : '<span style="font-size:28px;color:var(--muted);margin-left:8px">Desliza →</span>'}</div>`; };
 
 function cajaFuturo(nombre, f, cambio) {
   if (!f) return '';
@@ -127,10 +129,10 @@ function cajaFuturo(nombre, f, cambio) {
     ${c.res ? `<div class="lv r"><span>Resistencia</span><b>${esc(c.res)}</b></div>` : c.cielo ? `<div class="lv r"><span>Arriba</span><b style="color:var(--blue)">Cielo azul</b></div>` : ''}
     ${c.sop ? `<div class="lv s"><span>Soporte</span><b>${esc(c.sop)}</b></div>` : ''}</div>`;
 }
-const slideFuturos = (titulo, sub) => `
+const slideFuturos = (titulo, sub) => { sub = redes.sub2 ?? sub; return `
   <div class="row" style="display:flex;align-items:center;gap:18px"><img src="file://${assets}/nqes.png" style="width:84px;height:84px;border-radius:50%"><div class="k" style="color:var(--green)">NQ / ES</div></div>
   <h2>${esc(titulo)}</h2>${sub ? `<p class="sub">${esc(sub)}</p>` : ''}
-  <div class="${d.nq && d.es ? 'duo' : ''}">${cajaFuturo('NQ1!', d.nq, d.nq?.cambio)}${cajaFuturo('ES1!', d.es, d.es?.cambio ?? pulso('ES1')?.detalle?.split(' ')[0])}</div>`;
+  <div class="${d.nq && d.es ? 'duo' : ''}">${cajaFuturo('NQ1!', d.nq, d.nq?.cambio)}${cajaFuturo('ES1!', d.es, d.es?.cambio ?? pulso('ES1')?.detalle?.split(' ')[0])}</div>`; };
 
 function estadoPick(p) {
   const e = (p?.estado ?? '').toLowerCase();
