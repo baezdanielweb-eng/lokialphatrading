@@ -4,6 +4,8 @@
 // Voz: "piper:<modelo>" usa Piper (gratis, local, sin cuenta; modelos en social/voces/), por ejemplo
 // "piper:es_MX-claude-high". Cualquier otro valor usa las voces del Mac (`say`), por ejemplo "Paulina".
 // "ritmo" (solo Piper) ajusta la velocidad: 1 = normal, 0.9 = 10% más rápido.
+// "eleven:<voice_id>" usa ElevenLabs (modelo multilingüe) con la clave ELEVENLABS_API_KEY de .env (nunca se imprime).
+// El plan gratis solo permite las voces integradas; las de la biblioteca (p. ej. venezolanas) requieren plan pago.
 // Salida: <carpeta del carrusel>/video.mp4 (+ subtítulos quemados y aviso de voz generada con IA).
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
@@ -25,9 +27,26 @@ mkdirSync(tmp, { recursive: true });
 const esc = v => String(v ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const run = (cmd, args) => execFileSync(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'] }).toString();
 const VENV_PIPER = join(RAIZ, '.venv-voz', 'bin', 'piper');
-function hablar(texto, archivo) {
+function claveEleven() {
+  const env = join(RAIZ, '.env');
+  const m = existsSync(env) && readFileSync(env, 'utf8').match(/^ELEVENLABS_API_KEY=(.+)$/m);
+  if (!m) throw new Error('Falta ELEVENLABS_API_KEY en .env');
+  return m[1].trim();
+}
+let caracteresEleven = 0;
+async function hablar(texto, archivo) {
   const voz = g.voz ?? 'Paulina';
-  if (voz.startsWith('piper:')) {
+  if (voz.startsWith('eleven:')) {
+    const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voz.slice(7))}?output_format=mp3_44100_128`, {
+      method: 'POST',
+      headers: { 'xi-api-key': claveEleven(), 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: texto, model_id: 'eleven_multilingual_v2', language_code: 'es',
+        voice_settings: { stability: g.estabilidad ?? 0.5, similarity_boost: 0.75 } }),
+    });
+    if (!r.ok) throw new Error(`ElevenLabs ${r.status}: ${(await r.text()).slice(0, 200)}`);
+    writeFileSync(archivo, Buffer.from(await r.arrayBuffer()));
+    caracteresEleven += texto.length;
+  } else if (voz.startsWith('piper:')) {
     const modelo = join(RAIZ, 'social', 'voces', `${voz.slice(6)}.onnx`);
     if (!existsSync(modelo)) throw new Error(`Falta el modelo de voz: ${modelo}`);
     execFileSync(VENV_PIPER, ['-m', modelo, '-f', archivo, '--length-scale', String(g.ritmo ?? 1), '--sentence-silence', '0.15'],
@@ -61,8 +80,8 @@ let n = 0;
 for (const b of g.bloques) {
   for (const p of b.partes) {
     n++;
-    const audio = join(tmp, `a${n}.${(g.voz ?? '').startsWith('piper:') ? 'wav' : 'aiff'}`), html = join(tmp, `f${n}.html`), png = join(tmp, `f${n}.png`), mp4 = join(tmp, `s${n}.mp4`);
-    hablar(p.decir, audio);
+    const audio = join(tmp, `a${n}.${(g.voz ?? '').startsWith('eleven:') ? 'mp3' : (g.voz ?? '').startsWith('piper:') ? 'wav' : 'aiff'}`), html = join(tmp, `f${n}.html`), png = join(tmp, `f${n}.png`), mp4 = join(tmp, `s${n}.mp4`);
+    await hablar(p.decir, audio);
     const d = duracion(audio) + PAUSA;
     writeFileSync(html, marco(b.slide, p.texto));
     run(CHROME, ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--allow-file-access-from-files',
@@ -78,7 +97,7 @@ for (const b of g.bloques) {
 
 const lista = join(tmp, 'lista.txt');
 writeFileSync(lista, segmentos.map(s => `file '${s}'`).join('\n'));
-const salida = join(carrusel, `video-${(g.voz ?? 'Paulina').replace('piper:', '')}.mp4`);
+const salida = join(carrusel, `video-${(g.nombreVoz ?? g.voz ?? 'Paulina').replace(/^(piper|eleven):/, '')}.mp4`);
 run('ffmpeg', ['-y', '-f', 'concat', '-safe', '0', '-i', lista, '-c', 'copy', '-movflags', '+faststart', salida]);
 rmSync(tmp, { recursive: true, force: true });
-console.log(`Listo: ${salida} · ${duracion(salida).toFixed(1)} s`);
+console.log(`Listo: ${salida} · ${duracion(salida).toFixed(1)} s${caracteresEleven ? ` · ElevenLabs: ${caracteresEleven} caracteres` : ''}`);
