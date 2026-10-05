@@ -6,6 +6,9 @@
 //   Closing   (5): gancho · cierre NQ/ES · resultado del pick · noticias de mañana · CTA
 // Los datos salen del mismo JSON del sitio. Campo opcional datos.redes = { gancho, subgancho, pick }:
 // lo escriben las skills; si falta, el gancho se arma con los datos y el pick es el primero de la watchlist.
+// Semanal (si existe datos.semana, lo escriben las skills):
+//   Lunes, Matutino: "Lo que viene esta semana" reemplaza la noticia clave (datos.semana.eventos).
+//   Viernes, Closing: se agrega "La semana en números" (salida de social/semana.mjs).
 // La versión detallada (7 slides) es social/generar-pro.mjs.
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync } from 'node:fs';
@@ -161,6 +164,33 @@ function slideNoticias(titulo, lista, n) {
   <p style="font-size:24px;color:var(--faint)">Probabilidad de mover el mercado (1–10)</p>`;
 }
 
+function slideSemanaEventos(ev) {
+  const top = [...ev].sort((a, b) => (b.prob ?? 0) - (a.prob ?? 0)).slice(0, 4)
+    .sort((a, b) => ['lun', 'mar', 'mié', 'jue', 'vie'].indexOf((a.dia ?? '').slice(0, 3).toLowerCase()) - ['lun', 'mar', 'mié', 'jue', 'vie'].indexOf((b.dia ?? '').slice(0, 3).toLowerCase()));
+  return `
+  <div style="display:flex;align-items:center;gap:18px"><img src="file://${assets}/news.png" style="width:84px;height:84px;border-radius:50%"><div class="k" style="color:var(--blue)">Noticias · semana</div></div>
+  <h2>Lo que viene esta semana</h2>
+  <div style="display:grid;gap:16px">${top.map(x => { const p = Number(x.prob) || 0; const col = p >= 7 ? 'var(--red)' : p >= 4 ? 'var(--orange)' : 'var(--green)'; return `<div class="card" style="display:grid;grid-template-columns:150px 1fr 110px;gap:18px;align-items:center;padding:24px 30px">
+    <div><div style="font:800 30px Montserrat;color:var(--blue)">${esc(x.dia)}</div><div style="font:700 24px 'JetBrains Mono';color:var(--muted)">${esc(x.hora ?? '')}</div></div>
+    <div style="font:800 34px/1.2 Inter">${esc(corto(x.tema, 46))}</div>
+    <div style="font:700 44px 'JetBrains Mono';color:${col};text-align:right">${p}<span style="font-size:20px;color:var(--muted)">/10</span></div></div>`; }).join('')}</div>`;
+}
+
+function slideSemanaNumeros(sm) {
+  const pk = sm.picks ?? {};
+  const caja = (n, f) => f?.cambio ? `<div class="card"><div class="k">${n}</div><div class="mid ${dir(f.cambio.valor)}" style="margin-top:12px">${esc(f.cambio.valor)}</div><div style="font-size:26px;color:var(--muted);margin-top:6px">cierre ${esc(f.cierre ?? '')}</div></div>` : '';
+  return `
+  <div style="display:flex;align-items:center;gap:18px"><img src="file://${assets}/stocks.png" style="width:84px;height:84px;border-radius:50%"><div class="k" style="color:#f5b800">Resumen semanal</div></div>
+  <h2>La semana en números</h2>
+  <div class="duo">${caja('NQ1! · semana', sm.nq)}${caja('ES1! · semana', sm.es)}</div>
+  <div class="card" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center">
+    <div><div class="mid" style="font-size:58px">${pk.activadas ?? 0}</div><div style="font-size:24px;color:var(--muted)">activadas</div></div>
+    <div><div class="mid up" style="font-size:58px">${pk.objetivo ?? 0}</div><div style="font-size:24px;color:var(--muted)">✅ objetivo</div></div>
+    <div><div class="mid down" style="font-size:58px">${pk.stop ?? 0}</div><div style="font-size:24px;color:var(--muted)">❌ stop</div></div>
+    <div><div class="mid ${dir(pk.r_neto)}" style="font-size:58px">${esc(pk.r_neto ?? '')}</div><div style="font-size:24px;color:var(--muted)">neto</div></div></div>
+  <p style="font-size:24px;color:var(--faint)">${(sm.dias ?? []).length} de 5 días con reporte · publicamos aciertos y errores</p>`;
+}
+
 const slideCTA = () => `
   <h1 style="font-size:84px">Reporte completo en el <span class="serie-c">link de la bio</span></h1>
   <div class="card" style="font-size:34px;line-height:1.5">
@@ -174,7 +204,7 @@ const slides = {
     slideGancho(),
     slideFuturos('Qué pasó en la noche', corto(d.nq?.lectura ?? d.resumen, 80)),
     slidePick('El pick de hoy', false),
-    slideNoticias('La noticia clave de hoy', d.agenda, 1),
+    d.semana?.eventos?.length ? slideSemanaEventos(d.semana.eventos) : slideNoticias('La noticia clave de hoy', d.agenda, 1),
     slideCTA(),
   ],
   meridiano: () => [
@@ -187,6 +217,7 @@ const slides = {
     slideGancho(),
     slideFuturos('Así cierra el día', corto((d.resumen ?? '').split(/(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚÑ¿¡])/)[1] ?? d.resumen, 95)),
     slidePick('¿Cómo le fue a nuestro pick?', true),
+    ...(d.semana?.picks ? [slideSemanaNumeros(d.semana)] : []),
     slideNoticias('Lo que viene mañana', d.manana, 2),
     slideCTA(),
   ],
