@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Arma un video vertical (1080×1920) con voz de IA a partir de un carrusel ya generado y un guion.
 // Uso: node social/video.mjs social/guiones/<fecha>-<tipo>.json
-// Voz: por ahora las voces en español del Mac (comando `say`). Más adelante se puede cambiar por
-// ElevenLabs/Azure con una clave guardada en .env (nunca en el repositorio).
+// Voz: "piper:<modelo>" usa Piper (gratis, local, sin cuenta; modelos en social/voces/), por ejemplo
+// "piper:es_MX-claude-high". Cualquier otro valor usa las voces del Mac (`say`), por ejemplo "Paulina".
+// "ritmo" (solo Piper) ajusta la velocidad: 1 = normal, 0.9 = 10% más rápido.
 // Salida: <carpeta del carrusel>/video.mp4 (+ subtítulos quemados y aviso de voz generada con IA).
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
@@ -23,6 +24,18 @@ mkdirSync(tmp, { recursive: true });
 
 const esc = v => String(v ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const run = (cmd, args) => execFileSync(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'] }).toString();
+const VENV_PIPER = join(RAIZ, '.venv-voz', 'bin', 'piper');
+function hablar(texto, archivo) {
+  const voz = g.voz ?? 'Paulina';
+  if (voz.startsWith('piper:')) {
+    const modelo = join(RAIZ, 'social', 'voces', `${voz.slice(6)}.onnx`);
+    if (!existsSync(modelo)) throw new Error(`Falta el modelo de voz: ${modelo}`);
+    execFileSync(VENV_PIPER, ['-m', modelo, '-f', archivo, '--length-scale', String(g.ritmo ?? 1), '--sentence-silence', '0.15'],
+      { input: texto, stdio: ['pipe', 'ignore', 'ignore'] });
+  } else {
+    run('say', ['-v', voz, '-r', String(g.velocidad ?? 180), '-o', archivo, texto]);
+  }
+}
 const duracion = f => parseFloat(run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]));
 
 const marco = (slide, texto) => `<!doctype html><html><head><meta charset="utf-8">
@@ -48,8 +61,8 @@ let n = 0;
 for (const b of g.bloques) {
   for (const p of b.partes) {
     n++;
-    const audio = join(tmp, `a${n}.aiff`), html = join(tmp, `f${n}.html`), png = join(tmp, `f${n}.png`), mp4 = join(tmp, `s${n}.mp4`);
-    run('say', ['-v', g.voz ?? 'Paulina', '-r', String(g.velocidad ?? 180), '-o', audio, p.decir]);
+    const audio = join(tmp, `a${n}.${(g.voz ?? '').startsWith('piper:') ? 'wav' : 'aiff'}`), html = join(tmp, `f${n}.html`), png = join(tmp, `f${n}.png`), mp4 = join(tmp, `s${n}.mp4`);
+    hablar(p.decir, audio);
     const d = duracion(audio) + PAUSA;
     writeFileSync(html, marco(b.slide, p.texto));
     run(CHROME, ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--allow-file-access-from-files',
@@ -65,7 +78,7 @@ for (const b of g.bloques) {
 
 const lista = join(tmp, 'lista.txt');
 writeFileSync(lista, segmentos.map(s => `file '${s}'`).join('\n'));
-const salida = join(carrusel, 'video.mp4');
+const salida = join(carrusel, `video-${(g.voz ?? 'Paulina').replace('piper:', '')}.mp4`);
 run('ffmpeg', ['-y', '-f', 'concat', '-safe', '0', '-i', lista, '-c', 'copy', '-movflags', '+faststart', salida]);
 rmSync(tmp, { recursive: true, force: true });
 console.log(`Listo: ${salida} · ${duracion(salida).toFixed(1)} s`);
