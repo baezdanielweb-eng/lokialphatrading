@@ -1,30 +1,24 @@
 {
   "titulo": "¿Qué movió el mercado? · Viernes 2 de octubre",
   "carrusel": "social/2026-10-02-closing",
-  "voz": "Paulina",
-  "velocidad": 182,
+  "voz": "eleven:nPczCjzI2devNBz1zQrb",
+  "nombreVoz": "brian",
   "bloques": [
     { "slide": 1, "partes": [
-      { "decir": "El viernes, el Nasdaq tocó máximo histórico.", "texto": "El viernes, el Nasdaq tocó máximo histórico…" },
-      { "decir": "Y en una hora devolvió casi trescientos puntos. Te explico qué pasó.", "texto": "…y en una hora devolvió casi 300 puntos. Te explico qué pasó 👇" }
+      { "decir": "El viernes, el Nasdaq tocó máximo histórico... y en una hora devolvió casi trescientos puntos.", "texto": "El Nasdaq tocó récord… y en una hora devolvió casi 300 puntos" }
     ]},
     { "slide": 3, "partes": [
-      { "decir": "A las ocho y media salió el empleo de septiembre: solo veintinueve mil, muy por debajo de lo esperado.", "texto": "8:30 · Empleo de septiembre: solo 29K, muy por debajo de lo esperado" },
-      { "decir": "Entre el cierre del jueves y la apertura, el NQ subió trescientos ochenta y siete puntos.", "texto": "Del cierre del jueves a la apertura: NQ +387 puntos" },
-      { "decir": "A las diez y veinticinco marcó récord, en treinta y un mil doscientos ochenta y dos.", "texto": "10:25 · Récord histórico en 31,282.5" },
-      { "decir": "Pero en la hora siguiente, sin ninguna noticia, cayó doscientos noventa y cuatro puntos. Toma de ganancias.", "texto": "La hora siguiente, sin noticias: −294 puntos. Toma de ganancias" }
+      { "decir": "El empleo de septiembre salió muy débil: solo veintinueve mil. Entre el cierre del jueves y la apertura, el NQ subió trescientos ochenta y siete puntos.", "texto": "Empleo: solo 29K → NQ +387 puntos hasta la apertura" },
+      { "decir": "A las diez y veinticinco marcó récord. Después, sin ninguna noticia, cayó doscientos noventa y cuatro puntos.", "texto": "10:25 récord en 31,282.5 → luego −294 sin noticias" }
     ]},
     { "slide": 4, "partes": [
-      { "decir": "Nuestra watchlist: tres de tres se activaron, y una llegó al objetivo: ON, en corto.", "texto": "Watchlist: 3 de 3 activadas · 1 al objetivo (ON en corto) ✅" },
-      { "decir": "NVIDIA tocó el stop. Mostramos también los errores.", "texto": "NVDA tocó el stop ❌ · Mostramos también los errores" }
+      { "decir": "Nuestra watchlist: tres de tres activadas, una llegó al objetivo y una tocó el stop. Mostramos también los errores.", "texto": "3 de 3 activadas · 1 objetivo ✅ · 1 stop ❌" }
     ]},
     { "slide": 6, "partes": [
-      { "decir": "Para el lunes, el soporte clave está entre treinta mil novecientos sesenta y ocho, y treinta mil novecientos noventa y cinco.", "texto": "Lunes · Soporte clave: 30,968 – 30,995" },
-      { "decir": "Si aguanta, el camino es volver al máximo histórico. Si se pierde, la siguiente zona es treinta mil ochocientos ochenta y cuatro.", "texto": "Si aguanta → máximo histórico · Si se pierde → 30,884" }
+      { "decir": "Para el lunes, el soporte clave está entre treinta mil novecientos sesenta y ocho, y treinta mil novecientos noventa y cinco.", "texto": "Lunes · Soporte clave: 30,968 – 30,995" }
     ]},
     { "slide": 7, "partes": [
-      { "decir": "El lunes a las diez sale el ISM de servicios.", "texto": "Lunes 10:00 · ISM de servicios ⚠️" },
-      { "decir": "Reporte completo y niveles en el link de la bio. Contenido educativo, no es asesoría financiera.", "texto": "Reporte completo en el link de la bio · Educativo, no es asesoría financiera" }
+      { "decir": "Reporte completo en el link de la bio. Contenido educativo, no es asesoría financiera.", "texto": "Reporte completo en el link de la bio 👆" }
     ]}
   ]
 }

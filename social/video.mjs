@@ -62,14 +62,11 @@ const marco = (slide, texto) => `<!doctype html><html><head><meta charset="utf-8
 <style>
   * { margin:0; box-sizing:border-box; }
   body { width:${W}px; height:${H}px; background:#04070d; color:#e9eef7; font-family:Inter,sans-serif; display:flex; flex-direction:column; }
-  .top { height:150px; display:flex; align-items:center; justify-content:space-between; padding:0 56px; }
-  .top b { font:800 34px Montserrat; } .top b i { font-style:normal; color:#2f8cff; } .top span { font:800 30px Inter; color:#8d9ab0; }
-  img.s { width:${W}px; height:1350px; display:block; }
+  img.s { width:${W}px; height:1350px; display:block; margin-top:70px; }
   .cap { flex:1; display:flex; align-items:center; justify-content:center; padding:0 60px; text-align:center; }
-  .cap p { font:800 46px/1.25 Inter; background:#2f8cff; color:#fff; padding:14px 22px; border-radius:18px; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
+  .cap p { font:800 52px/1.25 Inter; background:#2f8cff; color:#fff; padding:14px 22px; border-radius:18px; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
   .ai { position:absolute; bottom:22px; width:100%; text-align:center; font:600 22px Inter; color:#5d6a80; }
 </style></head><body>
-  <div class="top"><b>Loki<i>Alpha</i>trading</b><span>@tradeaconloki</span></div>
   <img class="s" src="file://${join(carrusel, `slide-${slide}.png`)}">
   <div class="cap"><p>${esc(texto)}</p></div>
   <div class="ai">Voz generada con IA · Contenido educativo</div>
