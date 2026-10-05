@@ -147,7 +147,7 @@ const slidePick = (titulo, conEstado) => pick ? `
   <h2>${esc(titulo)}</h2>
   <div class="card" style="padding:44px 44px">
     <div style="display:flex;justify-content:space-between;align-items:baseline"><span class="big">${esc(pick.ticker)}</span>
-      ${(() => { const v = conEstado ? (pick.resultado_r ?? pick.max_favor ?? '') : (pick.gap ?? ''); return `<span class="mid ${dir(v)}" style="font-size:52px">${esc(v)}</span>`; })()}</div>
+      ${(() => { const r = pick.resultado_r ?? pick.max_favor; const v = conEstado ? (r && r !== '—' ? r : (pick.precio ?? '')) : (pick.gap ?? ''); return `<span class="mid ${dir(v)}" style="font-size:52px">${esc(v)}</span>`; })()}</div>
     ${conEstado ? `<div style="margin-top:26px"><span class="badge ${estadoPick(pick)[0]}">${esc(estadoPick(pick)[1])}</span></div>` : ''}
     <p class="sub" style="margin-top:24px">${esc(corto(conEstado ? pick.nota : pick.catalizador, 95))}</p>
   </div>` : `<h2>${esc(titulo)}</h2><p class="sub">Sin pick definido para hoy.</p>`;
