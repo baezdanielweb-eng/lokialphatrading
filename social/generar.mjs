@@ -206,7 +206,7 @@ const slides = {
     slideGancho(),
     slideFuturos('Qué pasó en la noche', corto(d.nq?.lectura ?? d.resumen, 80)),
     slidePick('El pick de hoy', false),
-    d.semana?.eventos?.length ? slideSemanaEventos(d.semana.eventos) : slideNoticias('La noticia clave de hoy', d.agenda, 1),
+    d.semana?.eventos?.length ? slideSemanaEventos(d.semana.eventos) : slideNoticias('La noticia clave de hoy', (d.agenda ?? []).filter(x => !/^(Lun|Mar|Mié|Jue|Vie|Sáb|Dom)(\s|$)/.test(x.hora ?? '') && !/ya sali/i.test(x.estado ?? '')), 1),
     slideCTA(),
   ],
   meridiano: () => [
