@@ -50,6 +50,7 @@ const I18N = {
     'sec.nq': 'NQ / ES', 'sec.stocks': 'Stocks', 'sec.stocks.sub': 'Watchlist, megacaps y soportes para rebotes. Órdenes siempre límite.',
     'prob': 'Prob. de mover el mercado', 'whatMoved': 'Qué movió el mercado', 'afterHours': 'Después del cierre', 'tomorrow': 'Agenda de mañana',
     'trend': 'Tendencia', 'levels': 'Niveles mayores', 'reading': 'Lectura',
+    'ob': 'Order Blocks · 5 / 15 / 60 min', 'ob.up': 'Sin OB arriba · cielo azul', 'ob.down': 'Sin OB abajo', 'ob.price': 'Precio', 'ob.bull': 'OB alcista', 'ob.bear': 'OB bajista', 'ob.in': 'precio dentro', 'ob.tf': 'min',
     'rate.trigger': 'Tasa de activación', 'rate.trigger.d': 'Selecciones que se activaron',
     'rate.tp': 'Tasa de objetivo', 'rate.tp.d': 'Activadas que llegaron al objetivo',
     'watchlist': 'Watchlist del día', 'discarded': 'Descartadas:', 'movers': 'Megacaps: mayores movimientos',
@@ -96,6 +97,7 @@ const I18N = {
     'sec.nq': 'NQ / ES', 'sec.stocks': 'Stocks', 'sec.stocks.sub': 'Watchlist, megacaps and bounce supports. Limit orders only.',
     'prob': 'Chance of moving the market', 'whatMoved': 'What moved the market', 'afterHours': 'After the close', 'tomorrow': "Tomorrow's calendar",
     'trend': 'Trend', 'levels': 'Major levels', 'reading': 'Read',
+    'ob': 'Order Blocks · 5 / 15 / 60 min', 'ob.up': 'No OB above · blue sky', 'ob.down': 'No OB below', 'ob.price': 'Price', 'ob.bull': 'Bullish OB', 'ob.bear': 'Bearish OB', 'ob.in': 'price inside', 'ob.tf': 'min',
     'rate.trigger': 'Trigger rate', 'rate.trigger.d': 'Picks that triggered',
     'rate.tp': 'Target-hit rate', 'rate.tp.d': 'Triggered picks that reached target',
     'watchlist': "Today's watchlist", 'discarded': 'Cut:', 'movers': 'Megacaps: biggest moves',
@@ -274,10 +276,28 @@ function bloqueFuturo(f, titulo) {
   return `<div class="nq-grid"><div>${tend}${f.lectura ? tarjeta(T('reading'), null, `<p style="margin:0">${esc(f.lectura)}</p>`, 'reading') : ''}</div><div>${escalera}</div></div>`;
 }
 
+// Order Blocks (indicador Order Block Detector) por temporalidad: los 3 más cercanos arriba y abajo del precio.
+const numFmt = n => Number(n).toLocaleString('en-US', { maximumFractionDigits: 2 });
+function bloqueOB(ob) {
+  if (!ob?.simbolos?.length) return '';
+  const fila = (z, extra = '') => `<li class="${z.tipo === 'bajista' ? 'resistencia' : 'soporte'}"><span class="lv">${numFmt(z.bajo)}–${numFmt(z.alto)}</span>
+    <span class="nt">${esc(T(z.tipo === 'bajista' ? 'ob.bear' : 'ob.bull'))}${extra || (z.dist ? ` · ${z.dist > 0 ? '+' : '−'}${numFmt(Math.abs(z.dist))} pts` : '')}</span></li>`;
+  const columna = (t, precio) => `<div class="ob-col"><span class="eyebrow">${esc(t.tf)} ${esc(T('ob.tf'))}</span><ul class="ladder">
+    ${t.arriba?.length ? [...t.arriba].reverse().map(z => fila(z)).join('') : `<li class="cielo"><span class="lv">—</span><span class="nt">${esc(T('ob.up'))}</span></li>`}
+    ${(t.dentro ?? []).map(z => fila(z, ` · ${T('ob.in')}`)).join('')}
+    <li class="precio"><span class="lv">${numFmt(t.precio ?? precio)}</span><span class="nt">${esc(T('ob.price'))}</span></li>
+    ${t.abajo?.length ? t.abajo.map(z => fila(z)).join('') : `<li><span class="lv">—</span><span class="nt">${esc(T('ob.down'))}</span></li>`}
+  </ul></div>`;
+  const cuerpo = ob.simbolos.map(s => `<h4 class="ob-sym">${esc(s.simbolo)} <span>${numFmt(s.precio)}</span></h4>
+    <div class="ob-grid">${(s.tfs ?? []).map(t => columna(t, s.precio)).join('')}</div>`).join('');
+  return tarjeta(T('ob') + (ob.hora ? ` · ${ob.hora}` : ''), ob.nota, cuerpo, 'ob-card');
+}
+
 // completo = página NQ/ES: agrega ES, volumen, pivotes y eventos cruzados.
 function seccionNQ(d, completo) {
   const nq = d.nq;
   let html = '';
+  if (completo) html += bloqueOB(d.ob);
   if (nq) html += bloqueFuturo(nq, completo && d.es ? 'NQ1!' : '');
   if (completo) {
     if (d.es) html += subtitulo(`ES1! ${d.es.ultimo ?? ''} ${d.es.cambio ?? ''}`) + bloqueFuturo(d.es, 'ES1!');

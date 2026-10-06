@@ -150,6 +150,14 @@ img { max-width: 100%; display: block; }
 .ladder li.cielo .lv { color: var(--blue); }
 .ladder li.precio { border-left-color: var(--text); background: var(--card-2); }
 .ladder li.precio .lv { color: var(--text); }
+.ob-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 8px; }
+.ob-col .eyebrow { display: block; margin-bottom: 6px; }
+.ob-col .ladder li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+.ob-col .ladder .lv { font-size: 13px; }
+.ob-col .ladder .nt { font-size: 12px; }
+.ob-sym { font: 700 15px var(--display); margin: 14px 0 10px; }
+.ob-sym span { font: 500 14px var(--mono); color: var(--muted); margin-left: 6px; }
+.ob-card .ob-sym:first-of-type { margin-top: 4px; }
 .reading { border-left: 3px solid var(--green); }
 
 /* Tablas */
@@ -239,7 +247,7 @@ footer strong { color: var(--text); }
   .hero img { width: 160px; height: 160px; margin: 0 auto; }
   .hero p { margin-left: auto; margin-right: auto; }
   .hero .cta { justify-content: center; }
-  .nq-grid, .channels { grid-template-columns: minmax(0, 1fr); }
+  .nq-grid, .channels, .ob-grid { grid-template-columns: minmax(0, 1fr); }
   .event { grid-template-columns: 52px minmax(0, 1fr); }
   .event .prob { grid-column: 2; text-align: left; display: flex; align-items: center; gap: 8px; }
   .event .prob .lbl { margin: 0; }

@@ -1,0 +1,1799 @@
+{
+  "fecha": "2026-10-05",
+  "tipo": "closing",
+  "titulo": "LokiAlphaTrading - Closing",
+  "datos": {
+    "generado": "cierre 4:00 PM ET (lun 5 oct)",
+    "resumen": "Récord del Nasdaq: el NQ rompió su máximo histórico y cerró en 31,338 (+0.86%), con Nvidia también en récord. Tras el ISM en línea, la tecnología lideró todo el día. Watchlist: 3 de 4 activadas, 1 objetivo (NVDA); nuestro pick ITUB nunca se activó.",
+    "pulso": [
+      {
+        "etiqueta": "SPY",
+        "valor": "+0.69%",
+        "detalle": "774.95",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "QQQ",
+        "valor": "+0.88%",
+        "detalle": "756.21 · cerró en el 91% del rango",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "IWM",
+        "valor": "+0.66%",
+        "detalle": "283.38",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "NQ1! (cierre 4 PM)",
+        "valor": "31,338",
+        "detalle": "+0.86% · récord 31,371",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "ES1! (cierre 4 PM)",
+        "valor": "7,831",
+        "detalle": "+0.67% · máx. 7,847.5",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "VIX",
+        "valor": "15.52",
+        "detalle": "+1.4%",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "Bono 10 años",
+        "valor": "5.31%",
+        "detalle": "sube pese al rally",
+        "dir": "flat"
+      }
+    ],
+    "que_movio": "El ISM de servicios salió en línea (54.9 vs 55.0) y el mercado lo leyó como un dato que no obliga a la Fed a subir más. La tecnología lideró todo el día: el NQ superó su máximo histórico del viernes después de las 12:30 y marcó 31,371 a las 3:15. Nvidia cerró en récord y el debate ahora es su camino a $6 billones de valor. Brasil tuvo su mejor día desde 2020 tras la primera vuelta. Intel cayó por la noticia de TSMC con Terafab. El bono a 10 años subió hasta 5.31%, sin frenar a las acciones.",
+    "despues_cierre": [
+      {
+        "ticker": "—",
+        "cambio": "—",
+        "nota": "Sin resultados relevantes después del cierre hoy."
+      }
+    ],
+    "manana": [
+      {
+        "hora": "8:30",
+        "tema": "Balanza comercial",
+        "efecto": "Dato menor.",
+        "prob": 3
+      },
+      {
+        "hora": "9:05",
+        "tema": "Williams (Fed NY, vota)",
+        "efecto": "Con el NQ en récord y el 10 años en 5.31%, un tono duro sobre otra alza puede frenar el impulso.",
+        "prob": 6,
+        "enlace": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260929",
+        "fuente": "Fed NY"
+      },
+      {
+        "hora": "10:45",
+        "tema": "Bowman (Fed, vota)",
+        "efecto": "El 1/10 dijo que no ve urgencia en mover tasas.",
+        "prob": 5,
+        "enlace": "https://www.stlouisfed.org/news-releases/2026/08/bowman-to-give-2026-community-banking-research-conference-keynote",
+        "fuente": "Fed St. Louis"
+      },
+      {
+        "hora": "Mié 2 PM",
+        "tema": "Minutas del FOMC (a 2 días)",
+        "efecto": "El evento grande de la semana.",
+        "prob": 7
+      }
+    ],
+    "titulares": [
+      {
+        "categoria": "Mercado",
+        "tickers": [
+          "NVDA",
+          "QQQ"
+        ],
+        "titulo": "Nasdaq y Nvidia cierran en récord",
+        "resumen": "La fuerza de la tecnología pesó más que la debilidad de los bonos; Nvidia logra su primer cierre récord desde mayo.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-tech-rallies-investors-shrug-off-bond-market-caution-081220790.html"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "NVDA"
+        ],
+        "titulo": "Nvidia se acerca a los $6 billones de valor",
+        "resumen": "Los operadores de opciones estiman cuándo podría alcanzar ese hito tras el nuevo máximo.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html"
+      },
+      {
+        "categoria": "Macro",
+        "tickers": [
+          "SPY"
+        ],
+        "titulo": "El S&P 500 sube con los yields también al alza tras el ISM",
+        "resumen": "Cobertura del día: el dato de servicios no frenó a las acciones aunque los bonos siguieron cerca de máximos.",
+        "fuente": "TheStreet",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-05-2026"
+      },
+      {
+        "categoria": "Macro",
+        "tickers": [
+          "ITUB",
+          "BBD",
+          "PBR"
+        ],
+        "titulo": "Brasil, su mejor día desde 2020",
+        "resumen": "El ETF de Brasil se disparó tras la sorpresa de Bolsonaro en la primera vuelta; la segunda vuelta será a fin de mes.",
+        "fuente": "Benzinga",
+        "url": "https://benzinga.com/etfs/specialty-etfs/26/10/62164301/brazil-stocks-best-day-since-2020-bolsonaro-first-round-ewz"
+      },
+      {
+        "categoria": "Empresas",
+        "tickers": [
+          "INTC"
+        ],
+        "titulo": "Intel cae por las conversaciones de TSMC con Terafab",
+        "resumen": "La noticia pone en duda el papel de Intel como socio de fabricación del proyecto de Musk.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-4931638"
+      },
+      {
+        "categoria": "Fed",
+        "tickers": [],
+        "titulo": "Minutas de la Fed: la guía de una alza más contra datos más suaves",
+        "resumen": "Lo que el mercado buscará el miércoles en las minutas del FOMC.",
+        "fuente": "investingLive",
+        "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade"
+      },
+      {
+        "categoria": "Semana",
+        "tickers": [],
+        "titulo": "Agenda económica de la semana del 5 al 9 de octubre",
+        "resumen": "Pocos datos: la semana gira en torno a los discursos de la Fed y las minutas.",
+        "fuente": "Kiplinger",
+        "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+      }
+    ],
+    "movers": [
+      {
+        "ticker": "CBRS",
+        "cambio": "+9.05%",
+        "nota": "Altman la llamó \"socio cercano\" de OpenAI."
+      },
+      {
+        "ticker": "SPCX",
+        "cambio": "+7.64%",
+        "nota": "Sin noticia propia; sube con la tecnología."
+      },
+      {
+        "ticker": "TSLA",
+        "cambio": "+2.24%",
+        "nota": "Sin noticia nueva."
+      },
+      {
+        "ticker": "MU",
+        "cambio": "−1.01%",
+        "nota": "Sin noticia nueva."
+      },
+      {
+        "ticker": "INTC",
+        "cambio": "−2.56%",
+        "nota": "TSMC negocia con Terafab (Musk)."
+      },
+      {
+        "ticker": "AMD",
+        "cambio": "−0.32%",
+        "nota": "Sin noticia nueva."
+      }
+    ],
+    "nq": {
+      "ultimo": "31,338",
+      "cambio": "+0.86%",
+      "nota": "Sesión regular: apertura 31,055.5 · máximo 31,371 (3:15, nuevo récord) · mínimo 31,044.25 (9:30) · cierre 31,338.25, en el 90% del rango. ATR diario: ~478 puntos.",
+      "tendencias": [
+        {
+          "marco": "Diaria",
+          "valor": "Alcista",
+          "nota": "Nuevo máximo histórico y cierre cerca del máximo del día: el rechazo del viernes quedó superado."
+        },
+        {
+          "marco": "1 hora",
+          "valor": "Alcista",
+          "nota": "Máximos más altos toda la tarde; leve toma de ganancias en la última hora (−16 pts)."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "Cielo azul",
+          "nota": "Sobre 31,371 no hay resistencia; extensión: R1 31,458",
+          "tipo": "cielo"
+        },
+        {
+          "nivel": "31,371",
+          "nota": "Nuevo máximo histórico (3:15 PM) · +33 pts (0.07 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,338",
+          "nota": "Cierre de hoy (4 PM)",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "31,282.5",
+          "nota": "Récord anterior: ahora soporte (retesteo) · −56 pts (0.12 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "31,251",
+          "nota": "Pivote P de mañana · −87 pts (0.18 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "31,192–221",
+          "nota": "Mínimo de las 10:30 + máximo nocturno del lunes · −117 a −146 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "31,113–131",
+          "nota": "Pivote S1 + pivote P de hoy · −207 a −225 pts (0.45 ATR)",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "Para el martes: mientras el NQ sostenga 31,282.5 (el récord anterior), sigue en cielo azul y la referencia de extensión es R1 31,458. Un cierre de 1 hora bajo 31,251 (pivote P) devuelve el precio a 31,192–31,221, y bajo eso a 31,113–31,131. Williams a las 9:05 puede mover la apertura: esperar el rango de 15 minutos."
+    },
+    "es": {
+      "ultimo": "7,831",
+      "cambio": "+0.67%",
+      "nota": "Sesión regular: apertura 7,778.5 · máximo 7,847.5 (3:15) · mínimo 7,778.25 (9:30) · cierre 7,831.25, en el 77% del rango. Máximo histórico: 7,848.5 (casi: a 1 punto).",
+      "tendencias": [
+        {
+          "marco": "Diaria",
+          "valor": "Alcista",
+          "nota": "Cierre a 0.2% del máximo histórico."
+        },
+        {
+          "marco": "1 hora",
+          "valor": "Alcista",
+          "nota": "Se frenó a 1 punto del récord y devolvió 16 pts al cierre."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "7,848.5–7,860",
+          "nota": "Máximo histórico + pivote R1 · +17 a +29 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,831",
+          "nota": "Cierre de hoy (4 PM)",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "7,819",
+          "nota": "Pivote P de mañana · −12 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,808–7,810",
+          "nota": "Máximo del viernes (roto hoy) · −21 a −23 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,790.5",
+          "nota": "Pivote S1 · −41 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,778",
+          "nota": "Mínimo de hoy · −53 pts",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "El ES quedó a 1 punto de su récord. Superar 7,848.5 lo pone en cielo azul junto al NQ; perder 7,808 devuelve el precio al rango de la mañana."
+    },
+    "volumen": {
+      "resumen": "El récord llegó con volumen por debajo del promedio: hasta las 4 PM el NQ operó 0.79× su promedio de 20 días y el ES 0.74×. La ruptura del máximo histórico (12:30–14:30) fue con apenas ~30K contratos por hora: avance sólido, pero con poca participación.",
+      "filas": [
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Completa hasta 4 PM",
+          "volumen": "450,422",
+          "promedio20": "569,909",
+          "relativo": "0.79×",
+          "nota": "Sesión regular 319,886 (71%). La sesión completa cierra a las 5 PM."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Completa hasta 4 PM",
+          "volumen": "1,246,420",
+          "promedio20": "1,676,825",
+          "relativo": "0.74×",
+          "nota": "Sesión regular 986,565 (79%)."
+        }
+      ],
+      "horas": [
+        {
+          "hora": "9:30",
+          "nq_vol": "102,671",
+          "nq_pct": 100,
+          "nq_rango": "31,044.25–31,247.75",
+          "nq_mov": "+177.25",
+          "es_vol": "227,359",
+          "es_mov": "+29.5",
+          "nota": "Apertura fuerte y salto tras el ISM: 32% del volumen del día."
+        },
+        {
+          "hora": "10:30",
+          "nq_vol": "46,913",
+          "nq_pct": 46,
+          "nq_rango": "31,192.25–31,254.75",
+          "nq_mov": "−3",
+          "es_vol": "134,528",
+          "es_mov": "+1.75",
+          "nota": "Pausa bajo el récord del viernes."
+        },
+        {
+          "hora": "11:30",
+          "nq_vol": "33,462",
+          "nq_pct": 33,
+          "nq_rango": "31,200.5–31,247.75",
+          "nq_mov": "+9.5",
+          "es_vol": "97,669",
+          "es_mov": "+7.5",
+          "nota": "Consolidación."
+        },
+        {
+          "hora": "12:30",
+          "nq_vol": "30,273",
+          "nq_pct": 29,
+          "nq_rango": "31,232–31,288.25",
+          "nq_mov": "+37",
+          "es_vol": "89,596",
+          "es_mov": "+7.25",
+          "nota": "Rompe el récord anterior 31,282.5."
+        },
+        {
+          "hora": "13:30",
+          "nq_vol": "30,215",
+          "nq_pct": 29,
+          "nq_rango": "31,266–31,323.25",
+          "nq_mov": "+37.75",
+          "es_vol": "81,191",
+          "es_mov": "+8",
+          "nota": "Continúa en cielo azul con poco volumen."
+        },
+        {
+          "hora": "14:30",
+          "nq_vol": "34,153",
+          "nq_pct": 33,
+          "nq_rango": "31,305.75–31,371",
+          "nq_mov": "+41.75",
+          "es_vol": "111,427",
+          "es_mov": "+9.25",
+          "nota": "Nuevo récord 31,371 a las 3:15."
+        },
+        {
+          "hora": "15:30",
+          "nq_vol": "42,199",
+          "nq_pct": 41,
+          "nq_rango": "31,291.25–31,365.75",
+          "nq_mov": "−16",
+          "es_vol": "244,795",
+          "es_mov": "−10.75",
+          "nota": "Toma de ganancias al cierre; el ES concentra su mayor volumen de la tarde."
+        }
+      ]
+    },
+    "pivotes": {
+      "nota": "Pivotes clásicos para el martes, con el máximo, mínimo y cierre de la sesión regular de hoy.",
+      "filas": [
+        {
+          "nombre": "R3",
+          "nq": "31,784.8",
+          "es": "7,929",
+          "nota": "Extensión."
+        },
+        {
+          "nombre": "R2",
+          "nq": "31,577.9",
+          "es": "7,888.3",
+          "nota": "Extensión en cielo azul."
+        },
+        {
+          "nombre": "R1",
+          "nq": "31,458.1",
+          "es": "7,859.8",
+          "nota": "NQ: primera referencia sobre el récord. ES: justo sobre su máximo histórico (7,848.5)."
+        },
+        {
+          "nombre": "P",
+          "nq": "31,251.2",
+          "es": "7,819",
+          "nota": "NQ: entre el récord anterior (31,282.5) y 31,221."
+        },
+        {
+          "nombre": "S1",
+          "nq": "31,131.3",
+          "es": "7,790.5",
+          "nota": "NQ: coincide con 31,113–31,130 (pivote P de hoy)."
+        },
+        {
+          "nombre": "S2",
+          "nq": "30,924.4",
+          "es": "7,749.8",
+          "nota": "NQ: bajo el mínimo nocturno del lunes (30,957.5)."
+        },
+        {
+          "nombre": "S3",
+          "nq": "30,804.6",
+          "es": "7,721.3",
+          "nota": "ES: coincide con 7,723 (cierre del jueves)."
+        }
+      ]
+    },
+    "eventos": [
+      {
+        "hora": "9:30–9:45",
+        "evento": "Apertura (rango de 15 min)",
+        "nq": "+149",
+        "es": "+9.5",
+        "lectura": "Apertura alcista: recuperó el pivote P en minutos."
+      },
+      {
+        "hora": "10:00–10:30",
+        "evento": "ISM de servicios: 54.9 vs 55.0",
+        "nq": "+76.25",
+        "es": "+20.25",
+        "lectura": "Dato en línea: alivio y ruptura del máximo nocturno 31,221."
+      },
+      {
+        "hora": "10:30–12:00",
+        "evento": "Sin evento programado",
+        "nq": "+3.25",
+        "es": "+6.25",
+        "lectura": "Pausa justo bajo el récord del viernes."
+      },
+      {
+        "hora": "12:00–14:00",
+        "evento": "Sin evento: ruptura del máximo histórico",
+        "nq": "+60.5",
+        "es": "+14.5",
+        "lectura": "El NQ supera 31,282.5 después de las 12:30 con volumen bajo (~30K/hora)."
+      },
+      {
+        "hora": "14:30–16:00",
+        "evento": "Nuevo récord y cierre",
+        "nq": "+25",
+        "es": "−1.75",
+        "lectura": "Máximo 31,371 a las 3:15; el ES se frena a 1 punto de su récord."
+      },
+      {
+        "hora": "Mar 9:05",
+        "evento": "Williams (vota) — a vigilar",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Tono duro → probar 31,282.5 / P 31,251. Tono suave → extensión hacia R1 31,458."
+      }
+    ],
+    "scorecard": {
+      "tasa_activacion": "3/4 (75%)",
+      "tasa_objetivo": "1/3 (33%)",
+      "nota": "Regla del rango de 15 minutos en ambas direcciones, stop y objetivo fijos por nivel. Neto en R: NVDA +1.5R, PBR −1R, BBD −0.3R al cierre = +0.2R. ITUB (pick del día) nunca se activó."
+    },
+    "picks": {
+      "nota": "Rango de apertura 9:30–9:45; entrada al cierre de la vela de 1 minuto que rompe el rango.",
+      "filas": [
+        {
+          "nivel": "Small",
+          "ticker": "ITUB",
+          "precio": "9.92",
+          "gap": "+15.5%",
+          "catalizador": "Rango 9.82–10.185 todo el día",
+          "estado": "Sin activar",
+          "max_favor": "—",
+          "resultado_r": "0R",
+          "nota": "El máximo del día fue el del rango (10.185 a las 9:44); nunca cerró una vela fuera de él."
+        },
+        {
+          "nivel": "Small",
+          "ticker": "BBD",
+          "precio": "4.33",
+          "gap": "+18.6%",
+          "catalizador": "Compra sobre 4.34 a las 10:10 (entrada 4.355)",
+          "estado": "Activada, sin stop ni objetivo",
+          "max_favor": "+1.0%",
+          "resultado_r": "−0.3R",
+          "nota": "Stop 4.26 · objetivo 4.51 (máximo 4.40). Cerró en 4.33."
+        },
+        {
+          "nivel": "Large",
+          "ticker": "PBR",
+          "precio": "24.16",
+          "gap": "+11.6%",
+          "catalizador": "Venta bajo 23.67 a las 10:21 (entrada 23.63)",
+          "estado": "Invalidada",
+          "max_favor": "+0.4%",
+          "resultado_r": "−1R",
+          "nota": "Stop 24.13 a las 10:50; después subió a 24.755 (2:21 PM)."
+        },
+        {
+          "nivel": "Mega",
+          "ticker": "NVDA",
+          "precio": "239.11",
+          "gap": "+2.2%",
+          "catalizador": "Compra sobre 237.81 a las 1:44 PM (entrada 237.835)",
+          "estado": "Objetivo alcanzado",
+          "max_favor": "+0.64%",
+          "resultado_r": "+1.5R",
+          "nota": "Objetivo 239.34 a las 2:57 PM. Luego récord en 240.09 (3:38 PM)."
+        }
+      ]
+    },
+    "soportes": {
+      "nota": "Resultado de la tabla de la mañana. En un día de tendencia alcista todo el día, 13 de 14 soportes nunca se tocaron: el tablero de rebotes sirve en días de retroceso, no en días así.",
+      "top3": [
+        {
+          "ticker": "GOOGL",
+          "grado": "B",
+          "rr": "2.0",
+          "nivel": "341.16",
+          "resultado": "No tocó",
+          "texto": "Mínimo 342.43 a la apertura; cerró en 346.56 (+0.9%)."
+        },
+        {
+          "ticker": "TSLA",
+          "grado": "B",
+          "rr": "3.5",
+          "nivel": "364.46",
+          "resultado": "No tocó",
+          "texto": "Mínimo 364.94 (a 48 centavos); cerró en 378.90 (+2.2%)."
+        },
+        {
+          "ticker": "AAPL",
+          "grado": "B",
+          "rr": "2.2",
+          "nivel": "330.81",
+          "resultado": "No tocó",
+          "texto": "Mínimo 331.67; cerró en 333.17 (−0.2%)."
+        }
+      ],
+      "filas": [
+        {
+          "ticker": "GOOGL",
+          "soporte": "341.16",
+          "grado": "B",
+          "objetivo": "345.77",
+          "invalidacion": "338.87",
+          "tipo_nivel": "Mínimo 342.43",
+          "tendencia": "Lateral",
+          "rr": "2.0",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "AMZN",
+          "soporte": "250.02",
+          "grado": "C",
+          "objetivo": "253.56",
+          "invalidacion": "248.68",
+          "tipo_nivel": "Tocó 9:30 · objetivo 1:20 PM",
+          "tendencia": "Bajista",
+          "rr": "2.6",
+          "resultado": "Objetivo alcanzado"
+        },
+        {
+          "ticker": "TSLA",
+          "soporte": "364.46",
+          "grado": "B",
+          "objetivo": "374.60",
+          "invalidacion": "361.60",
+          "tipo_nivel": "Mínimo 364.94",
+          "tendencia": "Alcista",
+          "rr": "3.5",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "AAPL",
+          "soporte": "330.81",
+          "grado": "B",
+          "objetivo": "334.30",
+          "invalidacion": "329.19",
+          "tipo_nivel": "Mínimo 331.67",
+          "tendencia": "Alcista",
+          "rr": "2.2",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "NVDA",
+          "soporte": "233.60",
+          "grado": "B",
+          "objetivo": "236.00",
+          "invalidacion": "232.31",
+          "tipo_nivel": "Mínimo 235.15",
+          "tendencia": "Alcista",
+          "rr": "1.9",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "MSFT",
+          "soporte": "515.65",
+          "grado": "B",
+          "objetivo": "522.50",
+          "invalidacion": "512.69",
+          "tipo_nivel": "Mínimo 521.53",
+          "tendencia": "Alcista",
+          "rr": "2.3",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "QQQ",
+          "soporte": "744.67",
+          "grado": "B",
+          "objetivo": "754.54",
+          "invalidacion": "742.22",
+          "tipo_nivel": "Mínimo 749.09",
+          "tendencia": "Alcista",
+          "rr": "4.0",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "CBRS",
+          "soporte": "168.71",
+          "grado": "C",
+          "objetivo": "177.53",
+          "invalidacion": "165.71",
+          "tipo_nivel": "Mínimo 174.50",
+          "tendencia": "Bajista",
+          "rr": "2.9",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "META",
+          "soporte": "713.19",
+          "grado": "B",
+          "objetivo": "741.58",
+          "invalidacion": "705.96",
+          "tipo_nivel": "Mínimo 727.01",
+          "tendencia": "Alcista",
+          "rr": "3.9",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "SPCX",
+          "soporte": "155.00",
+          "grado": "B",
+          "objetivo": "159.84",
+          "invalidacion": "153.45",
+          "tipo_nivel": "Mínimo 158.62",
+          "tendencia": "Alcista",
+          "rr": "3.1",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "MU",
+          "soporte": "1042.40",
+          "grado": "B",
+          "objetivo": "1089.12",
+          "invalidacion": "1031.84",
+          "tipo_nivel": "Mínimo 1055.58",
+          "tendencia": "Alcista",
+          "rr": "4.4",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "INTC",
+          "soporte": "109.61",
+          "grado": "C",
+          "objetivo": "116.77",
+          "invalidacion": "107.96",
+          "tipo_nivel": "Mínimo 115.32",
+          "tendencia": "Noticia negativa",
+          "rr": "4.3",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "PLTR",
+          "soporte": "184.81",
+          "grado": "B",
+          "objetivo": "194.68",
+          "invalidacion": "183.37",
+          "tipo_nivel": "Mínimo 187.63",
+          "tendencia": "Alcista",
+          "rr": "6.9",
+          "resultado": "No tocó"
+        },
+        {
+          "ticker": "AMD",
+          "soporte": "596.07",
+          "grado": "B",
+          "objetivo": "639.00",
+          "invalidacion": "589.76",
+          "tipo_nivel": "Mínimo 619.95",
+          "tendencia": "Alcista",
+          "rr": "6.8",
+          "resultado": "No tocó"
+        }
+      ],
+      "pie": "Por grado: A — ninguno · B — 11 no tocaron · C — 1 objetivo (AMZN), 2 no tocaron. El top 3 del mediodía (TSLA, AAPL, MSFT, grado A) tampoco volvió a su soporte en la tarde."
+    },
+    "redes": {
+      "pick": "ITUB",
+      "gancho": "NQ en récord; nuestro pick ITUB no se activó",
+      "sub2": "Rompió el máximo histórico tras las 12:30 y cerró en 31,338."
+    },
+    "ob": {
+      "hora": "9:29 PM ET",
+      "simbolos": [
+        {
+          "simbolo": "NQ1!",
+          "precio": 31333.5,
+          "tfs": [
+            {
+              "tf": "5",
+              "precio": 31333.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 31291.63,
+                  "bajo": 31271.5,
+                  "tipo": "alcista",
+                  "dist": -41.87
+                },
+                {
+                  "alto": 31221,
+                  "bajo": 31200.5,
+                  "tipo": "alcista",
+                  "dist": -112.5
+                },
+                {
+                  "alto": 31102.13,
+                  "bajo": 31044.25,
+                  "tipo": "alcista",
+                  "dist": -231.37
+                }
+              ]
+            },
+            {
+              "tf": "15",
+              "precio": 31333.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 31127.88,
+                  "bajo": 31044.25,
+                  "tipo": "alcista",
+                  "dist": -205.62
+                },
+                {
+                  "alto": 30560.13,
+                  "bajo": 30522.5,
+                  "tipo": "alcista",
+                  "dist": -773.37
+                },
+                {
+                  "alto": 29893.88,
+                  "bajo": 29850,
+                  "tipo": "alcista",
+                  "dist": -1439.62
+                }
+              ]
+            },
+            {
+              "tf": "60",
+              "precio": 31333.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 31146,
+                  "bajo": 31044.25,
+                  "tipo": "alcista",
+                  "dist": -187.5
+                },
+                {
+                  "alto": 30368.13,
+                  "bajo": 30216.5,
+                  "tipo": "alcista",
+                  "dist": -965.37
+                },
+                {
+                  "alto": 29273.88,
+                  "bajo": 29053,
+                  "tipo": "alcista",
+                  "dist": -2059.62
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "simbolo": "ES1!",
+          "precio": 7829.5,
+          "tfs": [
+            {
+              "tf": "5",
+              "precio": 7829.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 7795,
+                  "bajo": 7790.5,
+                  "tipo": "alcista",
+                  "dist": -34.5
+                },
+                {
+                  "alto": 7776.75,
+                  "bajo": 7773.75,
+                  "tipo": "alcista",
+                  "dist": -52.75
+                },
+                {
+                  "alto": 7768.5,
+                  "bajo": 7765.5,
+                  "tipo": "alcista",
+                  "dist": -61
+                }
+              ]
+            },
+            {
+              "tf": "15",
+              "precio": 7829.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 7778.25,
+                  "bajo": 7773.75,
+                  "tipo": "alcista",
+                  "dist": -51.25
+                },
+                {
+                  "alto": 7730.5,
+                  "bajo": 7719.75,
+                  "tipo": "alcista",
+                  "dist": -99
+                },
+                {
+                  "alto": 7527.88,
+                  "bajo": 7514.75,
+                  "tipo": "alcista",
+                  "dist": -301.62
+                }
+              ]
+            },
+            {
+              "tf": "60",
+              "precio": 7829.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 7794.63,
+                  "bajo": 7778.25,
+                  "tipo": "alcista",
+                  "dist": -34.87
+                },
+                {
+                  "alto": 7629.13,
+                  "bajo": 7575,
+                  "tipo": "alcista",
+                  "dist": -200.37
+                },
+                {
+                  "alto": 7571.38,
+                  "bajo": 7542.75,
+                  "tipo": "alcista",
+                  "dist": -258.12
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nota": "Zonas del indicador Order Block Detector, sin mitigar. Con el NQ y el ES en máximos, no queda ningún OB bajista arriba del precio en 5, 15 ni 60 min: las referencias de arriba son el récord y los pivotes R1/R2."
+    }
+  },
+  "datos_en": {
+    "generado": "close 4:00 PM ET (Mon Oct 5)",
+    "resumen": "A Nasdaq record: NQ broke its all-time high and closed at 31,338 (+0.86%), with Nvidia also at a record. After the in-line ISM, tech led all day. Watchlist: 3 of 4 triggered, 1 target (NVDA); our ITUB pick never triggered.",
+    "pulso": [
+      {
+        "etiqueta": "SPY",
+        "valor": "+0.69%",
+        "detalle": "774.95",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "QQQ",
+        "valor": "+0.88%",
+        "detalle": "756.21 · closed at 91% of range",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "IWM",
+        "valor": "+0.66%",
+        "detalle": "283.38",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "NQ1! (4 PM close)",
+        "valor": "31,338",
+        "detalle": "+0.86% · record 31,371",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "ES1! (4 PM close)",
+        "valor": "7,831",
+        "detalle": "+0.67% · high 7,847.5",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "VIX",
+        "valor": "15.52",
+        "detalle": "+1.4%",
+        "dir": "up"
+      },
+      {
+        "etiqueta": "10-year yield",
+        "valor": "5.31%",
+        "detalle": "up despite the rally",
+        "dir": "flat"
+      }
+    ],
+    "que_movio": "ISM services came in line (54.9 vs 55.0) and the market read it as a print that doesn't force the Fed to hike again. Tech led all day: NQ cleared Friday's all-time high after 12:30 and hit 31,371 at 3:15. Nvidia closed at a record and the talk is now its path to a $6 trillion valuation. Brazil had its best day since 2020 after the first round. Intel fell on the TSMC–Terafab news. The 10-year yield rose to 5.31% without stopping stocks.",
+    "despues_cierre": [
+      {
+        "ticker": "—",
+        "cambio": "—",
+        "nota": "No notable earnings after the close today."
+      }
+    ],
+    "manana": [
+      {
+        "hora": "8:30",
+        "tema": "Trade balance",
+        "efecto": "Minor data.",
+        "prob": 3
+      },
+      {
+        "hora": "9:05",
+        "tema": "Williams (NY Fed, voter)",
+        "efecto": "With NQ at a record and the 10-year at 5.31%, a hawkish tone on another hike could slow the momentum.",
+        "prob": 6,
+        "enlace": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260929",
+        "fuente": "NY Fed"
+      },
+      {
+        "hora": "10:45",
+        "tema": "Bowman (Fed, voter)",
+        "efecto": "On 10/1 she said she sees no urgency to move rates.",
+        "prob": 5,
+        "enlace": "https://www.stlouisfed.org/news-releases/2026/08/bowman-to-give-2026-community-banking-research-conference-keynote",
+        "fuente": "St. Louis Fed"
+      },
+      {
+        "hora": "Wed 2 PM",
+        "tema": "FOMC minutes (2 days away)",
+        "efecto": "The week's big event.",
+        "prob": 7
+      }
+    ],
+    "titulares": [
+      {
+        "categoria": "Market",
+        "tickers": [
+          "NVDA",
+          "QQQ"
+        ],
+        "titulo": "Nasdaq and Nvidia close at records",
+        "resumen": "Tech strength outweighed bond weakness; Nvidia posts its first record close since May.",
+        "fuente": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-tech-rallies-investors-shrug-off-bond-market-caution-081220790.html"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "NVDA"
+        ],
+        "titulo": "Nvidia nears a $6 trillion valuation",
+        "resumen": "Options traders estimate when it could reach that milestone after the new high.",
+        "fuente": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html"
+      },
+      {
+        "categoria": "Macro",
+        "tickers": [
+          "SPY"
+        ],
+        "titulo": "S&P 500 rises with yields also higher after the ISM",
+        "resumen": "Coverage of the day: the services print didn't stop stocks even as bonds stayed near highs.",
+        "fuente": "TheStreet",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-05-2026"
+      },
+      {
+        "categoria": "Macro",
+        "tickers": [
+          "ITUB",
+          "BBD",
+          "PBR"
+        ],
+        "titulo": "Brazil's best day since 2020",
+        "resumen": "Brazil's ETF soared after Bolsonaro's first-round surprise; the runoff is at month-end.",
+        "fuente": "Benzinga",
+        "url": "https://benzinga.com/etfs/specialty-etfs/26/10/62164301/brazil-stocks-best-day-since-2020-bolsonaro-first-round-ewz"
+      },
+      {
+        "categoria": "Companies",
+        "tickers": [
+          "INTC"
+        ],
+        "titulo": "Intel falls on TSMC's talks with Terafab",
+        "resumen": "The news questions Intel's role as manufacturing partner for Musk's project.",
+        "fuente": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-4931638"
+      },
+      {
+        "categoria": "Fed",
+        "tickers": [],
+        "titulo": "Fed minutes: one-more-hike guidance vs. softer data",
+        "resumen": "What the market will look for in Wednesday's FOMC minutes.",
+        "fuente": "investingLive",
+        "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade"
+      },
+      {
+        "categoria": "Week ahead",
+        "tickers": [],
+        "titulo": "Economic calendar for the week of Oct 5–9",
+        "resumen": "Light data: the week revolves around Fed speeches and the minutes.",
+        "fuente": "Kiplinger",
+        "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+      }
+    ],
+    "movers": [
+      {
+        "ticker": "CBRS",
+        "cambio": "+9.05%",
+        "nota": "Altman called it a \"close partner\" of OpenAI."
+      },
+      {
+        "ticker": "SPCX",
+        "cambio": "+7.64%",
+        "nota": "No company news; rising with tech."
+      },
+      {
+        "ticker": "TSLA",
+        "cambio": "+2.24%",
+        "nota": "No new news."
+      },
+      {
+        "ticker": "MU",
+        "cambio": "−1.01%",
+        "nota": "No new news."
+      },
+      {
+        "ticker": "INTC",
+        "cambio": "−2.56%",
+        "nota": "TSMC in talks with Terafab (Musk)."
+      },
+      {
+        "ticker": "AMD",
+        "cambio": "−0.32%",
+        "nota": "No new news."
+      }
+    ],
+    "nq": {
+      "ultimo": "31,338",
+      "cambio": "+0.86%",
+      "nota": "Regular session: open 31,055.5 · high 31,371 (3:15, new record) · low 31,044.25 (9:30) · close 31,338.25, at 90% of the range. Daily ATR: ~478 points.",
+      "tendencias": [
+        {
+          "marco": "Daily",
+          "valor": "Bullish",
+          "nota": "New all-time high and a close near the day's high: Friday's rejection is behind it."
+        },
+        {
+          "marco": "1 hour",
+          "valor": "Bullish",
+          "nota": "Higher highs all afternoon; mild profit-taking in the last hour (−16 pts)."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "Blue sky",
+          "nota": "No resistance above 31,371; extension: R1 31,458",
+          "tipo": "cielo"
+        },
+        {
+          "nivel": "31,371",
+          "nota": "New all-time high (3:15 PM) · +33 pts (0.07 ATR)",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "31,338",
+          "nota": "Today's close (4 PM)",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "31,282.5",
+          "nota": "Previous record: now support (retest) · −56 pts (0.12 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "31,251",
+          "nota": "Tomorrow's P pivot · −87 pts (0.18 ATR)",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "31,192–221",
+          "nota": "10:30 low + Monday overnight high · −117 to −146 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "31,113–131",
+          "nota": "S1 pivot + today's P pivot · −207 to −225 pts (0.45 ATR)",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "For Tuesday: as long as NQ holds 31,282.5 (the previous record), it stays in blue sky, with R1 31,458 as the extension reference. A 1-hour close below 31,251 (P pivot) sends price back to 31,192–31,221, and below that to 31,113–31,131. Williams at 9:05 can move the open: wait for the 15-minute range."
+    },
+    "es": {
+      "ultimo": "7,831",
+      "cambio": "+0.67%",
+      "nota": "Regular session: open 7,778.5 · high 7,847.5 (3:15) · low 7,778.25 (9:30) · close 7,831.25, at 77% of the range. All-time high: 7,848.5 (almost: 1 point away).",
+      "tendencias": [
+        {
+          "marco": "Daily",
+          "valor": "Bullish",
+          "nota": "Closed 0.2% below the all-time high."
+        },
+        {
+          "marco": "1 hour",
+          "valor": "Bullish",
+          "nota": "Stalled 1 point below the record and gave back 16 pts into the close."
+        }
+      ],
+      "escalera": [
+        {
+          "nivel": "7,848.5–7,860",
+          "nota": "All-time high + R1 pivot · +17 to +29 pts",
+          "tipo": "resistencia"
+        },
+        {
+          "nivel": "7,831",
+          "nota": "Today's close (4 PM)",
+          "tipo": "precio"
+        },
+        {
+          "nivel": "7,819",
+          "nota": "Tomorrow's P pivot · −12 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,808–7,810",
+          "nota": "Friday's high (broken today) · −21 to −23 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,790.5",
+          "nota": "S1 pivot · −41 pts",
+          "tipo": "soporte"
+        },
+        {
+          "nivel": "7,778",
+          "nota": "Today's low · −53 pts",
+          "tipo": "soporte"
+        }
+      ],
+      "lectura": "ES stopped 1 point short of its record. Clearing 7,848.5 puts it in blue sky alongside NQ; losing 7,808 sends price back into the morning range."
+    },
+    "volumen": {
+      "resumen": "The record came on below-average volume: through 4 PM NQ traded 0.79× its 20-day average and ES 0.74×. The all-time-high breakout (12:30–14:30) came on only ~30K contracts per hour: a solid advance, but with thin participation.",
+      "filas": [
+        {
+          "simbolo": "NQ1!",
+          "sesion": "Full session to 4 PM",
+          "volumen": "450,422",
+          "promedio20": "569,909",
+          "relativo": "0.79×",
+          "nota": "Regular session 319,886 (71%). The full session closes at 5 PM."
+        },
+        {
+          "simbolo": "ES1!",
+          "sesion": "Full session to 4 PM",
+          "volumen": "1,246,420",
+          "promedio20": "1,676,825",
+          "relativo": "0.74×",
+          "nota": "Regular session 986,565 (79%)."
+        }
+      ],
+      "horas": [
+        {
+          "hora": "9:30",
+          "nq_vol": "102,671",
+          "nq_pct": 100,
+          "nq_rango": "31,044.25–31,247.75",
+          "nq_mov": "+177.25",
+          "es_vol": "227,359",
+          "es_mov": "+29.5",
+          "nota": "Strong open and a jump after the ISM: 32% of the day's volume."
+        },
+        {
+          "hora": "10:30",
+          "nq_vol": "46,913",
+          "nq_pct": 46,
+          "nq_rango": "31,192.25–31,254.75",
+          "nq_mov": "−3",
+          "es_vol": "134,528",
+          "es_mov": "+1.75",
+          "nota": "Pause below Friday's record."
+        },
+        {
+          "hora": "11:30",
+          "nq_vol": "33,462",
+          "nq_pct": 33,
+          "nq_rango": "31,200.5–31,247.75",
+          "nq_mov": "+9.5",
+          "es_vol": "97,669",
+          "es_mov": "+7.5",
+          "nota": "Consolidation."
+        },
+        {
+          "hora": "12:30",
+          "nq_vol": "30,273",
+          "nq_pct": 29,
+          "nq_rango": "31,232–31,288.25",
+          "nq_mov": "+37",
+          "es_vol": "89,596",
+          "es_mov": "+7.25",
+          "nota": "Breaks the previous 31,282.5 record."
+        },
+        {
+          "hora": "13:30",
+          "nq_vol": "30,215",
+          "nq_pct": 29,
+          "nq_rango": "31,266–31,323.25",
+          "nq_mov": "+37.75",
+          "es_vol": "81,191",
+          "es_mov": "+8",
+          "nota": "Continues in blue sky on low volume."
+        },
+        {
+          "hora": "14:30",
+          "nq_vol": "34,153",
+          "nq_pct": 33,
+          "nq_rango": "31,305.75–31,371",
+          "nq_mov": "+41.75",
+          "es_vol": "111,427",
+          "es_mov": "+9.25",
+          "nota": "New record 31,371 at 3:15."
+        },
+        {
+          "hora": "15:30",
+          "nq_vol": "42,199",
+          "nq_pct": 41,
+          "nq_rango": "31,291.25–31,365.75",
+          "nq_mov": "−16",
+          "es_vol": "244,795",
+          "es_mov": "−10.75",
+          "nota": "Profit-taking into the close; ES's heaviest afternoon volume."
+        }
+      ]
+    },
+    "pivotes": {
+      "nota": "Classic pivots for Tuesday, from today's regular-session high, low and close.",
+      "filas": [
+        {
+          "nombre": "R3",
+          "nq": "31,784.8",
+          "es": "7,929",
+          "nota": "Extension."
+        },
+        {
+          "nombre": "R2",
+          "nq": "31,577.9",
+          "es": "7,888.3",
+          "nota": "Blue-sky extension."
+        },
+        {
+          "nombre": "R1",
+          "nq": "31,458.1",
+          "es": "7,859.8",
+          "nota": "NQ: first reference above the record. ES: just above its all-time high (7,848.5)."
+        },
+        {
+          "nombre": "P",
+          "nq": "31,251.2",
+          "es": "7,819",
+          "nota": "NQ: between the previous record (31,282.5) and 31,221."
+        },
+        {
+          "nombre": "S1",
+          "nq": "31,131.3",
+          "es": "7,790.5",
+          "nota": "NQ: lines up with 31,113–31,130 (today's P pivot)."
+        },
+        {
+          "nombre": "S2",
+          "nq": "30,924.4",
+          "es": "7,749.8",
+          "nota": "NQ: below Monday's overnight low (30,957.5)."
+        },
+        {
+          "nombre": "S3",
+          "nq": "30,804.6",
+          "es": "7,721.3",
+          "nota": "ES: lines up with 7,723 (Thursday's close)."
+        }
+      ]
+    },
+    "eventos": [
+      {
+        "hora": "9:30–9:45",
+        "evento": "Open (15-min range)",
+        "nq": "+149",
+        "es": "+9.5",
+        "lectura": "Bullish open: reclaimed the P pivot within minutes."
+      },
+      {
+        "hora": "10:00–10:30",
+        "evento": "ISM services: 54.9 vs 55.0",
+        "nq": "+76.25",
+        "es": "+20.25",
+        "lectura": "In-line print: relief and a break of the 31,221 overnight high."
+      },
+      {
+        "hora": "10:30–12:00",
+        "evento": "No scheduled event",
+        "nq": "+3.25",
+        "es": "+6.25",
+        "lectura": "Pause just below Friday's record."
+      },
+      {
+        "hora": "12:00–14:00",
+        "evento": "No event: all-time-high breakout",
+        "nq": "+60.5",
+        "es": "+14.5",
+        "lectura": "NQ clears 31,282.5 after 12:30 on low volume (~30K/hour)."
+      },
+      {
+        "hora": "14:30–16:00",
+        "evento": "New record and close",
+        "nq": "+25",
+        "es": "−1.75",
+        "lectura": "High 31,371 at 3:15; ES stalls 1 point below its record."
+      },
+      {
+        "hora": "Tue 9:05",
+        "evento": "Williams (voter) — watch",
+        "nq": "—",
+        "es": "—",
+        "lectura": "Hawkish tone → test 31,282.5 / P 31,251. Dovish tone → extension toward R1 31,458."
+      }
+    ],
+    "scorecard": {
+      "tasa_activacion": "3/4 (75%)",
+      "tasa_objetivo": "1/3 (33%)",
+      "nota": "15-minute range rule in both directions, fixed stop and target by tier. Net in R: NVDA +1.5R, PBR −1R, BBD −0.3R at the close = +0.2R. ITUB (pick of the day) never triggered."
+    },
+    "picks": {
+      "nota": "Opening range 9:30–9:45; entry at the close of the 1-minute candle that breaks the range.",
+      "filas": [
+        {
+          "nivel": "Small",
+          "ticker": "ITUB",
+          "precio": "9.92",
+          "gap": "+15.5%",
+          "catalizador": "Range 9.82–10.185 all day",
+          "estado": "Not triggered",
+          "max_favor": "—",
+          "resultado_r": "0R",
+          "nota": "The day's high was the range high (10.185 at 9:44); it never closed a candle outside it."
+        },
+        {
+          "nivel": "Small",
+          "ticker": "BBD",
+          "precio": "4.33",
+          "gap": "+18.6%",
+          "catalizador": "Long above 4.34 at 10:10 (entry 4.355)",
+          "estado": "Triggered, no stop or target",
+          "max_favor": "+1.0%",
+          "resultado_r": "−0.3R",
+          "nota": "Stop 4.26 · target 4.51 (high 4.40). Closed at 4.33."
+        },
+        {
+          "nivel": "Large",
+          "ticker": "PBR",
+          "precio": "24.16",
+          "gap": "+11.6%",
+          "catalizador": "Short below 23.67 at 10:21 (entry 23.63)",
+          "estado": "Stopped out",
+          "max_favor": "+0.4%",
+          "resultado_r": "−1R",
+          "nota": "Stop 24.13 at 10:50; then rose to 24.755 (2:21 PM)."
+        },
+        {
+          "nivel": "Mega",
+          "ticker": "NVDA",
+          "precio": "239.11",
+          "gap": "+2.2%",
+          "catalizador": "Long above 237.81 at 1:44 PM (entry 237.835)",
+          "estado": "Target hit",
+          "max_favor": "+0.64%",
+          "resultado_r": "+1.5R",
+          "nota": "Target 239.34 at 2:57 PM. Then a record at 240.09 (3:38 PM)."
+        }
+      ]
+    },
+    "soportes": {
+      "nota": "How the morning table did. On a day that trended up all day, 13 of 14 supports were never touched: the bounce board works on pullback days, not days like this.",
+      "top3": [
+        {
+          "ticker": "GOOGL",
+          "grado": "B",
+          "rr": "2.0",
+          "nivel": "341.16",
+          "resultado": "Not touched",
+          "texto": "Low 342.43 at the open; closed at 346.56 (+0.9%)."
+        },
+        {
+          "ticker": "TSLA",
+          "grado": "B",
+          "rr": "3.5",
+          "nivel": "364.46",
+          "resultado": "Not touched",
+          "texto": "Low 364.94 (48 cents away); closed at 378.90 (+2.2%)."
+        },
+        {
+          "ticker": "AAPL",
+          "grado": "B",
+          "rr": "2.2",
+          "nivel": "330.81",
+          "resultado": "Not touched",
+          "texto": "Low 331.67; closed at 333.17 (−0.2%)."
+        }
+      ],
+      "filas": [
+        {
+          "ticker": "GOOGL",
+          "soporte": "341.16",
+          "grado": "B",
+          "objetivo": "345.77",
+          "invalidacion": "338.87",
+          "tipo_nivel": "Low 342.43",
+          "tendencia": "Sideways",
+          "rr": "2.0",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "AMZN",
+          "soporte": "250.02",
+          "grado": "C",
+          "objetivo": "253.56",
+          "invalidacion": "248.68",
+          "tipo_nivel": "Touched 9:30 · target 1:20 PM",
+          "tendencia": "Bearish",
+          "rr": "2.6",
+          "resultado": "Target hit"
+        },
+        {
+          "ticker": "TSLA",
+          "soporte": "364.46",
+          "grado": "B",
+          "objetivo": "374.60",
+          "invalidacion": "361.60",
+          "tipo_nivel": "Low 364.94",
+          "tendencia": "Bullish",
+          "rr": "3.5",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "AAPL",
+          "soporte": "330.81",
+          "grado": "B",
+          "objetivo": "334.30",
+          "invalidacion": "329.19",
+          "tipo_nivel": "Low 331.67",
+          "tendencia": "Bullish",
+          "rr": "2.2",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "NVDA",
+          "soporte": "233.60",
+          "grado": "B",
+          "objetivo": "236.00",
+          "invalidacion": "232.31",
+          "tipo_nivel": "Low 235.15",
+          "tendencia": "Bullish",
+          "rr": "1.9",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "MSFT",
+          "soporte": "515.65",
+          "grado": "B",
+          "objetivo": "522.50",
+          "invalidacion": "512.69",
+          "tipo_nivel": "Low 521.53",
+          "tendencia": "Bullish",
+          "rr": "2.3",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "QQQ",
+          "soporte": "744.67",
+          "grado": "B",
+          "objetivo": "754.54",
+          "invalidacion": "742.22",
+          "tipo_nivel": "Low 749.09",
+          "tendencia": "Bullish",
+          "rr": "4.0",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "CBRS",
+          "soporte": "168.71",
+          "grado": "C",
+          "objetivo": "177.53",
+          "invalidacion": "165.71",
+          "tipo_nivel": "Low 174.50",
+          "tendencia": "Bearish",
+          "rr": "2.9",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "META",
+          "soporte": "713.19",
+          "grado": "B",
+          "objetivo": "741.58",
+          "invalidacion": "705.96",
+          "tipo_nivel": "Low 727.01",
+          "tendencia": "Bullish",
+          "rr": "3.9",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "SPCX",
+          "soporte": "155.00",
+          "grado": "B",
+          "objetivo": "159.84",
+          "invalidacion": "153.45",
+          "tipo_nivel": "Low 158.62",
+          "tendencia": "Bullish",
+          "rr": "3.1",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "MU",
+          "soporte": "1042.40",
+          "grado": "B",
+          "objetivo": "1089.12",
+          "invalidacion": "1031.84",
+          "tipo_nivel": "Low 1055.58",
+          "tendencia": "Bullish",
+          "rr": "4.4",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "INTC",
+          "soporte": "109.61",
+          "grado": "C",
+          "objetivo": "116.77",
+          "invalidacion": "107.96",
+          "tipo_nivel": "Low 115.32",
+          "tendencia": "Negative news",
+          "rr": "4.3",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "PLTR",
+          "soporte": "184.81",
+          "grado": "B",
+          "objetivo": "194.68",
+          "invalidacion": "183.37",
+          "tipo_nivel": "Low 187.63",
+          "tendencia": "Bullish",
+          "rr": "6.9",
+          "resultado": "Not touched"
+        },
+        {
+          "ticker": "AMD",
+          "soporte": "596.07",
+          "grado": "B",
+          "objetivo": "639.00",
+          "invalidacion": "589.76",
+          "tipo_nivel": "Low 619.95",
+          "tendencia": "Bullish",
+          "rr": "6.8",
+          "resultado": "Not touched"
+        }
+      ],
+      "pie": "By grade: A — none · B — 11 not touched · C — 1 target (AMZN), 2 not touched. The noon top 3 (TSLA, AAPL, MSFT, grade A) didn't return to support in the afternoon either."
+    },
+    "redes": {
+      "pick": "ITUB",
+      "gancho": "NQ at a record; our ITUB pick never triggered",
+      "sub2": "It broke its all-time high after 12:30 and closed at 31,338."
+    },
+    "ob": {
+      "hora": "9:29 PM ET",
+      "simbolos": [
+        {
+          "simbolo": "NQ1!",
+          "precio": 31333.5,
+          "tfs": [
+            {
+              "tf": "5",
+              "precio": 31333.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 31291.63,
+                  "bajo": 31271.5,
+                  "tipo": "alcista",
+                  "dist": -41.87
+                },
+                {
+                  "alto": 31221,
+                  "bajo": 31200.5,
+                  "tipo": "alcista",
+                  "dist": -112.5
+                },
+                {
+                  "alto": 31102.13,
+                  "bajo": 31044.25,
+                  "tipo": "alcista",
+                  "dist": -231.37
+                }
+              ]
+            },
+            {
+              "tf": "15",
+              "precio": 31333.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 31127.88,
+                  "bajo": 31044.25,
+                  "tipo": "alcista",
+                  "dist": -205.62
+                },
+                {
+                  "alto": 30560.13,
+                  "bajo": 30522.5,
+                  "tipo": "alcista",
+                  "dist": -773.37
+                },
+                {
+                  "alto": 29893.88,
+                  "bajo": 29850,
+                  "tipo": "alcista",
+                  "dist": -1439.62
+                }
+              ]
+            },
+            {
+              "tf": "60",
+              "precio": 31333.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 31146,
+                  "bajo": 31044.25,
+                  "tipo": "alcista",
+                  "dist": -187.5
+                },
+                {
+                  "alto": 30368.13,
+                  "bajo": 30216.5,
+                  "tipo": "alcista",
+                  "dist": -965.37
+                },
+                {
+                  "alto": 29273.88,
+                  "bajo": 29053,
+                  "tipo": "alcista",
+                  "dist": -2059.62
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "simbolo": "ES1!",
+          "precio": 7829.5,
+          "tfs": [
+            {
+              "tf": "5",
+              "precio": 7829.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 7795,
+                  "bajo": 7790.5,
+                  "tipo": "alcista",
+                  "dist": -34.5
+                },
+                {
+                  "alto": 7776.75,
+                  "bajo": 7773.75,
+                  "tipo": "alcista",
+                  "dist": -52.75
+                },
+                {
+                  "alto": 7768.5,
+                  "bajo": 7765.5,
+                  "tipo": "alcista",
+                  "dist": -61
+                }
+              ]
+            },
+            {
+              "tf": "15",
+              "precio": 7829.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 7778.25,
+                  "bajo": 7773.75,
+                  "tipo": "alcista",
+                  "dist": -51.25
+                },
+                {
+                  "alto": 7730.5,
+                  "bajo": 7719.75,
+                  "tipo": "alcista",
+                  "dist": -99
+                },
+                {
+                  "alto": 7527.88,
+                  "bajo": 7514.75,
+                  "tipo": "alcista",
+                  "dist": -301.62
+                }
+              ]
+            },
+            {
+              "tf": "60",
+              "precio": 7829.5,
+              "arriba": [],
+              "dentro": [],
+              "abajo": [
+                {
+                  "alto": 7794.63,
+                  "bajo": 7778.25,
+                  "tipo": "alcista",
+                  "dist": -34.87
+                },
+                {
+                  "alto": 7629.13,
+                  "bajo": 7575,
+                  "tipo": "alcista",
+                  "dist": -200.37
+                },
+                {
+                  "alto": 7571.38,
+                  "bajo": 7542.75,
+                  "tipo": "alcista",
+                  "dist": -258.12
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nota": "Unmitigated zones from the Order Block Detector indicator. With NQ and ES at highs, no bearish OB is left above price on 5, 15 or 60 min: the references above are the record and the R1/R2 pivots."
+    }
+  }
+}

@@ -43,6 +43,14 @@ Publicar de nuevo el mismo día y tipo **reemplaza** el reporte (sirve para corr
       "lectura": "If/then read."
     },
     // ---- NQ/ES page only (expanded) ----
+    // Order Blocks, shown FIRST on the NQ/ES page. Paste the output of `node ~/.claude/trading/ob_levels.mjs` (run from
+    // ~/tradingview-mcp-jackson, TradingView open) and add "nota" (ES in datos, EN in datos_en). Numbers stay raw (the site formats them).
+    "ob": { "hora": "9:20 AM ET", "nota": "...",
+      "simbolos": [ { "simbolo": "NQ1!", "precio": 31333.5,
+        "tfs": [ { "tf": "5", "precio": 31333.5,
+                   "arriba": [ { "alto": 31342.75, "bajo": 31336.5, "tipo": "bajista", "dist": 3 } ],    // nearest 3 above, closest first
+                   "dentro": [],                                                                          // zones with price inside
+                   "abajo":  [ { "alto": 31291.63, "bajo": 31271.5, "tipo": "alcista", "dist": -41.87 } ] } ] } ] },  // nearest 3 below
     "es": { /* same shape as "nq": ultimo, cambio, nota, tendencias, escalera, lectura */ },
     "volumen": { "resumen": "...",
       "filas": [ { "simbolo": "NQ1!", "sesion": "Completa (Globex)", "volumen": "573,488", "promedio20": "564,359", "relativo": "1.02×", "nota": "..." } ],
