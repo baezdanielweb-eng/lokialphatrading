@@ -147,9 +147,9 @@ const slidePick = (titulo, conEstado) => pick ? `
   <h2>${esc(titulo)}</h2>
   <div class="card" style="padding:44px 44px">
     <div style="display:flex;justify-content:space-between;align-items:baseline"><span class="big">${esc(pick.ticker)}</span>
-      ${(() => { const r = pick.resultado_r ?? pick.max_favor; const v = conEstado ? (r && r !== '—' ? r : (pick.precio ?? '')) : (pick.gap ?? ''); return `<span class="mid ${dir(v)}" style="font-size:52px">${esc(v)}</span>`; })()}</div>
-    ${conEstado ? `<div style="margin-top:26px"><span class="badge ${estadoPick(pick)[0]}">${esc(estadoPick(pick)[1])}</span></div>` : ''}
-    <p class="sub" style="margin-top:24px">${esc(corto(conEstado ? pick.nota : pick.catalizador, 95))}</p>
+      ${(() => { const v = conEstado ? (redes.pick_cambio ?? pick.gap ?? '') : (pick.gap ?? ''); return `<span class="mid ${dir(v)}" style="font-size:52px">${esc(v)}</span>`; })()}</div>
+    ${conEstado && pick.precio ? `<div class="mono" style="font:700 40px 'JetBrains Mono';margin-top:18px;color:var(--muted)">$${esc(pick.precio)}</div>` : ''}
+    <p class="sub" style="margin-top:24px">${esc(corto(conEstado ? (redes.pick_texto ?? pick.catalizador) : pick.catalizador, 95))}</p>
   </div>` : `<h2>${esc(titulo)}</h2><p class="sub">Sin pick definido para hoy.</p>`;
 
 function slideNoticias(titulo, lista, n) {
@@ -193,6 +193,23 @@ function slideSemanaNumeros(sm) {
   <p style="font-size:24px;color:var(--faint)">${(sm.dias ?? []).length} de 5 días con reporte · publicamos aciertos y errores</p>`;
 }
 
+// Top movers (informativo). d.movers = [{ticker, cambio, nota}], ganadoras y perdedoras; se muestran 4 y 4.
+function slideMovers(titulo) {
+  const num = x => parseFloat(String(x.cambio).replace('−', '-').replace('%', '')) || 0;
+  const arriba = d.movers.filter(x => num(x) > 0).sort((a, b) => num(b) - num(a)).slice(0, 4);
+  const abajo = d.movers.filter(x => num(x) < 0).sort((a, b) => num(a) - num(b)).slice(0, 4);
+  const fila = x => `<div style="display:grid;grid-template-columns:150px 1fr 150px;gap:16px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)">
+      <span style="font:800 34px 'JetBrains Mono'">${esc(x.ticker)}</span>
+      <span style="font-size:24px;color:var(--muted);line-height:1.25">${esc(corto(x.nota ?? '', 42))}</span>
+      <span class="${dir(x.cambio)}" style="font:700 34px 'JetBrains Mono';text-align:right">${esc(x.cambio)}</span></div>`;
+  return `
+  <div style="display:flex;align-items:center;gap:18px"><img src="file://${assets}/stocks.png" style="width:84px;height:84px;border-radius:50%"><div class="k" style="color:var(--gold, #f5b800)">Stocks · top movers</div></div>
+  <h2>${esc(titulo)}</h2>
+  <div class="card" style="padding:22px 36px">${arriba.map(fila).join('')}</div>
+  ${abajo.length ? `<div class="card" style="padding:22px 36px">${abajo.map(fila).join('')}</div>` : ''}
+  <p style="font-size:22px;color:var(--faint)">${r.tipo === 'matutino' ? 'Premarket · ' : ''}EE.UU., capitalización > $2B, sin empresas chinas</p>`;
+}
+
 const slideCTA = () => `
   <h1 style="font-size:84px">Reporte completo en el <span class="serie-c">link de la bio</span></h1>
   <div class="card" style="font-size:34px;line-height:1.5">
@@ -205,20 +222,20 @@ const slides = {
   matutino: () => [
     slideGancho(),
     slideFuturos('Qué pasó en la noche', corto(d.nq?.lectura ?? d.resumen, 80)),
-    slidePick('El pick de hoy', false),
+    d.movers?.length ? slideMovers('Lo que se mueve antes de la apertura') : slidePick('El pick de hoy', false),
     d.semana?.eventos?.length ? slideSemanaEventos(d.semana.eventos) : slideNoticias('La noticia clave de hoy', (d.agenda ?? []).filter(x => !/^(Lun|Mar|Mié|Jue|Vie|Sáb|Dom)(\s|$)/.test(x.hora ?? '') && !/ya sali/i.test(x.estado ?? '')), 1),
     slideCTA(),
   ],
   meridiano: () => [
     slideGancho(),
     slideFuturos('Qué está pasando', corto(d.resumen, 80)),
-    slidePick('¿Cómo va nuestro pick?', true),
+    d.movers?.length ? slideMovers('Lo que más se mueve hoy') : slidePick('¿Cómo va el pick del día?', true),
     slideCTA(),
   ],
   closing: () => [
     slideGancho(),
     slideFuturos('Así cierra el día', corto((d.resumen ?? '').split(/(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚÑ¿¡])/)[1] ?? d.resumen, 95)),
-    slidePick('¿Cómo le fue a nuestro pick?', true),
+    d.movers?.length ? slideMovers('Lo que más se movió hoy') : slidePick('¿Cómo cerró el pick del día?', true),
     ...(d.semana?.picks ? [slideSemanaNumeros(d.semana)] : []),
     slideNoticias('Lo que viene mañana', d.manana, 2),
     slideCTA(),

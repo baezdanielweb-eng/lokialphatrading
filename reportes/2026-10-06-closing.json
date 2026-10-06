@@ -1,0 +1,1831 @@
+{
+ "fecha": "2026-10-06",
+ "tipo": "closing",
+ "titulo": "LokiAlphaTrading - Closing",
+ "datos": {
+  "generado": "4:25 PM ET",
+  "resumen": "Nuevos récords en la mañana con rendimientos de los bonos más bajos y el tirón nuclear de CEG–Google. El NQ marcó 31,616.5 a las 11:15 y cerró la sesión regular en 31,480.75 (+0.45%), cerca del mínimo del día.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "+0.56%",
+    "detalle": "779.15 · récord",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "+0.45%",
+    "detalle": "759.64",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.73%",
+    "detalle": "281.30",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,480.75",
+    "detalle": "+0.45% · máx. 31,616.5",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,873",
+    "detalle": "+0.53% · máx. 7,897.5",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.04",
+    "detalle": "−3.1%",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "10 años",
+    "valor": "5.28%",
+    "detalle": "−2 pb",
+    "dir": "down"
+   }
+  ],
+  "que_movio": "El S&P 500 y el Nasdaq cerraron en récord: bajaron los rendimientos de los bonos (10 años en ~5.28%, desde máximos de 24 años) y el petróleo quedó estable. El tema del día fue la energía nuclear: Google firmó con Constellation (CEG) un contrato de 20 años y arrastró a Talen, Vistra y las de uranio. Del otro lado, la genómica cayó en bloque (Twist, 10x, Tempus) y las pequeñas empresas bajaron (IWM −0.73%). El NQ hizo su récord a las 11:15 y luego retrocedió 136 puntos para cerrar cerca del mínimo, un cierre débil antes de las minutas del FOMC de mañana.",
+  "movers": [
+   {
+    "ticker": "OPCH",
+    "cambio": "+32.7%",
+    "nota": "Option Care: noticia de compra"
+   },
+   {
+    "ticker": "STDN",
+    "cambio": "+16.8%",
+    "nota": "Standard Nuclear: tema nuclear"
+   },
+   {
+    "ticker": "CIEN",
+    "cambio": "+13.9%",
+    "nota": "Ciena: redes ópticas"
+   },
+   {
+    "ticker": "TLN",
+    "cambio": "+12.4%",
+    "nota": "Nucleares suben por el acuerdo de CEG"
+   },
+   {
+    "ticker": "CEG",
+    "cambio": "+12.3%",
+    "nota": "Acuerdo nuclear de 20 años con Google"
+   },
+   {
+    "ticker": "CTVA",
+    "cambio": "+12.2%",
+    "nota": "JPMorgan sube a Sobreponderar"
+   },
+   {
+    "ticker": "TWST",
+    "cambio": "−18.6%",
+    "nota": "Genómica cae en bloque"
+   },
+   {
+    "ticker": "TXG",
+    "cambio": "−17.5%",
+    "nota": "Genómica cae en bloque"
+   },
+   {
+    "ticker": "ALMR",
+    "cambio": "−15.4%",
+    "nota": "Alamar: proteómica"
+   },
+   {
+    "ticker": "TEM",
+    "cambio": "−13.9%",
+    "nota": "Tempus AI: diagnóstico"
+   },
+   {
+    "ticker": "NEO",
+    "cambio": "−13.7%",
+    "nota": "NeoGenomics: diagnóstico"
+   },
+   {
+    "ticker": "SYRE",
+    "cambio": "−13.6%",
+    "nota": "Spyre: biotecnológica"
+   }
+  ],
+  "despues_cierre": [
+   {
+    "ticker": "STZ",
+    "cambio": "−2.7%",
+    "nota": "Constellation Brands publicó resultados del 2.º trimestre fiscal (esperaban ~$3.55–3.62 por acción); aún no encontramos las cifras. Llamada mañana 8:00 AM. 796k acciones después del cierre."
+   },
+   {
+    "ticker": "CEG",
+    "cambio": "−2.1%",
+    "nota": "Toma de ganancias tras +12.3% en el día (705k acciones)."
+   },
+   {
+    "ticker": "NEOG",
+    "cambio": "+9.8%",
+    "nota": "Neogen: sin titular confirmado (1.06M acciones)."
+   },
+   {
+    "ticker": "PENG",
+    "cambio": "+5.9%",
+    "nota": "Penguin Solutions: sin titular confirmado (2.1M acciones)."
+   }
+  ],
+  "manana": [
+   {
+    "hora": "8:00",
+    "tema": "Constellation Brands (STZ): llamada de resultados",
+    "efecto": "Solo STZ y el sector de bebidas.",
+    "prob": 2
+   },
+   {
+    "hora": "10:30",
+    "tema": "Inventarios de crudo (EIA)",
+    "efecto": "Mueve el petróleo; efecto indirecto en rendimientos de los bonos.",
+    "prob": 3,
+    "enlace": "https://ng.investing.com/news/stock-market-news/fomc-minutes-crude-oil-inventories-among-economic-data-due-wednesday-93CH-2724181",
+    "fuente": "Investing.com"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "Subasta de notas a 10 años (reapertura)",
+    "efecto": "La de septiembre pagó 4.834%, la más alta desde 2007. Con el 10 años en 5.28%, una subasta débil presiona al NQ.",
+    "prob": 6,
+    "enlace": "https://www.tftc.io/treasury-auctions/10-year-note",
+    "fuente": "TFTC"
+   },
+   {
+    "hora": "2:00 PM",
+    "tema": "⚠️ Minutas del FOMC (reunión del 15–16 sept.)",
+    "efecto": "Detalle de la subida de septiembre y pistas para octubre. Con los rendimientos de los bonos en máximos de décadas, el evento clave de la semana para NQ/ES.",
+    "prob": 8,
+    "enlace": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+    "fuente": "Admiral Markets"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Cierre",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY"
+    ],
+    "titulo": "El S&P 500 cierra en récord",
+    "resumen": "El índice marcó un nuevo máximo con la ayuda de la tecnología, mientras el petróleo y los bonos se calmaron.",
+    "fuente": "TheStreet",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+   },
+   {
+    "hora": "Cierre",
+    "categoria": "Macro",
+    "tickers": [
+     "QQQ",
+     "NVDA",
+     "AMD"
+    ],
+    "titulo": "Nasdaq en máximos con NVDA y AMD al frente",
+    "resumen": "Los chips lideraron la mañana y el Nasdaq tocó un nuevo máximo histórico.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Bonos",
+    "titulo": "Rendimientos y petróleo retroceden",
+    "resumen": "Los bonos dieron un respiro desde máximos de 24 años y el crudo quedó plano, lo que sostuvo a la bolsa.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-6-134418932.html"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Empresas",
+    "tickers": [
+     "CEG",
+     "GOOGL"
+    ],
+    "titulo": "Google firma 20 años de energía nuclear con Constellation",
+    "resumen": "El contrato cubre 890 MW de capacidad nueva más otro suministro de 2,700 MW. CEG cerró +12.3%.",
+    "fuente": "Upstox",
+    "url": "https://upstox.com/news/market-news/us-stocks/constellation-energy-shares-jump-15-on-nasdaq-after-long-term-890-mw-nuclear-power-deal-with-google/article-201392/"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Empresas",
+    "tickers": [
+     "TLN",
+     "VST"
+    ],
+    "titulo": "Las nucleares se disparan en bloque",
+    "resumen": "Talen y Vistra subieron más de 10% con la lectura de más demanda eléctrica para centros de datos.",
+    "fuente": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/10/06/constellation-energy-soars-12-on-google-nuclear-deal-for-890-mw-vistra-jumps-8-talen-energy-climbs-7/"
+   },
+   {
+    "hora": "Mediodía",
+    "categoria": "Empresas",
+    "tickers": [
+     "CEG",
+     "OKLO"
+    ],
+    "titulo": "El tema nuclear domina la sesión",
+    "resumen": "El resumen de mediodía destacó el récord del S&P y la subida de las nucleares.",
+    "fuente": "The Motley Fool",
+    "url": "https://fool.com/coverage/stock-market-today/2026/10/06/stock-market-midday-oct-6-s-and-p-500-sets-new-high-nuclear-stocks-surge"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Empresas",
+    "tickers": [
+     "MRVL"
+    ],
+    "titulo": "Marvell presenta metas de largo plazo",
+    "resumen": "En su Investor Day la empresa expuso su plan para chips a medida, con Google como cliente clave.",
+    "fuente": "Marvell IR",
+    "url": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026"
+   },
+   {
+    "hora": "Después del cierre",
+    "categoria": "Empresas",
+    "tickers": [
+     "STZ"
+    ],
+    "titulo": "Constellation Brands reporta tras el cierre",
+    "resumen": "El mercado llegaba con expectativas bajas por la debilidad de la cerveza. La acción baja ~2.7% después del cierre.",
+    "fuente": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/10/06/live-can-constellation-brands-rally-after-q2-earnings-tonight/"
+   },
+   {
+    "hora": "Mié 1 PM",
+    "categoria": "Bonos",
+    "titulo": "Mañana: subasta de 10 años",
+    "resumen": "Es una reapertura; la anterior salió con el rendimiento más alto desde 2007.",
+    "fuente": "TFTC",
+    "url": "https://www.tftc.io/treasury-auctions/10-year-note"
+   },
+   {
+    "hora": "Mié 2 PM",
+    "categoria": "Fed",
+    "titulo": "Mañana: minutas del FOMC",
+    "resumen": "Mostrarán el debate detrás de la subida de tasas de septiembre y qué piensa la Fed para octubre.",
+    "fuente": "Admiral Markets",
+    "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,480.75",
+   "cambio": "+0.45%",
+   "nota": "Sesión regular: apertura 31,513.25 · máximo 31,616.5 (11:15, récord) · mínimo 31,457.75 (9:35) · cierre 31,480.75, en el 14% del rango. Después del cierre: 31,498. ATR diario: 489 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Nuevo récord y mínimo más alto; sigue sobre sus medias de 20/50/200 días. La vela de la sesión regular dejó una mecha superior larga: aviso, no cambio de tendencia."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Lateral",
+     "nota": "Cambió desde el mediodía: máximos más bajos desde 11:15 (31,557 → 31,537 → 31,526) y cierre cerca del mínimo. Sigue sobre la media de 50 horas (30,945)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "Cielo azul",
+     "nota": "Sobre 31,616.5; extensión: R2 31,677",
+     "tipo": "cielo"
+    },
+    {
+     "nivel": "31,616.5",
+     "nota": "Récord de hoy · +136 pts (0.28 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,557–31,579",
+     "nota": "Máximo menor de la tarde + pivote R1 · +77 a +98 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,518–31,539",
+     "nota": "Pivote P + OB bajista de 5 min · +37 a +58 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,480.75",
+     "nota": "Cierre regular",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,458",
+     "nota": "Mínimo de hoy + R1 de ayer (dentro del OB de 15/60 min) · −23 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,420",
+     "nota": "Pivote S1 · −61 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,360–31,371",
+     "nota": "Récord de ayer + pivote S2 · −110 a −121 pts (0.23 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,309",
+     "nota": "Mínimo de la noche de hoy · −172 pts (0.35 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Mañana, sostener 31,458 y recuperar el pivote 31,518 → vuelta a 31,557–31,579 y al récord 31,616.5. Cierre de 1 hora bajo 31,458 → 31,360–31,371 (récord de ayer + S2). Las minutas del FOMC a las 2 PM pueden mover ese rango: esperar la reacción antes de entrar."
+  },
+  "es": {
+   "ultimo": "7,873",
+   "cambio": "+0.53%",
+   "nota": "Sesión regular: apertura 7,862.5 · máximo 7,897.5 (11:25, récord) · mínimo 7,860.25 (9:35) · cierre 7,873 (34% del rango). ATR diario: 84 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Nuevo récord; sobre sus medias de 20/50/200 días."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Lateral",
+     "nota": "Máximos más bajos desde 11:25; rango estrecho 7,870–7,886 en la tarde."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "Cielo azul",
+     "nota": "Sobre 7,897.5; extensión: R2 7,914",
+     "tipo": "cielo"
+    },
+    {
+     "nivel": "7,893.6–7,897.5",
+     "nota": "Pivote R1 + récord de hoy · +21 a +25 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,877–7,891",
+     "nota": "Pivote P + OB bajista de 5 min · +4 a +18 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,873",
+     "nota": "Cierre regular",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,869.75–7,874",
+     "nota": "OB alcista de 5/15 min + mínimo de la tarde · 0 a −3 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,856–7,860",
+     "nota": "Pivote S1 + mínimo de hoy · −13 a −17 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,840–7,848.5",
+     "nota": "Pivote S2 + récord anterior · −25 a −33 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,821–7,832",
+     "nota": "OB alcista de 60 min · −41 a −52 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Sostener 7,870 y recuperar 7,891 → récord 7,897.5 y R2 7,914. Cierre de 1 hora bajo 7,856 → 7,840–7,848.5."
+  },
+  "ob": {
+   "hora": "4:18 PM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31499.75,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31499.75,
+       "arriba": [
+        {
+         "alto": 31538.75,
+         "bajo": 31529,
+         "tipo": "bajista",
+         "dist": 29.25
+        },
+        {
+         "alto": 31567.75,
+         "bajo": 31551.63,
+         "tipo": "bajista",
+         "dist": 51.88
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31291.63,
+         "bajo": 31271.5,
+         "tipo": "alcista",
+         "dist": -208.12
+        },
+        {
+         "alto": 31221,
+         "bajo": 31200.5,
+         "tipo": "alcista",
+         "dist": -278.75
+        },
+        {
+         "alto": 31102.13,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -397.62
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31499.75,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 31512.38,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 31127.88,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -371.87
+        },
+        {
+         "alto": 30560.13,
+         "bajo": 30522.5,
+         "tipo": "alcista",
+         "dist": -939.62
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31499.75,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 31520.75,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 31146,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -353.75
+        },
+        {
+         "alto": 30368.13,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -1131.62
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7876.5,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7876.5,
+       "arriba": [
+        {
+         "alto": 7891.25,
+         "bajo": 7888.25,
+         "tipo": "bajista",
+         "dist": 11.75
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7872.25,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": -4.25
+        },
+        {
+         "alto": 7826.75,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -49.75
+        },
+        {
+         "alto": 7795,
+         "bajo": 7790.5,
+         "tipo": "alcista",
+         "dist": -81.5
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 7876.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7874.13,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": -2.37
+        },
+        {
+         "alto": 7828.88,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -47.62
+        },
+        {
+         "alto": 7778.25,
+         "bajo": 7773.75,
+         "tipo": "alcista",
+         "dist": -98.25
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7876.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7831.63,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -44.87
+        },
+        {
+         "alto": 7794.63,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -81.87
+        },
+        {
+         "alto": 7629.13,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -247.37
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ: el precio quedó dentro del OB alcista de 15 y 60 min (31,458–31,521), que coincide con el mínimo del día y R1 de ayer; arriba solo hay OB bajistas de 5 min (31,529–31,568). ES: sobre el OB alcista de 5/15 min (7,870–7,874)."
+  },
+  "volumen": {
+   "resumen": "Sesión con volumen bajo: NQ 0.82× y ES 0.71× su promedio de 20 días. La primera hora concentró el 32% del volumen regular del NQ; el récord de las 11:15 y la caída de la tarde salieron con menos volumen.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Completa (Globex)",
+     "volumen": "464,287",
+     "promedio20": "566,455",
+     "relativo": "0.82×",
+     "nota": "Regular: 348,459 (75%)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Completa (Globex)",
+     "volumen": "1,179,376",
+     "promedio20": "1,652,551",
+     "relativo": "0.71×",
+     "nota": "Regular: 941,643 (80%)."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "110,482",
+     "nq_pct": 100,
+     "nq_rango": "31,457.75–31,583.75",
+     "nq_mov": "−12",
+     "es_vol": "252,462",
+     "es_mov": "+6.75",
+     "nota": "Mínimo del día en R1 (9:35) y rebote."
+    },
+    {
+     "hora": "10:30",
+     "nq_vol": "62,503",
+     "nq_pct": 57,
+     "nq_rango": "31,480–31,616.5",
+     "nq_mov": "+90.75",
+     "es_vol": "178,048",
+     "es_mov": "+25.5",
+     "nota": "Récord a las 11:15."
+    },
+    {
+     "hora": "11:30",
+     "nq_vol": "40,339",
+     "nq_pct": 37,
+     "nq_rango": "31,518.25–31,593.5",
+     "nq_mov": "−67.75",
+     "es_vol": "116,410",
+     "es_mov": "−10.75",
+     "nota": "Retroceso desde el récord."
+    },
+    {
+     "hora": "12:30",
+     "nq_vol": "38,473",
+     "nq_pct": 35,
+     "nq_rango": "31,480.75–31,549",
+     "nq_mov": "−5.75",
+     "es_vol": "112,357",
+     "es_mov": "−6",
+     "nota": "Mínimo de la tarde a las 13:20."
+    },
+    {
+     "hora": "13:30",
+     "nq_vol": "33,520",
+     "nq_pct": 30,
+     "nq_rango": "31,507.5–31,557.5",
+     "nq_mov": "+10",
+     "es_vol": "77,822",
+     "es_mov": "+1",
+     "nota": "Rebote débil."
+    },
+    {
+     "hora": "14:30",
+     "nq_vol": "28,697",
+     "nq_pct": 26,
+     "nq_rango": "31,505.25–31,537.5",
+     "nq_mov": "−2.75",
+     "es_vol": "68,191",
+     "es_mov": "−1.25",
+     "nota": "Rango estrecho."
+    },
+    {
+     "hora": "15:30",
+     "nq_vol": "34,445",
+     "nq_pct": 31,
+     "nq_rango": "31,467.75–31,526.25",
+     "nq_mov": "−44.5",
+     "es_vol": "136,353",
+     "es_mov": "−5",
+     "nota": "Venta al cierre: cierre cerca del mínimo."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes para mañana, con el máximo, mínimo y cierre de la sesión regular de hoy.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,737.7",
+     "es": "7,930.8",
+     "nota": "Extensión en cielo azul."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,677.1",
+     "es": "7,914.2",
+     "nota": "Sobre los récords de hoy."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,578.9",
+     "es": "7,893.6",
+     "nota": "NQ: junto al máximo menor 31,557; ES: pegado al récord 7,897.5."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,518.3",
+     "es": "7,876.9",
+     "nota": "NQ: coincide con el OB bajista de 5 min (31,529–31,539)."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,420.2",
+     "es": "7,856.3",
+     "nota": "ES: junto al mínimo de hoy 7,860."
+    },
+    {
+     "nombre": "S2",
+     "nq": "31,359.6",
+     "es": "7,839.7",
+     "nota": "NQ: récord de ayer 31,371. ES: récord anterior 7,848.5."
+    },
+    {
+     "nombre": "S3",
+     "nq": "31,261.4",
+     "es": "7,819.1",
+     "nota": "NQ: zona 31,251–31,282 (P de hoy y récord del viernes)."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "9:30–9:45",
+    "evento": "Apertura (rango de 15 min)",
+    "nq": "+3.75",
+    "es": "+5",
+    "lectura": "Bajada a R1 (31,458) a las 9:35: fue el mínimo del día."
+   },
+   {
+    "hora": "10:45–11:15",
+    "evento": "Bowman (vota): regulación",
+    "nq": "+39",
+    "es": "+10",
+    "lectura": "Sin titular de tasas; récords de NQ y ES."
+   },
+   {
+    "hora": "11:15–13:20",
+    "evento": "Sin evento programado",
+    "nq": "−113",
+    "es": "−19.5",
+    "lectura": "Toma de ganancias desde el récord, con volumen bajando."
+   },
+   {
+    "hora": "1:00–1:30 PM",
+    "evento": "Subasta de 3 años / Schmid",
+    "nq": "−11.75",
+    "es": "−3.25",
+    "lectura": "Reacción menor; no encontramos el resultado de la subasta."
+   },
+   {
+    "hora": "3:00–4:00 PM",
+    "evento": "Última hora",
+    "nq": "−52",
+    "es": "−8.75",
+    "lectura": "Venta al cierre: el NQ terminó a 23 puntos del mínimo del día."
+   },
+   {
+    "hora": "Mié 2 PM",
+    "evento": "Minutas del FOMC — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Tono duro → prueba de 31,458 y 31,360–31,371. Tono suave → recuperar P 31,518 y volver al récord."
+   }
+  ],
+  "soportes": {
+   "nota": "Resultado del tablero de la mañana. Grado A: 2 sostuvieron (AMD con objetivo), 1 perforó, 5 no tocaron, 0 rompieron. Grado B: 2 sostuvieron (AMZN con objetivo), 3 no tocaron. Grado C: 1 sostuvo (CBRS, casi objetivo), 1 rompió (INTC). Los rebotes de la mañana funcionaron; el cierre débil devolvió casi todos los niveles tocados.",
+   "revision": [
+    {
+     "ticker": "NVDA",
+     "nivel": "240.10",
+     "resultado": "Perforó",
+     "nota": "Tablero de la tarde: Tocó 13:05; máx. 240.62 (+0.21%), cierre 239.20."
+    },
+    {
+     "ticker": "QQQ",
+     "nivel": "759.10",
+     "resultado": "No tocó",
+     "nota": "Tablero de la tarde: Mínimo de la tarde 759.34."
+    },
+    {
+     "ticker": "SPCX",
+     "nivel": "172.47",
+     "resultado": "Perforó",
+     "nota": "Tablero de la tarde: Tocó 13:30; máx. 173.65 (+0.68%), cierre 171.97 bajo el nivel."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "AMD",
+     "grado": "A",
+     "soporte": "633.50",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Tocó 628.00 (9:35) y subió a 658.52 (11:10): +3.95%, objetivo 645.46 alcanzado."
+    },
+    {
+     "ticker": "MU",
+     "grado": "A",
+     "soporte": "1,055.56",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Rebote a 1,074.24 (+1.8%) a las 10:05; luego cayó y cerró en 1,045.37, justo sobre la invalidación (1,045.10)."
+    },
+    {
+     "ticker": "NVDA",
+     "grado": "A",
+     "soporte": "240.10",
+     "resultado": "Perforó",
+     "tipo_nivel": "Tocó a las 13:05; rebote de solo +0.21% y cierre en 239.20, bajo el nivel (sin cierre bajo 238.75)."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "A",
+     "soporte": "756.92",
+     "resultado": "No tocó",
+     "tipo_nivel": "Mínimo 759.10."
+    },
+    {
+     "ticker": "PLTR",
+     "grado": "A",
+     "soporte": "187.63",
+     "resultado": "No tocó",
+     "tipo_nivel": "Mínimo 190.22."
+    },
+    {
+     "ticker": "META",
+     "grado": "A",
+     "soporte": "727.12",
+     "resultado": "No tocó",
+     "tipo_nivel": "Mínimo 736.69."
+    },
+    {
+     "ticker": "MSFT",
+     "grado": "A",
+     "soporte": "522.85",
+     "resultado": "No tocó",
+     "tipo_nivel": "Mínimo 528.78."
+    },
+    {
+     "ticker": "SPCX",
+     "grado": "A",
+     "soporte": "159.84",
+     "resultado": "No tocó",
+     "tipo_nivel": "Mínimo 171.39."
+    },
+    {
+     "ticker": "AMZN",
+     "grado": "B",
+     "soporte": "251.93",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Tocó en la apertura (251.08) y llegó al objetivo 254.53 a las 10:35; cerró en 256.27 (+1.9% máx.)."
+    },
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "soporte": "331.65",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Tocó 330.62; rebote a 334.38 (+0.82%). Objetivo 336.21 no alcanzado (faltaron 1.83)."
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "soporte": "286.58",
+     "resultado": "No tocó",
+     "tipo_nivel": "Abrió con hueco por la noticia; mínimo 291.00."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "soporte": "342.40",
+     "resultado": "No tocó",
+     "tipo_nivel": "Mínimo 344.68."
+    },
+    {
+     "ticker": "TSLA",
+     "grado": "B",
+     "soporte": "374.60",
+     "resultado": "No tocó",
+     "tipo_nivel": "Mínimo 378.52."
+    },
+    {
+     "ticker": "CBRS",
+     "grado": "C",
+     "soporte": "177.53",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Rebote a 184.69 (+4.0%) a las 10:00; casi llega al objetivo 185.29 (faltaron 0.60). Cerró 177.14, bajo el nivel."
+    },
+    {
+     "ticker": "INTC",
+     "grado": "C",
+     "soporte": "115.31",
+     "resultado": "Rompió",
+     "tipo_nivel": "Perdió la invalidación 113.66; mínimo 112.00, cierre 112.49 (−3.2%)."
+    }
+   ],
+   "pie": "Tablero, no señal de entrada: las entradas salen del indicador de Order Blocks, con órdenes límite."
+  },
+  "redes": {
+   "gancho": "NQ marca récord y cierra cerca del mínimo",
+   "sub2": "Récord 31,616.5 a las 11:15; cierre 31,480.75. Mañana: minutas del FOMC."
+  }
+ },
+ "datos_en": {
+  "generado": "4:25 PM ET",
+  "resumen": "New records in the morning on lower yields and the CEG–Google nuclear boost. NQ hit 31,616.5 at 11:15 and closed the regular session at 31,480.75 (+0.45%), near the day's low.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "+0.56%",
+    "detalle": "779.15 · record",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "+0.45%",
+    "detalle": "759.64",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.73%",
+    "detalle": "281.30",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,480.75",
+    "detalle": "+0.45% · high 31,616.5",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,873",
+    "detalle": "+0.53% · high 7,897.5",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.04",
+    "detalle": "−3.1%",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "10-year",
+    "valor": "5.28%",
+    "detalle": "−2 bp",
+    "dir": "down"
+   }
+  ],
+  "que_movio": "The S&P 500 and Nasdaq closed at records: bond yields eased (10-year ~5.28%, off 24-year highs) and oil was flat. The day's theme was nuclear power: Google signed a 20-year contract with Constellation (CEG), lifting Talen, Vistra and the uranium names. On the other side, genomics sold off as a group (Twist, 10x, Tempus) and small caps fell (IWM −0.73%). NQ set its record at 11:15, then gave back 136 points to close near the low, a weak finish ahead of tomorrow's FOMC minutes.",
+  "movers": [
+   {
+    "ticker": "OPCH",
+    "cambio": "+32.7%",
+    "nota": "Option Care: buyout news"
+   },
+   {
+    "ticker": "STDN",
+    "cambio": "+16.8%",
+    "nota": "Standard Nuclear: nuclear theme"
+   },
+   {
+    "ticker": "CIEN",
+    "cambio": "+13.9%",
+    "nota": "Ciena: optical networking"
+   },
+   {
+    "ticker": "TLN",
+    "cambio": "+12.4%",
+    "nota": "Nuclear names rally on the CEG deal"
+   },
+   {
+    "ticker": "CEG",
+    "cambio": "+12.3%",
+    "nota": "20-year nuclear deal with Google"
+   },
+   {
+    "ticker": "CTVA",
+    "cambio": "+12.2%",
+    "nota": "JPMorgan upgrade to Overweight"
+   },
+   {
+    "ticker": "TWST",
+    "cambio": "−18.6%",
+    "nota": "Genomics sells off as a group"
+   },
+   {
+    "ticker": "TXG",
+    "cambio": "−17.5%",
+    "nota": "Genomics sells off as a group"
+   },
+   {
+    "ticker": "ALMR",
+    "cambio": "−15.4%",
+    "nota": "Alamar: proteomics"
+   },
+   {
+    "ticker": "TEM",
+    "cambio": "−13.9%",
+    "nota": "Tempus AI: diagnostics"
+   },
+   {
+    "ticker": "NEO",
+    "cambio": "−13.7%",
+    "nota": "NeoGenomics: diagnostics"
+   },
+   {
+    "ticker": "SYRE",
+    "cambio": "−13.6%",
+    "nota": "Spyre: biotech"
+   }
+  ],
+  "despues_cierre": [
+   {
+    "ticker": "STZ",
+    "cambio": "−2.7%",
+    "nota": "Constellation Brands reported fiscal Q2 (expected ~$3.55–3.62 per share); we haven't found the figures yet. Call tomorrow 8:00 AM. 796k shares after hours."
+   },
+   {
+    "ticker": "CEG",
+    "cambio": "−2.1%",
+    "nota": "Profit-taking after +12.3% on the day (705k shares)."
+   },
+   {
+    "ticker": "NEOG",
+    "cambio": "+9.8%",
+    "nota": "Neogen: no confirmed headline (1.06M shares)."
+   },
+   {
+    "ticker": "PENG",
+    "cambio": "+5.9%",
+    "nota": "Penguin Solutions: no confirmed headline (2.1M shares)."
+   }
+  ],
+  "manana": [
+   {
+    "hora": "8:00",
+    "tema": "Constellation Brands (STZ): earnings call",
+    "efecto": "Only STZ and beverages.",
+    "prob": 2
+   },
+   {
+    "hora": "10:30",
+    "tema": "Crude inventories (EIA)",
+    "efecto": "Moves oil; indirect effect on yields.",
+    "prob": 3,
+    "enlace": "https://ng.investing.com/news/stock-market-news/fomc-minutes-crude-oil-inventories-among-economic-data-due-wednesday-93CH-2724181",
+    "fuente": "Investing.com"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "10-year note auction (reopening)",
+    "efecto": "September's paid 4.834%, the highest since 2007. With the 10-year at 5.28%, a weak auction weighs on NQ.",
+    "prob": 6,
+    "enlace": "https://www.tftc.io/treasury-auctions/10-year-note",
+    "fuente": "TFTC"
+   },
+   {
+    "hora": "2:00 PM",
+    "tema": "⚠️ FOMC minutes (Sept 15–16 meeting)",
+    "efecto": "Detail on September's hike and hints for October. With yields at multi-decade highs, the week's key event for NQ/ES.",
+    "prob": 8,
+    "enlace": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+    "fuente": "Admiral Markets"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Close",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY"
+    ],
+    "titulo": "S&P 500 closes at a record",
+    "resumen": "The index set a new high helped by tech, as oil and bonds calmed down.",
+    "fuente": "TheStreet",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+   },
+   {
+    "hora": "Close",
+    "categoria": "Macro",
+    "tickers": [
+     "QQQ",
+     "NVDA",
+     "AMD"
+    ],
+    "titulo": "Nasdaq at highs with NVDA and AMD in front",
+    "resumen": "Chips led the morning and the Nasdaq touched a new all-time high.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Bonds",
+    "titulo": "Yields and oil pull back",
+    "resumen": "Bonds got a breather from 24-year highs and crude was flat, which supported stocks.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-6-134418932.html"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Companies",
+    "tickers": [
+     "CEG",
+     "GOOGL"
+    ],
+    "titulo": "Google signs 20 years of nuclear power with Constellation",
+    "resumen": "The contract covers 890 MW of new capacity plus another 2,700 MW supply deal. CEG closed +12.3%.",
+    "fuente": "Upstox",
+    "url": "https://upstox.com/news/market-news/us-stocks/constellation-energy-shares-jump-15-on-nasdaq-after-long-term-890-mw-nuclear-power-deal-with-google/article-201392/"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Companies",
+    "tickers": [
+     "TLN",
+     "VST"
+    ],
+    "titulo": "Nuclear names jump as a group",
+    "resumen": "Talen and Vistra rose more than 10% on the read of higher data-center power demand.",
+    "fuente": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/10/06/constellation-energy-soars-12-on-google-nuclear-deal-for-890-mw-vistra-jumps-8-talen-energy-climbs-7/"
+   },
+   {
+    "hora": "Midday",
+    "categoria": "Companies",
+    "tickers": [
+     "CEG",
+     "OKLO"
+    ],
+    "titulo": "The nuclear theme dominates the session",
+    "resumen": "The midday recap highlighted the S&P record and the nuclear rally.",
+    "fuente": "The Motley Fool",
+    "url": "https://fool.com/coverage/stock-market-today/2026/10/06/stock-market-midday-oct-6-s-and-p-500-sets-new-high-nuclear-stocks-surge"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Companies",
+    "tickers": [
+     "MRVL"
+    ],
+    "titulo": "Marvell lays out long-term targets",
+    "resumen": "At its Investor Day the company presented its custom-chip plan, with Google as a key customer.",
+    "fuente": "Marvell IR",
+    "url": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026"
+   },
+   {
+    "hora": "After the close",
+    "categoria": "Companies",
+    "tickers": [
+     "STZ"
+    ],
+    "titulo": "Constellation Brands reports after the close",
+    "resumen": "Expectations were low on weak beer trends. The stock is down ~2.7% after hours.",
+    "fuente": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/10/06/live-can-constellation-brands-rally-after-q2-earnings-tonight/"
+   },
+   {
+    "hora": "Wed 1 PM",
+    "categoria": "Bonds",
+    "titulo": "Tomorrow: 10-year auction",
+    "resumen": "It's a reopening; the previous one came at the highest yield since 2007.",
+    "fuente": "TFTC",
+    "url": "https://www.tftc.io/treasury-auctions/10-year-note"
+   },
+   {
+    "hora": "Wed 2 PM",
+    "categoria": "Fed",
+    "titulo": "Tomorrow: FOMC minutes",
+    "resumen": "They'll show the debate behind September's rate hike and the Fed's thinking for October.",
+    "fuente": "Admiral Markets",
+    "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,480.75",
+   "cambio": "+0.45%",
+   "nota": "Regular session: open 31,513.25 · high 31,616.5 (11:15, record) · low 31,457.75 (9:35) · close 31,480.75, at 14% of the range. After hours: 31,498. Daily ATR: 489 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "New record and a higher low; still above its 20/50/200-day averages. The regular-session candle left a long upper wick: a warning, not a trend change."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Sideways",
+     "nota": "Changed since midday: lower highs since 11:15 (31,557 → 31,537 → 31,526) and a close near the low. Still above the 50-hour average (30,945)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "Blue sky",
+     "nota": "Above 31,616.5; extension: R2 31,677",
+     "tipo": "cielo"
+    },
+    {
+     "nivel": "31,616.5",
+     "nota": "Today's record · +136 pts (0.28 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,557–31,579",
+     "nota": "Afternoon lower high + R1 pivot · +77 to +98 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,518–31,539",
+     "nota": "P pivot + 5-min bearish OB · +37 to +58 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,480.75",
+     "nota": "Regular close",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,458",
+     "nota": "Today's low + yesterday's R1 (inside the 15/60-min OB) · −23 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,420",
+     "nota": "S1 pivot · −61 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,360–31,371",
+     "nota": "Yesterday's record + S2 pivot · −110 to −121 pts (0.23 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,309",
+     "nota": "Today's overnight low · −172 pts (0.35 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Tomorrow, holding 31,458 and reclaiming the 31,518 pivot → back to 31,557–31,579 and the 31,616.5 record. A 1-hour close below 31,458 → 31,360–31,371 (yesterday's record + S2). The 2 PM FOMC minutes can move that range: wait for the reaction before entering."
+  },
+  "es": {
+   "ultimo": "7,873",
+   "cambio": "+0.53%",
+   "nota": "Regular session: open 7,862.5 · high 7,897.5 (11:25, record) · low 7,860.25 (9:35) · close 7,873 (34% of range). Daily ATR: 84 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "New record; above its 20/50/200-day averages."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Sideways",
+     "nota": "Lower highs since 11:25; tight 7,870–7,886 afternoon range."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "Blue sky",
+     "nota": "Above 7,897.5; extension: R2 7,914",
+     "tipo": "cielo"
+    },
+    {
+     "nivel": "7,893.6–7,897.5",
+     "nota": "R1 pivot + today's record · +21 to +25 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,877–7,891",
+     "nota": "P pivot + 5-min bearish OB · +4 to +18 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,873",
+     "nota": "Regular close",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,869.75–7,874",
+     "nota": "5/15-min bullish OB + afternoon low · 0 to −3 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,856–7,860",
+     "nota": "S1 pivot + today's low · −13 to −17 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,840–7,848.5",
+     "nota": "S2 pivot + prior record · −25 to −33 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,821–7,832",
+     "nota": "60-min bullish OB · −41 to −52 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Holding 7,870 and reclaiming 7,891 → the 7,897.5 record and R2 7,914. A 1-hour close below 7,856 → 7,840–7,848.5."
+  },
+  "ob": {
+   "hora": "4:18 PM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31499.75,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31499.75,
+       "arriba": [
+        {
+         "alto": 31538.75,
+         "bajo": 31529,
+         "tipo": "bajista",
+         "dist": 29.25
+        },
+        {
+         "alto": 31567.75,
+         "bajo": 31551.63,
+         "tipo": "bajista",
+         "dist": 51.88
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31291.63,
+         "bajo": 31271.5,
+         "tipo": "alcista",
+         "dist": -208.12
+        },
+        {
+         "alto": 31221,
+         "bajo": 31200.5,
+         "tipo": "alcista",
+         "dist": -278.75
+        },
+        {
+         "alto": 31102.13,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -397.62
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31499.75,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 31512.38,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 31127.88,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -371.87
+        },
+        {
+         "alto": 30560.13,
+         "bajo": 30522.5,
+         "tipo": "alcista",
+         "dist": -939.62
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31499.75,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 31520.75,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 31146,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -353.75
+        },
+        {
+         "alto": 30368.13,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -1131.62
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7876.5,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7876.5,
+       "arriba": [
+        {
+         "alto": 7891.25,
+         "bajo": 7888.25,
+         "tipo": "bajista",
+         "dist": 11.75
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7872.25,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": -4.25
+        },
+        {
+         "alto": 7826.75,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -49.75
+        },
+        {
+         "alto": 7795,
+         "bajo": 7790.5,
+         "tipo": "alcista",
+         "dist": -81.5
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 7876.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7874.13,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": -2.37
+        },
+        {
+         "alto": 7828.88,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -47.62
+        },
+        {
+         "alto": 7778.25,
+         "bajo": 7773.75,
+         "tipo": "alcista",
+         "dist": -98.25
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7876.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7831.63,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -44.87
+        },
+        {
+         "alto": 7794.63,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -81.87
+        },
+        {
+         "alto": 7629.13,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -247.37
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ: price closed inside the 15- and 60-min bullish OB (31,458–31,521), which lines up with the day's low and yesterday's R1; above, only 5-min bearish OBs (31,529–31,568). ES: above the 5/15-min bullish OB (7,870–7,874)."
+  },
+  "volumen": {
+   "resumen": "A low-volume session: NQ 0.82× and ES 0.71× their 20-day average. The first hour held 32% of NQ's regular volume; the 11:15 record and the afternoon drop came on less volume.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Full (Globex)",
+     "volumen": "464,287",
+     "promedio20": "566,455",
+     "relativo": "0.82×",
+     "nota": "Regular: 348,459 (75%)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Full (Globex)",
+     "volumen": "1,179,376",
+     "promedio20": "1,652,551",
+     "relativo": "0.71×",
+     "nota": "Regular: 941,643 (80%)."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "110,482",
+     "nq_pct": 100,
+     "nq_rango": "31,457.75–31,583.75",
+     "nq_mov": "−12",
+     "es_vol": "252,462",
+     "es_mov": "+6.75",
+     "nota": "Day's low at R1 (9:35) and a bounce."
+    },
+    {
+     "hora": "10:30",
+     "nq_vol": "62,503",
+     "nq_pct": 57,
+     "nq_rango": "31,480–31,616.5",
+     "nq_mov": "+90.75",
+     "es_vol": "178,048",
+     "es_mov": "+25.5",
+     "nota": "Record at 11:15."
+    },
+    {
+     "hora": "11:30",
+     "nq_vol": "40,339",
+     "nq_pct": 37,
+     "nq_rango": "31,518.25–31,593.5",
+     "nq_mov": "−67.75",
+     "es_vol": "116,410",
+     "es_mov": "−10.75",
+     "nota": "Pullback from the record."
+    },
+    {
+     "hora": "12:30",
+     "nq_vol": "38,473",
+     "nq_pct": 35,
+     "nq_rango": "31,480.75–31,549",
+     "nq_mov": "−5.75",
+     "es_vol": "112,357",
+     "es_mov": "−6",
+     "nota": "Afternoon low at 13:20."
+    },
+    {
+     "hora": "13:30",
+     "nq_vol": "33,520",
+     "nq_pct": 30,
+     "nq_rango": "31,507.5–31,557.5",
+     "nq_mov": "+10",
+     "es_vol": "77,822",
+     "es_mov": "+1",
+     "nota": "Weak bounce."
+    },
+    {
+     "hora": "14:30",
+     "nq_vol": "28,697",
+     "nq_pct": 26,
+     "nq_rango": "31,505.25–31,537.5",
+     "nq_mov": "−2.75",
+     "es_vol": "68,191",
+     "es_mov": "−1.25",
+     "nota": "Tight range."
+    },
+    {
+     "hora": "15:30",
+     "nq_vol": "34,445",
+     "nq_pct": 31,
+     "nq_rango": "31,467.75–31,526.25",
+     "nq_mov": "−44.5",
+     "es_vol": "136,353",
+     "es_mov": "−5",
+     "nota": "Selling into the close: closed near the low."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivots for tomorrow, from today's regular-session high, low and close.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,737.7",
+     "es": "7,930.8",
+     "nota": "Blue-sky extension."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,677.1",
+     "es": "7,914.2",
+     "nota": "Above today's records."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,578.9",
+     "es": "7,893.6",
+     "nota": "NQ: next to the 31,557 lower high; ES: right at the 7,897.5 record."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,518.3",
+     "es": "7,876.9",
+     "nota": "NQ: lines up with the 5-min bearish OB (31,529–31,539)."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,420.2",
+     "es": "7,856.3",
+     "nota": "ES: next to today's 7,860 low."
+    },
+    {
+     "nombre": "S2",
+     "nq": "31,359.6",
+     "es": "7,839.7",
+     "nota": "NQ: yesterday's 31,371 record. ES: prior record 7,848.5."
+    },
+    {
+     "nombre": "S3",
+     "nq": "31,261.4",
+     "es": "7,819.1",
+     "nota": "NQ: the 31,251–31,282 zone (today's P and Friday's record)."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "9:30–9:45",
+    "evento": "Open (15-min range)",
+    "nq": "+3.75",
+    "es": "+5",
+    "lectura": "Dip to R1 (31,458) at 9:35: the day's low."
+   },
+   {
+    "hora": "10:45–11:15",
+    "evento": "Bowman (voter): regulation",
+    "nq": "+39",
+    "es": "+10",
+    "lectura": "No rates headline; NQ and ES records."
+   },
+   {
+    "hora": "11:15–13:20",
+    "evento": "No scheduled event",
+    "nq": "−113",
+    "es": "−19.5",
+    "lectura": "Profit-taking off the record, on fading volume."
+   },
+   {
+    "hora": "1:00–1:30 PM",
+    "evento": "3-year auction / Schmid",
+    "nq": "−11.75",
+    "es": "−3.25",
+    "lectura": "Minor reaction; we couldn't find the auction result."
+   },
+   {
+    "hora": "3:00–4:00 PM",
+    "evento": "Last hour",
+    "nq": "−52",
+    "es": "−8.75",
+    "lectura": "Selling into the close: NQ finished 23 points above the day's low."
+   },
+   {
+    "hora": "Wed 2 PM",
+    "evento": "FOMC minutes — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Hawkish → test of 31,458 and 31,360–31,371. Dovish → reclaim P 31,518 and back to the record."
+   }
+  ],
+  "soportes": {
+   "nota": "Morning board result. Grade A: 2 held (AMD hit target), 1 pierced, 5 untouched, 0 broke. Grade B: 2 held (AMZN hit target), 3 untouched. Grade C: 1 held (CBRS, almost target), 1 broke (INTC). Morning bounces worked; the weak close gave back almost every level that was touched.",
+   "revision": [
+    {
+     "ticker": "NVDA",
+     "nivel": "240.10",
+     "resultado": "Pierced",
+     "nota": "Afternoon board: Tagged 13:05; max 240.62 (+0.21%), close 239.20."
+    },
+    {
+     "ticker": "QQQ",
+     "nivel": "759.10",
+     "resultado": "Untouched",
+     "nota": "Afternoon board: Afternoon low 759.34."
+    },
+    {
+     "ticker": "SPCX",
+     "nivel": "172.47",
+     "resultado": "Pierced",
+     "nota": "Afternoon board: Tagged 13:30; max 173.65 (+0.68%), close 171.97 under the level."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "AMD",
+     "grado": "A",
+     "soporte": "633.50",
+     "resultado": "Held",
+     "tipo_nivel": "Tagged 628.00 (9:35) and ran to 658.52 (11:10): +3.95%, target 645.46 hit."
+    },
+    {
+     "ticker": "MU",
+     "grado": "A",
+     "soporte": "1,055.56",
+     "resultado": "Held",
+     "tipo_nivel": "Bounced to 1,074.24 (+1.8%) at 10:05; then faded to close at 1,045.37, just above invalidation (1,045.10)."
+    },
+    {
+     "ticker": "NVDA",
+     "grado": "A",
+     "soporte": "240.10",
+     "resultado": "Pierced",
+     "tipo_nivel": "Tagged at 13:05; only a +0.21% bounce and a 239.20 close under the level (no close below 238.75)."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "A",
+     "soporte": "756.92",
+     "resultado": "Untouched",
+     "tipo_nivel": "Low 759.10."
+    },
+    {
+     "ticker": "PLTR",
+     "grado": "A",
+     "soporte": "187.63",
+     "resultado": "Untouched",
+     "tipo_nivel": "Low 190.22."
+    },
+    {
+     "ticker": "META",
+     "grado": "A",
+     "soporte": "727.12",
+     "resultado": "Untouched",
+     "tipo_nivel": "Low 736.69."
+    },
+    {
+     "ticker": "MSFT",
+     "grado": "A",
+     "soporte": "522.85",
+     "resultado": "Untouched",
+     "tipo_nivel": "Low 528.78."
+    },
+    {
+     "ticker": "SPCX",
+     "grado": "A",
+     "soporte": "159.84",
+     "resultado": "Untouched",
+     "tipo_nivel": "Low 171.39."
+    },
+    {
+     "ticker": "AMZN",
+     "grado": "B",
+     "soporte": "251.93",
+     "resultado": "Held",
+     "tipo_nivel": "Tagged at the open (251.08), hit the 254.53 target at 10:35; closed 256.27 (+1.9% max)."
+    },
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "soporte": "331.65",
+     "resultado": "Held",
+     "tipo_nivel": "Tagged 330.62; bounced to 334.38 (+0.82%). Target 336.21 missed by 1.83."
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "soporte": "286.58",
+     "resultado": "Untouched",
+     "tipo_nivel": "Gapped up on the news; low 291.00."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "soporte": "342.40",
+     "resultado": "Untouched",
+     "tipo_nivel": "Low 344.68."
+    },
+    {
+     "ticker": "TSLA",
+     "grado": "B",
+     "soporte": "374.60",
+     "resultado": "Untouched",
+     "tipo_nivel": "Low 378.52."
+    },
+    {
+     "ticker": "CBRS",
+     "grado": "C",
+     "soporte": "177.53",
+     "resultado": "Held",
+     "tipo_nivel": "Bounced to 184.69 (+4.0%) at 10:00; almost hit the 185.29 target (0.60 short). Closed 177.14, under the level."
+    },
+    {
+     "ticker": "INTC",
+     "grado": "C",
+     "soporte": "115.31",
+     "resultado": "Broke",
+     "tipo_nivel": "Lost the 113.66 invalidation; low 112.00, close 112.49 (−3.2%)."
+    }
+   ],
+   "pie": "A board, not an entry signal: entries come off the Order Block indicator, with limit orders."
+  },
+  "redes": {
+   "gancho": "NQ sets a record, closes near the low",
+   "sub2": "Record 31,616.5 at 11:15; close 31,480.75. Tomorrow: FOMC minutes."
+  }
+ }
+}
