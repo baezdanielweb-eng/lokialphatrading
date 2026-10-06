@@ -207,7 +207,7 @@ function slideMovers(titulo) {
   <h2>${esc(titulo)}</h2>
   <div class="card" style="padding:22px 36px">${arriba.map(fila).join('')}</div>
   ${abajo.length ? `<div class="card" style="padding:22px 36px">${abajo.map(fila).join('')}</div>` : ''}
-  <p style="font-size:22px;color:var(--faint)">${r.tipo === 'matutino' ? 'Premarket · ' : ''}EE.UU., capitalización > $2B, sin empresas chinas</p>`;
+  <p style="font-size:22px;color:var(--faint)">${r.tipo === 'matutino' ? 'Premarket · ' : ''}EE.UU., capitalización > $2B</p>`;
 }
 
 const slideCTA = () => `
