@@ -1,0 +1,1747 @@
+{
+ "fecha": "2026-10-12",
+ "tipo": "matutino",
+ "titulo": "LokiAlphaTrading - Reporte Matutino",
+ "datos": {
+  "generado": "8:30 AM ET",
+  "resumen": "Lunes de Columbus Day: la bolsa abre normal pero los bonos del Tesoro no operan, así que se espera volumen bajo. El NQ está plano (31,084.5) tras tocar 31,289 en la noche; la memoria cae (MU −2.2%) y el petróleo sube (Brent ~$106). La semana trae bancos el martes e inflación (IPC) el miércoles.",
+  "pulso": [
+   {
+    "etiqueta": "SPY premarket",
+    "valor": "+0.07%",
+    "detalle": "779.14",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "QQQ premarket",
+    "valor": "−0.12%",
+    "detalle": "750.34",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,084.5",
+    "detalle": "−0.08% · noche 31,030–31,289.25",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,869.25",
+    "detalle": "+0.12% · noche 7,860–7,887",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$106.00",
+    "detalle": "+1.4%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.43",
+    "detalle": "+4.0%",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "Todo el día",
+    "tema": "Columbus Day: bolsa abierta, bonos del Tesoro cerrados",
+    "efecto": "Sin referencia de rendimientos de los bonos en efectivo; volumen bajo y rangos que pueden engañar.",
+    "prob": 3,
+    "estado": "En curso",
+    "enlace": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/",
+    "fuente": "investingLive"
+   },
+   {
+    "hora": "Noche",
+    "tema": "Petróleo sube: Brent ~$106 (+1.4%) tras ataques hutíes a Arabia Saudita",
+    "efecto": "Más presión de inflación antes del IPC del miércoles; pesa sobre el NQ si sigue subiendo.",
+    "prob": 5,
+    "estado": "En curso",
+    "enlace": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-12-dow-sp-500-nasdaq-080321571.html",
+    "fuente": "Yahoo Finance"
+   },
+   {
+    "hora": "Ya salió",
+    "tema": "Memoria cae: avance de CXMT (China) en DRAM",
+    "efecto": "MU −2.2% en premarket; arrastra a chips y al NQ.",
+    "prob": 4,
+    "estado": "Ya salió",
+    "enlace": "https://www.tradingkey.com/analysis/stocks/us-stocks/262211327-us-memory-stocks-premarket-micron-sandisk-wd-drop-cxmt-competition-tradingkey",
+    "fuente": "TradingKey"
+   },
+   {
+    "hora": "12:10 PM",
+    "tema": "Hammack (Fed Cleveland, vota en 2026)",
+    "efecto": "Ha hablado de subir tasas; un tono duro presiona al NQ.",
+    "prob": 4,
+    "enlace": "https://capital.com/en-gb/news/federal-reserve-events",
+    "fuente": "Capital.com"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Noche",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Futuros mixtos antes de la temporada de resultados; petróleo sube",
+    "resumen": "Dow y S&P suben poco y el Nasdaq 100 baja ~0.2%; el Brent ronda $106 tras ataques hutíes y la tregua energética Rusia–Ucrania.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-12-dow-sp-500-nasdaq-080321571.html"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY"
+    ],
+    "titulo": "Columbus Day: bolsa abierta, bonos cerrados",
+    "resumen": "NYSE y Nasdaq operan normal; SIFMA recomienda cierre total del mercado de bonos del Tesoro en efectivo.",
+    "fuente": "investingLive",
+    "url": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/"
+   },
+   {
+    "hora": "Premarket",
+    "categoria": "Empresas",
+    "tickers": [
+     "CRM",
+     "FSLR",
+     "BIIB"
+    ],
+    "titulo": "Salesforce sube por doble mejora de Bank of America",
+    "resumen": "BofA pasa CRM de venta a compra; Truist mejora a First Solar y JPMorgan a Biogen.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html"
+   },
+   {
+    "hora": "Viernes",
+    "categoria": "Empresas",
+    "tickers": [
+     "CCC"
+    ],
+    "titulo": "GTCR y Elliott, cerca de comprar CCC",
+    "resumen": "Bloomberg reportó conversaciones avanzadas por la empresa de software de seguros de autos; el acuerdo podría anunciarse esta semana.",
+    "fuente": "WHBL / Bloomberg",
+    "url": "https://whbl.com/2026/10/09/gtcr-elliott-in-advanced-talks-to-acquire-ccc-intelligent-solutions-bloomberg-news-reports/"
+   },
+   {
+    "hora": "Noche",
+    "categoria": "Empresas",
+    "tickers": [
+     "IREN"
+    ],
+    "titulo": "IREN sube por la licitación de nube de Anthropic en Australia",
+    "resumen": "Un reporte dice que Anthropic busca ~1.4 GW de capacidad en Australia e invitó a IREN, entre otros; la decisión tardaría semanas.",
+    "fuente": "Stocktwits",
+    "url": "https://stocktwits.com/news-articles/markets/equity/iren-stock-climbs-5-overnight-as-speculation-builds-over-anthropic-contract/cZmKDiGR7kj"
+   },
+   {
+    "hora": "Premarket",
+    "categoria": "Empresas",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "WDC"
+    ],
+    "titulo": "Memoria cae por avance chino en DRAM",
+    "resumen": "CXMT reportó avances en un diseño de DRAM de nueva generación; MU, SanDisk y Western Digital bajan más de 2%.",
+    "fuente": "TradingKey",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262211327-us-memory-stocks-premarket-micron-sandisk-wd-drop-cxmt-competition-tradingkey"
+   },
+   {
+    "hora": "Premarket",
+    "categoria": "Empresas",
+    "tickers": [
+     "IONQ",
+     "CCC",
+     "IREN"
+    ],
+    "titulo": "IREN y CCC lideran; IonQ cae tras compra",
+    "resumen": "IonQ compraría la firma de ciberseguridad Elisity por hasta $1.3B, según el WSJ.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-iren-jumps-anthropic-100951528.html"
+   },
+   {
+    "hora": "Semana",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Semana de IPC, ventas minoristas y bancos",
+    "resumen": "IPC el miércoles (consenso 3.6% anual), ventas minoristas y PPI el jueves; JPM, GS y C reportan el martes.",
+    "fuente": "investingLive",
+    "url": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,084.5",
+   "cambio": "−0.08%",
+   "nota": "Último 31,084.5 (−28 vs el cierre regular del viernes, 31,112.25). Noche: 31,030–31,289.25 (máximo el domingo 7 PM). ATR diario: 431 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sobre sus medias de 20/50/200 días (30,672 / 29,980 / 27,789); viernes fue día interno; 4 días de pausa desde el récord 31,616.5."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Retroceso",
+     "nota": "Bajo su media de 50 horas (31,130); máximos más bajos desde 31,289 del domingo."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,283–31,289",
+     "nota": "Pivote R2 + máximo de la noche · +199 a +205 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,180–31,198",
+     "nota": "Máximo del viernes + pivote R1 · +96 a +113 pts (0.22–0.26 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,094–31,121",
+     "nota": "Pivote P + cierre del viernes · +10 a +37 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,084.5",
+     "nota": "Último (8:24)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,030–31,046",
+     "nota": "Mínimo de la noche · −39 a −55 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,009–31,018",
+     "nota": "Pivote S1 + OB alcista de 15 min · −67 a −76 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,991",
+     "nota": "Mínimo del viernes · −94 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,905",
+     "nota": "Pivote S2 · −180 pts (0.42 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Si recupera 31,121 (cierre del viernes), abre 31,180–31,198. Si cierra 1 hora bajo 31,009, apunta a 30,991 y 30,905. Día festivo de bonos: volumen bajo, rangos pueden ser cortos o engañosos."
+  },
+  "es": {
+   "ultimo": "7,869.25",
+   "cambio": "+0.12%",
+   "nota": "Último 7,869.25 (+8 vs el cierre regular del viernes, 7,861). Noche: 7,860–7,887. ATR diario: 72 pts. Récord: 7,897.5.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sobre sus medias; a 28 pts del récord."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Alcista",
+     "nota": "Sobre su media de 50 horas (7,848); cede desde 7,887."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,896.5–7,897.5",
+     "nota": "Pivote R2 + récord · +27 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,887",
+     "nota": "Máximo de la noche · +18 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,878.75",
+     "nota": "Pivote R1 · +9.5 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,869.25",
+     "nota": "Último",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,860",
+     "nota": "Mínimo de la noche · −9 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,852.75",
+     "nota": "Pivote P · −16.5 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,826.75–7,835",
+     "nota": "Mínimo del viernes + pivote S1 · −34 a −42 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Sobre 7,887 apunta al récord 7,897.5. Bajo 7,852.75 (P) vuelve a 7,835."
+  },
+  "volumen": {
+   "resumen": "Viernes: volumen bajo el promedio (NQ 0.84×, ES 0.65×). Hoy los bonos del Tesoro no operan (Columbus Day): se espera volumen bajo.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Viernes (completa)",
+     "volumen": "479,453",
+     "promedio20": "569,394",
+     "relativo": "0.84×",
+     "nota": "Noche de hoy: 31,030–31,289.25 (108k contratos)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Viernes (completa)",
+     "volumen": "1,077,892",
+     "promedio20": "1,662,054",
+     "relativo": "0.65×",
+     "nota": "Noche de hoy: 7,860–7,887 (161k contratos)."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes clásicos con el máximo, mínimo y cierre de la sesión regular del viernes. El NQ abre cerca de P; el ES, entre P y R1.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,386.8",
+     "es": "7,922.5",
+     "nota": "ES: sobre el récord."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,283.4",
+     "es": "7,896.5",
+     "nota": "NQ: junto al máximo de la noche. ES: junto al récord 7,897.5."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,197.8",
+     "es": "7,878.75",
+     "nota": "NQ: junto al máximo del viernes (31,180)."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,094.4",
+     "es": "7,852.75",
+     "nota": "NQ: precio actual."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,008.8",
+     "es": "7,835",
+     "nota": "NQ: junto al OB alcista de 15 min (31,018) y al mínimo del viernes (30,991)."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,905.4",
+     "es": "7,809",
+     "nota": "Siguiente soporte."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,819.8",
+     "es": "7,791.25",
+     "nota": "NQ: cerca del mínimo del jueves (30,792)."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "Noche",
+    "evento": "Petróleo sube; memoria cae",
+    "nq": "−28",
+    "es": "+8",
+    "lectura": "Del cierre del viernes a ahora: el NQ tocó 31,289 y bajó a 31,030; el ES aguanta cerca del récord."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Apertura con bonos cerrados — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Volumen bajo: esperar el rango de 15 minutos; 31,121 arriba y 31,009 abajo."
+   },
+   {
+    "hora": "12:10 PM",
+    "evento": "Hammack — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Tono duro → prueba de 31,009 y 30,991."
+   }
+  ],
+  "picks": {
+   "nota": "Criterios: tendencia + noticia real + volumen relativo de al menos 3×. Hoy ninguna acción pasa los tres filtros: no forzamos picks.",
+   "descartadas": "CCC (+10%, compra en negociación; volumen relativo 2.6× y el precio quedaría fijado por el acuerdo), CRM (+4.7%, doble mejora de BofA, pero 0.6× y bajo su media de 20 días), IREN (+4.2%, reporte sin contrato firmado; tendencia bajista), ASTS (5.1× sin noticia nueva), VZ y T (volumen del viernes, tendencia bajista)."
+  },
+  "megas": {
+   "nota": "Ranking por calidad del nivel y tendencia. El NQ está bajo su media de 50 horas y es día de volumen bajo: todo es grado B o C.",
+   "filas": [
+    {
+     "ticker": "MSFT",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+0.41%",
+     "catalizador": "Sobre el máximo del viernes (537.22); sin titular",
+     "r1": "553.72",
+     "ultimo": "537.26",
+     "s1": "533.51"
+    },
+    {
+     "ticker": "PLTR",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.24%",
+     "catalizador": "Récord del viernes (209.58); líder de la semana",
+     "r1": "209.58",
+     "ultimo": "208.55",
+     "s1": "204.44"
+    },
+    {
+     "ticker": "CEG",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+1.39%",
+     "catalizador": "Sobre el máximo del viernes; sin titular nuevo",
+     "r1": "306.99",
+     "ultimo": "302.21",
+     "s1": "300.98"
+    },
+    {
+     "ticker": "CRM",
+     "tipo": "Noticia",
+     "sesgo": "Lateral",
+     "gap": "+4.68%",
+     "catalizador": "Bank of America sube su recomendación a compra (desde venta)",
+     "r1": "240.24",
+     "ultimo": "239.85",
+     "s1": "230.71"
+    },
+    {
+     "ticker": "QQQ",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.12%",
+     "catalizador": "Sigue al NQ; memoria pesa",
+     "r1": "752.87",
+     "ultimo": "750.34",
+     "s1": "748.37"
+    },
+    {
+     "ticker": "AMZN",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.10%",
+     "catalizador": "Sobre su media de 50 días tras +3.3% el viernes",
+     "r1": "262.80",
+     "ultimo": "262.18",
+     "s1": "260.14"
+    },
+    {
+     "ticker": "GOOGL",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "+0.06%",
+     "catalizador": "Sin titular; sigue al índice",
+     "r1": "354.70",
+     "ultimo": "351.87",
+     "s1": "350.31"
+    },
+    {
+     "ticker": "AAPL",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+0.28%",
+     "catalizador": "Recupera tras el recorte de pedidos del iPhone",
+     "r1": "338.67",
+     "ultimo": "337.59",
+     "s1": "335.90"
+    },
+    {
+     "ticker": "META",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "+1.49%",
+     "catalizador": "Sin titular confirmado",
+     "r1": "738.29",
+     "ultimo": "729.35",
+     "s1": "728.07"
+    },
+    {
+     "ticker": "NVDA",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.22%",
+     "catalizador": "Bajo el mínimo del viernes; chips de memoria débiles",
+     "r1": "229.11",
+     "ultimo": "228.77",
+     "s1": "227.03"
+    },
+    {
+     "ticker": "MU",
+     "tipo": "Mega",
+     "sesgo": "Bajista hoy",
+     "gap": "−2.23%",
+     "catalizador": "Memoria cae: avance de CXMT (China) en DRAM",
+     "r1": "1,011.42",
+     "ultimo": "1,006.06",
+     "s1": "976.19"
+    },
+    {
+     "ticker": "TSLA",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "+0.13%",
+     "catalizador": "Bajo su media de 200 días (390.60)",
+     "r1": "388.56",
+     "ultimo": "383.21",
+     "s1": "379.71"
+    },
+    {
+     "ticker": "SPCX",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+1.16%",
+     "catalizador": "Rebote tras la caída del jueves",
+     "r1": "166.38",
+     "ultimo": "164.45",
+     "s1": "160.61"
+    },
+    {
+     "ticker": "AMD",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.89%",
+     "catalizador": "Bajo el mínimo del viernes (606)",
+     "r1": "606.00",
+     "ultimo": "602.70",
+     "s1": "600.10"
+    },
+    {
+     "ticker": "CCC",
+     "tipo": "Noticia",
+     "sesgo": "Alcista",
+     "gap": "+10.4%",
+     "catalizador": "GTCR y Elliott en conversaciones avanzadas para comprarla",
+     "r1": "7.95",
+     "ultimo": "7.75",
+     "s1": "7.18"
+    },
+    {
+     "ticker": "INTC",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "−1.38%",
+     "catalizador": "Tendencia bajista desde 126",
+     "r1": "104.00",
+     "ultimo": "103.25",
+     "s1": "103.08"
+    },
+    {
+     "ticker": "CBRS",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "−1.54%",
+     "catalizador": "Tendencia bajista",
+     "r1": "165.22",
+     "ultimo": "161.64",
+     "s1": "161.51"
+    }
+   ]
+  },
+  "soportes": {
+   "nota": "Para rebotes al alza, ordenado por distancia en ATR. Diario alcista pero 1 hora en retroceso y volumen bajo: grado B como máximo; esperar vela de rebote confirmada. Invalidación = 0.25 ATR bajo el soporte.",
+   "top3": [
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "rr": "5.2",
+     "nivel": "537.22",
+     "texto": "Retesteo del máximo del viernes, que también es su máximo de 60 días. Objetivo 553.72 (máximo anterior)."
+    },
+    {
+     "ticker": "META",
+     "grado": "B",
+     "rr": "1.9",
+     "nivel": "728.07",
+     "texto": "Retesteo del máximo del viernes. Objetivo 738.29, el máximo del 7 oct."
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "rr": "1.7",
+     "nivel": "300.98",
+     "texto": "Máximo del viernes, ya superado en premarket. Objetivo 306.99, el máximo del jueves."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "MSFT",
+     "precio": "537.26",
+     "soporte": "537.22",
+     "tipo_nivel": "Máximo del viernes (ruptura)",
+     "dist_atr": "0.00",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "553.72",
+     "invalidacion": "534.04",
+     "rr": "5.2"
+    },
+    {
+     "ticker": "CBRS",
+     "precio": "161.64",
+     "soporte": "161.51",
+     "tipo_nivel": "Mínimo del jueves",
+     "dist_atr": "0.01",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "170.11",
+     "invalidacion": "158.38",
+     "rr": "2.7"
+    },
+    {
+     "ticker": "META",
+     "precio": "729.35",
+     "soporte": "728.07",
+     "tipo_nivel": "Máximo del viernes (retesteo)",
+     "dist_atr": "0.06",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "738.29",
+     "invalidacion": "722.57",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "NVDA",
+     "precio": "228.77",
+     "soporte": "229.11",
+     "tipo_nivel": "Prueba desde abajo: mínimo del viernes",
+     "dist_atr": "-0.07",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "233.92",
+     "invalidacion": "227.81",
+     "rr": "3.7"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "302.21",
+     "soporte": "300.98",
+     "tipo_nivel": "Máximo del viernes (ruptura)",
+     "dist_atr": "0.08",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "306.99",
+     "invalidacion": "297.35",
+     "rr": "1.7"
+    },
+    {
+     "ticker": "MU",
+     "precio": "1,006.06",
+     "soporte": "1,011.42",
+     "tipo_nivel": "Prueba desde abajo: mínimo del 7 oct",
+     "dist_atr": "-0.12",
+     "tendencia": "Lateral",
+     "grado": "C",
+     "objetivo": "1,032.10",
+     "invalidacion": "1,000.43",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "103.25",
+     "soporte": "104.00",
+     "tipo_nivel": "Prueba desde abajo: mínimo del viernes",
+     "dist_atr": "-0.14",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "108.38",
+     "invalidacion": "102.62",
+     "rr": "3.2"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "602.70",
+     "soporte": "606.00",
+     "tipo_nivel": "Prueba desde abajo: mínimo del viernes",
+     "dist_atr": "-0.15",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "613.34",
+     "invalidacion": "600.46",
+     "rr": "1.3"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "351.87",
+     "soporte": "350.31",
+     "tipo_nivel": "Mínimo del viernes",
+     "dist_atr": "0.18",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "354.70",
+     "invalidacion": "348.14",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "750.34",
+     "soporte": "748.37",
+     "tipo_nivel": "Mínimo del viernes",
+     "dist_atr": "0.23",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "752.87",
+     "invalidacion": "746.24",
+     "rr": "2.1"
+    },
+    {
+     "ticker": "AAPL",
+     "precio": "337.59",
+     "soporte": "335.90",
+     "tipo_nivel": "Mínimo del jueves",
+     "dist_atr": "0.26",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "341.57",
+     "invalidacion": "334.28",
+     "rr": "3.5"
+    },
+    {
+     "ticker": "TSLA",
+     "precio": "383.21",
+     "soporte": "379.71",
+     "tipo_nivel": "Mínimo del viernes",
+     "dist_atr": "0.32",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "388.56",
+     "invalidacion": "376.95",
+     "rr": "3.2"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "262.18",
+     "soporte": "260.14",
+     "tipo_nivel": "Máximo del 7 oct (retesteo)",
+     "dist_atr": "0.36",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "262.80",
+     "invalidacion": "258.73",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "164.45",
+     "soporte": "160.61",
+     "tipo_nivel": "Mínimo del viernes",
+     "dist_atr": "0.59",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "166.38",
+     "invalidacion": "158.98",
+     "rr": "3.5"
+    },
+    {
+     "ticker": "PLTR",
+     "precio": "208.55",
+     "soporte": "204.44",
+     "tipo_nivel": "Máximo del jueves (retesteo)",
+     "dist_atr": "0.67",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "209.58",
+     "invalidacion": "202.90",
+     "rr": "3.3"
+    }
+   ]
+  },
+  "movers": [
+   {
+    "ticker": "CCC",
+    "cambio": "+10.7%",
+    "nota": "GTCR y Elliott negocian comprarla"
+   },
+   {
+    "ticker": "IREN",
+    "cambio": "+4.2%",
+    "nota": "Licitación de Anthropic (reporte)"
+   },
+   {
+    "ticker": "ASTS",
+    "cambio": "+4.1%",
+    "nota": "Rebota tras −10.5% el viernes"
+   },
+   {
+    "ticker": "BMY",
+    "cambio": "+3.9%",
+    "nota": "Farmacéutica"
+   },
+   {
+    "ticker": "NOW",
+    "cambio": "+2.3%",
+    "nota": "ServiceNow: software"
+   },
+   {
+    "ticker": "META",
+    "cambio": "+1.5%",
+    "nota": "Meta Platforms"
+   },
+   {
+    "ticker": "NBIS",
+    "cambio": "−3.0%",
+    "nota": "Nebius: nube de IA"
+   },
+   {
+    "ticker": "IONQ",
+    "cambio": "−2.8%",
+    "nota": "Compra Elisity (hasta $1.3B)"
+   },
+   {
+    "ticker": "ADBE",
+    "cambio": "−2.8%",
+    "nota": "Adobe: software"
+   },
+   {
+    "ticker": "AAOI",
+    "cambio": "−2.7%",
+    "nota": "Ópticos: componentes"
+   },
+   {
+    "ticker": "MU",
+    "cambio": "−2.2%",
+    "nota": "Memoria: avance chino en DRAM"
+   },
+   {
+    "ticker": "SOFI",
+    "cambio": "−1.8%",
+    "nota": "SoFi: fintech"
+   }
+  ],
+  "semana": {
+   "eventos": [
+    {
+     "dia": "Lun",
+     "hora": "Todo el día",
+     "tema": "Columbus Day: bonos cerrados, volumen bajo",
+     "prob": 3
+    },
+    {
+     "dia": "Mar",
+     "hora": "Antes de abrir",
+     "tema": "Bancos abren temporada: JPM, GS, C",
+     "prob": 6
+    },
+    {
+     "dia": "Mié",
+     "hora": "8:30 AM",
+     "tema": "Inflación (IPC) de septiembre",
+     "prob": 9
+    },
+    {
+     "dia": "Jue",
+     "hora": "8:30 AM",
+     "tema": "Ventas minoristas + PPI",
+     "prob": 7
+    },
+    {
+     "dia": "Vie",
+     "hora": "—",
+     "tema": "Warsh (presidente de la Fed) habla",
+     "prob": 7
+    }
+   ]
+  },
+  "redes": {
+   "gancho": "Lunes con bonos cerrados: volumen bajo y semana de IPC",
+   "subgancho": "Wall Street abre normal; el NQ, plano.",
+   "sub2": "Memoria cae; petróleo a $106. Clave NQ: 31,121 y 31,009."
+  }
+ },
+ "datos_en": {
+  "generado": "8:30 AM ET",
+  "resumen": "Columbus Day Monday: stocks open normally but cash Treasuries are closed, so low volume is expected. NQ is flat (31,084.5) after tagging 31,289 overnight; memory falls (MU −2.2%) and oil rises (Brent ~$106). The week brings banks Tuesday and CPI Wednesday.",
+  "pulso": [
+   {
+    "etiqueta": "SPY premarket",
+    "valor": "+0.07%",
+    "detalle": "779.14",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "QQQ premarket",
+    "valor": "−0.12%",
+    "detalle": "750.34",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,084.5",
+    "detalle": "−0.08% · overnight 31,030–31,289.25",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,869.25",
+    "detalle": "+0.12% · overnight 7,860–7,887",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$106.00",
+    "detalle": "+1.4%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.43",
+    "detalle": "+4.0%",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "All day",
+    "tema": "Columbus Day: stocks open, cash Treasuries closed",
+    "efecto": "No cash bond-yield reference; low volume and possibly misleading ranges.",
+    "prob": 3,
+    "estado": "Ongoing",
+    "enlace": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/",
+    "fuente": "investingLive"
+   },
+   {
+    "hora": "Overnight",
+    "tema": "Oil rises: Brent ~$106 (+1.4%) after Houthi attacks on Saudi Arabia",
+    "efecto": "More inflation pressure ahead of Wednesday's CPI; weighs on NQ if it keeps rising.",
+    "prob": 5,
+    "estado": "Ongoing",
+    "enlace": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-12-dow-sp-500-nasdaq-080321571.html",
+    "fuente": "Yahoo Finance"
+   },
+   {
+    "hora": "Out",
+    "tema": "Memory falls: CXMT (China) DRAM progress",
+    "efecto": "MU −2.2% premarket; drags chips and NQ.",
+    "prob": 4,
+    "estado": "Out",
+    "enlace": "https://www.tradingkey.com/analysis/stocks/us-stocks/262211327-us-memory-stocks-premarket-micron-sandisk-wd-drop-cxmt-competition-tradingkey",
+    "fuente": "TradingKey"
+   },
+   {
+    "hora": "12:10 PM",
+    "tema": "Hammack (Cleveland Fed, 2026 voter)",
+    "efecto": "Has floated rate hikes; a hawkish tone weighs on NQ.",
+    "prob": 4,
+    "enlace": "https://capital.com/en-gb/news/federal-reserve-events",
+    "fuente": "Capital.com"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Overnight",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Futures mixed before earnings season; oil rises",
+    "resumen": "Dow and S&P edge up while Nasdaq 100 dips ~0.2%; Brent near $106 after Houthi attacks and a Russia–Ukraine energy truce.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-12-dow-sp-500-nasdaq-080321571.html"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY"
+    ],
+    "titulo": "Columbus Day: stocks open, bonds closed",
+    "resumen": "NYSE and Nasdaq trade normally; SIFMA recommends a full close of the cash Treasury market.",
+    "fuente": "investingLive",
+    "url": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/"
+   },
+   {
+    "hora": "Premarket",
+    "categoria": "Companies",
+    "tickers": [
+     "CRM",
+     "FSLR",
+     "BIIB"
+    ],
+    "titulo": "Salesforce rises on Bank of America double upgrade",
+    "resumen": "BofA moves CRM from underperform to buy; Truist upgrades First Solar and JPMorgan upgrades Biogen.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html"
+   },
+   {
+    "hora": "Friday",
+    "categoria": "Companies",
+    "tickers": [
+     "CCC"
+    ],
+    "titulo": "GTCR and Elliott near deal for CCC",
+    "resumen": "Bloomberg reported advanced talks for the auto-insurance software company; a deal could come this week.",
+    "fuente": "WHBL / Bloomberg",
+    "url": "https://whbl.com/2026/10/09/gtcr-elliott-in-advanced-talks-to-acquire-ccc-intelligent-solutions-bloomberg-news-reports/"
+   },
+   {
+    "hora": "Overnight",
+    "categoria": "Companies",
+    "tickers": [
+     "IREN"
+    ],
+    "titulo": "IREN rises on Anthropic Australian cloud tender",
+    "resumen": "A report says Anthropic seeks ~1.4 GW of Australian capacity and invited IREN among others; a decision is weeks away.",
+    "fuente": "Stocktwits",
+    "url": "https://stocktwits.com/news-articles/markets/equity/iren-stock-climbs-5-overnight-as-speculation-builds-over-anthropic-contract/cZmKDiGR7kj"
+   },
+   {
+    "hora": "Premarket",
+    "categoria": "Companies",
+    "tickers": [
+     "MU",
+     "SNDK",
+     "WDC"
+    ],
+    "titulo": "Memory slides on Chinese DRAM progress",
+    "resumen": "CXMT reported progress on a next-gen DRAM design; MU, SanDisk and Western Digital fall more than 2%.",
+    "fuente": "TradingKey",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262211327-us-memory-stocks-premarket-micron-sandisk-wd-drop-cxmt-competition-tradingkey"
+   },
+   {
+    "hora": "Premarket",
+    "categoria": "Companies",
+    "tickers": [
+     "IONQ",
+     "CCC",
+     "IREN"
+    ],
+    "titulo": "IREN and CCC lead; IonQ dips after deal",
+    "resumen": "IonQ is buying cybersecurity firm Elisity for up to $1.3B, per the WSJ.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-iren-jumps-anthropic-100951528.html"
+   },
+   {
+    "hora": "Week",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Week of CPI, retail sales and banks",
+    "resumen": "CPI Wednesday (consensus 3.6% y/y), retail sales and PPI Thursday; JPM, GS and C report Tuesday.",
+    "fuente": "investingLive",
+    "url": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,084.5",
+   "cambio": "−0.08%",
+   "nota": "Last 31,084.5 (−28 vs Friday's regular close, 31,112.25). Overnight: 31,030–31,289.25 (high Sunday 7 PM). Daily ATR: 431 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Above its 20/50/200-day averages (30,672 / 29,980 / 27,789); Friday was an inside day; 4-day pause from the 31,616.5 record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Pullback",
+     "nota": "Below its 50-hour average (31,130); lower highs since Sunday's 31,289."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,283–31,289",
+     "nota": "R2 pivot + overnight high · +199 to +205 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,180–31,198",
+     "nota": "Friday high + R1 pivot · +96 to +113 pts (0.22–0.26 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,094–31,121",
+     "nota": "P pivot + Friday close · +10 to +37 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,084.5",
+     "nota": "Last (8:24)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,030–31,046",
+     "nota": "Overnight low · −39 to −55 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,009–31,018",
+     "nota": "S1 pivot + 15-min bullish OB · −67 to −76 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,991",
+     "nota": "Friday low · −94 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,905",
+     "nota": "S2 pivot · −180 pts (0.42 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Reclaiming 31,121 (Friday close) opens 31,180–31,198. A 1-hour close below 31,009 targets 30,991 and 30,905. Bond-market holiday: low volume, ranges may be narrow or misleading."
+  },
+  "es": {
+   "ultimo": "7,869.25",
+   "cambio": "+0.12%",
+   "nota": "Last 7,869.25 (+8 vs Friday's regular close, 7,861). Overnight: 7,860–7,887. Daily ATR: 72 pts. Record: 7,897.5.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Above its averages; 28 pts from the record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bullish",
+     "nota": "Above its 50-hour average (7,848); easing from 7,887."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,896.5–7,897.5",
+     "nota": "R2 pivot + record · +27 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,887",
+     "nota": "Overnight high · +18 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,878.75",
+     "nota": "R1 pivot · +9.5 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,869.25",
+     "nota": "Last",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,860",
+     "nota": "Overnight low · −9 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,852.75",
+     "nota": "P pivot · −16.5 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,826.75–7,835",
+     "nota": "Friday low + S1 pivot · −34 to −42 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Above 7,887 targets the 7,897.5 record. Below 7,852.75 (P) returns to 7,835."
+  },
+  "volumen": {
+   "resumen": "Friday: below-average volume (NQ 0.84×, ES 0.65×). Cash Treasuries are closed today (Columbus Day): low volume expected.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Friday (full)",
+     "volumen": "479,453",
+     "promedio20": "569,394",
+     "relativo": "0.84×",
+     "nota": "Overnight: 31,030–31,289.25 (108k contracts)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Friday (full)",
+     "volumen": "1,077,892",
+     "promedio20": "1,662,054",
+     "relativo": "0.65×",
+     "nota": "Overnight: 7,860–7,887 (161k contracts)."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Classic pivots from Friday's regular-session high, low and close. NQ opens near P; ES between P and R1.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,386.8",
+     "es": "7,922.5",
+     "nota": "ES: above the record."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,283.4",
+     "es": "7,896.5",
+     "nota": "NQ: next to the overnight high. ES: next to the 7,897.5 record."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,197.8",
+     "es": "7,878.75",
+     "nota": "NQ: next to Friday's high (31,180)."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,094.4",
+     "es": "7,852.75",
+     "nota": "NQ: current price."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,008.8",
+     "es": "7,835",
+     "nota": "NQ: next to the 15-min bullish OB (31,018) and Friday's low (30,991)."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,905.4",
+     "es": "7,809",
+     "nota": "Next support."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,819.8",
+     "es": "7,791.25",
+     "nota": "NQ: near Thursday's low (30,792)."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "Overnight",
+    "evento": "Oil rises; memory falls",
+    "nq": "−28",
+    "es": "+8",
+    "lectura": "From Friday's close to now: NQ tagged 31,289 and fell to 31,030; ES holds near its record."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Open with bonds closed — watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Low volume: wait for the 15-minute range; 31,121 above and 31,009 below."
+   },
+   {
+    "hora": "12:10 PM",
+    "evento": "Hammack — watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Hawkish tone → test of 31,009 and 30,991."
+   }
+  ],
+  "picks": {
+   "nota": "Criteria: trend + real news + relative volume of at least 3×. No stock passes all three today: we don't force picks.",
+   "descartadas": "CCC (+10%, buyout talks; relative volume 2.6× and a deal would pin the price), CRM (+4.7%, BofA double upgrade, but 0.6× and below its 20-day average), IREN (+4.2%, report with no signed contract; downtrend), ASTS (5.1× with no new news), VZ and T (Friday's volume, downtrend)."
+  },
+  "megas": {
+   "nota": "Ranked by level quality and trend. NQ is below its 50-hour average on a low-volume day: everything is grade B or C.",
+   "filas": [
+    {
+     "ticker": "MSFT",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+0.41%",
+     "catalizador": "Above Friday high (537.22); no headline",
+     "r1": "553.72",
+     "ultimo": "537.26",
+     "s1": "533.51"
+    },
+    {
+     "ticker": "PLTR",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.24%",
+     "catalizador": "Friday record (209.58); week leader",
+     "r1": "209.58",
+     "ultimo": "208.55",
+     "s1": "204.44"
+    },
+    {
+     "ticker": "CEG",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+1.39%",
+     "catalizador": "Above Friday high; no new headline",
+     "r1": "306.99",
+     "ultimo": "302.21",
+     "s1": "300.98"
+    },
+    {
+     "ticker": "CRM",
+     "tipo": "News Add",
+     "sesgo": "Sideways",
+     "gap": "+4.68%",
+     "catalizador": "Bank of America double upgrade to buy (from underperform)",
+     "r1": "240.24",
+     "ultimo": "239.85",
+     "s1": "230.71"
+    },
+    {
+     "ticker": "QQQ",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.12%",
+     "catalizador": "Tracks NQ; memory weighs",
+     "r1": "752.87",
+     "ultimo": "750.34",
+     "s1": "748.37"
+    },
+    {
+     "ticker": "AMZN",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.10%",
+     "catalizador": "Above its 50-day after +3.3% Friday",
+     "r1": "262.80",
+     "ultimo": "262.18",
+     "s1": "260.14"
+    },
+    {
+     "ticker": "GOOGL",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "+0.06%",
+     "catalizador": "No headline; tracks the index",
+     "r1": "354.70",
+     "ultimo": "351.87",
+     "s1": "350.31"
+    },
+    {
+     "ticker": "AAPL",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+0.28%",
+     "catalizador": "Recovering after the iPhone order-cut drop",
+     "r1": "338.67",
+     "ultimo": "337.59",
+     "s1": "335.90"
+    },
+    {
+     "ticker": "META",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "+1.49%",
+     "catalizador": "No confirmed headline",
+     "r1": "738.29",
+     "ultimo": "729.35",
+     "s1": "728.07"
+    },
+    {
+     "ticker": "NVDA",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.22%",
+     "catalizador": "Below Friday low; memory chips weak",
+     "r1": "229.11",
+     "ultimo": "228.77",
+     "s1": "227.03"
+    },
+    {
+     "ticker": "MU",
+     "tipo": "Mega",
+     "sesgo": "Bearish today",
+     "gap": "−2.23%",
+     "catalizador": "Memory falls: CXMT (China) DRAM progress",
+     "r1": "1,011.42",
+     "ultimo": "1,006.06",
+     "s1": "976.19"
+    },
+    {
+     "ticker": "TSLA",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "+0.13%",
+     "catalizador": "Below its 200-day average (390.60)",
+     "r1": "388.56",
+     "ultimo": "383.21",
+     "s1": "379.71"
+    },
+    {
+     "ticker": "SPCX",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+1.16%",
+     "catalizador": "Bounce after Thursday's drop",
+     "r1": "166.38",
+     "ultimo": "164.45",
+     "s1": "160.61"
+    },
+    {
+     "ticker": "AMD",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.89%",
+     "catalizador": "Below Friday low (606)",
+     "r1": "606.00",
+     "ultimo": "602.70",
+     "s1": "600.10"
+    },
+    {
+     "ticker": "CCC",
+     "tipo": "News Add",
+     "sesgo": "Bullish",
+     "gap": "+10.4%",
+     "catalizador": "GTCR and Elliott in advanced talks to buy it",
+     "r1": "7.95",
+     "ultimo": "7.75",
+     "s1": "7.18"
+    },
+    {
+     "ticker": "INTC",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "−1.38%",
+     "catalizador": "Downtrend since 126",
+     "r1": "104.00",
+     "ultimo": "103.25",
+     "s1": "103.08"
+    },
+    {
+     "ticker": "CBRS",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "−1.54%",
+     "catalizador": "Downtrend",
+     "r1": "165.22",
+     "ultimo": "161.64",
+     "s1": "161.51"
+    }
+   ]
+  },
+  "soportes": {
+   "nota": "For upside bounces, sorted by ATR distance. Daily bullish but 1-hour pulling back and low volume: grade B at most; wait for a confirmed bounce candle. Invalidation = 0.25 ATR below support.",
+   "top3": [
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "rr": "5.2",
+     "nivel": "537.22",
+     "texto": "Retest of Friday's high, also its 60-day high. Target 553.72 (prior high)."
+    },
+    {
+     "ticker": "META",
+     "grado": "B",
+     "rr": "1.9",
+     "nivel": "728.07",
+     "texto": "Retest of Friday's high. Target 738.29, the Oct 7 high."
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "rr": "1.7",
+     "nivel": "300.98",
+     "texto": "Friday's high, already cleared premarket. Target 306.99, Thursday's high."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "MSFT",
+     "precio": "537.26",
+     "soporte": "537.22",
+     "tipo_nivel": "Friday high (breakout)",
+     "dist_atr": "0.00",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "553.72",
+     "invalidacion": "534.04",
+     "rr": "5.2"
+    },
+    {
+     "ticker": "CBRS",
+     "precio": "161.64",
+     "soporte": "161.51",
+     "tipo_nivel": "Thursday low",
+     "dist_atr": "0.01",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "170.11",
+     "invalidacion": "158.38",
+     "rr": "2.7"
+    },
+    {
+     "ticker": "META",
+     "precio": "729.35",
+     "soporte": "728.07",
+     "tipo_nivel": "Friday high (retest)",
+     "dist_atr": "0.06",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "738.29",
+     "invalidacion": "722.57",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "NVDA",
+     "precio": "228.77",
+     "soporte": "229.11",
+     "tipo_nivel": "Testing from below: Friday low",
+     "dist_atr": "-0.07",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "233.92",
+     "invalidacion": "227.81",
+     "rr": "3.7"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "302.21",
+     "soporte": "300.98",
+     "tipo_nivel": "Friday high (breakout)",
+     "dist_atr": "0.08",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "306.99",
+     "invalidacion": "297.35",
+     "rr": "1.7"
+    },
+    {
+     "ticker": "MU",
+     "precio": "1,006.06",
+     "soporte": "1,011.42",
+     "tipo_nivel": "Testing from below: Oct 7 low",
+     "dist_atr": "-0.12",
+     "tendencia": "Sideways",
+     "grado": "C",
+     "objetivo": "1,032.10",
+     "invalidacion": "1,000.43",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "103.25",
+     "soporte": "104.00",
+     "tipo_nivel": "Testing from below: Friday low",
+     "dist_atr": "-0.14",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "108.38",
+     "invalidacion": "102.62",
+     "rr": "3.2"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "602.70",
+     "soporte": "606.00",
+     "tipo_nivel": "Testing from below: Friday low",
+     "dist_atr": "-0.15",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "613.34",
+     "invalidacion": "600.46",
+     "rr": "1.3"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "351.87",
+     "soporte": "350.31",
+     "tipo_nivel": "Friday low",
+     "dist_atr": "0.18",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "354.70",
+     "invalidacion": "348.14",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "750.34",
+     "soporte": "748.37",
+     "tipo_nivel": "Friday low",
+     "dist_atr": "0.23",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "752.87",
+     "invalidacion": "746.24",
+     "rr": "2.1"
+    },
+    {
+     "ticker": "AAPL",
+     "precio": "337.59",
+     "soporte": "335.90",
+     "tipo_nivel": "Thursday low",
+     "dist_atr": "0.26",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "341.57",
+     "invalidacion": "334.28",
+     "rr": "3.5"
+    },
+    {
+     "ticker": "TSLA",
+     "precio": "383.21",
+     "soporte": "379.71",
+     "tipo_nivel": "Friday low",
+     "dist_atr": "0.32",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "388.56",
+     "invalidacion": "376.95",
+     "rr": "3.2"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "262.18",
+     "soporte": "260.14",
+     "tipo_nivel": "Oct 7 high (retest)",
+     "dist_atr": "0.36",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "262.80",
+     "invalidacion": "258.73",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "164.45",
+     "soporte": "160.61",
+     "tipo_nivel": "Friday low",
+     "dist_atr": "0.59",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "166.38",
+     "invalidacion": "158.98",
+     "rr": "3.5"
+    },
+    {
+     "ticker": "PLTR",
+     "precio": "208.55",
+     "soporte": "204.44",
+     "tipo_nivel": "Thursday high (retest)",
+     "dist_atr": "0.67",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "209.58",
+     "invalidacion": "202.90",
+     "rr": "3.3"
+    }
+   ]
+  },
+  "movers": [
+   {
+    "ticker": "CCC",
+    "cambio": "+10.7%",
+    "nota": "GTCR/Elliott in talks to buy it"
+   },
+   {
+    "ticker": "IREN",
+    "cambio": "+4.2%",
+    "nota": "Anthropic tender (report)"
+   },
+   {
+    "ticker": "ASTS",
+    "cambio": "+4.1%",
+    "nota": "Bounces after −10.5% Friday"
+   },
+   {
+    "ticker": "BMY",
+    "cambio": "+3.9%",
+    "nota": "Pharma"
+   },
+   {
+    "ticker": "NOW",
+    "cambio": "+2.3%",
+    "nota": "ServiceNow: software"
+   },
+   {
+    "ticker": "META",
+    "cambio": "+1.5%",
+    "nota": "Meta Platforms"
+   },
+   {
+    "ticker": "NBIS",
+    "cambio": "−3.0%",
+    "nota": "Nebius: AI cloud"
+   },
+   {
+    "ticker": "IONQ",
+    "cambio": "−2.8%",
+    "nota": "Buying Elisity (up to $1.3B)"
+   },
+   {
+    "ticker": "ADBE",
+    "cambio": "−2.8%",
+    "nota": "Adobe: software"
+   },
+   {
+    "ticker": "AAOI",
+    "cambio": "−2.7%",
+    "nota": "Optical components"
+   },
+   {
+    "ticker": "MU",
+    "cambio": "−2.2%",
+    "nota": "Memory: Chinese DRAM progress"
+   },
+   {
+    "ticker": "SOFI",
+    "cambio": "−1.8%",
+    "nota": "SoFi: fintech"
+   }
+  ],
+  "semana": {
+   "eventos": [
+    {
+     "dia": "Mon",
+     "hora": "All day",
+     "tema": "Columbus Day: bonds closed, low volume",
+     "prob": 3
+    },
+    {
+     "dia": "Tue",
+     "hora": "Pre-market",
+     "tema": "Banks kick off earnings: JPM, GS, C",
+     "prob": 6
+    },
+    {
+     "dia": "Wed",
+     "hora": "8:30 AM",
+     "tema": "September CPI",
+     "prob": 9
+    },
+    {
+     "dia": "Thu",
+     "hora": "8:30 AM",
+     "tema": "Retail sales + PPI",
+     "prob": 7
+    },
+    {
+     "dia": "Fri",
+     "hora": "—",
+     "tema": "Fed Chair Warsh speaks",
+     "prob": 7
+    }
+   ]
+  },
+  "redes": {
+   "gancho": "Bonds closed Monday: low volume and a CPI week",
+   "subgancho": "Wall Street opens normally; NQ flat.",
+   "sub2": "Memory falls; oil at $106. NQ keys: 31,121 and 31,009."
+  }
+ }
+}

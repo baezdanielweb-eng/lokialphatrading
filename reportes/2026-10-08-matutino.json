@@ -1,0 +1,1973 @@
+{
+ "fecha": "2026-10-08",
+ "tipo": "matutino",
+ "titulo": "LokiAlphaTrading - Reporte Matutino",
+ "datos": {
+  "generado": "8:55 AM ET",
+  "resumen": "Día de petróleo y guerra: el Brent sube 3.6% a ~$105 por ataques a petroleros en el Golfo y reportes de posibles ataques de EE.UU. contra Irán. El NQ perdió en la noche el mínimo de ayer y está en 31,188 (−208). Hoy: solicitudes de desempleo 8:30 y subasta de bonos a 30 años a la 1 PM.",
+  "pulso": [
+   {
+    "etiqueta": "SPY premarket",
+    "valor": "−0.40%",
+    "detalle": "774.10",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ premarket",
+    "valor": "−0.67%",
+    "detalle": "752.68",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,188",
+    "detalle": "−0.68% · noche 31,120–31,466",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,820",
+    "detalle": "−0.42% · noche 7,802.75–7,858.25",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$104.87",
+    "detalle": "+3.6%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.75",
+    "detalle": "+4.4%",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "Noche",
+    "tema": "⚠️ Irán: ataques a petroleros y riesgo de ataque de EE.UU.",
+    "efecto": "Brent +3.6% (~$105), WTI +4.7%. Petróleo caro = más inflación y rendimientos de los bonos arriba: presiona al NQ.",
+    "prob": 8,
+    "estado": "En curso",
+    "enlace": "https://www.benzinga.com/markets/equities/26/10/62239479/stock-market-today-sp-500-dow-jones-futures-decline-as-pentagon-prepares-for-potential-military-strikes-on-iran-apld-levi-mu-in-focus",
+    "fuente": "Benzinga"
+   },
+   {
+    "hora": "Ya salió",
+    "tema": "PepsiCo (PEP): ventas $25,274M (+5.6%), orgánico +3.1%, ganancia core +2%",
+    "efecto": "Consumo básico; sube ~0.8% en premarket. No mueve al NQ.",
+    "prob": 2,
+    "estado": "Ya salió",
+    "enlace": "https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm",
+    "fuente": "PepsiCo (SEC)"
+   },
+   {
+    "hora": "8:15",
+    "tema": "Waller (gobernador de la Fed, vota) — hora por confirmar",
+    "efecto": "Tras las minutas, el mercado busca si apoya otra subida de tasas en octubre.",
+    "prob": 6,
+    "enlace": "https://www.newsquawk.com/headlines/primer---todays-fedspeak-includes-feds-waller",
+    "fuente": "Newsquawk"
+   },
+   {
+    "hora": "8:30",
+    "tema": "Solicitudes de subsidio por desempleo (esperan ~200K; anterior 197K)",
+    "efecto": "Empleo fuerte + petróleo caro = más presión en tasas. Un dato débil aliviaría los rendimientos de los bonos.",
+    "prob": 5,
+    "enlace": "https://www.investing.com/news/stock-market-news/initial-jobless-claims-highlight-economic-data-due-thursday-93CH-4937309",
+    "fuente": "Investing.com"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "⚠️ Subasta de bonos a 30 años",
+    "efecto": "Con el rendimiento a 30 años en máximos de 24 años, una subasta débil presionaría al NQ; ayer la de 10 años salió fuerte.",
+    "prob": 7,
+    "enlace": "https://www.zerohedge.com/markets/futures-slide-oil-jumps-iran-strike-report-bond-rout-resumes-ahead-30y-auction",
+    "fuente": "ZeroHedge"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Noche",
+    "categoria": "Geopolítica",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Futuros caen: el Pentágono prepararía ataques contra Irán",
+    "resumen": "Los reportes de posibles ataques contra objetivos nucleares y energéticos de Irán hunden los futuros y suben el petróleo.",
+    "fuente": "Benzinga",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62239479/stock-market-today-sp-500-dow-jones-futures-decline-as-pentagon-prepares-for-potential-military-strikes-on-iran-apld-levi-mu-in-focus"
+   },
+   {
+    "hora": "Noche",
+    "categoria": "Macro",
+    "titulo": "Dow futuros −500 puntos con el petróleo sobre $105",
+    "resumen": "Un ataque a un petrolero en el Golfo Pérsico disparó el crudo más de 5% en algún momento.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dow-futures-fall-500-points-113915195.html"
+   },
+   {
+    "hora": "Noche",
+    "categoria": "Energía",
+    "titulo": "El Brent en $108 a las 7 AM",
+    "resumen": "El precio del barril subió $3.59 en un día y está unos $42 sobre hace un año.",
+    "fuente": "Fortune",
+    "url": "https://fortune.com/article/price-of-oil-10-08-2026/"
+   },
+   {
+    "hora": "Noche",
+    "categoria": "Energía",
+    "titulo": "EE.UU. e Irán intercambian ataques",
+    "resumen": "El petróleo sube con los ataques cruzados y el riesgo para el estrecho de Ormuz.",
+    "fuente": "OilPrice",
+    "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Surge-as-US-and-Iran-Exchange-Strikes.html"
+   },
+   {
+    "hora": "Noche",
+    "categoria": "Bonos",
+    "titulo": "Vuelve la venta de bonos antes de la subasta de 30 años",
+    "resumen": "El petróleo y el riesgo de guerra empujan los rendimientos de los bonos al alza antes de la subasta de la tarde.",
+    "fuente": "ZeroHedge",
+    "url": "https://www.zerohedge.com/markets/futures-slide-oil-jumps-iran-strike-report-bond-rout-resumes-ahead-30y-auction"
+   },
+   {
+    "hora": "Contexto",
+    "categoria": "Geopolítica",
+    "titulo": "Crisis de combustible por la guerra con Irán",
+    "resumen": "Resumen del conflicto y de la disrupción en Ormuz, por donde pasa más del 20% del petróleo mundial.",
+    "fuente": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"
+   },
+   {
+    "hora": "Ya salió",
+    "categoria": "Empresas",
+    "tickers": [
+     "PEP"
+    ],
+    "titulo": "PepsiCo crece 5.6% en ventas",
+    "resumen": "El crecimiento orgánico se aceleró a 3.1% y anunció más recortes de costos ante la inflación de insumos.",
+    "fuente": "PepsiCo (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm"
+   },
+   {
+    "hora": "Ayer",
+    "categoria": "Empresas",
+    "tickers": [
+     "LEVI"
+    ],
+    "titulo": "Levi Strauss publica su tercer trimestre",
+    "resumen": "La acción baja ~3% en premarket tras los resultados.",
+    "fuente": "Levi Strauss (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000094845/000009484526000048/exhibit991-3q2026pressrele.htm"
+   },
+   {
+    "hora": "Viernes",
+    "categoria": "Empresas",
+    "tickers": [
+     "DAL"
+    ],
+    "titulo": "Delta reporta mañana",
+    "resumen": "Con el petróleo caro, el costo del combustible será el foco de la aerolínea.",
+    "fuente": "AlphaStreet",
+    "url": "https://news.alphastreet.com/delta-air-lines-q3-2026-earnings-preview-october-9-street-expects-1-83-eps/amp/"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,188",
+   "cambio": "−0.68%",
+   "nota": "Último 31,188.5 (−208 pts vs el cierre regular de ayer, 31,396). Noche: 31,119.75–31,466. ATR diario: 463 pts. Datos CME con ~10 min de retraso.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sobre sus medias de 20/50/200 días (30,502 / 29,874 / 27,737); tercer día de retroceso desde el récord."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Cambió: en la noche perdió el pivote 31,320 y el mínimo de ayer (31,143)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,317–31,351",
+     "nota": "OB de 5/15 min + pivote P 31,320 · +129 a +163 pts (0.28 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,263–31,284",
+     "nota": "OB de 5 min · +75 a +96 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,216–31,219",
+     "nota": "Techo del OB de 60 min + pivote S1 · +28 a +31 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,188",
+     "nota": "Último (8:50)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,120–31,143",
+     "nota": "Mínimo de la noche + mínimo de ayer · −45 a −69 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,041–31,102",
+     "nota": "OB de 5/60 min + pivote S2 · −86 a −147 pts (0.19–0.32 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,939",
+     "nota": "Pivote S3 · −249 pts (0.54 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Día de titulares de guerra: cuidado con los saltos. Si recupera 31,219 y luego 31,284, puede volver a 31,317–31,351. Si cierra 1 hora bajo 31,120, el siguiente soporte es 31,041–31,102 y luego 30,939. Subasta de 30 años a la 1 PM."
+  },
+  "es": {
+   "ultimo": "7,820",
+   "cambio": "−0.42%",
+   "nota": "Último 7,819.75 (−31 vs el cierre de ayer, 7,851). Noche: 7,802.75–7,858.25 (perdió el mínimo de ayer, 7,815.75). ATR diario: 78 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sobre sus medias; retrocede desde el récord."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Perdió el pivote P (7,842) y S1 (7,824.7)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,838–7,848",
+     "nota": "OB de 5/15 min + pivote P · +18 a +28 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,823–7,828",
+     "nota": "OB de 5 min + S1 · +3 a +8 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,820",
+     "nota": "Último (8:50)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,798–7,803",
+     "nota": "Mínimo de la noche + pivote S2 · −17 a −22 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,778–7,795",
+     "nota": "OB de 60 min + S3 7,781 · −25 a −42 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Recupera 7,828 → 7,838–7,848. Cierre de 1 hora bajo 7,798 → 7,778–7,795."
+  },
+  "volumen": {
+   "resumen": "Ayer: volumen algo bajo (NQ 0.89×, ES 0.81× su promedio de 20 días). En la noche el NQ recorrió 346 puntos (31,120–31,466) con la subida del petróleo.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Ayer (completa)",
+     "volumen": "500,010",
+     "promedio20": "562,621",
+     "relativo": "0.89×",
+     "nota": "Noche de hoy: 31,119.75–31,466."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Ayer (completa)",
+     "volumen": "1,347,574",
+     "promedio20": "1,659,984",
+     "relativo": "0.81×",
+     "nota": "Noche de hoy: 7,802.75–7,858.25."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes clásicos con el máximo, mínimo y cierre de la sesión regular de ayer. El NQ y el ES están entre S1 y S2.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,777.1",
+     "es": "7,912.2",
+     "nota": "Lejos."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,599.7",
+     "es": "7,885.8",
+     "nota": "Junto al récord del NQ."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,497.8",
+     "es": "7,868.4",
+     "nota": "Sobre el máximo de la noche."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,320.4",
+     "es": "7,842.1",
+     "nota": "Coincide con los OB de 5/15 min."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,218.6",
+     "es": "7,824.7",
+     "nota": "Perdido en la noche; ahora resistencia."
+    },
+    {
+     "nombre": "S2",
+     "nq": "31,041.2",
+     "es": "7,798.3",
+     "nota": "NQ: base del OB de 60 min. ES: mínimo de la noche."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,939.3",
+     "es": "7,780.9",
+     "nota": "ES: OB de 60 min."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "Noche",
+    "evento": "Petróleo +3.6% por Irán",
+    "nq": "−208",
+    "es": "−31",
+    "lectura": "Del cierre de ayer a ahora: el NQ perdió el mínimo de ayer."
+   },
+   {
+    "hora": "8:30",
+    "evento": "Solicitudes de desempleo — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Dato fuerte → más presión en tasas y prueba de 31,120. Débil → alivio hacia 31,219–31,284."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Apertura — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Esperar el rango de 15 minutos; los titulares de Irán pueden mover el precio de golpe."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "Subasta de 30 años — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Débil → 31,041–31,102. Buena → 31,284–31,351."
+   }
+  ],
+  "ob": {
+   "hora": "8:51 AM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31193,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31193,
+       "arriba": [
+        {
+         "alto": 31284.38,
+         "bajo": 31263.25,
+         "tipo": "alcista",
+         "dist": 70.25
+        },
+        {
+         "alto": 31347.75,
+         "bajo": 31317.5,
+         "tipo": "alcista",
+         "dist": 124.5
+        },
+        {
+         "alto": 31538.75,
+         "bajo": 31529,
+         "tipo": "bajista",
+         "dist": 336
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31102.13,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -90.87
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31193,
+       "arriba": [
+        {
+         "alto": 31351,
+         "bajo": 31317.5,
+         "tipo": "alcista",
+         "dist": 124.5
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31127.88,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -65.12
+        },
+        {
+         "alto": 30560.13,
+         "bajo": 30522.5,
+         "tipo": "alcista",
+         "dist": -632.87
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31193,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 31215.63,
+         "bajo": 31143,
+         "tipo": "alcista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 31146,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -47
+        },
+        {
+         "alto": 30368.13,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -824.87
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7819.25,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7819.25,
+       "arriba": [
+        {
+         "alto": 7828,
+         "bajo": 7823,
+         "tipo": "alcista",
+         "dist": 3.75
+        },
+        {
+         "alto": 7841.88,
+         "bajo": 7838,
+         "tipo": "alcista",
+         "dist": 18.75
+        },
+        {
+         "alto": 7847,
+         "bajo": 7841.25,
+         "tipo": "alcista",
+         "dist": 22
+        }
+       ],
+       "dentro": [],
+       "abajo": []
+      },
+      {
+       "tf": "15",
+       "precio": 7819.25,
+       "arriba": [
+        {
+         "alto": 7847.88,
+         "bajo": 7841.25,
+         "tipo": "alcista",
+         "dist": 22
+        },
+        {
+         "alto": 7877.75,
+         "bajo": 7874.75,
+         "tipo": "bajista",
+         "dist": 55.5
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7778.25,
+         "bajo": 7773.75,
+         "tipo": "alcista",
+         "dist": -41
+        },
+        {
+         "alto": 7730.5,
+         "bajo": 7719.75,
+         "tipo": "alcista",
+         "dist": -88.75
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7819.25,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7794.63,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -24.62
+        },
+        {
+         "alto": 7629.13,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -190.12
+        },
+        {
+         "alto": 7571.38,
+         "bajo": 7542.75,
+         "tipo": "alcista",
+         "dist": -247.87
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ abre dentro del OB de 60 min (31,143–31,216) y bajo los de 5/15 min (31,263–31,351), que ahora son techo; abajo el más cercano es 31,044–31,102. ES: arriba los OB de 5 min (7,823–7,847); abajo el de 60 min (7,778–7,795)."
+  },
+  "picks": {
+   "nota": "Criterios: tendencia + noticia real + volumen relativo de al menos 3×. Hoy ninguna acción pasa los tres filtros: no forzamos picks.",
+   "descartadas": "LEVI (−3.3% tras resultados, volumen relativo 6.9×, pero no confirmamos una noticia negativa clara para un corto), BULL y HTZ (sin noticia), PLTR (+2.2%, volumen relativo bajo 3×)."
+  },
+  "megas": {
+   "nota": "Ranking por calidad del nivel y tendencia. Con el petróleo en $105 y el NQ bajo el mínimo de ayer, nada llega a grado A hoy.",
+   "filas": [
+    {
+     "ticker": "PLTR",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+2.23%",
+     "catalizador": "Rompe su máximo de varias semanas (194.78); sin titular confirmado",
+     "r1": "Cielo azul",
+     "ultimo": "198.45",
+     "s1": "194.78"
+    },
+    {
+     "ticker": "NVDA",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.93%",
+     "catalizador": "Sobre el mínimo del lunes (235.15)",
+     "r1": "239.08",
+     "ultimo": "235.27",
+     "s1": "235.15"
+    },
+    {
+     "ticker": "AMD",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−1.53%",
+     "catalizador": "Retesteo de 633.50 por tercer día",
+     "r1": "645.46",
+     "ultimo": "636.00",
+     "s1": "633.50"
+    },
+    {
+     "ticker": "QQQ",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.67%",
+     "catalizador": "Petróleo y bonos presionan",
+     "r1": "757.73",
+     "ultimo": "752.68",
+     "s1": "751.75"
+    },
+    {
+     "ticker": "GOOGL",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+0.31%",
+     "catalizador": "Aguanta sobre su máximo de ayer",
+     "r1": "353.22",
+     "ultimo": "351.60",
+     "s1": "350.80"
+    },
+    {
+     "ticker": "MSFT",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.16%",
+     "catalizador": "Sin noticia",
+     "r1": "531.73",
+     "ultimo": "528.90",
+     "s1": "524.69"
+    },
+    {
+     "ticker": "MU",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−1.53%",
+     "catalizador": "Toma de ganancias tras +4%",
+     "r1": "1,089.22",
+     "ultimo": "1,071.38",
+     "s1": "1,055.56"
+    },
+    {
+     "ticker": "AMZN",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "−0.50%",
+     "catalizador": "Sin noticia",
+     "r1": "260.14",
+     "ultimo": "258.61",
+     "s1": "256.68"
+    },
+    {
+     "ticker": "AAPL",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "+0.10%",
+     "catalizador": "Sin noticia",
+     "r1": "338.67",
+     "ultimo": "337.02",
+     "s1": "336.21"
+    },
+    {
+     "ticker": "SPCX",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.68%",
+     "catalizador": "Sin noticia",
+     "r1": "171.31",
+     "ultimo": "166.46",
+     "s1": "165.65"
+    },
+    {
+     "ticker": "CEG",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "−0.76%",
+     "catalizador": "Sin noticia nueva",
+     "r1": "299.95",
+     "ultimo": "297.30",
+     "s1": "291.00"
+    },
+    {
+     "ticker": "META",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "0.00%",
+     "catalizador": "Cerró ayer en su mínimo",
+     "r1": "738.29",
+     "ultimo": "721.32",
+     "s1": "720.15"
+    },
+    {
+     "ticker": "TSLA",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "−1.08%",
+     "catalizador": "Bajo el mínimo de ayer (374.43)",
+     "r1": "374.43",
+     "ultimo": "373.74",
+     "s1": "364.91"
+    },
+    {
+     "ticker": "INTC",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "−2.41%",
+     "catalizador": "Bajo el mínimo de ayer (111.14)",
+     "r1": "111.14",
+     "ultimo": "110.39",
+     "s1": "—"
+    },
+    {
+     "ticker": "CBRS",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "−2.23%",
+     "catalizador": "Tendencia bajista",
+     "r1": "175.68",
+     "ultimo": "171.15",
+     "s1": "168.40"
+    }
+   ]
+  },
+  "soportes": {
+   "nota": "Para rebotes al alza, ordenado por distancia en ATR. Con el petróleo disparado y el NQ bajo el mínimo de ayer, todo es grado B o C: solo con vela de recuperación confirmada y tamaño menor. Invalidación = 0.25 ATR bajo el soporte.",
+   "top3": [
+    {
+     "ticker": "NVDA",
+     "grado": "B",
+     "rr": "3.1",
+     "nivel": "235.15",
+     "texto": "Mínimo del lunes, justo debajo del precio. Objetivo 239.08, el máximo de ayer."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "B",
+     "rr": "2.8",
+     "nivel": "751.75",
+     "texto": "Mínimo de ayer. Objetivo 758.30, el máximo de ayer."
+    },
+    {
+     "ticker": "AMD",
+     "grado": "B",
+     "rr": "2.0",
+     "nivel": "633.50",
+     "texto": "Su ruptura del lunes, que sostuvo los últimos dos días. Objetivo 645.46."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "NVDA",
+     "precio": "235.27",
+     "soporte": "235.15",
+     "tipo_nivel": "Mínimo del lunes",
+     "dist_atr": "0.02",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "239.08",
+     "invalidacion": "233.87",
+     "rr": "3.1"
+    },
+    {
+     "ticker": "META",
+     "precio": "721.32",
+     "soporte": "720.15",
+     "tipo_nivel": "Mínimo de ayer",
+     "dist_atr": "0.04",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "738.29",
+     "invalidacion": "713.00",
+     "rr": "2.5"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "351.60",
+     "soporte": "350.80",
+     "tipo_nivel": "Máximo de ayer (retesteo)",
+     "dist_atr": "0.09",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "353.22",
+     "invalidacion": "348.56",
+     "rr": "1.1"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "752.68",
+     "soporte": "751.75",
+     "tipo_nivel": "Mínimo de ayer",
+     "dist_atr": "0.10",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "758.30",
+     "invalidacion": "749.45",
+     "rr": "2.8"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "636.00",
+     "soporte": "633.50",
+     "tipo_nivel": "Máximo del lunes (sostuvo ayer)",
+     "dist_atr": "0.11",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "645.46",
+     "invalidacion": "627.58",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "166.46",
+     "soporte": "165.65",
+     "tipo_nivel": "Mínimo de ayer",
+     "dist_atr": "0.12",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "171.31",
+     "invalidacion": "164.03",
+     "rr": "3.5"
+    },
+    {
+     "ticker": "AAPL",
+     "precio": "337.02",
+     "soporte": "336.21",
+     "tipo_nivel": "Máximo del lunes (retesteo)",
+     "dist_atr": "0.13",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "338.67",
+     "invalidacion": "334.64",
+     "rr": "1.6"
+    },
+    {
+     "ticker": "CBRS",
+     "precio": "171.15",
+     "soporte": "168.40",
+     "tipo_nivel": "Mínimo de giro",
+     "dist_atr": "0.22",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "175.68",
+     "invalidacion": "165.25",
+     "rr": "2.3"
+    },
+    {
+     "ticker": "MSFT",
+     "precio": "528.90",
+     "soporte": "524.69",
+     "tipo_nivel": "Mínimo de ayer",
+     "dist_atr": "0.35",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "531.73",
+     "invalidacion": "521.71",
+     "rr": "2.4"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "258.61",
+     "soporte": "256.68",
+     "tipo_nivel": "Máximo del martes (retesteo)",
+     "dist_atr": "0.36",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "260.14",
+     "invalidacion": "255.36",
+     "rr": "2.6"
+    },
+    {
+     "ticker": "MU",
+     "precio": "1,071.38",
+     "soporte": "1,055.56",
+     "tipo_nivel": "Mínimo del lunes",
+     "dist_atr": "0.36",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "1,089.22",
+     "invalidacion": "1,044.67",
+     "rr": "3.1"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "297.30",
+     "soporte": "291.00",
+     "tipo_nivel": "Borde del hueco del 6/10",
+     "dist_atr": "0.48",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "299.95",
+     "invalidacion": "287.71",
+     "rr": "2.7"
+    },
+    {
+     "ticker": "TSLA",
+     "precio": "373.74",
+     "soporte": "374.43",
+     "tipo_nivel": "Prueba desde abajo: mínimo de ayer",
+     "dist_atr": "-0.06",
+     "tendencia": "Lateral",
+     "grado": "C",
+     "objetivo": "382.35",
+     "invalidacion": "371.66",
+     "rr": "2.9"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "110.39",
+     "soporte": "111.14",
+     "tipo_nivel": "Prueba desde abajo: mínimo de ayer",
+     "dist_atr": "-0.12",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "115.30",
+     "invalidacion": "109.61",
+     "rr": "2.7"
+    }
+   ],
+   "pie": "META es grado C (cerró ayer en su mínimo). TSLA e INTC están bajo su soporte: solo valen si recuperan el nivel. GOOGL está cerca pero su R:R es 1.0."
+  },
+  "movers": [
+   {
+    "ticker": "TRMD",
+    "cambio": "+3.3%",
+    "nota": "TORM: buques petroleros"
+   },
+   {
+    "ticker": "GFS",
+    "cambio": "+2.6%",
+    "nota": "GlobalFoundries: chips"
+   },
+   {
+    "ticker": "VG",
+    "cambio": "+2.5%",
+    "nota": "Venture Global: gas natural licuado"
+   },
+   {
+    "ticker": "U",
+    "cambio": "+2.2%",
+    "nota": "Unity: software de videojuegos"
+   },
+   {
+    "ticker": "PLTR",
+    "cambio": "+2.2%",
+    "nota": "Palantir: sin titular confirmado"
+   },
+   {
+    "ticker": "PEP",
+    "cambio": "+0.8%",
+    "nota": "PepsiCo: resultados del 3.er trimestre"
+   },
+   {
+    "ticker": "AAOI",
+    "cambio": "−5.0%",
+    "nota": "Applied Opto: componentes ópticos"
+   },
+   {
+    "ticker": "STLA",
+    "cambio": "−3.9%",
+    "nota": "Stellantis: autos"
+   },
+   {
+    "ticker": "AXTI",
+    "cambio": "−3.5%",
+    "nota": "AXT: materiales para chips"
+   },
+   {
+    "ticker": "LEVI",
+    "cambio": "−3.3%",
+    "nota": "Levi Strauss: resultados"
+   },
+   {
+    "ticker": "PL",
+    "cambio": "−3.0%",
+    "nota": "Planet Labs: satélites"
+   },
+   {
+    "ticker": "CCL",
+    "cambio": "−2.4%",
+    "nota": "Carnival: cruceros (petróleo caro)"
+   }
+  ],
+  "redes": {
+   "gancho": "Petróleo sube 3.6% por Irán: el NQ cae 208",
+   "subgancho": "Subasta de bonos a 30 años a la 1 PM.",
+   "sub2": "El NQ perdió el mínimo de ayer en la noche. Clave: 31,120 y 31,219."
+  }
+ },
+ "datos_en": {
+  "generado": "8:55 AM ET",
+  "resumen": "An oil-and-war day: Brent rises 3.6% to ~$105 on tanker attacks in the Gulf and reports of possible US strikes on Iran. NQ lost yesterday's low overnight and sits at 31,188 (−208). Today: jobless claims at 8:30 and the 30-year bond auction at 1 PM.",
+  "pulso": [
+   {
+    "etiqueta": "SPY premarket",
+    "valor": "−0.40%",
+    "detalle": "774.10",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ premarket",
+    "valor": "−0.67%",
+    "detalle": "752.68",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,188",
+    "detalle": "−0.68% · overnight 31,120–31,466",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,820",
+    "detalle": "−0.42% · overnight 7,802.75–7,858.25",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$104.87",
+    "detalle": "+3.6%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.75",
+    "detalle": "+4.4%",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "Overnight",
+    "tema": "⚠️ Iran: tanker attacks and risk of a US strike",
+    "efecto": "Brent +3.6% (~$105), WTI +4.7%. Costly oil = more inflation and higher yields: pressures NQ.",
+    "prob": 8,
+    "estado": "Ongoing",
+    "enlace": "https://www.benzinga.com/markets/equities/26/10/62239479/stock-market-today-sp-500-dow-jones-futures-decline-as-pentagon-prepares-for-potential-military-strikes-on-iran-apld-levi-mu-in-focus",
+    "fuente": "Benzinga"
+   },
+   {
+    "hora": "Out",
+    "tema": "PepsiCo (PEP): sales $25,274M (+5.6%), organic +3.1%, core EPS +2%",
+    "efecto": "Consumer staples; up ~0.8% premarket. Doesn't move NQ.",
+    "prob": 2,
+    "estado": "Out",
+    "enlace": "https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm",
+    "fuente": "PepsiCo (SEC)"
+   },
+   {
+    "hora": "8:15",
+    "tema": "Waller (Fed governor, voter) — time TBC",
+    "efecto": "After the minutes, markets want to know if he backs another hike in October.",
+    "prob": 6,
+    "enlace": "https://www.newsquawk.com/headlines/primer---todays-fedspeak-includes-feds-waller",
+    "fuente": "Newsquawk"
+   },
+   {
+    "hora": "8:30",
+    "tema": "Jobless claims (expected ~200K; prior 197K)",
+    "efecto": "Strong jobs + costly oil = more rate pressure. A weak print would ease yields.",
+    "prob": 5,
+    "enlace": "https://www.investing.com/news/stock-market-news/initial-jobless-claims-highlight-economic-data-due-thursday-93CH-4937309",
+    "fuente": "Investing.com"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "⚠️ 30-year bond auction",
+    "efecto": "With the 30-year yield at a 24-year high, a weak auction would pressure NQ; yesterday's 10-year went well.",
+    "prob": 7,
+    "enlace": "https://www.zerohedge.com/markets/futures-slide-oil-jumps-iran-strike-report-bond-rout-resumes-ahead-30y-auction",
+    "fuente": "ZeroHedge"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Overnight",
+    "categoria": "Geopolitics",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Futures fall: Pentagon reportedly preparing strikes on Iran",
+    "resumen": "Reports of possible strikes on Iranian nuclear and energy targets sink futures and lift oil.",
+    "fuente": "Benzinga",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62239479/stock-market-today-sp-500-dow-jones-futures-decline-as-pentagon-prepares-for-potential-military-strikes-on-iran-apld-levi-mu-in-focus"
+   },
+   {
+    "hora": "Overnight",
+    "categoria": "Macro",
+    "titulo": "Dow futures −500 points with oil above $105",
+    "resumen": "A tanker attack in the Persian Gulf sent crude up more than 5% at one point.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dow-futures-fall-500-points-113915195.html"
+   },
+   {
+    "hora": "Overnight",
+    "categoria": "Energy",
+    "titulo": "Brent at $108 at 7 AM",
+    "resumen": "The barrel rose $3.59 in a day and is about $42 above a year ago.",
+    "fuente": "Fortune",
+    "url": "https://fortune.com/article/price-of-oil-10-08-2026/"
+   },
+   {
+    "hora": "Overnight",
+    "categoria": "Energy",
+    "titulo": "US and Iran exchange strikes",
+    "resumen": "Oil climbs on the cross-strikes and the risk to the Strait of Hormuz.",
+    "fuente": "OilPrice",
+    "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Surge-as-US-and-Iran-Exchange-Strikes.html"
+   },
+   {
+    "hora": "Overnight",
+    "categoria": "Bonds",
+    "titulo": "Bond selling resumes ahead of the 30-year auction",
+    "resumen": "Oil and war risk push yields up ahead of the afternoon auction.",
+    "fuente": "ZeroHedge",
+    "url": "https://www.zerohedge.com/markets/futures-slide-oil-jumps-iran-strike-report-bond-rout-resumes-ahead-30y-auction"
+   },
+   {
+    "hora": "Context",
+    "categoria": "Geopolitics",
+    "titulo": "The Iran-war fuel crisis",
+    "resumen": "Background on the conflict and the Hormuz disruption, which carries over 20% of the world's oil.",
+    "fuente": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"
+   },
+   {
+    "hora": "Out",
+    "categoria": "Companies",
+    "tickers": [
+     "PEP"
+    ],
+    "titulo": "PepsiCo grows sales 5.6%",
+    "resumen": "Organic growth accelerated to 3.1% and it announced more cost cuts against input inflation.",
+    "fuente": "PepsiCo (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm"
+   },
+   {
+    "hora": "Yesterday",
+    "categoria": "Companies",
+    "tickers": [
+     "LEVI"
+    ],
+    "titulo": "Levi Strauss reports its third quarter",
+    "resumen": "The stock is down ~3% premarket after the results.",
+    "fuente": "Levi Strauss (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000094845/000009484526000048/exhibit991-3q2026pressrele.htm"
+   },
+   {
+    "hora": "Friday",
+    "categoria": "Companies",
+    "tickers": [
+     "DAL"
+    ],
+    "titulo": "Delta reports tomorrow",
+    "resumen": "With oil this high, fuel costs will be the airline's focus.",
+    "fuente": "AlphaStreet",
+    "url": "https://news.alphastreet.com/delta-air-lines-q3-2026-earnings-preview-october-9-street-expects-1-83-eps/amp/"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,188",
+   "cambio": "−0.68%",
+   "nota": "Last 31,188.5 (−208 pts vs yesterday's regular close, 31,396). Overnight: 31,119.75–31,466. Daily ATR: 463 pts. CME data ~10 min delayed.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Above its 20/50/200-day averages (30,502 / 29,874 / 27,737); third day pulling back from the record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Changed: overnight it lost the 31,320 pivot and yesterday's low (31,143)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,317–31,351",
+     "nota": "5/15-min OB + P pivot 31,320 · +129 to +163 pts (0.28 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,263–31,284",
+     "nota": "5-min OB · +75 to +96 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,216–31,219",
+     "nota": "Top of the 60-min OB + S1 pivot · +28 to +31 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,188",
+     "nota": "Last (8:50)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,120–31,143",
+     "nota": "Overnight low + yesterday's low · −45 to −69 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,041–31,102",
+     "nota": "5/60-min OB + S2 pivot · −86 to −147 pts (0.19–0.32 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,939",
+     "nota": "S3 pivot · −249 pts (0.54 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "A war-headline day: watch for jumps. Reclaiming 31,219 and then 31,284 opens 31,317–31,351. A 1-hour close below 31,120 points to 31,041–31,102, then 30,939. 30-year auction at 1 PM."
+  },
+  "es": {
+   "ultimo": "7,820",
+   "cambio": "−0.42%",
+   "nota": "Last 7,819.75 (−31 vs yesterday's close, 7,851). Overnight: 7,802.75–7,858.25 (lost yesterday's 7,815.75 low). Daily ATR: 78 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Above its averages; pulling back from the record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Lost the P pivot (7,842) and S1 (7,824.7)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,838–7,848",
+     "nota": "5/15-min OB + P pivot · +18 to +28 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,823–7,828",
+     "nota": "5-min OB + S1 · +3 to +8 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,820",
+     "nota": "Last (8:50)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,798–7,803",
+     "nota": "Overnight low + S2 pivot · −17 to −22 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,778–7,795",
+     "nota": "60-min OB + S3 7,781 · −25 to −42 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Reclaim 7,828 → 7,838–7,848. A 1-hour close below 7,798 → 7,778–7,795."
+  },
+  "volumen": {
+   "resumen": "Yesterday: somewhat light volume (NQ 0.89×, ES 0.81× their 20-day average). Overnight NQ covered 346 points (31,120–31,466) as oil rose.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Yesterday (full)",
+     "volumen": "500,010",
+     "promedio20": "562,621",
+     "relativo": "0.89×",
+     "nota": "Overnight today: 31,119.75–31,466."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Yesterday (full)",
+     "volumen": "1,347,574",
+     "promedio20": "1,659,984",
+     "relativo": "0.81×",
+     "nota": "Overnight today: 7,802.75–7,858.25."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Classic pivots from yesterday's regular-session high, low and close. NQ and ES sit between S1 and S2.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,777.1",
+     "es": "7,912.2",
+     "nota": "Far."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,599.7",
+     "es": "7,885.8",
+     "nota": "Next to NQ's record."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,497.8",
+     "es": "7,868.4",
+     "nota": "Above the overnight high."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,320.4",
+     "es": "7,842.1",
+     "nota": "Lines up with the 5/15-min OBs."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,218.6",
+     "es": "7,824.7",
+     "nota": "Lost overnight; now resistance."
+    },
+    {
+     "nombre": "S2",
+     "nq": "31,041.2",
+     "es": "7,798.3",
+     "nota": "NQ: base of the 60-min OB. ES: overnight low."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,939.3",
+     "es": "7,780.9",
+     "nota": "ES: 60-min OB."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "Overnight",
+    "evento": "Oil +3.6% on Iran",
+    "nq": "−208",
+    "es": "−31",
+    "lectura": "From yesterday's close to now: NQ lost yesterday's low."
+   },
+   {
+    "hora": "8:30",
+    "evento": "Jobless claims — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Strong → more rate pressure and a test of 31,120. Weak → relief toward 31,219–31,284."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Open — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Wait for the 15-minute range; Iran headlines can move price suddenly."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "30-year auction — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Weak → 31,041–31,102. Strong → 31,284–31,351."
+   }
+  ],
+  "ob": {
+   "hora": "8:51 AM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31193,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31193,
+       "arriba": [
+        {
+         "alto": 31284.38,
+         "bajo": 31263.25,
+         "tipo": "alcista",
+         "dist": 70.25
+        },
+        {
+         "alto": 31347.75,
+         "bajo": 31317.5,
+         "tipo": "alcista",
+         "dist": 124.5
+        },
+        {
+         "alto": 31538.75,
+         "bajo": 31529,
+         "tipo": "bajista",
+         "dist": 336
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31102.13,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -90.87
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31193,
+       "arriba": [
+        {
+         "alto": 31351,
+         "bajo": 31317.5,
+         "tipo": "alcista",
+         "dist": 124.5
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31127.88,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -65.12
+        },
+        {
+         "alto": 30560.13,
+         "bajo": 30522.5,
+         "tipo": "alcista",
+         "dist": -632.87
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31193,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 31215.63,
+         "bajo": 31143,
+         "tipo": "alcista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 31146,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -47
+        },
+        {
+         "alto": 30368.13,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -824.87
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7819.25,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7819.25,
+       "arriba": [
+        {
+         "alto": 7828,
+         "bajo": 7823,
+         "tipo": "alcista",
+         "dist": 3.75
+        },
+        {
+         "alto": 7841.88,
+         "bajo": 7838,
+         "tipo": "alcista",
+         "dist": 18.75
+        },
+        {
+         "alto": 7847,
+         "bajo": 7841.25,
+         "tipo": "alcista",
+         "dist": 22
+        }
+       ],
+       "dentro": [],
+       "abajo": []
+      },
+      {
+       "tf": "15",
+       "precio": 7819.25,
+       "arriba": [
+        {
+         "alto": 7847.88,
+         "bajo": 7841.25,
+         "tipo": "alcista",
+         "dist": 22
+        },
+        {
+         "alto": 7877.75,
+         "bajo": 7874.75,
+         "tipo": "bajista",
+         "dist": 55.5
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7778.25,
+         "bajo": 7773.75,
+         "tipo": "alcista",
+         "dist": -41
+        },
+        {
+         "alto": 7730.5,
+         "bajo": 7719.75,
+         "tipo": "alcista",
+         "dist": -88.75
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7819.25,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7794.63,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -24.62
+        },
+        {
+         "alto": 7629.13,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -190.12
+        },
+        {
+         "alto": 7571.38,
+         "bajo": 7542.75,
+         "tipo": "alcista",
+         "dist": -247.87
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ opens inside the 60-min OB (31,143–31,216) and below the 5/15-min ones (31,263–31,351), now a ceiling; the nearest below is 31,044–31,102. ES: above, the 5-min OBs (7,823–7,847); below, the 60-min one (7,778–7,795)."
+  },
+  "picks": {
+   "nota": "Criteria: trend + real news + relative volume of at least 3×. Today no stock passes all three filters: we don't force picks.",
+   "descartadas": "LEVI (−3.3% after earnings, relative volume 6.9×, but we couldn't confirm clear negative news for a short), BULL and HTZ (no news), PLTR (+2.2%, relative volume below 3×)."
+  },
+  "megas": {
+   "nota": "Ranked by level quality and trend. With oil at $105 and NQ below yesterday's low, nothing grades A today.",
+   "filas": [
+    {
+     "ticker": "PLTR",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+2.23%",
+     "catalizador": "Breaking its multi-week high (194.78); no confirmed headline",
+     "r1": "Blue sky",
+     "ultimo": "198.45",
+     "s1": "194.78"
+    },
+    {
+     "ticker": "NVDA",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.93%",
+     "catalizador": "Sitting on Monday's low (235.15)",
+     "r1": "239.08",
+     "ultimo": "235.27",
+     "s1": "235.15"
+    },
+    {
+     "ticker": "AMD",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−1.53%",
+     "catalizador": "Third-day retest of 633.50",
+     "r1": "645.46",
+     "ultimo": "636.00",
+     "s1": "633.50"
+    },
+    {
+     "ticker": "QQQ",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.67%",
+     "catalizador": "Oil and bonds weigh",
+     "r1": "757.73",
+     "ultimo": "752.68",
+     "s1": "751.75"
+    },
+    {
+     "ticker": "GOOGL",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+0.31%",
+     "catalizador": "Holding above yesterday's high",
+     "r1": "353.22",
+     "ultimo": "351.60",
+     "s1": "350.80"
+    },
+    {
+     "ticker": "MSFT",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.16%",
+     "catalizador": "No news",
+     "r1": "531.73",
+     "ultimo": "528.90",
+     "s1": "524.69"
+    },
+    {
+     "ticker": "MU",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−1.53%",
+     "catalizador": "Profit-taking after +4%",
+     "r1": "1,089.22",
+     "ultimo": "1,071.38",
+     "s1": "1,055.56"
+    },
+    {
+     "ticker": "AMZN",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "−0.50%",
+     "catalizador": "No news",
+     "r1": "260.14",
+     "ultimo": "258.61",
+     "s1": "256.68"
+    },
+    {
+     "ticker": "AAPL",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "+0.10%",
+     "catalizador": "No news",
+     "r1": "338.67",
+     "ultimo": "337.02",
+     "s1": "336.21"
+    },
+    {
+     "ticker": "SPCX",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.68%",
+     "catalizador": "No news",
+     "r1": "171.31",
+     "ultimo": "166.46",
+     "s1": "165.65"
+    },
+    {
+     "ticker": "CEG",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "−0.76%",
+     "catalizador": "No new headline",
+     "r1": "299.95",
+     "ultimo": "297.30",
+     "s1": "291.00"
+    },
+    {
+     "ticker": "META",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "0.00%",
+     "catalizador": "Closed yesterday at its low",
+     "r1": "738.29",
+     "ultimo": "721.32",
+     "s1": "720.15"
+    },
+    {
+     "ticker": "TSLA",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "−1.08%",
+     "catalizador": "Below yesterday's low (374.43)",
+     "r1": "374.43",
+     "ultimo": "373.74",
+     "s1": "364.91"
+    },
+    {
+     "ticker": "INTC",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "−2.41%",
+     "catalizador": "Below yesterday's low (111.14)",
+     "r1": "111.14",
+     "ultimo": "110.39",
+     "s1": "—"
+    },
+    {
+     "ticker": "CBRS",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "−2.23%",
+     "catalizador": "Downtrend",
+     "r1": "175.68",
+     "ultimo": "171.15",
+     "s1": "168.40"
+    }
+   ]
+  },
+  "soportes": {
+   "nota": "For long bounces, sorted by ATR distance. With oil spiking and NQ below yesterday's low, everything is grade B or C: only on a confirmed reclaim candle and with smaller size. Invalidation = 0.25 ATR below support.",
+   "top3": [
+    {
+     "ticker": "NVDA",
+     "grado": "B",
+     "rr": "3.1",
+     "nivel": "235.15",
+     "texto": "Monday's low, just under price. Target 239.08, yesterday's high."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "B",
+     "rr": "2.8",
+     "nivel": "751.75",
+     "texto": "Yesterday's low. Target 758.30, yesterday's high."
+    },
+    {
+     "ticker": "AMD",
+     "grado": "B",
+     "rr": "2.0",
+     "nivel": "633.50",
+     "texto": "Monday's breakout, held the last two days. Target 645.46."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "NVDA",
+     "precio": "235.27",
+     "soporte": "235.15",
+     "tipo_nivel": "Monday's low",
+     "dist_atr": "0.02",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "239.08",
+     "invalidacion": "233.87",
+     "rr": "3.1"
+    },
+    {
+     "ticker": "META",
+     "precio": "721.32",
+     "soporte": "720.15",
+     "tipo_nivel": "Yesterday's low",
+     "dist_atr": "0.04",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "738.29",
+     "invalidacion": "713.00",
+     "rr": "2.5"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "351.60",
+     "soporte": "350.80",
+     "tipo_nivel": "Yesterday's high (retest)",
+     "dist_atr": "0.09",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "353.22",
+     "invalidacion": "348.56",
+     "rr": "1.1"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "752.68",
+     "soporte": "751.75",
+     "tipo_nivel": "Yesterday's low",
+     "dist_atr": "0.10",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "758.30",
+     "invalidacion": "749.45",
+     "rr": "2.8"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "636.00",
+     "soporte": "633.50",
+     "tipo_nivel": "Monday's high (held yesterday)",
+     "dist_atr": "0.11",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "645.46",
+     "invalidacion": "627.58",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "166.46",
+     "soporte": "165.65",
+     "tipo_nivel": "Yesterday's low",
+     "dist_atr": "0.12",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "171.31",
+     "invalidacion": "164.03",
+     "rr": "3.5"
+    },
+    {
+     "ticker": "AAPL",
+     "precio": "337.02",
+     "soporte": "336.21",
+     "tipo_nivel": "Monday's high (retest)",
+     "dist_atr": "0.13",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "338.67",
+     "invalidacion": "334.64",
+     "rr": "1.6"
+    },
+    {
+     "ticker": "CBRS",
+     "precio": "171.15",
+     "soporte": "168.40",
+     "tipo_nivel": "Swing low",
+     "dist_atr": "0.22",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "175.68",
+     "invalidacion": "165.25",
+     "rr": "2.3"
+    },
+    {
+     "ticker": "MSFT",
+     "precio": "528.90",
+     "soporte": "524.69",
+     "tipo_nivel": "Yesterday's low",
+     "dist_atr": "0.35",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "531.73",
+     "invalidacion": "521.71",
+     "rr": "2.4"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "258.61",
+     "soporte": "256.68",
+     "tipo_nivel": "Tuesday's high (retest)",
+     "dist_atr": "0.36",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "260.14",
+     "invalidacion": "255.36",
+     "rr": "2.6"
+    },
+    {
+     "ticker": "MU",
+     "precio": "1,071.38",
+     "soporte": "1,055.56",
+     "tipo_nivel": "Monday's low",
+     "dist_atr": "0.36",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "1,089.22",
+     "invalidacion": "1,044.67",
+     "rr": "3.1"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "297.30",
+     "soporte": "291.00",
+     "tipo_nivel": "Oct 6 gap edge",
+     "dist_atr": "0.48",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "299.95",
+     "invalidacion": "287.71",
+     "rr": "2.7"
+    },
+    {
+     "ticker": "TSLA",
+     "precio": "373.74",
+     "soporte": "374.43",
+     "tipo_nivel": "Testing from below: yesterday's low",
+     "dist_atr": "-0.06",
+     "tendencia": "Sideways",
+     "grado": "C",
+     "objetivo": "382.35",
+     "invalidacion": "371.66",
+     "rr": "2.9"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "110.39",
+     "soporte": "111.14",
+     "tipo_nivel": "Testing from below: yesterday's low",
+     "dist_atr": "-0.12",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "115.30",
+     "invalidacion": "109.61",
+     "rr": "2.7"
+    }
+   ],
+   "pie": "META is grade C (closed yesterday at its low). TSLA and INTC are below support: only valid if they reclaim the level. GOOGL is close but its R:R is 1.0."
+  },
+  "movers": [
+   {
+    "ticker": "TRMD",
+    "cambio": "+3.3%",
+    "nota": "TORM: oil tankers"
+   },
+   {
+    "ticker": "GFS",
+    "cambio": "+2.6%",
+    "nota": "GlobalFoundries: chips"
+   },
+   {
+    "ticker": "VG",
+    "cambio": "+2.5%",
+    "nota": "Venture Global: LNG"
+   },
+   {
+    "ticker": "U",
+    "cambio": "+2.2%",
+    "nota": "Unity: game software"
+   },
+   {
+    "ticker": "PLTR",
+    "cambio": "+2.2%",
+    "nota": "Palantir: no confirmed headline"
+   },
+   {
+    "ticker": "PEP",
+    "cambio": "+0.8%",
+    "nota": "PepsiCo: Q3 earnings"
+   },
+   {
+    "ticker": "AAOI",
+    "cambio": "−5.0%",
+    "nota": "Applied Opto: optical parts"
+   },
+   {
+    "ticker": "STLA",
+    "cambio": "−3.9%",
+    "nota": "Stellantis: autos"
+   },
+   {
+    "ticker": "AXTI",
+    "cambio": "−3.5%",
+    "nota": "AXT: chip materials"
+   },
+   {
+    "ticker": "LEVI",
+    "cambio": "−3.3%",
+    "nota": "Levi Strauss: earnings"
+   },
+   {
+    "ticker": "PL",
+    "cambio": "−3.0%",
+    "nota": "Planet Labs: satellites"
+   },
+   {
+    "ticker": "CCL",
+    "cambio": "−2.4%",
+    "nota": "Carnival: cruises (costly oil)"
+   }
+  ],
+  "redes": {
+   "gancho": "Oil up 3.6% on Iran: NQ falls 208",
+   "subgancho": "30-year bond auction at 1 PM.",
+   "sub2": "NQ lost yesterday's low overnight. Key: 31,120 and 31,219."
+  }
+ }
+}

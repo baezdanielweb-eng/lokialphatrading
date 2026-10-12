@@ -1,0 +1,23 @@
+{
+  "titulo": "Plan de la semana · Lunes 12 de octubre",
+  "carrusel": "social/2026-10-12-matutino",
+  "voz": "eleven:nPczCjzI2devNBz1zQrb",
+  "nombreVoz": "brian",
+  "bloques": [
+    { "slide": 1, "partes": [
+      { "decir": "Hoy es Columbus Day: Wall Street abre normal, pero el mercado de bonos cierra. Espera volumen bajo.", "texto": "Bolsa abierta · bonos cerrados · volumen bajo" }
+    ]},
+    { "slide": 2, "partes": [
+      { "decir": "El NQ empieza la semana plano, cerca de treinta y un mil ochenta. Arriba, treinta y un mil ciento veintiuno; abajo, treinta y un mil nueve.", "texto": "NQ 31,084 · R 31,121 · S 31,009" }
+    ]},
+    { "slide": 3, "partes": [
+      { "decir": "En premarket, CCC sube diez por ciento por conversaciones de compra, y Micron cae dos por ciento.", "texto": "CCC +10.7% · MU −2.2%" }
+    ]},
+    { "slide": 4, "partes": [
+      { "decir": "La semana: bancos el martes, inflación el miércoles, y ventas minoristas el jueves.", "texto": "Mar: bancos · Mié: IPC ⚠️ · Jue: ventas minoristas" }
+    ]},
+    { "slide": 5, "partes": [
+      { "decir": "Reporte completo en el link de la bio. Contenido educativo, no es asesoría financiera.", "texto": "Reporte completo en el link de la bio 👆" }
+    ]}
+  ]
+}

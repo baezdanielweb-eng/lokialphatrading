@@ -1,0 +1,881 @@
+{
+ "fecha": "2026-10-12",
+ "tipo": "meridiano",
+ "titulo": "LokiAlphaTrading - Reporte Meridiano",
+ "datos": {
+  "generado": "Datos de las 12:00 PM ET (publicado 4:10 PM)",
+  "resumen": "Lunes de bonos cerrados con tecnología débil: el NQ pierde 0.49% y rompió todos los soportes de la mañana (mínimo 30,857 a las 10:25), mientras el ES está plano (+0.05%). La memoria (MU −3.0%, CXMT) y la óptica (Lumentum, Ciena) pesan; META (+3.9%) y MSFT (+1.3%) sostienen. Brent arriba de $107 por ataques hutíes a Arabia Saudita.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "+0.03%",
+    "detalle": "778.78",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−0.50%",
+    "detalle": "747.55",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.10%",
+    "detalle": "278.66",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,957",
+    "detalle": "−0.49% · día 30,857–31,049",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,864",
+    "detalle": "+0.05% · día 7,851.5–7,870",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "~$107",
+    "detalle": "ataques hutíes",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "12:10 PM",
+    "tema": "Hammack (Fed Cleveland, vota en 2026)",
+    "efecto": "Es de las más duras de la Fed; un tono de más alzas puede presionar al NQ con la inflación (IPC) el miércoles.",
+    "prob": 5
+   },
+   {
+    "hora": "Todo el día",
+    "tema": "Bonos cerrados (Columbus Day)",
+    "efecto": "Sin subastas ni mercado de bonos en efectivo: volumen bajo, movimientos pueden ser engañosos.",
+    "prob": 3,
+    "enlace": "https://finance.yahoo.com/markets/stocks/articles/stock-market-open-monday-columbus-150100007.html",
+    "fuente": "Yahoo Finance"
+   },
+   {
+    "hora": "Mar 6:45–7:00 AM",
+    "tema": "Bancos: JPM, GS, WFC, C (+ JNJ, UNH)",
+    "efecto": "Arranca la temporada de resultados; marca el tono del martes.",
+    "prob": 6,
+    "enlace": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Updates-2026-Earnings-Release-Date-Information/default.aspx",
+    "fuente": "Wells Fargo"
+   },
+   {
+    "hora": "⚠️ Mié 8:30 AM",
+    "tema": "IPC de septiembre",
+    "efecto": "El dato de la semana.",
+    "prob": 9,
+    "enlace": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/",
+    "fuente": "investingLive"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Mañana",
+    "categoria": "Mercado",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "MU"
+    ],
+    "titulo": "S&P plano; Micron arrastra a la tecnología",
+    "resumen": "Arranque de semana sin dirección en el S&P mientras la memoria lidera las caídas del Nasdaq.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html"
+   },
+   {
+    "hora": "Mañana",
+    "categoria": "Mercado",
+    "tickers": [
+     "DIA",
+     "QQQ"
+    ],
+    "titulo": "Dow sube, Nasdaq cede con el petróleo al alza",
+    "resumen": "Los inversionistas esperan los resultados de los bancos del martes y vigilan la energía.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-12-dow-sp-500-nasdaq-080321571.html"
+   },
+   {
+    "hora": "Mediodía",
+    "categoria": "Empresas",
+    "tickers": [
+     "MU"
+    ],
+    "titulo": "Micron vuelve a caer por el rival chino CXMT",
+    "resumen": "La salida a bolsa de CXMT, que levantó $8,600 millones, reaviva el temor a más oferta de DRAM y menos precio.",
+    "fuente": "Nasdaq",
+    "url": "https://www.nasdaq.com/articles/why-micron-stock-just-dropped-again-0"
+   },
+   {
+    "hora": "Mediodía",
+    "categoria": "Empresas",
+    "tickers": [
+     "LITE",
+     "CIEN",
+     "COHR",
+     "AAOI"
+    ],
+    "titulo": "La óptica para IA se desploma",
+    "resumen": "Lumentum cae ~10% y arrastra a Ciena, Coherent y Applied Optoelectronics; toma de ganancias sin noticia de empresa.",
+    "fuente": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/10/12/lumentum-falls-10-as-optics-selloff-hits-hardest-where-capacity-is-sold-out-applied-optoelectronics-drops-7-coherent-slides-7/"
+   },
+   {
+    "hora": "Mediodía",
+    "categoria": "Empresas",
+    "tickers": [
+     "COHR",
+     "LITE"
+    ],
+    "titulo": "Coherent y Lumentum se enfrían antes de resultados",
+    "resumen": "Otra mirada a la caída del sector óptico tras un rally de meses.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-falls-12-lumentum-drops-162541572.html"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Energía",
+    "tickers": [
+     "XLE"
+    ],
+    "titulo": "Brent supera $107 por ataques a Arabia Saudita",
+    "resumen": "Nuevos ataques hutíes y el oleoducto Este-Oeste fuera de servicio aumentan el riesgo de oferta.",
+    "fuente": "Khaleej Times",
+    "url": "https://www.khaleejtimes.com/business/brent-rises-above-107-as-attacks-pipeline-outage-deepen-saudi-supply-concerns"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Macro",
+    "tickers": [
+     "TLT"
+    ],
+    "titulo": "Bolsa abierta, bonos cerrados",
+    "resumen": "Columbus Day: NYSE y Nasdaq operan normal; el mercado de bonos no abre.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-open-monday-columbus-150100007.html"
+   },
+   {
+    "hora": "Semana",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY"
+    ],
+    "titulo": "Semana de IPC, ventas minoristas y bancos",
+    "resumen": "IPC el miércoles, ventas minoristas y precios al productor el jueves, y bancos desde el martes.",
+    "fuente": "investingLive",
+    "url": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,957",
+   "cambio": "−0.49%",
+   "nota": "Último 30,957 (12:00). Sesión regular: apertura 31,045.5 · máximo 31,048.75 (9:30) · mínimo 30,857.25 (10:25). ATR diario: 431 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista (debilitándose)",
+     "nota": "Sigue sobre su media de 20 días (30,664), pero con máximos más bajos desde el récord 31,616.5."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Cambió desde la mañana (retroceso → bajista): bajo su media de 50 horas (31,116) y rompió el mínimo del viernes."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,030–31,049",
+     "nota": "Mínimo de la noche + máximo del día · +73 a +92 pts (0.2 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,991–31,009",
+     "nota": "Mínimo del viernes + pivote S1 (perdidos) · +34 a +52 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,957",
+     "nota": "Último (12:00)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "30,905",
+     "nota": "Pivote S2 (perforado) · −52 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,857",
+     "nota": "Mínimo del día (10:25) · −100 pts (0.23 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,792–30,820",
+     "nota": "Pivote S3 + mínimo del 7 oct · −137 a −165 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Recupera 31,009 → 31,030–31,049. Cierre 1H bajo 30,857 → 30,792–30,820. Volumen bajo por el festivo de bonos: rebotes pueden fallar."
+  },
+  "es": {
+   "ultimo": "7,864",
+   "cambio": "+0.05%",
+   "nota": "Apertura 7,863.25 · máximo 7,870 (9:30) · mínimo 7,851.5 (10:10). Mucho más firme que el NQ.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "A 34 pts del récord 7,897.5."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Lateral",
+     "nota": "Encima de su media de 50 horas (7,850)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,878.75",
+     "nota": "Pivote R1",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,870",
+     "nota": "Máximo del día",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,864",
+     "nota": "Último",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,851.5–7,852.75",
+     "nota": "Mínimo del día + pivote P (aguantó)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,835",
+     "nota": "Pivote S1",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Sobre 7,870 → 7,878.75. Bajo 7,851.5 → 7,835."
+  },
+  "volumen": {
+   "resumen": "Volumen bajo de festivo: el NQ va en 0.54× su promedio de 20 días y el ES en 0.30×. La primera hora concentró el volumen y la caída.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Completa hasta 12:00",
+     "volumen": "305,800",
+     "promedio20": "566,378",
+     "relativo": "0.54×",
+     "nota": "Regular: 179,407."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Completa hasta 12:00",
+     "volumen": "491,397",
+     "promedio20": "1,617,427",
+     "relativo": "0.30×",
+     "nota": "Regular: 295,022."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "72,693",
+     "nq_pct": 100,
+     "nq_rango": "30,936–31,048.75",
+     "nq_mov": "−84.75",
+     "es_vol": "97,150",
+     "es_mov": "−2.25",
+     "nota": "Abrió en el máximo y perdió los soportes de la mañana."
+    },
+    {
+     "hora": "10:00",
+     "nq_vol": "67,385",
+     "nq_pct": 93,
+     "nq_rango": "30,857.25–30,974.5",
+     "nq_mov": "−42",
+     "es_vol": "121,323",
+     "es_mov": "−3.75",
+     "nota": "Mínimo del día 30,857 a las 10:25, bajo S2."
+    },
+    {
+     "hora": "11:00",
+     "nq_vol": "39,329",
+     "nq_pct": 54,
+     "nq_rango": "30,877.75–30,975",
+     "nq_mov": "+37.25",
+     "es_vol": "76,549",
+     "es_mov": "+6.5",
+     "nota": "Rebote corto con poco volumen."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes de la mañana. NQ: perdió P, S1 y S2 (mínimo 30,857, a 37 pts de S3). ES: P (7,852.75) aguantó.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,386.8",
+     "es": "7,922.5",
+     "nota": "ES: sobre el récord."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,283.4",
+     "es": "7,896.5",
+     "nota": "NQ: junto al máximo de la noche. ES: junto al récord 7,897.5."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,197.8",
+     "es": "7,878.75",
+     "nota": "NQ: junto al máximo del viernes (31,180)."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,094.4",
+     "es": "7,852.75",
+     "nota": "NQ: precio actual."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,008.8",
+     "es": "7,835",
+     "nota": "NQ: junto al OB alcista de 15 min (31,018) y al mínimo del viernes (30,991)."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,905.4",
+     "es": "7,809",
+     "nota": "Siguiente soporte."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,819.8",
+     "es": "7,791.25",
+     "nota": "NQ: cerca del mínimo del jueves (30,792)."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "9:30",
+    "evento": "Apertura",
+    "nq": "−84.75",
+    "es": "−2.25",
+    "lectura": "El NQ abrió en 31,045.5 (en el mínimo de la noche) y cayó a 30,936 en la primera media hora; el ES casi no se movió."
+   },
+   {
+    "hora": "10:00",
+    "evento": "Sin evento programado",
+    "nq": "−42",
+    "es": "−3.75",
+    "lectura": "Venta en memoria y óptica: mínimo 30,857 a las 10:25."
+   },
+   {
+    "hora": "12:10 PM",
+    "evento": "Hammack — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Votante y dura: si pide más alzas, presión para el NQ bajo 30,857."
+   }
+  ],
+  "picks": {
+   "nota": "Hoy no hubo picks: ninguna acción pasó los tres filtros (CCC, CRM, IREN y ASTS descartadas en la mañana)."
+  },
+  "soportes": {
+   "nota": "Tablero de la tarde con precios de las 12:00. NQ bajista en 1 hora: todo grado B como máximo. Invalidación = 0.25 ATR bajo el soporte.",
+   "revision": [
+    {
+     "ticker": "MSFT",
+     "nivel": "537.22",
+     "resultado": "Aguantó",
+     "nota": "Mínimo 535.73 a las 9:30 (sobre la invalidación 534.04) y rebote a 542.73 (+1.0%); objetivo 553.72 pendiente."
+    },
+    {
+     "ticker": "META",
+     "nivel": "728.07",
+     "resultado": "Objetivo",
+     "nota": "Mínimo 727.63 en la apertura y objetivo 738.29 alcanzado en los primeros 5 minutos; máximo 751.58 (+3.2%)."
+    },
+    {
+     "ticker": "CEG",
+     "nivel": "300.98",
+     "resultado": "Rompió",
+     "nota": "Abrió en 299.70 (bajo el soporte), llegó a 301.73 y cerró bajo la invalidación 297.35 a las 9:35; mínimo 292.80."
+    }
+   ],
+   "top3": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "rr": "3.1",
+     "nivel": "337.60",
+     "texto": "Mínimo de hoy (apertura), 0.34 ATR abajo. Objetivo 342.63, el máximo de hoy; invalidación 335.99."
+    },
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "rr": "5.2",
+     "nivel": "537.22",
+     "texto": "El soporte de la mañana que aguantó (máximo del viernes), 0.36 ATR abajo. Objetivo 553.72; invalidación 534.04."
+    },
+    {
+     "ticker": "META",
+     "grado": "B",
+     "rr": "2.4",
+     "nivel": "738.29",
+     "texto": "Máximo del 7 oct, roto hoy (retesteo), 0.40 ATR abajo. Objetivo 751.58, el máximo de hoy; invalidación 732.79."
+    }
+   ]
+  }
+ },
+ "datos_en": {
+  "generado": "Data as of 12:00 PM ET (published 4:10 PM)",
+  "resumen": "Bond-holiday Monday with weak tech: NQ is down 0.49% and broke every morning support (low 30,857 at 10:25), while ES is flat (+0.05%). Memory (MU −3.0%, CXMT) and optics (Lumentum, Ciena) weigh; META (+3.9%) and MSFT (+1.3%) hold up. Brent above $107 on Houthi attacks on Saudi Arabia.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "+0.03%",
+    "detalle": "778.78",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−0.50%",
+    "detalle": "747.55",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.10%",
+    "detalle": "278.66",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,957",
+    "detalle": "−0.49% · day 30,857–31,049",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,864",
+    "detalle": "+0.05% · day 7,851.5–7,870",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "~$107",
+    "detalle": "Houthi attacks",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "12:10 PM",
+    "tema": "Hammack (Cleveland Fed, 2026 voter)",
+    "efecto": "One of the Fed's most hawkish; talk of more hikes could pressure NQ ahead of Wednesday's CPI.",
+    "prob": 5
+   },
+   {
+    "hora": "All day",
+    "tema": "Bond market closed (Columbus Day)",
+    "efecto": "No auctions or cash bond market: low volume, moves can mislead.",
+    "prob": 3,
+    "enlace": "https://finance.yahoo.com/markets/stocks/articles/stock-market-open-monday-columbus-150100007.html",
+    "fuente": "Yahoo Finance"
+   },
+   {
+    "hora": "Tue 6:45–7:00 AM",
+    "tema": "Banks: JPM, GS, WFC, C (+ JNJ, UNH)",
+    "efecto": "Earnings season starts; sets Tuesday's tone.",
+    "prob": 6,
+    "enlace": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Updates-2026-Earnings-Release-Date-Information/default.aspx",
+    "fuente": "Wells Fargo"
+   },
+   {
+    "hora": "⚠️ Wed 8:30 AM",
+    "tema": "September CPI",
+    "efecto": "The week's key data point.",
+    "prob": 9,
+    "enlace": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/",
+    "fuente": "investingLive"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Morning",
+    "categoria": "Market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "MU"
+    ],
+    "titulo": "S&P flat; Micron drags tech",
+    "resumen": "Directionless start for the S&P while memory leads the Nasdaq lower.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html"
+   },
+   {
+    "hora": "Morning",
+    "categoria": "Market",
+    "tickers": [
+     "DIA",
+     "QQQ"
+    ],
+    "titulo": "Dow up, Nasdaq slips as oil rises",
+    "resumen": "Investors await Tuesday's bank earnings and watch energy.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-12-dow-sp-500-nasdaq-080321571.html"
+   },
+   {
+    "hora": "Midday",
+    "categoria": "Companies",
+    "tickers": [
+     "MU"
+    ],
+    "titulo": "Micron falls again on Chinese rival CXMT",
+    "resumen": "CXMT's $8.6B IPO revives fears of more DRAM supply and lower prices.",
+    "fuente": "Nasdaq",
+    "url": "https://www.nasdaq.com/articles/why-micron-stock-just-dropped-again-0"
+   },
+   {
+    "hora": "Midday",
+    "categoria": "Companies",
+    "tickers": [
+     "LITE",
+     "CIEN",
+     "COHR",
+     "AAOI"
+    ],
+    "titulo": "AI optics stocks slide",
+    "resumen": "Lumentum drops ~10%, dragging Ciena, Coherent and Applied Optoelectronics; profit-taking with no company news.",
+    "fuente": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/10/12/lumentum-falls-10-as-optics-selloff-hits-hardest-where-capacity-is-sold-out-applied-optoelectronics-drops-7-coherent-slides-7/"
+   },
+   {
+    "hora": "Midday",
+    "categoria": "Companies",
+    "tickers": [
+     "COHR",
+     "LITE"
+    ],
+    "titulo": "Coherent and Lumentum cool before earnings",
+    "resumen": "Another look at the optics slide after a months-long rally.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-falls-12-lumentum-drops-162541572.html"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Energy",
+    "tickers": [
+     "XLE"
+    ],
+    "titulo": "Brent tops $107 on attacks on Saudi Arabia",
+    "resumen": "New Houthi attacks and the East-West pipeline outage raise supply risk.",
+    "fuente": "Khaleej Times",
+    "url": "https://www.khaleejtimes.com/business/brent-rises-above-107-as-attacks-pipeline-outage-deepen-saudi-supply-concerns"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Macro",
+    "tickers": [
+     "TLT"
+    ],
+    "titulo": "Stocks open, bonds closed",
+    "resumen": "Columbus Day: NYSE and Nasdaq trade normally; the bond market is shut.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-open-monday-columbus-150100007.html"
+   },
+   {
+    "hora": "Week",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY"
+    ],
+    "titulo": "CPI, retail sales and banks week",
+    "resumen": "CPI Wednesday, retail sales and producer prices Thursday, banks from Tuesday.",
+    "fuente": "investingLive",
+    "url": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,957",
+   "cambio": "−0.49%",
+   "nota": "Last 30,957 (12:00). Regular session: open 31,045.5 · high 31,048.75 (9:30) · low 30,857.25 (10:25). Daily ATR: 431 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish (weakening)",
+     "nota": "Still above its 20-day average (30,664), but with lower highs since the 31,616.5 record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Changed since the morning (pullback → bearish): under its 50-hour average (31,116) and broke Friday's low."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,030–31,049",
+     "nota": "Overnight low + day high · +73 to +92 pts (0.2 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,991–31,009",
+     "nota": "Friday low + S1 pivot (lost) · +34 to +52 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,957",
+     "nota": "Last (12:00)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "30,905",
+     "nota": "S2 pivot (pierced) · −52 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,857",
+     "nota": "Day low (10:25) · −100 pts (0.23 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,792–30,820",
+     "nota": "S3 pivot + Oct 7 low · −137 to −165 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Reclaiming 31,009 → 31,030–31,049. A 1-hour close under 30,857 → 30,792–30,820. Low volume on the bond holiday: bounces can fail."
+  },
+  "es": {
+   "ultimo": "7,864",
+   "cambio": "+0.05%",
+   "nota": "Open 7,863.25 · high 7,870 (9:30) · low 7,851.5 (10:10). Much firmer than NQ.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "34 pts from the 7,897.5 record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Sideways",
+     "nota": "Above its 50-hour average (7,850)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,878.75",
+     "nota": "R1 pivot",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,870",
+     "nota": "Day high",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,864",
+     "nota": "Last",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,851.5–7,852.75",
+     "nota": "Day low + P pivot (held)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,835",
+     "nota": "S1 pivot",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Above 7,870 → 7,878.75. Below 7,851.5 → 7,835."
+  },
+  "volumen": {
+   "resumen": "Holiday-thin volume: NQ is at 0.54× its 20-day average and ES at 0.30×. The first hour carried the volume and the drop.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Full session to 12:00",
+     "volumen": "305,800",
+     "promedio20": "566,378",
+     "relativo": "0.54×",
+     "nota": "Regular: 179,407."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Full session to 12:00",
+     "volumen": "491,397",
+     "promedio20": "1,617,427",
+     "relativo": "0.30×",
+     "nota": "Regular: 295,022."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "72,693",
+     "nq_pct": 100,
+     "nq_rango": "30,936–31,048.75",
+     "nq_mov": "−84.75",
+     "es_vol": "97,150",
+     "es_mov": "−2.25",
+     "nota": "Opened at the high and lost the morning supports."
+    },
+    {
+     "hora": "10:00",
+     "nq_vol": "67,385",
+     "nq_pct": 93,
+     "nq_rango": "30,857.25–30,974.5",
+     "nq_mov": "−42",
+     "es_vol": "121,323",
+     "es_mov": "−3.75",
+     "nota": "Day low 30,857 at 10:25, under S2."
+    },
+    {
+     "hora": "11:00",
+     "nq_vol": "39,329",
+     "nq_pct": 54,
+     "nq_rango": "30,877.75–30,975",
+     "nq_mov": "+37.25",
+     "es_vol": "76,549",
+     "es_mov": "+6.5",
+     "nota": "Short bounce on light volume."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Morning pivots. NQ: lost P, S1 and S2 (low 30,857, 37 pts from S3). ES: P (7,852.75) held.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,386.8",
+     "es": "7,922.5",
+     "nota": "ES: above the record."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,283.4",
+     "es": "7,896.5",
+     "nota": "NQ: next to the overnight high. ES: next to the 7,897.5 record."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,197.8",
+     "es": "7,878.75",
+     "nota": "NQ: next to Friday's high (31,180)."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,094.4",
+     "es": "7,852.75",
+     "nota": "NQ: current price."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,008.8",
+     "es": "7,835",
+     "nota": "NQ: next to the 15-min bullish OB (31,018) and Friday's low (30,991)."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,905.4",
+     "es": "7,809",
+     "nota": "Next support."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,819.8",
+     "es": "7,791.25",
+     "nota": "NQ: near Thursday's low (30,792)."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "9:30",
+    "evento": "Open",
+    "nq": "−84.75",
+    "es": "−2.25",
+    "lectura": "NQ opened at 31,045.5 (at the overnight low) and fell to 30,936 in the first half hour; ES barely moved."
+   },
+   {
+    "hora": "10:00",
+    "evento": "No scheduled event",
+    "nq": "−42",
+    "es": "−3.75",
+    "lectura": "Memory and optics selling: 30,857 low at 10:25."
+   },
+   {
+    "hora": "12:10 PM",
+    "evento": "Hammack — watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Voter and hawkish: calls for more hikes would pressure NQ below 30,857."
+   }
+  ],
+  "picks": {
+   "nota": "No picks today: no stock passed all three filters (CCC, CRM, IREN and ASTS were cut in the morning)."
+  },
+  "soportes": {
+   "nota": "Afternoon board at 12:00 prices. NQ bearish on the 1-hour: grade B at most. Invalidation = 0.25 ATR below support.",
+   "revision": [
+    {
+     "ticker": "MSFT",
+     "nivel": "537.22",
+     "resultado": "Held",
+     "nota": "Low 535.73 at 9:30 (above the 534.04 invalidation) and bounce to 542.73 (+1.0%); 553.72 target pending."
+    },
+    {
+     "ticker": "META",
+     "nivel": "728.07",
+     "resultado": "Target",
+     "nota": "Low 727.63 at the open and the 738.29 target hit in the first 5 minutes; high 751.58 (+3.2%)."
+    },
+    {
+     "ticker": "CEG",
+     "nivel": "300.98",
+     "resultado": "Broke",
+     "nota": "Opened at 299.70 (under support), reached 301.73 and closed under the 297.35 invalidation at 9:35; low 292.80."
+    }
+   ],
+   "top3": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "rr": "3.1",
+     "nivel": "337.60",
+     "texto": "Today's low (the open), 0.34 ATR below. Target 342.63, today's high; invalidation 335.99."
+    },
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "rr": "5.2",
+     "nivel": "537.22",
+     "texto": "The morning support that held (Friday's high), 0.36 ATR below. Target 553.72; invalidation 534.04."
+    },
+    {
+     "ticker": "META",
+     "grado": "B",
+     "rr": "2.4",
+     "nivel": "738.29",
+     "texto": "Oct 7 high, broken today (retest), 0.40 ATR below. Target 751.58, today's high; invalidation 732.79."
+    }
+   ]
+  }
+ }
+}

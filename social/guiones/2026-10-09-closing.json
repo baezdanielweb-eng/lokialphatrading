@@ -1,0 +1,24 @@
+{
+  "titulo": "Resumen de la semana · Viernes 9 de octubre",
+  "carrusel": "social/2026-10-09-closing",
+  "voz": "eleven:nPczCjzI2devNBz1zQrb",
+  "nombreVoz": "brian",
+  "bloques": [
+    { "slide": 1, "partes": [
+      { "decir": "Semana de montaña rusa: récord el lunes, tres días de caída, y rebote el viernes.", "texto": "Récord el lunes, 3 días de caída, rebote el viernes" }
+    ]},
+    { "slide": 5, "partes": [
+      { "decir": "El ES ganó uno por ciento en la semana. El NQ, apenas cero punto catorce por ciento.", "texto": "Semana: ES +1.05% · NQ +0.14%" },
+      { "decir": "El equipo operó dos cortos en NQ: más sesenta y dos y medio y más sesenta y dos puntos.", "texto": "Equipo: 2 cortos en NQ · +124.5 puntos" }
+    ]},
+    { "slide": 3, "partes": [
+      { "decir": "Hoy, SpaceX hundió a las telefónicas: T-Mobile cayó trece por ciento.", "texto": "SpaceX hunde a las telecom: TMUS −13%" }
+    ]},
+    { "slide": 6, "partes": [
+      { "decir": "La próxima semana: inflación el miércoles y ventas minoristas el jueves. El lunes, el mercado de bonos cierra.", "texto": "Mié: CPI ⚠️ · Jue: ventas minoristas · Lun: bonos cerrados" }
+    ]},
+    { "slide": 7, "partes": [
+      { "decir": "Reporte completo en el link de la bio. Contenido educativo, no es asesoría financiera.", "texto": "Reporte completo en el link de la bio 👆" }
+    ]}
+  ]
+}

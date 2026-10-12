@@ -1,0 +1,1899 @@
+{
+ "fecha": "2026-10-08",
+ "tipo": "closing",
+ "titulo": "LokiAlphaTrading - Closing",
+ "datos": {
+  "generado": "6:20 PM ET",
+  "resumen": "Tercer día de caída: el petróleo por Irán y un reporte sobre los ingresos de OpenAI hundieron a los chips. El NQ cayó 577 puntos desde su máximo y cerró en 30,976.5 (−1.34%). Después del cierre, SpaceX golpea a las telefónicas con un acuerdo de espectro.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "−0.42%",
+    "detalle": "773.93",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−1.34%",
+    "detalle": "747.58",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.05%",
+    "detalle": "277.57",
+    "dir": "flat"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,976.5",
+    "detalle": "−1.34% · mín. 30,792",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,817.25",
+    "detalle": "−0.43%",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.41",
+    "detalle": "tocó 16.46",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$104.12",
+    "detalle": "+2.9%",
+    "dir": "up"
+   }
+  ],
+  "que_movio": "El petróleo marcó el día: ataques a petroleros y reportes de un posible ataque de EE.UU. a Irán subieron el Brent a casi $106; luego bajó cuando Trump dijo que no atacará antes de las elecciones de medio mandato. Al mediodía, un reporte del FT sobre ingresos de OpenAI menores a lo señalado hundió a los chips (NVDA −2.9%, AMD −3.9%, MU −4.8%) y el NQ cayó a 30,792. El S&P 500 bajó 0.47% y el Nasdaq 1.25%; el Dow terminó plano. Las solicitudes de desempleo salieron bien (197K) y la subasta de 30 años, en línea.",
+  "movers": [
+   {
+    "ticker": "HAE",
+    "cambio": "+17.5%",
+    "nota": "Haemonetics: dispositivos médicos"
+   },
+   {
+    "ticker": "MANE",
+    "cambio": "+14.1%",
+    "nota": "Veradermics: biotecnológica"
+   },
+   {
+    "ticker": "SECZ",
+    "cambio": "+11.1%",
+    "nota": "Securitize: activos digitales"
+   },
+   {
+    "ticker": "COCO",
+    "cambio": "+10.5%",
+    "nota": "Vita Coco: bebidas"
+   },
+   {
+    "ticker": "FLUT",
+    "cambio": "+7.6%",
+    "nota": "Flutter: apuestas en línea"
+   },
+   {
+    "ticker": "PBF",
+    "cambio": "+6.8%",
+    "nota": "PBF: refinadora (petróleo caro)"
+   },
+   {
+    "ticker": "AAOI",
+    "cambio": "−13.6%",
+    "nota": "Chips ópticos y de IA caen en bloque"
+   },
+   {
+    "ticker": "MXL",
+    "cambio": "−12.7%",
+    "nota": "Chips ópticos y de IA caen en bloque"
+   },
+   {
+    "ticker": "EQPT",
+    "cambio": "−11.4%",
+    "nota": "EquipmentShare: renta de equipos"
+   },
+   {
+    "ticker": "HUT",
+    "cambio": "−10.9%",
+    "nota": "Mineras cripto/IA a la baja"
+   },
+   {
+    "ticker": "COHR",
+    "cambio": "−9.6%",
+    "nota": "Chips ópticos y de IA caen en bloque"
+   },
+   {
+    "ticker": "ALAB",
+    "cambio": "−9.2%",
+    "nota": "Chips ópticos y de IA caen en bloque"
+   }
+  ],
+  "despues_cierre": [
+   {
+    "ticker": "T",
+    "cambio": "−7.5%",
+    "nota": "AT&T: SpaceX compra espectro para su red móvil Starlink (27M acciones)."
+   },
+   {
+    "ticker": "VZ",
+    "cambio": "−6.6%",
+    "nota": "Verizon: misma noticia de SpaceX (6.0M acciones)."
+   },
+   {
+    "ticker": "TMUS",
+    "cambio": "−6.7%",
+    "nota": "T-Mobile: misma noticia de SpaceX."
+   },
+   {
+    "ticker": "SPCX",
+    "cambio": "+2%",
+    "nota": "SpaceX sube tras el acuerdo de espectro y la aprobación de la FCC."
+   },
+   {
+    "ticker": "HUM",
+    "cambio": "+12.7%",
+    "nota": "Humana: suben las aseguradoras de Medicare (CLOV, ALHC); detalle sin confirmar."
+   }
+  ],
+  "manana": [
+   {
+    "hora": "Antes de la apertura",
+    "tema": "Resultados de Delta (DAL); llamada 10:00",
+    "efecto": "Primer gran reporte con el combustible caro: pistas sobre el consumo y el costo del petróleo.",
+    "prob": 4,
+    "enlace": "https://www.tradingkey.com/analysis/stocks/us-stocks/262199038-weekly-preview-fed-september-minutes-pepsi-delta-earnings-tradingkey",
+    "fuente": "TradingKey"
+   },
+   {
+    "hora": "10:00",
+    "tema": "Confianza del consumidor (U. de Michigan)",
+    "efecto": "Con el choque de energía, una lectura débil y expectativas de inflación altas presionan a las tasas.",
+    "prob": 5,
+    "enlace": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "fuente": "Kiplinger"
+   },
+   {
+    "hora": "Por confirmar",
+    "tema": "Schmid (Fed de Kansas City, no vota)",
+    "efecto": "Impacto bajo.",
+    "prob": 2,
+    "enlace": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---4th-9th-october-2026",
+    "fuente": "Newsquawk"
+   },
+   {
+    "hora": "Noche",
+    "tema": "⚠️ Irán y petróleo",
+    "efecto": "Los titulares siguen moviendo al NQ de golpe.",
+    "prob": 7
+   },
+   {
+    "hora": "Apertura",
+    "tema": "Telefónicas tras el acuerdo de SpaceX",
+    "efecto": "AT&T, Verizon y T-Mobile pueden abrir con hueco a la baja.",
+    "prob": 3,
+    "enlace": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+    "fuente": "CNBC"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Cierre",
+    "categoria": "Macro",
+    "tickers": [
+     "QQQ",
+     "NVDA",
+     "AMD"
+    ],
+    "titulo": "El Nasdaq cae 1.25% por el golpe a la IA",
+    "resumen": "Nuevos datos sobre los ingresos de OpenAI presionaron a los chips; segundo día seguido de caída para el S&P 500 y el Nasdaq.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html"
+   },
+   {
+    "hora": "Mediodía",
+    "categoria": "Empresas",
+    "tickers": [
+     "NVDA",
+     "AMD"
+    ],
+    "titulo": "Reporte sobre OpenAI arrastra a los semiconductores",
+    "resumen": "Según el FT, los ingresos anualizados de OpenAI quedaron unos $20,000 millones por debajo de lo señalado.",
+    "fuente": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Geopolítica",
+    "titulo": "El petróleo oscila con los temores sobre Irán",
+    "resumen": "La amenaza de un nuevo ataque movió el crudo y las bolsas durante el día.",
+    "fuente": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears"
+   },
+   {
+    "hora": "Después del cierre",
+    "categoria": "Empresas",
+    "tickers": [
+     "T",
+     "VZ",
+     "TMUS",
+     "SPCX"
+    ],
+    "titulo": "SpaceX compra espectro y golpea a las telefónicas",
+    "resumen": "SpaceX acordó comprar licencias de espectro de banda baja para su red móvil Starlink; AT&T, Verizon y T-Mobile caen entre 7% y 8% después del cierre.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+   },
+   {
+    "hora": "Después del cierre",
+    "categoria": "Empresas",
+    "tickers": [
+     "SPCX"
+    ],
+    "titulo": "La FCC aprueba la constelación Starlink Mobile",
+    "resumen": "La autorización de 15,000 satélites convierte a Starlink en un competidor directo de las telefónicas.",
+    "fuente": "Benzinga",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62262959/elon-musk-gets-very-big-deal-for-spacex-why-att-verizon-t-mobile-stocks-are-falling"
+   },
+   {
+    "hora": "Después del cierre",
+    "categoria": "Empresas",
+    "tickers": [
+     "HUM",
+     "CLOV",
+     "UNH"
+    ],
+    "titulo": "Movimientos después del cierre",
+    "resumen": "Además de las telefónicas, destacan subidas en aseguradoras de salud como Humana y Clover.",
+    "fuente": "Investing.com",
+    "url": "https://ng.investing.com/news/stock-market-news/afterhours-movers-t-vz-tmus-spcx-hum-alhc-cvs-clov-unh-axp-432SI-2728215"
+   },
+   {
+    "hora": "8:30",
+    "categoria": "Macro",
+    "titulo": "Solicitudes de desempleo en 197,000",
+    "resumen": "Mejor de lo esperado y cerca de mínimos de 57 años.",
+    "fuente": "Reuters / Investing.com",
+    "url": "https://www.investing.com/news/economic-indicators/us-weekly-jobless-claims-fall-as-layoffs-remain-low-4939045"
+   },
+   {
+    "hora": "1:00 PM",
+    "categoria": "Bonos",
+    "titulo": "Subasta de 30 años en línea",
+    "resumen": "Se vendieron $22,000 millones al 5.618% con demanda normal.",
+    "fuente": "Helious",
+    "url": "https://helious.io/news/auc-912810UW6-2026-10-08/30-year-bond-auction-in-line"
+   },
+   {
+    "hora": "Mañana",
+    "categoria": "Empresas",
+    "tickers": [
+     "DAL"
+    ],
+    "titulo": "Mañana: Delta y la confianza del consumidor",
+    "resumen": "Delta abre la temporada de aerolíneas y la U. de Michigan mide el ánimo del consumidor en plena subida de la energía.",
+    "fuente": "TradingKey",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262199038-weekly-preview-fed-september-minutes-pepsi-delta-earnings-tradingkey"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,976.5",
+   "cambio": "−1.34%",
+   "nota": "Sesión regular: apertura 31,234.25 · máximo 31,369.75 (10:25) · mínimo 30,792 (13:25) · cierre 30,976.5, en el 32% del rango. Después del cierre: 31,021. ATR diario: 463 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Aún sobre su media de 20 días (30,399), pero tres días de caída y mínimos más bajos: corrección."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Bajo la media de 50 horas (31,324); desde las 13:25 hace mínimos más altos (30,792 → 30,859 → 30,893)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,243–31,305",
+     "nota": "OB bajista de 5 min + pivote R1 31,300 · +267 a +329 pts (0.6 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,079–31,197",
+     "nota": "OB bajista de 15 min · +103 a +220 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,044–31,090",
+     "nota": "OB bajista de 5 min + pivote P 31,046 · +67 a +114 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,976.5",
+     "nota": "Cierre regular",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "30,924–30,961",
+     "nota": "OB alcistas de 5/15 min · −16 a −53 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,792–30,843",
+     "nota": "Mínimo de hoy + OB de 5 min · −134 a −185 pts (0.40 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,722–30,776",
+     "nota": "Pivote S1 + OB de 5 min + mínimo del 1 de oct · −200 a −254 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,357–30,507",
+     "nota": "OB de 60 min + pivote S2 30,468 · ≈1 ATR",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Mañana, recuperar 31,046–31,090 (P + OB de 5 min) abre 31,197 y luego 31,243–31,305. Cierre de 1 hora bajo 30,924 → 30,792 y la zona 30,722–30,776. Delta antes de la apertura y la confianza del consumidor a las 10:00."
+  },
+  "es": {
+   "ultimo": "7,817.25",
+   "cambio": "−0.43%",
+   "nota": "Sesión regular: apertura 7,827.25 · máximo 7,850 (12:15) · mínimo 7,783 (13:25) · cierre 7,817.25 (51% del rango). ATR diario: 78 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sobre sus medias; tercer día de caída."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Lateral",
+     "nota": "Bajo la media de 50 horas (7,848), pero rebota desde 7,783."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,850–7,860",
+     "nota": "OB bajistas de 5 min + pivote R1 7,850.5 · +33 a +43 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,816–7,829",
+     "nota": "OB de 15 min (precio dentro) + pivote P 7,816.75",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,810–7,815",
+     "nota": "OB alcista de 5/15 min · −2 a −7 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,778–7,792",
+     "nota": "Mínimo de hoy + OB de 5/15 min + S1 7,783.5 · −25 a −39 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,746–7,753",
+     "nota": "OB de 15 min + S2 7,749.75 · −64 a −71 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Sobre 7,829 → 7,850–7,860. Cierre de 1 hora bajo 7,810 → 7,778–7,792."
+  },
+  "ob": {
+   "hora": "6:12 PM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31009,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31009,
+       "arriba": [
+        {
+         "alto": 31090,
+         "bajo": 31043.63,
+         "tipo": "bajista",
+         "dist": 34.63
+        },
+        {
+         "alto": 31305,
+         "bajo": 31243.5,
+         "tipo": "bajista",
+         "dist": 234.5
+        },
+        {
+         "alto": 31369.75,
+         "bajo": 31343.13,
+         "tipo": "bajista",
+         "dist": 334.13
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 30960.63,
+         "bajo": 30936.75,
+         "tipo": "alcista",
+         "dist": -48.37
+        },
+        {
+         "alto": 30842.63,
+         "bajo": 30792,
+         "tipo": "alcista",
+         "dist": -166.37
+        },
+        {
+         "alto": 30775.5,
+         "bajo": 30747.75,
+         "tipo": "alcista",
+         "dist": -233.5
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31009,
+       "arriba": [
+        {
+         "alto": 31196.75,
+         "bajo": 31079.38,
+         "tipo": "bajista",
+         "dist": 70.38
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 30954.38,
+         "bajo": 30924.25,
+         "tipo": "alcista",
+         "dist": -54.62
+        },
+        {
+         "alto": 30399,
+         "bajo": 30372.25,
+         "tipo": "alcista",
+         "dist": -610
+        },
+        {
+         "alto": 30278.5,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -730.5
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31009,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 30507.38,
+         "bajo": 30356.75,
+         "tipo": "alcista",
+         "dist": -501.62
+        },
+        {
+         "alto": 29677.88,
+         "bajo": 29605.75,
+         "tipo": "alcista",
+         "dist": -1331.12
+        },
+        {
+         "alto": 29178.38,
+         "bajo": 29053,
+         "tipo": "alcista",
+         "dist": -1830.62
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7818.5,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7818.5,
+       "arriba": [
+        {
+         "alto": 7850,
+         "bajo": 7837.38,
+         "tipo": "bajista",
+         "dist": 18.88
+        },
+        {
+         "alto": 7854.75,
+         "bajo": 7853.5,
+         "tipo": "bajista",
+         "dist": 35
+        },
+        {
+         "alto": 7859.5,
+         "bajo": 7855.5,
+         "tipo": "bajista",
+         "dist": 37
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7815.38,
+         "bajo": 7811,
+         "tipo": "alcista",
+         "dist": -3.12
+        },
+        {
+         "alto": 7790.5,
+         "bajo": 7783,
+         "tipo": "alcista",
+         "dist": -28
+        },
+        {
+         "alto": 7784.75,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -33.75
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 7818.5,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 7829.25,
+         "bajo": 7816.38,
+         "tipo": "bajista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 7814.75,
+         "bajo": 7809.75,
+         "tipo": "alcista",
+         "dist": -3.75
+        },
+        {
+         "alto": 7791.88,
+         "bajo": 7781,
+         "tipo": "alcista",
+         "dist": -26.62
+        },
+        {
+         "alto": 7753.38,
+         "bajo": 7746,
+         "tipo": "alcista",
+         "dist": -65.12
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7818.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7604.38,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -214.12
+        },
+        {
+         "alto": 7565.5,
+         "bajo": 7542.75,
+         "tipo": "alcista",
+         "dist": -253
+        },
+        {
+         "alto": 7454.38,
+         "bajo": 7427.5,
+         "tipo": "alcista",
+         "dist": -364.12
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ: arriba, OB bajistas de 5 min (31,044–31,090, junto al pivote P) y de 15 min (31,079–31,197); abajo, OB alcistas de 5/15 min en 30,924–30,961 y el mínimo del día con su OB (30,792–30,843). ES: el precio está dentro del OB de 15 min (7,816–7,829)."
+  },
+  "volumen": {
+   "resumen": "Volumen sobre el promedio: NQ 1.22× y ES 0.98× su promedio de 20 días. La hora de 12:30 (caída de los chips) fue la de mayor volumen del día.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Completa (Globex)",
+     "volumen": "685,470",
+     "promedio20": "562,471",
+     "relativo": "1.22×",
+     "nota": "Regular: 530,490 (77%)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Completa (Globex)",
+     "volumen": "1,637,654",
+     "promedio20": "1,664,215",
+     "relativo": "0.98×",
+     "nota": "Regular: 1,316,864 (80%)."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "104,729",
+     "nq_pct": 73,
+     "nq_rango": "31,156.25–31,369.75",
+     "nq_mov": "+124.25",
+     "es_vol": "199,540",
+     "es_mov": "+16",
+     "nota": "Máximo del día a las 10:25 en la zona de oferta (nuestro corto)."
+    },
+    {
+     "hora": "10:30",
+     "nq_vol": "61,208",
+     "nq_pct": 43,
+     "nq_rango": "31,216–31,361.25",
+     "nq_mov": "−119",
+     "es_vol": "178,465",
+     "es_mov": "−18",
+     "nota": "Rechazo desde el máximo."
+    },
+    {
+     "hora": "11:30",
+     "nq_vol": "65,737",
+     "nq_pct": 46,
+     "nq_rango": "31,165.25–31,305",
+     "nq_mov": "+1.25",
+     "es_vol": "170,650",
+     "es_mov": "+7.75",
+     "nota": "Pico de 12:17 por titulares de Irán."
+    },
+    {
+     "hora": "12:30",
+     "nq_vol": "143,393",
+     "nq_pct": 100,
+     "nq_rango": "30,792–31,254.75",
+     "nq_mov": "−402.5",
+     "es_vol": "321,760",
+     "es_mov": "−43.25",
+     "nota": "Caída de los chips: mínimo del día a las 13:25."
+    },
+    {
+     "hora": "13:30",
+     "nq_vol": "73,297",
+     "nq_pct": 51,
+     "nq_rango": "30,829–31,022.75",
+     "nq_mov": "+161.75",
+     "es_vol": "180,579",
+     "es_mov": "+21.75",
+     "nota": "Rebote desde el mínimo."
+    },
+    {
+     "hora": "14:30",
+     "nq_vol": "46,572",
+     "nq_pct": 32,
+     "nq_rango": "30,892.5–30,999.75",
+     "nq_mov": "−62.5",
+     "es_vol": "118,996",
+     "es_mov": "+1.5",
+     "nota": "Lateral."
+    },
+    {
+     "hora": "15:30",
+     "nq_vol": "35,554",
+     "nq_pct": 25,
+     "nq_rango": "30,908.5–30,984.5",
+     "nq_mov": "+39",
+     "es_vol": "146,874",
+     "es_mov": "+4.5",
+     "nota": "Cierre en 30,976.5."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes para mañana, con el máximo, mínimo y cierre de la sesión regular de hoy.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,877.9",
+     "es": "7,917.5",
+     "nota": "Lejos."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,623.8",
+     "es": "7,883.75",
+     "nota": "NQ: junto al récord 31,616.5."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,300.2",
+     "es": "7,850.5",
+     "nota": "NQ: dentro del OB bajista de 5 min (31,243–31,305). ES: OB de 5 min y máximo de hoy."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,046.1",
+     "es": "7,816.75",
+     "nota": "NQ: OB bajista de 5 min (31,044–31,090). ES: dentro del OB de 15 min."
+    },
+    {
+     "nombre": "S1",
+     "nq": "30,722.4",
+     "es": "7,783.5",
+     "nota": "NQ: junto al OB 30,748–30,776 y el mínimo del 1 de oct. ES: mínimo de hoy."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,468.3",
+     "es": "7,749.75",
+     "nota": "NQ: dentro del OB de 60 min (30,357–30,507)."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,144.7",
+     "es": "7,716.5",
+     "nota": "Extensión."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "8:30",
+    "evento": "Desempleo: 197K vs 200K",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Fuera de la sesión regular; sin efecto grande."
+   },
+   {
+    "hora": "10:00–10:30",
+    "evento": "Sin evento programado",
+    "nq": "+138",
+    "es": "+20",
+    "lectura": "Subida al máximo del día en la zona de oferta."
+   },
+   {
+    "hora": "12:15–12:30",
+    "evento": "Titulares de Irán (pico de 12:17)",
+    "nq": "+48.5",
+    "es": "+7.5",
+    "lectura": "Salto a 31,305 y vuelta en minutos."
+   },
+   {
+    "hora": "12:30–13:30",
+    "evento": "Reporte sobre OpenAI: chips a la baja",
+    "nq": "−402.5",
+    "es": "−43.25",
+    "lectura": "La mayor caída del día; mínimo 30,792."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "Subasta de 30 años: en línea",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Dentro de la caída de los chips; sin alivio."
+   },
+   {
+    "hora": "3:00–4:00 PM",
+    "evento": "Última hora",
+    "nq": "+40.75",
+    "es": "+9.75",
+    "lectura": "Cierre en el 32% del rango."
+   },
+   {
+    "hora": "Vie 10:00",
+    "evento": "Confianza del consumidor — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Débil → presión hacia 30,924 y 30,792. Fuerte → recuperar 31,046."
+   }
+  ],
+  "bloques": [
+   {
+    "seccion": "nq",
+    "titulo": "Resultado del equipo hoy: corto en NQ (+62.5 puntos)",
+    "texto": "Corto en micro NQ (MNQ) en 31,356.25, en la zona de oferta superior (31,343–31,370), justo donde el NQ hizo el máximo del día (31,369.75 a las 10:25). Objetivo 1 en 31,293.75: +62.5 puntos. Después el NQ cayó hasta 30,792 (13:25). Con órdenes límite y riesgo definido. Educativo, no es asesoría financiera."
+   }
+  ],
+  "picks": {
+   "nota": "Hoy no hubo picks: ninguna acción pasó los tres filtros (tendencia + noticia real + volumen relativo ≥3×)."
+  },
+  "soportes": {
+   "nota": "Resultado del tablero de la mañana (sin grados A por el riesgo de petróleo e Irán). Grado B: 1 sostuvo (AAPL, con objetivo) y 9 rompieron con la caída de los chips. Grado C: META y TSLA sostuvieron; INTC y CBRS rompieron. Advertir que no había grados A fue lo correcto.",
+   "revision": [
+    {
+     "ticker": "PLTR",
+     "nivel": "196.99",
+     "resultado": "Sostuvo",
+     "nota": "Tablero de la tarde: Tocó a las 13:20; rebote a 199.07 (+1.06%); cerró 198.73."
+    },
+    {
+     "ticker": "AMZN",
+     "nivel": "256.95",
+     "resultado": "Rompió",
+     "nota": "Tablero de la tarde: Rompió a las 13:25."
+    },
+    {
+     "ticker": "MSFT",
+     "nivel": "521.65",
+     "resultado": "Sostuvo",
+     "nota": "Tablero de la tarde: Mínimo 518.80 sin cerrar bajo la invalidación; rebote de +0.34%."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "soporte": "336.21",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Rebote a 341.57 (+1.59%); objetivo 338.67 alcanzado a las 12:10. Cerró 340.43."
+    },
+    {
+     "ticker": "NVDA",
+     "grado": "B",
+     "soporte": "235.15",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rebote a 237.06 (+0.81%); rompió a las 12:45. Cerró 230.54."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "soporte": "350.80",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rebote a 352.69 (+0.54%); rompió a las 12:45."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "B",
+     "soporte": "751.75",
+     "resultado": "Rompió",
+     "tipo_nivel": "Tocó a las 12:45 y rompió a las 12:50."
+    },
+    {
+     "ticker": "AMD",
+     "grado": "B",
+     "soporte": "633.50",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rebote a 643.80 (+1.63%); rompió a las 12:50. Cerró 620.98."
+    },
+    {
+     "ticker": "SPCX",
+     "grado": "B",
+     "soporte": "165.65",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rebote a 166.83 (+0.71%); rompió a las 11:35."
+    },
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "soporte": "524.69",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rebote a 527.27 (+0.49%); rompió a las 13:45."
+    },
+    {
+     "ticker": "AMZN",
+     "grado": "B",
+     "soporte": "256.68",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rompió a las 13:25. Cerró 254.12."
+    },
+    {
+     "ticker": "MU",
+     "grado": "B",
+     "soporte": "1,055.56",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rompió a las 13:00. Cerró 1,035.47."
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "soporte": "291.00",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rompió a las 12:25. Cerró 285.08."
+    },
+    {
+     "ticker": "META",
+     "grado": "C",
+     "soporte": "720.15",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Perforó hasta 711.73 sin cerrar bajo la invalidación y cerró 720.91, sobre el nivel."
+    },
+    {
+     "ticker": "TSLA",
+     "grado": "C",
+     "soporte": "374.43",
+     "resultado": "Sostuvo",
+     "tipo_nivel": "Recuperó el nivel a las 9:35; máx. 375.93 y cierre 375.00."
+    },
+    {
+     "ticker": "INTC",
+     "grado": "C",
+     "soporte": "111.14",
+     "resultado": "Rompió",
+     "tipo_nivel": "Recuperó a las 10:25 pero falló; cerró 107.14 (−5.3%)."
+    },
+    {
+     "ticker": "CBRS",
+     "grado": "C",
+     "soporte": "168.40",
+     "resultado": "Rompió",
+     "tipo_nivel": "Rebote a 170.50 (+1.25%); rompió a las 12:50."
+    }
+   ],
+   "pie": "Tablero, no señal de entrada: las entradas salen del indicador de Order Blocks, con órdenes límite."
+  },
+  "redes": {
+   "gancho": "Petróleo e IA hunden al NQ: tercer día de caída",
+   "sub2": "Máximo 31,369.75; mínimo 30,792; cierre 30,976.5.",
+   "operacion": {
+    "titulo": "Nuestra entrada de hoy",
+    "imagen": "social/capturas/2026-10-08-nq-corto.jpg",
+    "lado": "Corto",
+    "entrada": "31,356.25",
+    "objetivo": "31,293.75",
+    "puntos": "+62.5 pts",
+    "nota": "Venta en la zona de oferta, en el máximo del día. Orden límite."
+   }
+  }
+ },
+ "datos_en": {
+  "generado": "6:20 PM ET",
+  "resumen": "A third down day: oil on Iran and a report on OpenAI's revenue sank chips. NQ fell 577 points from its high and closed at 30,976.5 (−1.34%). After the close, SpaceX hits telecoms with a spectrum deal.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "−0.42%",
+    "detalle": "773.93",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−1.34%",
+    "detalle": "747.58",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.05%",
+    "detalle": "277.57",
+    "dir": "flat"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,976.5",
+    "detalle": "−1.34% · low 30,792",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,817.25",
+    "detalle": "−0.43%",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.41",
+    "detalle": "tagged 16.46",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$104.12",
+    "detalle": "+2.9%",
+    "dir": "up"
+   }
+  ],
+  "que_movio": "Oil set the tone: tanker attacks and reports of a possible US strike on Iran lifted Brent to nearly $106; it eased when Trump said there'd be no attack before the midterm elections. At midday, an FT report that OpenAI's revenue is below what was signaled sank chips (NVDA −2.9%, AMD −3.9%, MU −4.8%) and NQ fell to 30,792. The S&P 500 fell 0.47% and the Nasdaq 1.25%; the Dow ended flat. Jobless claims came in well (197K) and the 30-year auction was in line.",
+  "movers": [
+   {
+    "ticker": "HAE",
+    "cambio": "+17.5%",
+    "nota": "Haemonetics: medical devices"
+   },
+   {
+    "ticker": "MANE",
+    "cambio": "+14.1%",
+    "nota": "Veradermics: biotech"
+   },
+   {
+    "ticker": "SECZ",
+    "cambio": "+11.1%",
+    "nota": "Securitize: digital assets"
+   },
+   {
+    "ticker": "COCO",
+    "cambio": "+10.5%",
+    "nota": "Vita Coco: beverages"
+   },
+   {
+    "ticker": "FLUT",
+    "cambio": "+7.6%",
+    "nota": "Flutter: online betting"
+   },
+   {
+    "ticker": "PBF",
+    "cambio": "+6.8%",
+    "nota": "PBF: refiner (costly oil)"
+   },
+   {
+    "ticker": "AAOI",
+    "cambio": "−13.6%",
+    "nota": "Optical/AI chips fall as a group"
+   },
+   {
+    "ticker": "MXL",
+    "cambio": "−12.7%",
+    "nota": "Optical/AI chips fall as a group"
+   },
+   {
+    "ticker": "EQPT",
+    "cambio": "−11.4%",
+    "nota": "EquipmentShare: equipment rental"
+   },
+   {
+    "ticker": "HUT",
+    "cambio": "−10.9%",
+    "nota": "Crypto/AI miners lower"
+   },
+   {
+    "ticker": "COHR",
+    "cambio": "−9.6%",
+    "nota": "Optical/AI chips fall as a group"
+   },
+   {
+    "ticker": "ALAB",
+    "cambio": "−9.2%",
+    "nota": "Optical/AI chips fall as a group"
+   }
+  ],
+  "despues_cierre": [
+   {
+    "ticker": "T",
+    "cambio": "−7.5%",
+    "nota": "AT&T: SpaceX buys spectrum for its Starlink mobile network (27M shares)."
+   },
+   {
+    "ticker": "VZ",
+    "cambio": "−6.6%",
+    "nota": "Verizon: same SpaceX news (6.0M shares)."
+   },
+   {
+    "ticker": "TMUS",
+    "cambio": "−6.7%",
+    "nota": "T-Mobile: same SpaceX news."
+   },
+   {
+    "ticker": "SPCX",
+    "cambio": "+2%",
+    "nota": "SpaceX rises after the spectrum deal and FCC approval."
+   },
+   {
+    "ticker": "HUM",
+    "cambio": "+12.7%",
+    "nota": "Humana: Medicare insurers rise (CLOV, ALHC); detail unconfirmed."
+   }
+  ],
+  "manana": [
+   {
+    "hora": "Before the open",
+    "tema": "Delta (DAL) earnings; call 10:00",
+    "efecto": "First big report with costly fuel: clues on consumers and oil costs.",
+    "prob": 4,
+    "enlace": "https://www.tradingkey.com/analysis/stocks/us-stocks/262199038-weekly-preview-fed-september-minutes-pepsi-delta-earnings-tradingkey",
+    "fuente": "TradingKey"
+   },
+   {
+    "hora": "10:00",
+    "tema": "Consumer sentiment (UMich)",
+    "efecto": "With the energy shock, a weak reading and high inflation expectations pressure rates.",
+    "prob": 5,
+    "enlace": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+    "fuente": "Kiplinger"
+   },
+   {
+    "hora": "TBC",
+    "tema": "Schmid (Kansas City Fed, non-voter)",
+    "efecto": "Low impact.",
+    "prob": 2,
+    "enlace": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---4th-9th-october-2026",
+    "fuente": "Newsquawk"
+   },
+   {
+    "hora": "Overnight",
+    "tema": "⚠️ Iran and oil",
+    "efecto": "Headlines keep moving NQ suddenly.",
+    "prob": 7
+   },
+   {
+    "hora": "Open",
+    "tema": "Telecoms after the SpaceX deal",
+    "efecto": "AT&T, Verizon and T-Mobile may gap down.",
+    "prob": 3,
+    "enlace": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+    "fuente": "CNBC"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Close",
+    "categoria": "Macro",
+    "tickers": [
+     "QQQ",
+     "NVDA",
+     "AMD"
+    ],
+    "titulo": "Nasdaq falls 1.25% as AI takes a hit",
+    "resumen": "New details on OpenAI's revenue pressured chips; a second straight down day for the S&P 500 and Nasdaq.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html"
+   },
+   {
+    "hora": "Midday",
+    "categoria": "Companies",
+    "tickers": [
+     "NVDA",
+     "AMD"
+    ],
+    "titulo": "OpenAI report drags semiconductors",
+    "resumen": "Per the FT, OpenAI's annualized revenue came in about $20 billion below what was signaled.",
+    "fuente": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Geopolitics",
+    "titulo": "Oil swings on Iran fears",
+    "resumen": "The threat of a new strike moved crude and stocks through the day.",
+    "fuente": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears"
+   },
+   {
+    "hora": "After the close",
+    "categoria": "Companies",
+    "tickers": [
+     "T",
+     "VZ",
+     "TMUS",
+     "SPCX"
+    ],
+    "titulo": "SpaceX buys spectrum, hitting telecoms",
+    "resumen": "SpaceX agreed to buy low-band spectrum licenses for its Starlink mobile network; AT&T, Verizon and T-Mobile fall 7–8% after hours.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+   },
+   {
+    "hora": "After the close",
+    "categoria": "Companies",
+    "tickers": [
+     "SPCX"
+    ],
+    "titulo": "FCC approves the Starlink Mobile constellation",
+    "resumen": "The approval of 15,000 satellites turns Starlink into a direct competitor to carriers.",
+    "fuente": "Benzinga",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62262959/elon-musk-gets-very-big-deal-for-spacex-why-att-verizon-t-mobile-stocks-are-falling"
+   },
+   {
+    "hora": "After the close",
+    "categoria": "Companies",
+    "tickers": [
+     "HUM",
+     "CLOV",
+     "UNH"
+    ],
+    "titulo": "After-hours movers",
+    "resumen": "Besides telecoms, health insurers like Humana and Clover stand out to the upside.",
+    "fuente": "Investing.com",
+    "url": "https://ng.investing.com/news/stock-market-news/afterhours-movers-t-vz-tmus-spcx-hum-alhc-cvs-clov-unh-axp-432SI-2728215"
+   },
+   {
+    "hora": "8:30",
+    "categoria": "Macro",
+    "titulo": "Jobless claims at 197,000",
+    "resumen": "Better than expected and near 57-year lows.",
+    "fuente": "Reuters / Investing.com",
+    "url": "https://www.investing.com/news/economic-indicators/us-weekly-jobless-claims-fall-as-layoffs-remain-low-4939045"
+   },
+   {
+    "hora": "1:00 PM",
+    "categoria": "Bonds",
+    "titulo": "30-year auction in line",
+    "resumen": "$22 billion sold at 5.618% with normal demand.",
+    "fuente": "Helious",
+    "url": "https://helious.io/news/auc-912810UW6-2026-10-08/30-year-bond-auction-in-line"
+   },
+   {
+    "hora": "Tomorrow",
+    "categoria": "Companies",
+    "tickers": [
+     "DAL"
+    ],
+    "titulo": "Tomorrow: Delta and consumer sentiment",
+    "resumen": "Delta opens airline season and UMich measures consumer mood amid the energy spike.",
+    "fuente": "TradingKey",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262199038-weekly-preview-fed-september-minutes-pepsi-delta-earnings-tradingkey"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,976.5",
+   "cambio": "−1.34%",
+   "nota": "Regular session: open 31,234.25 · high 31,369.75 (10:25) · low 30,792 (13:25) · close 30,976.5, at 32% of the range. After hours: 31,021. Daily ATR: 463 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Still above its 20-day average (30,399), but three down days and lower lows: a correction."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Below the 50-hour average (31,324); higher lows since 13:25 (30,792 → 30,859 → 30,893)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,243–31,305",
+     "nota": "5-min bearish OB + R1 pivot 31,300 · +267 to +329 pts (0.6 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,079–31,197",
+     "nota": "15-min bearish OB · +103 to +220 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,044–31,090",
+     "nota": "5-min bearish OB + P pivot 31,046 · +67 to +114 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,976.5",
+     "nota": "Regular close",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "30,924–30,961",
+     "nota": "5/15-min bullish OBs · −16 to −53 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,792–30,843",
+     "nota": "Today's low + 5-min OB · −134 to −185 pts (0.40 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,722–30,776",
+     "nota": "S1 pivot + 5-min OB + Oct 1 low · −200 to −254 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,357–30,507",
+     "nota": "60-min OB + S2 pivot 30,468 · ≈1 ATR",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Tomorrow, reclaiming 31,046–31,090 (P + 5-min OB) opens 31,197, then 31,243–31,305. A 1-hour close below 30,924 → 30,792 and the 30,722–30,776 zone. Delta before the open and consumer sentiment at 10:00."
+  },
+  "es": {
+   "ultimo": "7,817.25",
+   "cambio": "−0.43%",
+   "nota": "Regular session: open 7,827.25 · high 7,850 (12:15) · low 7,783 (13:25) · close 7,817.25 (51% of range). Daily ATR: 78 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Above its averages; third down day."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Sideways",
+     "nota": "Below the 50-hour average (7,848), but bouncing from 7,783."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,850–7,860",
+     "nota": "5-min bearish OBs + R1 pivot 7,850.5 · +33 to +43 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,816–7,829",
+     "nota": "15-min OB (price inside) + P pivot 7,816.75",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,810–7,815",
+     "nota": "5/15-min bullish OB · −2 to −7 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,778–7,792",
+     "nota": "Today's low + 5/15-min OB + S1 7,783.5 · −25 to −39 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,746–7,753",
+     "nota": "15-min OB + S2 7,749.75 · −64 to −71 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Above 7,829 → 7,850–7,860. A 1-hour close below 7,810 → 7,778–7,792."
+  },
+  "ob": {
+   "hora": "6:12 PM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31009,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31009,
+       "arriba": [
+        {
+         "alto": 31090,
+         "bajo": 31043.63,
+         "tipo": "bajista",
+         "dist": 34.63
+        },
+        {
+         "alto": 31305,
+         "bajo": 31243.5,
+         "tipo": "bajista",
+         "dist": 234.5
+        },
+        {
+         "alto": 31369.75,
+         "bajo": 31343.13,
+         "tipo": "bajista",
+         "dist": 334.13
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 30960.63,
+         "bajo": 30936.75,
+         "tipo": "alcista",
+         "dist": -48.37
+        },
+        {
+         "alto": 30842.63,
+         "bajo": 30792,
+         "tipo": "alcista",
+         "dist": -166.37
+        },
+        {
+         "alto": 30775.5,
+         "bajo": 30747.75,
+         "tipo": "alcista",
+         "dist": -233.5
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31009,
+       "arriba": [
+        {
+         "alto": 31196.75,
+         "bajo": 31079.38,
+         "tipo": "bajista",
+         "dist": 70.38
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 30954.38,
+         "bajo": 30924.25,
+         "tipo": "alcista",
+         "dist": -54.62
+        },
+        {
+         "alto": 30399,
+         "bajo": 30372.25,
+         "tipo": "alcista",
+         "dist": -610
+        },
+        {
+         "alto": 30278.5,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -730.5
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31009,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 30507.38,
+         "bajo": 30356.75,
+         "tipo": "alcista",
+         "dist": -501.62
+        },
+        {
+         "alto": 29677.88,
+         "bajo": 29605.75,
+         "tipo": "alcista",
+         "dist": -1331.12
+        },
+        {
+         "alto": 29178.38,
+         "bajo": 29053,
+         "tipo": "alcista",
+         "dist": -1830.62
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7818.5,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7818.5,
+       "arriba": [
+        {
+         "alto": 7850,
+         "bajo": 7837.38,
+         "tipo": "bajista",
+         "dist": 18.88
+        },
+        {
+         "alto": 7854.75,
+         "bajo": 7853.5,
+         "tipo": "bajista",
+         "dist": 35
+        },
+        {
+         "alto": 7859.5,
+         "bajo": 7855.5,
+         "tipo": "bajista",
+         "dist": 37
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7815.38,
+         "bajo": 7811,
+         "tipo": "alcista",
+         "dist": -3.12
+        },
+        {
+         "alto": 7790.5,
+         "bajo": 7783,
+         "tipo": "alcista",
+         "dist": -28
+        },
+        {
+         "alto": 7784.75,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -33.75
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 7818.5,
+       "arriba": [],
+       "dentro": [
+        {
+         "alto": 7829.25,
+         "bajo": 7816.38,
+         "tipo": "bajista",
+         "dist": 0
+        }
+       ],
+       "abajo": [
+        {
+         "alto": 7814.75,
+         "bajo": 7809.75,
+         "tipo": "alcista",
+         "dist": -3.75
+        },
+        {
+         "alto": 7791.88,
+         "bajo": 7781,
+         "tipo": "alcista",
+         "dist": -26.62
+        },
+        {
+         "alto": 7753.38,
+         "bajo": 7746,
+         "tipo": "alcista",
+         "dist": -65.12
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7818.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7604.38,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -214.12
+        },
+        {
+         "alto": 7565.5,
+         "bajo": 7542.75,
+         "tipo": "alcista",
+         "dist": -253
+        },
+        {
+         "alto": 7454.38,
+         "bajo": 7427.5,
+         "tipo": "alcista",
+         "dist": -364.12
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ: above, 5-min bearish OBs (31,044–31,090, next to the P pivot) and a 15-min one (31,079–31,197); below, 5/15-min bullish OBs at 30,924–30,961 and the day's low with its OB (30,792–30,843). ES: price is inside the 15-min OB (7,816–7,829)."
+  },
+  "volumen": {
+   "resumen": "Above-average volume: NQ 1.22× and ES 0.98× their 20-day average. The 12:30 hour (the chip drop) had the day's highest volume.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Full (Globex)",
+     "volumen": "685,470",
+     "promedio20": "562,471",
+     "relativo": "1.22×",
+     "nota": "Regular: 530,490 (77%)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Full (Globex)",
+     "volumen": "1,637,654",
+     "promedio20": "1,664,215",
+     "relativo": "0.98×",
+     "nota": "Regular: 1,316,864 (80%)."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "104,729",
+     "nq_pct": 73,
+     "nq_rango": "31,156.25–31,369.75",
+     "nq_mov": "+124.25",
+     "es_vol": "199,540",
+     "es_mov": "+16",
+     "nota": "Day's high at 10:25 in the supply zone (our short)."
+    },
+    {
+     "hora": "10:30",
+     "nq_vol": "61,208",
+     "nq_pct": 43,
+     "nq_rango": "31,216–31,361.25",
+     "nq_mov": "−119",
+     "es_vol": "178,465",
+     "es_mov": "−18",
+     "nota": "Rejection from the high."
+    },
+    {
+     "hora": "11:30",
+     "nq_vol": "65,737",
+     "nq_pct": 46,
+     "nq_rango": "31,165.25–31,305",
+     "nq_mov": "+1.25",
+     "es_vol": "170,650",
+     "es_mov": "+7.75",
+     "nota": "12:17 spike on Iran headlines."
+    },
+    {
+     "hora": "12:30",
+     "nq_vol": "143,393",
+     "nq_pct": 100,
+     "nq_rango": "30,792–31,254.75",
+     "nq_mov": "−402.5",
+     "es_vol": "321,760",
+     "es_mov": "−43.25",
+     "nota": "Chip drop: day's low at 13:25."
+    },
+    {
+     "hora": "13:30",
+     "nq_vol": "73,297",
+     "nq_pct": 51,
+     "nq_rango": "30,829–31,022.75",
+     "nq_mov": "+161.75",
+     "es_vol": "180,579",
+     "es_mov": "+21.75",
+     "nota": "Bounce off the low."
+    },
+    {
+     "hora": "14:30",
+     "nq_vol": "46,572",
+     "nq_pct": 32,
+     "nq_rango": "30,892.5–30,999.75",
+     "nq_mov": "−62.5",
+     "es_vol": "118,996",
+     "es_mov": "+1.5",
+     "nota": "Sideways."
+    },
+    {
+     "hora": "15:30",
+     "nq_vol": "35,554",
+     "nq_pct": 25,
+     "nq_rango": "30,908.5–30,984.5",
+     "nq_mov": "+39",
+     "es_vol": "146,874",
+     "es_mov": "+4.5",
+     "nota": "Close at 30,976.5."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivots for tomorrow, from today's regular-session high, low and close.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,877.9",
+     "es": "7,917.5",
+     "nota": "Far."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,623.8",
+     "es": "7,883.75",
+     "nota": "NQ: next to the 31,616.5 record."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,300.2",
+     "es": "7,850.5",
+     "nota": "NQ: inside the 5-min bearish OB (31,243–31,305). ES: 5-min OB and today's high."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,046.1",
+     "es": "7,816.75",
+     "nota": "NQ: 5-min bearish OB (31,044–31,090). ES: inside the 15-min OB."
+    },
+    {
+     "nombre": "S1",
+     "nq": "30,722.4",
+     "es": "7,783.5",
+     "nota": "NQ: next to the 30,748–30,776 OB and the Oct 1 low. ES: today's low."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,468.3",
+     "es": "7,749.75",
+     "nota": "NQ: inside the 60-min OB (30,357–30,507)."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,144.7",
+     "es": "7,716.5",
+     "nota": "Extension."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "8:30",
+    "evento": "Claims: 197K vs 200K",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Outside the regular session; no big effect."
+   },
+   {
+    "hora": "10:00–10:30",
+    "evento": "No scheduled event",
+    "nq": "+138",
+    "es": "+20",
+    "lectura": "Rally to the day's high in the supply zone."
+   },
+   {
+    "hora": "12:15–12:30",
+    "evento": "Iran headlines (12:17 spike)",
+    "nq": "+48.5",
+    "es": "+7.5",
+    "lectura": "Jump to 31,305 and back within minutes."
+   },
+   {
+    "hora": "12:30–13:30",
+    "evento": "OpenAI report: chips lower",
+    "nq": "−402.5",
+    "es": "−43.25",
+    "lectura": "The day's biggest drop; low 30,792."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "30-year auction: in line",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Inside the chip drop; no relief."
+   },
+   {
+    "hora": "3:00–4:00 PM",
+    "evento": "Last hour",
+    "nq": "+40.75",
+    "es": "+9.75",
+    "lectura": "Closed at 32% of the range."
+   },
+   {
+    "hora": "Fri 10:00",
+    "evento": "Consumer sentiment — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Weak → pressure toward 30,924 and 30,792. Strong → reclaim 31,046."
+   }
+  ],
+  "bloques": [
+   {
+    "seccion": "nq",
+    "titulo": "Team result today: NQ short (+62.5 points)",
+    "texto": "Short micro NQ (MNQ) at 31,356.25, in the upper supply zone (31,343–31,370), right where NQ made the day's high (31,369.75 at 10:25). Target 1 at 31,293.75: +62.5 points. NQ then fell to 30,792 (13:25). Limit orders and defined risk. Educational, not financial advice."
+   }
+  ],
+  "picks": {
+   "nota": "No picks today: no stock passed all three filters (trend + real news + relative volume ≥3×)."
+  },
+  "soportes": {
+   "nota": "Morning board result (no A grades because of oil/Iran risk). Grade B: 1 held (AAPL, target hit) and 9 broke in the chip selloff. Grade C: META and TSLA held; INTC and CBRS broke. Flagging no A grades was the right call.",
+   "revision": [
+    {
+     "ticker": "PLTR",
+     "nivel": "196.99",
+     "resultado": "Held",
+     "nota": "Afternoon board: Tagged 13:20; bounced to 199.07 (+1.06%); closed 198.73."
+    },
+    {
+     "ticker": "AMZN",
+     "nivel": "256.95",
+     "resultado": "Broke",
+     "nota": "Afternoon board: Broke at 13:25."
+    },
+    {
+     "ticker": "MSFT",
+     "nivel": "521.65",
+     "resultado": "Held",
+     "nota": "Afternoon board: Low 518.80 without closing below invalidation; +0.34% bounce."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "soporte": "336.21",
+     "resultado": "Held",
+     "tipo_nivel": "Bounced to 341.57 (+1.59%); 338.67 target hit at 12:10. Closed 340.43."
+    },
+    {
+     "ticker": "NVDA",
+     "grado": "B",
+     "soporte": "235.15",
+     "resultado": "Broke",
+     "tipo_nivel": "Bounced to 237.06 (+0.81%); broke at 12:45. Closed 230.54."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "soporte": "350.80",
+     "resultado": "Broke",
+     "tipo_nivel": "Bounced to 352.69 (+0.54%); broke at 12:45."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "B",
+     "soporte": "751.75",
+     "resultado": "Broke",
+     "tipo_nivel": "Tagged at 12:45 and broke at 12:50."
+    },
+    {
+     "ticker": "AMD",
+     "grado": "B",
+     "soporte": "633.50",
+     "resultado": "Broke",
+     "tipo_nivel": "Bounced to 643.80 (+1.63%); broke at 12:50. Closed 620.98."
+    },
+    {
+     "ticker": "SPCX",
+     "grado": "B",
+     "soporte": "165.65",
+     "resultado": "Broke",
+     "tipo_nivel": "Bounced to 166.83 (+0.71%); broke at 11:35."
+    },
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "soporte": "524.69",
+     "resultado": "Broke",
+     "tipo_nivel": "Bounced to 527.27 (+0.49%); broke at 13:45."
+    },
+    {
+     "ticker": "AMZN",
+     "grado": "B",
+     "soporte": "256.68",
+     "resultado": "Broke",
+     "tipo_nivel": "Broke at 13:25. Closed 254.12."
+    },
+    {
+     "ticker": "MU",
+     "grado": "B",
+     "soporte": "1,055.56",
+     "resultado": "Broke",
+     "tipo_nivel": "Broke at 13:00. Closed 1,035.47."
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "soporte": "291.00",
+     "resultado": "Broke",
+     "tipo_nivel": "Broke at 12:25. Closed 285.08."
+    },
+    {
+     "ticker": "META",
+     "grado": "C",
+     "soporte": "720.15",
+     "resultado": "Held",
+     "tipo_nivel": "Pierced to 711.73 without closing below invalidation; closed 720.91, above the level."
+    },
+    {
+     "ticker": "TSLA",
+     "grado": "C",
+     "soporte": "374.43",
+     "resultado": "Held",
+     "tipo_nivel": "Reclaimed the level at 9:35; high 375.93, close 375.00."
+    },
+    {
+     "ticker": "INTC",
+     "grado": "C",
+     "soporte": "111.14",
+     "resultado": "Broke",
+     "tipo_nivel": "Reclaimed at 10:25 but failed; closed 107.14 (−5.3%)."
+    },
+    {
+     "ticker": "CBRS",
+     "grado": "C",
+     "soporte": "168.40",
+     "resultado": "Broke",
+     "tipo_nivel": "Bounced to 170.50 (+1.25%); broke at 12:50."
+    }
+   ],
+   "pie": "A board, not an entry signal: entries come off the Order Block indicator, with limit orders."
+  },
+  "redes": {
+   "gancho": "Oil and AI sink NQ: a third down day",
+   "sub2": "High 31,369.75; low 30,792; close 30,976.5.",
+   "operacion": {
+    "titulo": "Nuestra entrada de hoy",
+    "imagen": "social/capturas/2026-10-08-nq-corto.jpg",
+    "lado": "Corto",
+    "entrada": "31,356.25",
+    "objetivo": "31,293.75",
+    "puntos": "+62.5 pts",
+    "nota": "Venta en la zona de oferta, en el máximo del día. Orden límite."
+   }
+  }
+ }
+}

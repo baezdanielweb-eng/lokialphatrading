@@ -1,0 +1,2077 @@
+{
+ "fecha": "2026-10-07",
+ "tipo": "matutino",
+ "titulo": "LokiAlphaTrading - Reporte Matutino",
+ "datos": {
+  "generado": "9:18 AM ET",
+  "resumen": "Día de cautela: el rendimiento del bono a 10 años sube a 5.35%, el más alto desde 2002, y el VIX sube 5%. El NQ perdió en la noche los mínimos de ayer y llega a 31,268 (−215). A la 1 PM subasta de bonos a 10 años y a las 2 PM las minutas del FOMC.",
+  "pulso": [
+   {
+    "etiqueta": "SPY premarket",
+    "valor": "−0.40%",
+    "detalle": "775.95",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ premarket",
+    "valor": "−0.70%",
+    "detalle": "754.36",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,268",
+    "detalle": "−0.68% · noche 31,206–31,521",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,843",
+    "detalle": "−0.39% · noche 7,832.5–7,884.5",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.74",
+    "detalle": "+4.9%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Bono 10 años",
+    "valor": "5.35%",
+    "detalle": "+6 pb · máximo desde 2002",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "Ya salió",
+    "tema": "Constellation Brands (STZ): $3.74 por acción vs ~$3.55–3.62 esperado; ventas $2.63B vs $2.54B",
+    "efecto": "Superó, pero mantuvo una guía anual por debajo de lo esperado y la cerveza vendió menos. Bajó hasta 107.40 en premarket y recuperó a 115.",
+    "prob": 2,
+    "estado": "Ya salió",
+    "enlace": "https://www.cbrands.com/blogs/stories/earnings-recap-constellation-brands-second-quarter-fiscal-2027-earnings-results",
+    "fuente": "Constellation Brands"
+   },
+   {
+    "hora": "Noche",
+    "tema": "Rendimiento del bono a 10 años: 5.35% (+8 pb), máximo desde 2002; el de 30 años en máximo de 24 años",
+    "efecto": "Presiona a la tecnología y al NQ. Es la razón de la caída de la noche.",
+    "prob": 7,
+    "estado": "En curso",
+    "enlace": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+    "fuente": "CNBC"
+   },
+   {
+    "hora": "10:30",
+    "tema": "Inventarios de crudo (EIA)",
+    "efecto": "Mueve el petróleo; efecto indirecto en los rendimientos de los bonos.",
+    "prob": 3,
+    "enlace": "https://ng.investing.com/news/stock-market-news/fomc-minutes-crude-oil-inventories-among-economic-data-due-wednesday-93CH-2724181",
+    "fuente": "Investing.com"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "⚠️ Subasta de bonos a 10 años (reapertura)",
+    "efecto": "La de septiembre pagó 4.834%, la más alta desde 2007. Con el 10 años en 5.35%, poca demanda subiría más los rendimientos y presionaría al NQ.",
+    "prob": 7,
+    "enlace": "https://www.tftc.io/treasury-auctions/10-year-note",
+    "fuente": "TFTC"
+   },
+   {
+    "hora": "2:00 PM",
+    "tema": "⚠️ Minutas del FOMC (reunión del 15–16 sept.)",
+    "efecto": "Detalle de la subida de tasas de septiembre y pistas para octubre. Tono duro + rendimientos altos = más presión; tono suave = alivio.",
+    "prob": 8,
+    "enlace": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+    "fuente": "Admiral Markets"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Noche",
+    "categoria": "Bonos",
+    "tickers": [
+     "QQQ"
+    ],
+    "titulo": "El bono a 10 años toca su nivel más alto desde 2002",
+    "resumen": "El rendimiento subió a 5.35% antes de la subasta de hoy y de las minutas de la Fed; el de 30 años también está en máximos de 24 años.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
+   },
+   {
+    "hora": "Noche",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Los futuros bajan con los rendimientos de los bonos al alza",
+    "resumen": "Dow y Nasdaq 100 en rojo en la sesión europea; el S&P 500 plano, a la espera de las minutas del FOMC.",
+    "fuente": "FXStreet",
+    "url": "https://www.fxstreet.com/news/dow-jones-futures-fall-as-us-treasury-yields-rebound-ahead-of-fomc-minutes-202610070843"
+   },
+   {
+    "hora": "2:00 PM",
+    "categoria": "Fed",
+    "titulo": "Hoy salen las minutas del FOMC",
+    "resumen": "Cubren la reunión de septiembre, donde la Fed subió tasas por primera vez en tres años; el mercado busca pistas para octubre.",
+    "fuente": "Admiral Markets",
+    "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026"
+   },
+   {
+    "hora": "Hoy",
+    "categoria": "Bonos",
+    "titulo": "Minutas y subastas de bonos, el foco del día",
+    "resumen": "La agenda de hoy combina la subasta a 10 años con las minutas de la Fed.",
+    "fuente": "Investing.com",
+    "url": "https://www.investing.com/news/stock-market-news/us-economic-data-preview-fomc-minutes-and-bond-auctions-in-focus-93CH-4932637"
+   },
+   {
+    "hora": "Ya salió",
+    "categoria": "Empresas",
+    "tickers": [
+     "STZ"
+    ],
+    "titulo": "Constellation supera estimados pero decepciona con su guía",
+    "resumen": "Ganó más y vendió más de lo esperado, pero la venta de cerveza bajó y la guía anual quedó corta; la acción cayó en premarket y luego recortó la pérdida.",
+    "fuente": "Tradingpedia",
+    "url": "https://www.tradingpedia.com/2026/10/07/constellation-falls-as-outlook-beer-volumes-disappoint/"
+   },
+   {
+    "hora": "Ya salió",
+    "categoria": "Empresas",
+    "tickers": [
+     "NEOG"
+    ],
+    "titulo": "Neogen sube con ventas más fuertes de lo esperado",
+    "resumen": "Las ventas crecieron 6.5% y la guía de EBITDA quedó sobre el consenso.",
+    "fuente": "StockStory",
+    "url": "https://stockstory.org/us/stocks/nasdaq/neog/news/earnings/neogens-nasdaqneog-q3-cy2026-strong-sales-stock-soars"
+   },
+   {
+    "hora": "Ya salió",
+    "categoria": "Empresas",
+    "tickers": [
+     "PENG"
+    ],
+    "titulo": "Penguin Solutions supera en ganancias e ingresos",
+    "resumen": "Ganó $1.00 por acción contra $0.78 esperado y facturó $567M contra $525M estimados.",
+    "fuente": "Quiver Quant",
+    "url": "https://www.quiverquant.com/news/PENGUIN+SOLUTIONS+%28%24PENG%29+Releases+Q4+2026+Earnings%2C+Stock+Rises"
+   },
+   {
+    "hora": "1:00 PM",
+    "categoria": "Bonos",
+    "titulo": "Subasta de 10 años con rendimientos en máximos",
+    "resumen": "Es una reapertura; la anterior salió con el rendimiento más alto desde 2007.",
+    "fuente": "TFTC",
+    "url": "https://www.tftc.io/treasury-auctions/10-year-note"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,268",
+   "cambio": "−0.68%",
+   "nota": "Último 31,268.25 (−215 pts vs el cierre de ayer, 31,483.25). Noche: 31,206.25–31,521. ATR diario: 475 puntos. Datos CME con ~10 min de retraso.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sigue sobre sus medias de 20/50/200 días (30,392 / 29,794 / 27,709), pero lleva dos sesiones girando desde el récord 31,616.5."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Cambió: máximos más bajos desde el récord y en la noche perdió el mínimo de ayer (31,458) y el récord del lunes (31,371)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,458–31,521",
+     "nota": "Mínimo de ayer + OB de 15/60 min · +190 a +253 pts (0.40 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,360–31,371",
+     "nota": "Récord del lunes + pivote S2 (soporte roto) · +92 a +103 pts (0.20 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,271–31,292",
+     "nota": "OB de 5 min + récord del viernes 31,282.5 · +3 a +24 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,268",
+     "nota": "Último (9:15)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,200–31,221",
+     "nota": "Mínimo de la noche + OB alcista de 5 min · −47 a −68 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,113–31,146",
+     "nota": "Pivote P del lunes + techo del OB de 60 min · −122 a −155 pts (0.30 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,044",
+     "nota": "Base de los OB de 15/60 min + mínimo del lunes · −224 pts (0.47 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Día de cautela. Si recupera 31,292 y luego 31,371 (el récord del lunes), puede volver a 31,458–31,521. Si pierde 31,200 con cierre de 1 hora, el siguiente soporte es 31,113–31,146 y luego 31,044. Subasta a la 1 PM y minutas a las 2 PM: no forzar entradas antes de esas horas."
+  },
+  "es": {
+   "ultimo": "7,843",
+   "cambio": "−0.39%",
+   "nota": "Último 7,843.25 (−31 pts vs el cierre de ayer, 7,874). Noche: 7,832.5–7,884.5. ATR diario: 80 puntos.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sobre sus medias de 20/50/200 días; gira desde el récord 7,897.5."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Perdió el mínimo de ayer (7,860) y el récord anterior (7,848.5)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,870–7,877",
+     "nota": "OB de 5/15 min + pivote P · +27 a +34 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,848.5–7,856",
+     "nota": "Récord anterior + pivote S1 · +5 a +13 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,843",
+     "nota": "Último (9:15)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,832.5–7,840",
+     "nota": "Mínimo de la noche + pivote S2 · −3 a −11 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,819–7,832",
+     "nota": "Pivote S3 + OB de 60 min · −11 a −24 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,790.5–7,795",
+     "nota": "OB de 5 min · −48 pts (0.60 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Recupera 7,856 → 7,870–7,877. Cierre de 1 hora bajo 7,832 → 7,819–7,821 y luego 7,790."
+  },
+  "volumen": {
+   "resumen": "Ayer el volumen fue bajo (NQ 0.82×, ES 0.71× su promedio de 20 días). En la noche el NQ recorrió 315 puntos (31,206–31,521), con la caída ligada a la subida de los rendimientos de los bonos.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Ayer (completa)",
+     "volumen": "464,287",
+     "promedio20": "566,455",
+     "relativo": "0.82×",
+     "nota": "Noche de hoy: rango 31,206.25–31,521."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Ayer (completa)",
+     "volumen": "1,179,376",
+     "promedio20": "1,652,551",
+     "relativo": "0.71×",
+     "nota": "Noche de hoy: rango 7,832.5–7,884.5."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes clásicos con el máximo, mínimo y cierre de la sesión regular de ayer. El NQ está en S3 y el ES entre S2 y S3: abren bajo casi todos los niveles.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,737.7",
+     "es": "7,930.8",
+     "nota": "Lejos."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,677.1",
+     "es": "7,914.2",
+     "nota": "Sobre el récord."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,578.9",
+     "es": "7,893.6",
+     "nota": "Junto a los récords de ayer."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,518.3",
+     "es": "7,876.9",
+     "nota": "NQ: dentro del OB de 15/60 min."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,420.2",
+     "es": "7,856.3",
+     "nota": "Perdido en la noche."
+    },
+    {
+     "nombre": "S2",
+     "nq": "31,359.6",
+     "es": "7,839.7",
+     "nota": "NQ: récord del lunes 31,371 (perdido). ES: precio actual."
+    },
+    {
+     "nombre": "S3",
+     "nq": "31,261.4",
+     "es": "7,819.1",
+     "nota": "NQ: precio actual, junto al récord del viernes 31,282.5. ES: OB de 60 min."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "Noche",
+    "evento": "Rendimiento del bono a 10 años a 5.35% (máximo desde 2002)",
+    "nq": "−215",
+    "es": "−31",
+    "lectura": "Del cierre de ayer a ahora: el NQ perdió los mínimos de ayer."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Apertura — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Esperar el rango de 15 minutos; 31,292 y 31,200 son las referencias."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "Subasta de 10 años — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Débil → rendimientos arriba y prueba de 31,113–31,146. Buena → alivio hacia 31,371."
+   },
+   {
+    "hora": "2:00 PM",
+    "evento": "Minutas del FOMC — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Tono duro → presión a 31,044. Tono suave → recuperar 31,371–31,458."
+   }
+  ],
+  "ob": {
+   "hora": "9:15 AM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31257.75,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31257.75,
+       "arriba": [
+        {
+         "alto": 31291.63,
+         "bajo": 31271.5,
+         "tipo": "alcista",
+         "dist": 13.75
+        },
+        {
+         "alto": 31538.75,
+         "bajo": 31529,
+         "tipo": "bajista",
+         "dist": 271.25
+        },
+        {
+         "alto": 31567.75,
+         "bajo": 31551.63,
+         "tipo": "bajista",
+         "dist": 293.88
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31221,
+         "bajo": 31200.5,
+         "tipo": "alcista",
+         "dist": -36.75
+        },
+        {
+         "alto": 31102.13,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -155.62
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31257.75,
+       "arriba": [
+        {
+         "alto": 31512.38,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 200
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31127.88,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -129.87
+        },
+        {
+         "alto": 30560.13,
+         "bajo": 30522.5,
+         "tipo": "alcista",
+         "dist": -697.62
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31257.75,
+       "arriba": [
+        {
+         "alto": 31520.75,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 200
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31146,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -111.75
+        },
+        {
+         "alto": 30368.13,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -889.62
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7842.5,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7842.5,
+       "arriba": [
+        {
+         "alto": 7872.25,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": 27.25
+        },
+        {
+         "alto": 7891.25,
+         "bajo": 7888.25,
+         "tipo": "bajista",
+         "dist": 45.75
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7826.75,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -15.75
+        },
+        {
+         "alto": 7795,
+         "bajo": 7790.5,
+         "tipo": "alcista",
+         "dist": -47.5
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 7842.5,
+       "arriba": [
+        {
+         "alto": 7874.13,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": 27.25
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7828.88,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -13.62
+        },
+        {
+         "alto": 7778.25,
+         "bajo": 7773.75,
+         "tipo": "alcista",
+         "dist": -64.25
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7842.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7831.63,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -10.87
+        },
+        {
+         "alto": 7794.63,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -47.87
+        },
+        {
+         "alto": 7629.13,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -213.37
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ abre bajo el OB alcista de 5 min (31,271–31,292), que ahora actúa como techo; abajo el más cercano es 31,200–31,221, junto al mínimo de la noche. ES: arriba el OB de 5/15 min (7,870–7,874); abajo 7,821–7,832 (OB de 60 min + S3)."
+  },
+  "picks": {
+   "nota": "Nuevos criterios desde hoy: tendencia, noticia real y volumen relativo de al menos 3× a la hora; sin importar el precio. Hoy solo una acción pasa los tres filtros.",
+   "filas": [
+    {
+     "nivel": "Noticia",
+     "ticker": "PENG",
+     "precio": "68.03",
+     "gap": "+5.95%",
+     "catalizador": "Resultados: $1.00 por acción vs $0.78 esperado; ingresos $567M vs $525M",
+     "stop": "63.70",
+     "objetivo": "70.80",
+     "nota": "Volumen relativo 10×. Rompió 62.32 y cerró ayer en el 95% de su rango. Premarket 65.30–70.80: ojo, se desinfla desde el máximo. Soporte 64.58 (máximo de ayer)."
+    }
+   ],
+   "descartadas": "NEOG (noticia real, pero volumen relativo 1.1×), STZ (bajó a 107.40 y recuperó a 115: sin ruptura confirmada), CEG y MRVL (retroceden tras la noticia de ayer, sin noticia nueva)."
+  },
+  "megas": {
+   "nota": "Ranking por calidad del nivel y tendencia. Con los rendimientos de los bonos en máximos de 24 años y el VIX subiendo, ningún nombre llega a grado A hoy.",
+   "filas": [
+    {
+     "ticker": "AAPL",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+0.94%",
+     "catalizador": "Sube contra el mercado; sin titular confirmado",
+     "r1": "339.50",
+     "ultimo": "336.76",
+     "s1": "336.21"
+    },
+    {
+     "ticker": "AMD",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−1.93%",
+     "catalizador": "Retesteo de la ruptura de 633.50 tras +2.8% ayer",
+     "r1": "645.46",
+     "ultimo": "636.89",
+     "s1": "633.50"
+    },
+    {
+     "ticker": "NVDA",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.87%",
+     "catalizador": "Abre bajo el mínimo de ayer (238.93)",
+     "r1": "238.93",
+     "ultimo": "237.15",
+     "s1": "235.15"
+    },
+    {
+     "ticker": "MSFT",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.28%",
+     "catalizador": "Sin noticia; sigue al índice",
+     "r1": "528.78",
+     "ultimo": "527.80",
+     "s1": "522.85"
+    },
+    {
+     "ticker": "PLTR",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "+0.13%",
+     "catalizador": "Sin noticia; aguanta mejor que el índice",
+     "r1": "194.56",
+     "ultimo": "192.32",
+     "s1": "190.22"
+    },
+    {
+     "ticker": "TSLA",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "−0.83%",
+     "catalizador": "Sin noticia; resultados el 21/10",
+     "r1": "383.33",
+     "ultimo": "377.51",
+     "s1": "374.60"
+    },
+    {
+     "ticker": "GOOGL",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "−0.41%",
+     "catalizador": "Sin noticia",
+     "r1": "349.09",
+     "ultimo": "346.25",
+     "s1": "344.68"
+    },
+    {
+     "ticker": "META",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "−0.42%",
+     "catalizador": "Sin noticia",
+     "r1": "736.69",
+     "ultimo": "735.74",
+     "s1": "727.12"
+    },
+    {
+     "ticker": "AMZN",
+     "tipo": "Mega",
+     "sesgo": "Lateral",
+     "gap": "−0.95%",
+     "catalizador": "Sin noticia",
+     "r1": "256.68",
+     "ultimo": "253.85",
+     "s1": "251.08"
+    },
+    {
+     "ticker": "QQQ",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−0.70%",
+     "catalizador": "Rendimientos de los bonos en máximos desde 2002",
+     "r1": "759.10",
+     "ultimo": "754.36",
+     "s1": "749.08"
+    },
+    {
+     "ticker": "SPCX",
+     "tipo": "Mega",
+     "sesgo": "Alcista",
+     "gap": "−2.28%",
+     "catalizador": "Toma de ganancias tras dos días fuertes",
+     "r1": "171.39",
+     "ultimo": "168.00",
+     "s1": "159.84"
+    },
+    {
+     "ticker": "CEG",
+     "tipo": "Noticia",
+     "sesgo": "Lateral",
+     "gap": "−3.57%",
+     "catalizador": "Toma de ganancias tras el acuerdo con Google",
+     "r1": "291.00",
+     "ultimo": "289.67",
+     "s1": "286.38"
+    },
+    {
+     "ticker": "MU",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "−2.54%",
+     "catalizador": "Pierde el mínimo del 2/10 (1,022.90)",
+     "r1": "1,022.90",
+     "ultimo": "1,018.96",
+     "s1": "—"
+    },
+    {
+     "ticker": "INTC",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "−0.46%",
+     "catalizador": "Bajo el mínimo de ayer; sin titular nuevo",
+     "r1": "112.00",
+     "ultimo": "111.98",
+     "s1": "—"
+    },
+    {
+     "ticker": "CBRS",
+     "tipo": "Mega",
+     "sesgo": "Bajista",
+     "gap": "−2.39%",
+     "catalizador": "Tendencia bajista",
+     "r1": "175.17",
+     "ultimo": "172.87",
+     "s1": "168.40"
+    },
+    {
+     "ticker": "PENG",
+     "tipo": "Noticia",
+     "sesgo": "Alcista",
+     "gap": "+5.95%",
+     "catalizador": "Resultados: $1.00 vs $0.78 esperado",
+     "r1": "70.80",
+     "ultimo": "68.03",
+     "s1": "64.58"
+    },
+    {
+     "ticker": "NEOG",
+     "tipo": "Noticia",
+     "sesgo": "Alcista",
+     "gap": "+14.3%",
+     "catalizador": "Resultados: ventas +6.5%, guía de EBITDA sobre lo esperado",
+     "r1": "14.26",
+     "ultimo": "13.67",
+     "s1": "13.20"
+    }
+   ]
+  },
+  "soportes": {
+   "nota": "Para rebotes al alza, ordenado por distancia en ATR. Con los rendimientos de los bonos en máximos y el NQ bajo los mínimos de ayer, todo queda en grado B o C: entrar solo con vela de recuperación confirmada y tamaño menor. Invalidación = 0.25 ATR bajo el soporte.",
+   "top3": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "rr": "2.0",
+     "nivel": "336.21",
+     "texto": "Retesteo del máximo del lunes; Apple sube contra el mercado. Objetivo 339.50."
+    },
+    {
+     "ticker": "AMD",
+     "grado": "B",
+     "rr": "1.9",
+     "nivel": "633.50",
+     "texto": "Retesteo de su ruptura del lunes tras subir 2.8% ayer. Objetivo 645.46."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "rr": "2.0",
+     "nivel": "344.68",
+     "texto": "Mínimo de ayer, cerca de su media de 50 días. Objetivo 349.09."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "AAPL",
+     "precio": "336.76",
+     "soporte": "336.21",
+     "tipo_nivel": "Máximo del lunes (retesteo)",
+     "dist_atr": "0.09",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "339.50",
+     "invalidacion": "334.60",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "636.89",
+     "soporte": "633.50",
+     "tipo_nivel": "Máximo del lunes (retesteo)",
+     "dist_atr": "0.13",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "645.46",
+     "invalidacion": "627.17",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "346.25",
+     "soporte": "344.68",
+     "tipo_nivel": "Mínimo de ayer",
+     "dist_atr": "0.18",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "349.09",
+     "invalidacion": "342.47",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "TSLA",
+     "precio": "377.51",
+     "soporte": "374.60",
+     "tipo_nivel": "Máximo del viernes (retesteo)",
+     "dist_atr": "0.25",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "383.33",
+     "invalidacion": "371.68",
+     "rr": "3.0"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "289.67",
+     "soporte": "286.38",
+     "tipo_nivel": "Media de 200 días",
+     "dist_atr": "0.26",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "291.00",
+     "invalidacion": "283.16",
+     "rr": "1.4"
+    },
+    {
+     "ticker": "META",
+     "precio": "735.74",
+     "soporte": "727.12",
+     "tipo_nivel": "Mínimo del lunes",
+     "dist_atr": "0.30",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "747.60",
+     "invalidacion": "720.02",
+     "rr": "2.9"
+    },
+    {
+     "ticker": "CBRS",
+     "precio": "172.87",
+     "soporte": "168.40",
+     "tipo_nivel": "Mínimo de giro",
+     "dist_atr": "0.35",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "175.17",
+     "invalidacion": "165.21",
+     "rr": "2.1"
+    },
+    {
+     "ticker": "NVDA",
+     "precio": "237.15",
+     "soporte": "235.15",
+     "tipo_nivel": "Mínimo del lunes",
+     "dist_atr": "0.37",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "238.93",
+     "invalidacion": "233.81",
+     "rr": "2.8"
+    },
+    {
+     "ticker": "PLTR",
+     "precio": "192.32",
+     "soporte": "190.22",
+     "tipo_nivel": "Mínimo de ayer",
+     "dist_atr": "0.38",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "194.56",
+     "invalidacion": "188.83",
+     "rr": "3.1"
+    },
+    {
+     "ticker": "MSFT",
+     "precio": "527.80",
+     "soporte": "522.85",
+     "tipo_nivel": "Máximo del viernes (retesteo)",
+     "dist_atr": "0.41",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "528.78",
+     "invalidacion": "519.80",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "253.85",
+     "soporte": "251.08",
+     "tipo_nivel": "Mínimo de ayer",
+     "dist_atr": "0.52",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "256.68",
+     "invalidacion": "249.76",
+     "rr": "4.2"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "754.36",
+     "soporte": "749.08",
+     "tipo_nivel": "Mínimo del lunes",
+     "dist_atr": "0.55",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "759.10",
+     "invalidacion": "746.69",
+     "rr": "4.2"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "168.00",
+     "soporte": "159.84",
+     "tipo_nivel": "Máximo del viernes (retesteo)",
+     "dist_atr": "1.26",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "171.39",
+     "invalidacion": "158.22",
+     "rr": "7.1"
+    },
+    {
+     "ticker": "MU",
+     "precio": "1,018.96",
+     "soporte": "1,022.90",
+     "tipo_nivel": "Prueba desde abajo: mínimo del 2/10",
+     "dist_atr": "-0.09",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "1,045.26",
+     "invalidacion": "1,012.34",
+     "rr": "2.1"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "111.98",
+     "soporte": "112.00",
+     "tipo_nivel": "Prueba desde abajo: mínimo de ayer",
+     "dist_atr": "-0.00",
+     "tendencia": "Noticia negativa",
+     "grado": "C",
+     "objetivo": "115.31",
+     "invalidacion": "110.36",
+     "rr": "2.0"
+    }
+   ],
+   "pie": "MU e INTC están bajo su soporte: solo valen si recuperan el nivel con una vela de cierre. CEG viene de +12%: no perseguir."
+  },
+  "movers": [
+   {
+    "ticker": "NEOG",
+    "cambio": "+14.6%",
+    "nota": "Neogen: resultados mejores de lo esperado"
+   },
+   {
+    "ticker": "PENG",
+    "cambio": "+5.1%",
+    "nota": "Penguin: resultados mejores de lo esperado"
+   },
+   {
+    "ticker": "U",
+    "cambio": "+3.3%",
+    "nota": "Unity: software de videojuegos"
+   },
+   {
+    "ticker": "MAT",
+    "cambio": "+2.6%",
+    "nota": "Mattel: juguetes"
+   },
+   {
+    "ticker": "ZETA",
+    "cambio": "+1.9%",
+    "nota": "Zeta Global: marketing con datos"
+   },
+   {
+    "ticker": "AAPL",
+    "cambio": "+1.0%",
+    "nota": "Apple: sube contra el mercado"
+   },
+   {
+    "ticker": "BULL",
+    "cambio": "−24.2%",
+    "nota": "Webull: corredora en línea"
+   },
+   {
+    "ticker": "SBET",
+    "cambio": "−5.4%",
+    "nota": "Cripto cae en bloque"
+   },
+   {
+    "ticker": "BMNR",
+    "cambio": "−5.1%",
+    "nota": "Cripto cae en bloque"
+   },
+   {
+    "ticker": "DB",
+    "cambio": "−5.0%",
+    "nota": "Deutsche Bank: banco alemán"
+   },
+   {
+    "ticker": "AU",
+    "cambio": "−4.9%",
+    "nota": "Mineras de oro a la baja"
+   },
+   {
+    "ticker": "MSTR",
+    "cambio": "−4.1%",
+    "nota": "Cripto cae en bloque"
+   }
+  ],
+  "redes": {
+   "pick": "PENG",
+   "gancho": "Bono a 10 años en máximo desde 2002: NQ cae 215",
+   "subgancho": "Minutas del FOMC a las 2 PM.",
+   "sub2": "El NQ perdió los mínimos de ayer en la noche. Clave: 31,200 y 31,371."
+  }
+ },
+ "datos_en": {
+  "generado": "9:18 AM ET",
+  "resumen": "A cautious day: the 10-year Treasury yield rises to 5.35%, the highest since 2002, and VIX is up 5%. Overnight NQ lost yesterday's lows and sits at 31,268 (−215). 10-year auction at 1 PM and FOMC minutes at 2 PM.",
+  "pulso": [
+   {
+    "etiqueta": "SPY premarket",
+    "valor": "−0.40%",
+    "detalle": "775.95",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ premarket",
+    "valor": "−0.70%",
+    "detalle": "754.36",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "31,268",
+    "detalle": "−0.68% · overnight 31,206–31,521",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,843",
+    "detalle": "−0.39% · overnight 7,832.5–7,884.5",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.74",
+    "detalle": "+4.9%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "10-year yield",
+    "valor": "5.35%",
+    "detalle": "+6 bp · highest since 2002",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "Out",
+    "tema": "Constellation Brands (STZ): $3.74 per share vs ~$3.55–3.62 expected; sales $2.63B vs $2.54B",
+    "efecto": "Beat, but kept a full-year outlook below expectations and beer volumes fell. Dropped to 107.40 premarket and recovered to 115.",
+    "prob": 2,
+    "estado": "Out",
+    "enlace": "https://www.cbrands.com/blogs/stories/earnings-recap-constellation-brands-second-quarter-fiscal-2027-earnings-results",
+    "fuente": "Constellation Brands"
+   },
+   {
+    "hora": "Overnight",
+    "tema": "10-year yield: 5.35% (+8 bp), highest since 2002; 30-year at a 24-year high",
+    "efecto": "Pressures tech and NQ. It's the reason for the overnight drop.",
+    "prob": 7,
+    "estado": "Ongoing",
+    "enlace": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+    "fuente": "CNBC"
+   },
+   {
+    "hora": "10:30",
+    "tema": "Crude inventories (EIA)",
+    "efecto": "Moves oil; indirect effect on yields.",
+    "prob": 3,
+    "enlace": "https://ng.investing.com/news/stock-market-news/fomc-minutes-crude-oil-inventories-among-economic-data-due-wednesday-93CH-2724181",
+    "fuente": "Investing.com"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "⚠️ 10-year note auction (reopening)",
+    "efecto": "September's paid 4.834%, the highest since 2007. With the 10-year at 5.35%, weak demand would push yields higher and pressure NQ.",
+    "prob": 7,
+    "enlace": "https://www.tftc.io/treasury-auctions/10-year-note",
+    "fuente": "TFTC"
+   },
+   {
+    "hora": "2:00 PM",
+    "tema": "⚠️ FOMC minutes (Sept 15–16 meeting)",
+    "efecto": "Detail on September's hike and hints for October. Hawkish + high yields = more pressure; dovish = relief.",
+    "prob": 8,
+    "enlace": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+    "fuente": "Admiral Markets"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "Overnight",
+    "categoria": "Bonds",
+    "tickers": [
+     "QQQ"
+    ],
+    "titulo": "10-year yield hits its highest level since 2002",
+    "resumen": "The yield rose to 5.35% ahead of today's auction and the Fed minutes; the 30-year is also at a 24-year high.",
+    "fuente": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
+   },
+   {
+    "hora": "Overnight",
+    "categoria": "Macro",
+    "tickers": [
+     "SPY",
+     "QQQ"
+    ],
+    "titulo": "Futures slip as yields climb",
+    "resumen": "Dow and Nasdaq 100 lower in European hours; the S&P 500 flat ahead of the FOMC minutes.",
+    "fuente": "FXStreet",
+    "url": "https://www.fxstreet.com/news/dow-jones-futures-fall-as-us-treasury-yields-rebound-ahead-of-fomc-minutes-202610070843"
+   },
+   {
+    "hora": "2:00 PM",
+    "categoria": "Fed",
+    "titulo": "FOMC minutes out today",
+    "resumen": "They cover the September meeting, where the Fed hiked for the first time in three years; markets want hints for October.",
+    "fuente": "Admiral Markets",
+    "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026"
+   },
+   {
+    "hora": "Today",
+    "categoria": "Bonds",
+    "titulo": "Minutes and bond auctions in focus",
+    "resumen": "Today's calendar pairs the 10-year auction with the Fed minutes.",
+    "fuente": "Investing.com",
+    "url": "https://www.investing.com/news/stock-market-news/us-economic-data-preview-fomc-minutes-and-bond-auctions-in-focus-93CH-4932637"
+   },
+   {
+    "hora": "Out",
+    "categoria": "Companies",
+    "tickers": [
+     "STZ"
+    ],
+    "titulo": "Constellation beats but disappoints on guidance",
+    "resumen": "Earnings and sales topped estimates, but beer volumes fell and the annual outlook came up short; the stock fell premarket, then trimmed the loss.",
+    "fuente": "Tradingpedia",
+    "url": "https://www.tradingpedia.com/2026/10/07/constellation-falls-as-outlook-beer-volumes-disappoint/"
+   },
+   {
+    "hora": "Out",
+    "categoria": "Companies",
+    "tickers": [
+     "NEOG"
+    ],
+    "titulo": "Neogen jumps on stronger sales",
+    "resumen": "Sales grew 6.5% and the EBITDA guide came in above consensus.",
+    "fuente": "StockStory",
+    "url": "https://stockstory.org/us/stocks/nasdaq/neog/news/earnings/neogens-nasdaqneog-q3-cy2026-strong-sales-stock-soars"
+   },
+   {
+    "hora": "Out",
+    "categoria": "Companies",
+    "tickers": [
+     "PENG"
+    ],
+    "titulo": "Penguin Solutions beats on earnings and revenue",
+    "resumen": "It earned $1.00 per share vs $0.78 expected, on $567M revenue vs $525M estimated.",
+    "fuente": "Quiver Quant",
+    "url": "https://www.quiverquant.com/news/PENGUIN+SOLUTIONS+%28%24PENG%29+Releases+Q4+2026+Earnings%2C+Stock+Rises"
+   },
+   {
+    "hora": "1:00 PM",
+    "categoria": "Bonds",
+    "titulo": "10-year auction with yields at highs",
+    "resumen": "It's a reopening; the previous one priced at the highest yield since 2007.",
+    "fuente": "TFTC",
+    "url": "https://www.tftc.io/treasury-auctions/10-year-note"
+   }
+  ],
+  "nq": {
+   "ultimo": "31,268",
+   "cambio": "−0.68%",
+   "nota": "Last 31,268.25 (−215 pts vs yesterday's close, 31,483.25). Overnight: 31,206.25–31,521. Daily ATR: 475 points. CME data ~10 min delayed.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Still above its 20/50/200-day averages (30,392 / 29,794 / 27,709), but two sessions turning lower from the 31,616.5 record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Changed: lower highs since the record, and overnight it lost yesterday's low (31,458) and Monday's record (31,371)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "31,458–31,521",
+     "nota": "Yesterday's low + 15/60-min OB · +190 to +253 pts (0.40 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,360–31,371",
+     "nota": "Monday's record + S2 pivot (broken support) · +92 to +103 pts (0.20 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,271–31,292",
+     "nota": "5-min OB + Friday's 31,282.5 record · +3 to +24 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "31,268",
+     "nota": "Last (9:15)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "31,200–31,221",
+     "nota": "Overnight low + 5-min bullish OB · −47 to −68 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,113–31,146",
+     "nota": "Monday's P pivot + top of the 60-min OB · −122 to −155 pts (0.30 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "31,044",
+     "nota": "Base of the 15/60-min OBs + Monday's low · −224 pts (0.47 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "A cautious day. Reclaiming 31,292 and then 31,371 (Monday's record) opens 31,458–31,521. Losing 31,200 on a 1-hour close points to 31,113–31,146, then 31,044. Auction at 1 PM and minutes at 2 PM: don't force entries before them."
+  },
+  "es": {
+   "ultimo": "7,843",
+   "cambio": "−0.39%",
+   "nota": "Last 7,843.25 (−31 pts vs yesterday's close, 7,874). Overnight: 7,832.5–7,884.5. Daily ATR: 80 points.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Above its 20/50/200-day averages; turning lower from the 7,897.5 record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Lost yesterday's low (7,860) and the prior record (7,848.5)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,870–7,877",
+     "nota": "5/15-min OB + P pivot · +27 to +34 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,848.5–7,856",
+     "nota": "Prior record + S1 pivot · +5 to +13 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,843",
+     "nota": "Last (9:15)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,832.5–7,840",
+     "nota": "Overnight low + S2 pivot · −3 to −11 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,819–7,832",
+     "nota": "S3 pivot + 60-min OB · −11 to −24 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,790.5–7,795",
+     "nota": "5-min OB · −48 pts (0.60 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Reclaim 7,856 → 7,870–7,877. A 1-hour close below 7,832 → 7,819–7,821, then 7,790."
+  },
+  "volumen": {
+   "resumen": "Yesterday's volume was light (NQ 0.82×, ES 0.71× their 20-day average). Overnight NQ covered 315 points (31,206–31,521), with the drop tied to rising yields.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Yesterday (full)",
+     "volumen": "464,287",
+     "promedio20": "566,455",
+     "relativo": "0.82×",
+     "nota": "Overnight today: 31,206.25–31,521."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Yesterday (full)",
+     "volumen": "1,179,376",
+     "promedio20": "1,652,551",
+     "relativo": "0.71×",
+     "nota": "Overnight today: 7,832.5–7,884.5."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Classic pivots from yesterday's regular-session high, low and close. NQ is at S3 and ES between S2 and S3: both open below almost every level.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,737.7",
+     "es": "7,930.8",
+     "nota": "Far."
+    },
+    {
+     "nombre": "R2",
+     "nq": "31,677.1",
+     "es": "7,914.2",
+     "nota": "Above the record."
+    },
+    {
+     "nombre": "R1",
+     "nq": "31,578.9",
+     "es": "7,893.6",
+     "nota": "Next to yesterday's records."
+    },
+    {
+     "nombre": "P",
+     "nq": "31,518.3",
+     "es": "7,876.9",
+     "nota": "NQ: inside the 15/60-min OB."
+    },
+    {
+     "nombre": "S1",
+     "nq": "31,420.2",
+     "es": "7,856.3",
+     "nota": "Lost overnight."
+    },
+    {
+     "nombre": "S2",
+     "nq": "31,359.6",
+     "es": "7,839.7",
+     "nota": "NQ: Monday's 31,371 record (lost). ES: current price."
+    },
+    {
+     "nombre": "S3",
+     "nq": "31,261.4",
+     "es": "7,819.1",
+     "nota": "NQ: current price, next to Friday's 31,282.5 record. ES: 60-min OB."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "Overnight",
+    "evento": "10-year yield at 5.35% (highest since 2002)",
+    "nq": "−215",
+    "es": "−31",
+    "lectura": "From yesterday's close to now: NQ lost yesterday's lows."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Open — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Wait for the 15-minute range; 31,292 and 31,200 are the references."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "10-year auction — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Weak → yields up and a test of 31,113–31,146. Strong → relief toward 31,371."
+   },
+   {
+    "hora": "2:00 PM",
+    "evento": "FOMC minutes — to watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Hawkish → pressure to 31,044. Dovish → reclaim 31,371–31,458."
+   }
+  ],
+  "ob": {
+   "hora": "9:15 AM ET",
+   "simbolos": [
+    {
+     "simbolo": "NQ1!",
+     "precio": 31257.75,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 31257.75,
+       "arriba": [
+        {
+         "alto": 31291.63,
+         "bajo": 31271.5,
+         "tipo": "alcista",
+         "dist": 13.75
+        },
+        {
+         "alto": 31538.75,
+         "bajo": 31529,
+         "tipo": "bajista",
+         "dist": 271.25
+        },
+        {
+         "alto": 31567.75,
+         "bajo": 31551.63,
+         "tipo": "bajista",
+         "dist": 293.88
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31221,
+         "bajo": 31200.5,
+         "tipo": "alcista",
+         "dist": -36.75
+        },
+        {
+         "alto": 31102.13,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -155.62
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 31257.75,
+       "arriba": [
+        {
+         "alto": 31512.38,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 200
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31127.88,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -129.87
+        },
+        {
+         "alto": 30560.13,
+         "bajo": 30522.5,
+         "tipo": "alcista",
+         "dist": -697.62
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 31257.75,
+       "arriba": [
+        {
+         "alto": 31520.75,
+         "bajo": 31457.75,
+         "tipo": "alcista",
+         "dist": 200
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 31146,
+         "bajo": 31044.25,
+         "tipo": "alcista",
+         "dist": -111.75
+        },
+        {
+         "alto": 30368.13,
+         "bajo": 30216.5,
+         "tipo": "alcista",
+         "dist": -889.62
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "simbolo": "ES1!",
+     "precio": 7842.5,
+     "tfs": [
+      {
+       "tf": "5",
+       "precio": 7842.5,
+       "arriba": [
+        {
+         "alto": 7872.25,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": 27.25
+        },
+        {
+         "alto": 7891.25,
+         "bajo": 7888.25,
+         "tipo": "bajista",
+         "dist": 45.75
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7826.75,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -15.75
+        },
+        {
+         "alto": 7795,
+         "bajo": 7790.5,
+         "tipo": "alcista",
+         "dist": -47.5
+        }
+       ]
+      },
+      {
+       "tf": "15",
+       "precio": 7842.5,
+       "arriba": [
+        {
+         "alto": 7874.13,
+         "bajo": 7869.75,
+         "tipo": "alcista",
+         "dist": 27.25
+        }
+       ],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7828.88,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -13.62
+        },
+        {
+         "alto": 7778.25,
+         "bajo": 7773.75,
+         "tipo": "alcista",
+         "dist": -64.25
+        }
+       ]
+      },
+      {
+       "tf": "60",
+       "precio": 7842.5,
+       "arriba": [],
+       "dentro": [],
+       "abajo": [
+        {
+         "alto": 7831.63,
+         "bajo": 7821,
+         "tipo": "alcista",
+         "dist": -10.87
+        },
+        {
+         "alto": 7794.63,
+         "bajo": 7778.25,
+         "tipo": "alcista",
+         "dist": -47.87
+        },
+        {
+         "alto": 7629.13,
+         "bajo": 7575,
+         "tipo": "alcista",
+         "dist": -213.37
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "nota": "NQ opens below the 5-min bullish OB (31,271–31,292), now acting as a ceiling; the nearest below is 31,200–31,221, next to the overnight low. ES: above, the 5/15-min OB (7,870–7,874); below, 7,821–7,832 (60-min OB + S3)."
+  },
+  "picks": {
+   "nota": "New criteria from today: trend, real news and time-of-day relative volume of at least 3×, any price. Only one stock passes all three filters today.",
+   "filas": [
+    {
+     "nivel": "News",
+     "ticker": "PENG",
+     "precio": "68.03",
+     "gap": "+5.95%",
+     "catalizador": "Earnings: $1.00 per share vs $0.78 expected; revenue $567M vs $525M",
+     "stop": "63.70",
+     "objetivo": "70.80",
+     "nota": "Relative volume 10×. Broke 62.32 and closed yesterday at 95% of its range. Premarket 65.30–70.80: careful, fading from the high. Support 64.58 (yesterday's high)."
+    }
+   ],
+   "descartadas": "NEOG (real news, but relative volume 1.1×), STZ (fell to 107.40 and recovered to 115: no confirmed breakdown), CEG and MRVL (pulling back after yesterday's news, nothing new)."
+  },
+  "megas": {
+   "nota": "Ranked by level quality and trend. With bond yields at 24-year highs and VIX rising, nothing grades A today.",
+   "filas": [
+    {
+     "ticker": "AAPL",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+0.94%",
+     "catalizador": "Rising against the tape; no confirmed headline",
+     "r1": "339.50",
+     "ultimo": "336.76",
+     "s1": "336.21"
+    },
+    {
+     "ticker": "AMD",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−1.93%",
+     "catalizador": "Retesting the 633.50 breakout after +2.8% yesterday",
+     "r1": "645.46",
+     "ultimo": "636.89",
+     "s1": "633.50"
+    },
+    {
+     "ticker": "NVDA",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.87%",
+     "catalizador": "Opening below yesterday's low (238.93)",
+     "r1": "238.93",
+     "ultimo": "237.15",
+     "s1": "235.15"
+    },
+    {
+     "ticker": "MSFT",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.28%",
+     "catalizador": "No news; tracking the index",
+     "r1": "528.78",
+     "ultimo": "527.80",
+     "s1": "522.85"
+    },
+    {
+     "ticker": "PLTR",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "+0.13%",
+     "catalizador": "No news; holding up better than the index",
+     "r1": "194.56",
+     "ultimo": "192.32",
+     "s1": "190.22"
+    },
+    {
+     "ticker": "TSLA",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "−0.83%",
+     "catalizador": "No news; earnings Oct 21",
+     "r1": "383.33",
+     "ultimo": "377.51",
+     "s1": "374.60"
+    },
+    {
+     "ticker": "GOOGL",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "−0.41%",
+     "catalizador": "No news",
+     "r1": "349.09",
+     "ultimo": "346.25",
+     "s1": "344.68"
+    },
+    {
+     "ticker": "META",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "−0.42%",
+     "catalizador": "No news",
+     "r1": "736.69",
+     "ultimo": "735.74",
+     "s1": "727.12"
+    },
+    {
+     "ticker": "AMZN",
+     "tipo": "Mega",
+     "sesgo": "Sideways",
+     "gap": "−0.95%",
+     "catalizador": "No news",
+     "r1": "256.68",
+     "ultimo": "253.85",
+     "s1": "251.08"
+    },
+    {
+     "ticker": "QQQ",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−0.70%",
+     "catalizador": "Bond yields at highest since 2002",
+     "r1": "759.10",
+     "ultimo": "754.36",
+     "s1": "749.08"
+    },
+    {
+     "ticker": "SPCX",
+     "tipo": "Mega",
+     "sesgo": "Bullish",
+     "gap": "−2.28%",
+     "catalizador": "Profit-taking after two strong days",
+     "r1": "171.39",
+     "ultimo": "168.00",
+     "s1": "159.84"
+    },
+    {
+     "ticker": "CEG",
+     "tipo": "News",
+     "sesgo": "Sideways",
+     "gap": "−3.57%",
+     "catalizador": "Profit-taking after the Google deal",
+     "r1": "291.00",
+     "ultimo": "289.67",
+     "s1": "286.38"
+    },
+    {
+     "ticker": "MU",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "−2.54%",
+     "catalizador": "Losing the Oct 2 low (1,022.90)",
+     "r1": "1,022.90",
+     "ultimo": "1,018.96",
+     "s1": "—"
+    },
+    {
+     "ticker": "INTC",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "−0.46%",
+     "catalizador": "Below yesterday's low; no new headline",
+     "r1": "112.00",
+     "ultimo": "111.98",
+     "s1": "—"
+    },
+    {
+     "ticker": "CBRS",
+     "tipo": "Mega",
+     "sesgo": "Bearish",
+     "gap": "−2.39%",
+     "catalizador": "Downtrend",
+     "r1": "175.17",
+     "ultimo": "172.87",
+     "s1": "168.40"
+    },
+    {
+     "ticker": "PENG",
+     "tipo": "News",
+     "sesgo": "Bullish",
+     "gap": "+5.95%",
+     "catalizador": "Earnings: $1.00 vs $0.78 expected",
+     "r1": "70.80",
+     "ultimo": "68.03",
+     "s1": "64.58"
+    },
+    {
+     "ticker": "NEOG",
+     "tipo": "News",
+     "sesgo": "Bullish",
+     "gap": "+14.3%",
+     "catalizador": "Earnings: sales +6.5%, EBITDA guide above estimates",
+     "r1": "14.26",
+     "ultimo": "13.67",
+     "s1": "13.20"
+    }
+   ]
+  },
+  "soportes": {
+   "nota": "For long bounces, sorted by ATR distance. With bond yields at highs and NQ below yesterday's lows, everything grades B or C: enter only on a confirmed reclaim candle and with smaller size. Invalidation = 0.25 ATR below support.",
+   "top3": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "rr": "2.0",
+     "nivel": "336.21",
+     "texto": "Retest of Monday's high; Apple is rising against the tape. Target 339.50."
+    },
+    {
+     "ticker": "AMD",
+     "grado": "B",
+     "rr": "1.9",
+     "nivel": "633.50",
+     "texto": "Retest of Monday's breakout after +2.8% yesterday. Target 645.46."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "rr": "2.0",
+     "nivel": "344.68",
+     "texto": "Yesterday's low, near its 50-day average. Target 349.09."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "AAPL",
+     "precio": "336.76",
+     "soporte": "336.21",
+     "tipo_nivel": "Monday's high (retest)",
+     "dist_atr": "0.09",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "339.50",
+     "invalidacion": "334.60",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "636.89",
+     "soporte": "633.50",
+     "tipo_nivel": "Monday's high (retest)",
+     "dist_atr": "0.13",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "645.46",
+     "invalidacion": "627.17",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "346.25",
+     "soporte": "344.68",
+     "tipo_nivel": "Yesterday's low",
+     "dist_atr": "0.18",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "349.09",
+     "invalidacion": "342.47",
+     "rr": "2.0"
+    },
+    {
+     "ticker": "TSLA",
+     "precio": "377.51",
+     "soporte": "374.60",
+     "tipo_nivel": "Friday's high (retest)",
+     "dist_atr": "0.25",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "383.33",
+     "invalidacion": "371.68",
+     "rr": "3.0"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "289.67",
+     "soporte": "286.38",
+     "tipo_nivel": "200-day average",
+     "dist_atr": "0.26",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "291.00",
+     "invalidacion": "283.16",
+     "rr": "1.4"
+    },
+    {
+     "ticker": "META",
+     "precio": "735.74",
+     "soporte": "727.12",
+     "tipo_nivel": "Monday's low",
+     "dist_atr": "0.30",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "747.60",
+     "invalidacion": "720.02",
+     "rr": "2.9"
+    },
+    {
+     "ticker": "CBRS",
+     "precio": "172.87",
+     "soporte": "168.40",
+     "tipo_nivel": "Swing low",
+     "dist_atr": "0.35",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "175.17",
+     "invalidacion": "165.21",
+     "rr": "2.1"
+    },
+    {
+     "ticker": "NVDA",
+     "precio": "237.15",
+     "soporte": "235.15",
+     "tipo_nivel": "Monday's low",
+     "dist_atr": "0.37",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "238.93",
+     "invalidacion": "233.81",
+     "rr": "2.8"
+    },
+    {
+     "ticker": "PLTR",
+     "precio": "192.32",
+     "soporte": "190.22",
+     "tipo_nivel": "Yesterday's low",
+     "dist_atr": "0.38",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "194.56",
+     "invalidacion": "188.83",
+     "rr": "3.1"
+    },
+    {
+     "ticker": "MSFT",
+     "precio": "527.80",
+     "soporte": "522.85",
+     "tipo_nivel": "Friday's high (retest)",
+     "dist_atr": "0.41",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "528.78",
+     "invalidacion": "519.80",
+     "rr": "1.9"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "253.85",
+     "soporte": "251.08",
+     "tipo_nivel": "Yesterday's low",
+     "dist_atr": "0.52",
+     "tendencia": "Sideways",
+     "grado": "B",
+     "objetivo": "256.68",
+     "invalidacion": "249.76",
+     "rr": "4.2"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "754.36",
+     "soporte": "749.08",
+     "tipo_nivel": "Monday's low",
+     "dist_atr": "0.55",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "759.10",
+     "invalidacion": "746.69",
+     "rr": "4.2"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "168.00",
+     "soporte": "159.84",
+     "tipo_nivel": "Friday's high (retest)",
+     "dist_atr": "1.26",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "171.39",
+     "invalidacion": "158.22",
+     "rr": "7.1"
+    },
+    {
+     "ticker": "MU",
+     "precio": "1,018.96",
+     "soporte": "1,022.90",
+     "tipo_nivel": "Testing from below: Oct 2 low",
+     "dist_atr": "-0.09",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "1,045.26",
+     "invalidacion": "1,012.34",
+     "rr": "2.1"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "111.98",
+     "soporte": "112.00",
+     "tipo_nivel": "Testing from below: yesterday's low",
+     "dist_atr": "-0.00",
+     "tendencia": "Negative news",
+     "grado": "C",
+     "objetivo": "115.31",
+     "invalidacion": "110.36",
+     "rr": "2.0"
+    }
+   ],
+   "pie": "MU and INTC are below support: only valid if they reclaim the level on a closing candle. CEG is coming off +12%: don't chase."
+  },
+  "movers": [
+   {
+    "ticker": "NEOG",
+    "cambio": "+14.6%",
+    "nota": "Neogen: earnings beat"
+   },
+   {
+    "ticker": "PENG",
+    "cambio": "+5.1%",
+    "nota": "Penguin: earnings beat"
+   },
+   {
+    "ticker": "U",
+    "cambio": "+3.3%",
+    "nota": "Unity: game software"
+   },
+   {
+    "ticker": "MAT",
+    "cambio": "+2.6%",
+    "nota": "Mattel: toys"
+   },
+   {
+    "ticker": "ZETA",
+    "cambio": "+1.9%",
+    "nota": "Zeta Global: data marketing"
+   },
+   {
+    "ticker": "AAPL",
+    "cambio": "+1.0%",
+    "nota": "Apple: rising against the tape"
+   },
+   {
+    "ticker": "BULL",
+    "cambio": "−24.2%",
+    "nota": "Webull: online broker"
+   },
+   {
+    "ticker": "SBET",
+    "cambio": "−5.4%",
+    "nota": "Crypto names fall as a group"
+   },
+   {
+    "ticker": "BMNR",
+    "cambio": "−5.1%",
+    "nota": "Crypto names fall as a group"
+   },
+   {
+    "ticker": "DB",
+    "cambio": "−5.0%",
+    "nota": "Deutsche Bank: German bank"
+   },
+   {
+    "ticker": "AU",
+    "cambio": "−4.9%",
+    "nota": "Gold miners lower"
+   },
+   {
+    "ticker": "MSTR",
+    "cambio": "−4.1%",
+    "nota": "Crypto names fall as a group"
+   }
+  ],
+  "redes": {
+   "pick": "PENG",
+   "gancho": "10-year yield at highest since 2002: NQ falls 215",
+   "subgancho": "FOMC minutes at 2 PM.",
+   "sub2": "NQ lost yesterday's lows overnight. Key: 31,200 and 31,371."
+  }
+ }
+}

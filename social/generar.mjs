@@ -185,11 +185,13 @@ function slideSemanaNumeros(sm) {
   <div style="display:flex;align-items:center;gap:18px"><img src="file://${assets}/stocks.png" style="width:84px;height:84px;border-radius:50%"><div class="k" style="color:#f5b800">Resumen semanal</div></div>
   <h2>La semana en números</h2>
   <div class="duo">${caja('NQ1! · semana', sm.nq)}${caja('ES1! · semana', sm.es)}</div>
-  <div class="card" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center">
+  ${sm.equipo ? `<div class="card" style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;text-align:center">
+    <div><div class="mid" style="font-size:58px">${esc(sm.equipo.operaciones)}</div><div style="font-size:24px;color:var(--muted)">operaciones del equipo en NQ</div></div>
+    <div><div class="mid ${dir(sm.equipo.puntos)}" style="font-size:58px">${esc(sm.equipo.puntos)}</div><div style="font-size:24px;color:var(--muted)">${esc(sm.equipo.detalle ?? 'puntos')}</div></div></div>` : `<div class="card" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center">
     <div><div class="mid" style="font-size:58px">${pk.activadas ?? 0}</div><div style="font-size:24px;color:var(--muted)">activadas</div></div>
     <div><div class="mid up" style="font-size:58px">${pk.objetivo ?? 0}</div><div style="font-size:24px;color:var(--muted)">✅ objetivo</div></div>
     <div><div class="mid down" style="font-size:58px">${pk.stop ?? 0}</div><div style="font-size:24px;color:var(--muted)">❌ stop</div></div>
-    <div><div class="mid ${dir(pk.r_neto)}" style="font-size:58px">${esc(pk.r_neto ?? '')}</div><div style="font-size:24px;color:var(--muted)">neto</div></div></div>
+    <div><div class="mid ${dir(pk.r_neto)}" style="font-size:58px">${esc(pk.r_neto ?? '')}</div><div style="font-size:24px;color:var(--muted)">neto</div></div></div>`}
   <p style="font-size:24px;color:var(--faint)">${(sm.dias ?? []).length} de 5 días con reporte · publicamos aciertos y errores</p>`;
 }
 
@@ -208,6 +210,19 @@ function slideMovers(titulo) {
   <div class="card" style="padding:22px 36px">${arriba.map(fila).join('')}</div>
   ${abajo.length ? `<div class="card" style="padding:22px 36px">${abajo.map(fila).join('')}</div>` : ''}
   <p style="font-size:22px;color:var(--faint)">${r.tipo === 'matutino' ? 'Premarket · ' : ''}EE.UU., capitalización > $2B</p>`;
+}
+
+// Resultado del equipo en NQ/ES (opcional): redes.operacion = {titulo, imagen (ruta desde la raíz del sitio), lado, entrada, objetivo, puntos, nota}.
+// Solo puntos, nunca dólares (decisión del usuario, 8 oct).
+function slideOperacion(o) {
+  const dato = (k, v, c) => `<div><div style="font-size:24px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em">${k}</div><div style="font:700 44px 'JetBrains Mono',monospace;margin-top:6px${c ? ';color:' + c : ''}">${esc(v)}</div></div>`;
+  return `
+  <div style="display:flex;align-items:center;gap:18px"><img src="file://${assets}/nqes.png" style="width:84px;height:84px;border-radius:50%"><div class="k" style="color:var(--green)">NQ / ES · resultado del equipo</div></div>
+  <h2>${esc(o.titulo ?? 'Nuestra entrada de hoy')}</h2>
+  ${o.imagen ? `<img src="file://${join(RAIZ, o.imagen)}" style="width:100%;border-radius:18px;border:1px solid rgba(255,255,255,.12);display:block">` : ''}
+  <div class="card" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;padding:30px 36px">
+    ${dato(o.lado ?? 'Entrada', o.entrada ?? '')}${dato('Objetivo', o.objetivo ?? '')}${dato('Resultado', o.puntos ?? '', 'var(--green)')}</div>
+  ${o.nota ? `<p class="sub" style="font-size:30px">${esc(corto(o.nota, 120))}</p>` : ''}`;
 }
 
 const slideCTA = () => `
@@ -230,13 +245,15 @@ const slides = {
     slideGancho(),
     slideFuturos('Qué está pasando', corto(d.resumen, 80)),
     d.movers?.length ? slideMovers('Lo que más se mueve hoy') : slidePick('¿Cómo va el pick del día?', true),
+    ...(redes.operacion ? [slideOperacion(redes.operacion)] : []),
     slideCTA(),
   ],
   closing: () => [
     slideGancho(),
     slideFuturos('Así cierra el día', corto((d.resumen ?? '').split(/(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚÑ¿¡])/)[1] ?? d.resumen, 95)),
     d.movers?.length ? slideMovers('Lo que más se movió hoy') : slidePick('¿Cómo cerró el pick del día?', true),
-    ...(d.semana?.picks ? [slideSemanaNumeros(d.semana)] : []),
+    ...(redes.operacion ? [slideOperacion(redes.operacion)] : []),
+    ...(d.semana?.picks || d.semana?.equipo ? [slideSemanaNumeros(d.semana)] : []),
     slideNoticias('Lo que viene mañana', d.manana, 2),
     slideCTA(),
   ],
