@@ -1,0 +1,1453 @@
+{
+ "fecha": "2026-10-14",
+ "tipo": "meridiano",
+ "titulo": "LokiAlphaTrading - Reporte Meridiano",
+ "datos": {
+  "generado": "Datos de las 2:05 PM ET (futuros 1:55 PM: llegan con ~10 min de retraso)",
+  "resumen": "El IPC caliente abrió la caída y la tarde la profundizó: el NQ va en 30,147.5 (−2.08%, −641 pts), en el mínimo del día, y perdió todos los soportes de la mañana. El bono a 10 años ya devolvió el salto (5.21%), así que el golpe ahora viene de la IA: CoreWeave −17% por el costo de su deuda arrastra a Nebius, mineras de bitcoin y chips (AMD −5.6%). AAPL sube. Sin picks hoy. Beige Book a las 2:00.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "−1.36%",
+    "detalle": "767.41",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−2.09%",
+    "detalle": "728.05",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−2.19%",
+    "detalle": "270.63",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,147.5",
+    "detalle": "−2.08% · día 30,138–30,660.75",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,750.75",
+    "detalle": "−1.34% · día 7,749–7,837.75",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "Bono 10 años",
+    "valor": "5.21%",
+    "detalle": "5.30% tras el IPC; ya devolvió todo",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "17.23",
+    "detalle": "+12.8%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$106.5",
+    "detalle": "+0.2%",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "8:30",
+    "tema": "IPC de septiembre",
+    "efecto": "Caliente: 3.7% anual (3.6% esperado), subyacente 0.3% mensual (0.2%). NQ −287 pts de 8:30 a 9:00.",
+    "prob": 9,
+    "estado": "Ya salió",
+    "enlace": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html",
+    "fuente": "Yahoo Finance"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "Waller (gobernador de la Fed, vota) sobre IA",
+    "efecto": "Habló de la demanda por IA que presiona la inflación y el costo del crédito. NQ −117.75 pts de 1:00 a 1:30.",
+    "prob": 5,
+    "estado": "Ya salió",
+    "enlace": "https://cryptobriefing.com/feds-waller-questions-monetary-policys-ability-to-manage-ai-driven-demand/",
+    "fuente": "Crypto Briefing"
+   },
+   {
+    "hora": "2:00 PM",
+    "tema": "Beige Book de la Fed",
+    "efecto": "Si muestra precios de energía pasando a otros costos, refuerza el miedo a otra subida: presión sobre 30,138. Sin reacción medida aún.",
+    "prob": 5,
+    "enlace": "https://www.financecalendar.com/beige-book/",
+    "fuente": "FinanceCalendar"
+   },
+   {
+    "hora": "4:00 PM",
+    "tema": "Cierre: ¿el NQ cierra bajo 30,357?",
+    "efecto": "Un cierre bajo el mínimo del 27 sep (30,357) confirma el quiebre del rango de septiembre en la diaria.",
+    "prob": 6
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "12:00",
+    "categoria": "Mercado",
+    "titulo": "IPC caliente hunde al Nasdaq y al S&P 500",
+    "resumen": "A mediodía el Nasdaq cae ~1.3% y el S&P ~0.9%; cerca de tres de cada cuatro acciones bajan. El Dow aguanta casi plano.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "categoria": "Empresas",
+    "tickers": [
+     "CRWV",
+     "NBIS"
+    ],
+    "titulo": "CoreWeave se desploma por el rendimiento de su deuda",
+    "resumen": "Una publicación mostró que el rendimiento de sus bonos llegó a 15%, lo que asusta por su costo de financiamiento; Nebius cae más de 9% por contagio.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "hora": "8:30",
+    "categoria": "Macro",
+    "titulo": "IPC 3.7% anual: la inflación sigue acelerando",
+    "resumen": "El índice general subió 0.6% en el mes y la subyacente 0.3%, ambos por encima de lo esperado en el anual; sube la probabilidad de otra subida de tasas.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
+   },
+   {
+    "categoria": "Empresas",
+    "tickers": [
+     "BAC"
+    ],
+    "titulo": "Bank of America cae ~6% por multa de $1,200 millones",
+    "resumen": "La multa regulatoria y un trimestre débil en Wall Street pesan; la acción rebota desde 49.26 y va en 50.77.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "categoria": "Chips",
+    "tickers": [
+     "AMD",
+     "NVDA",
+     "MU",
+     "INTC"
+    ],
+    "titulo": "Los chips extienden la caída",
+    "resumen": "El índice de semiconductores acumula más de 10% de baja en cinco días; hoy AMD −5.6%, INTC −4.2%, NVDA −3.4% y MU −3.2%.",
+    "fuente": "HDFC Sky",
+    "url": "https://hdfcsky.com/news/nasdaq-composite-falls-0-59percent-to-27044-49-as-chip-stocks-extend-losses-dow-and-sp-500-open-lower"
+   },
+   {
+    "categoria": "Fed",
+    "titulo": "Waller: la demanda por IA mantiene la presión sobre precios",
+    "resumen": "El gobernador ve la inversión en chips y centros de datos como una fuente de inflación difícil de manejar con las tasas.",
+    "fuente": "Crypto Briefing",
+    "url": "https://cryptobriefing.com/feds-waller-questions-monetary-policys-ability-to-manage-ai-driven-demand/"
+   },
+   {
+    "categoria": "Empresas",
+    "tickers": [
+     "GFS"
+    ],
+    "titulo": "GlobalFoundries sube con el plan de chips EE.UU.–Japón",
+    "resumen": "Fue elegida como proveedora de tecnología de una iniciativa conjunta; sube 3.7% contra un sector de chips en rojo.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "categoria": "Empresas",
+    "tickers": [
+     "AAPL"
+    ],
+    "titulo": "Apple nada contra la corriente",
+    "resumen": "Llegó a subir más de 1% mientras el resto de la tecnología caía; va en +0.25%.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,147.5",
+   "cambio": "−2.08%",
+   "nota": "Último 30,147.5 a las 1:55 (−641.25 vs el cierre del martes, 30,788.75). Día regular: 30,660.75 (9:45) – 30,138 (1:50), el mínimo desde el 20 de septiembre. ATR diario: 434 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Bajista (corrección)",
+     "nota": "Cambió: rompió el piso del rango de septiembre (30,357) con mínimos más bajos desde el récord 31,616.5; bajo su media de 20 días (30,741), cerca de la de 50 (30,015)."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Sin cambio: máximos y mínimos más bajos cada hora; lejos de su media de 50 horas (30,730)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "30,357–30,425",
+     "nota": "Mínimo del 27 sep + S3 (soportes perdidos) · +210 a +278 pts (0.48–0.64 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,295–30,310",
+     "nota": "Máximo de 1:00 PM + cierre de las 12:00 · +148 a +162 pts (0.34–0.37 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,194–30,209",
+     "nota": "Mínimo de 12:30 + máximo de 1:30 · +47 a +61 pts (0.11–0.14 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,147.5",
+     "nota": "Último (1:55)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "29,993–30,015",
+     "nota": "Media de 50 días + máximo del 17 sep (origen de la ruptura) · −133 a −155 pts (0.31–0.36 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "29,904–29,923",
+     "nota": "Mínimo del 20 sep + mínimo de junio · −225 a −244 pts (0.52–0.56 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Si recupera 30,310 (máximo de la 1:00), puede volver a 30,357–30,425. Si cierra 1 hora bajo 30,138, apunta a 29,993–30,015 (media de 50 días) y luego a 29,904. En el mínimo del día y con tendencia bajista: no buscar largos sin una vela de giro confirmada."
+  },
+  "es": {
+   "ultimo": "7,750.75",
+   "cambio": "−1.34%",
+   "nota": "Último 7,750.75 (−105.25 vs el cierre del martes, 7,856). Día regular: 7,837.75 (9:45) – 7,749 (1:50). ATR diario: 69 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Lateral",
+     "nota": "Cambió: perdió su media de 20 días (7,784.5); prueba la de 50 (7,741.6). Aún sobre los mínimos de septiembre."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista",
+     "nota": "Máximos más bajos cada hora; bajo su media de 50 horas (7,848)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,800–7,808",
+     "nota": "Mínimos de 10:00–11:00 · +49 a +57 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,777–7,785",
+     "nota": "Máximos de 12:00–1:00 PM · +26 a +34 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,762–7,770",
+     "nota": "Máximo de 1:30 + mínimo de 12:30 · +11 a +19 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,750.75",
+     "nota": "Último (1:55)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,737–7,742",
+     "nota": "Media de 50 días + mínimos del 1–2 oct · −9 a −14 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,705–7,712",
+     "nota": "Mínimos del 23, 28 y 29 sep · −39 a −46 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,672.75",
+     "nota": "Mínimo del 30 sep · −78 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Sobre 7,770 vuelve a 7,777–7,785. Si pierde 7,737 (media de 50 días), apunta a 7,705–7,712."
+  },
+  "volumen": {
+   "resumen": "Volumen normal en una caída ordenada: el NQ ya lleva 0.99× su promedio diario de 20 días y el ES 0.90×, con 2 horas por delante. Las dos primeras horas cargaron el volumen; la tarde cae con menos volumen pero sin rebotes.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Completa hasta 1:55",
+     "volumen": "560,849",
+     "promedio20": "565,518",
+     "relativo": "0.99×",
+     "nota": "Regular: 390,837."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Completa hasta 1:55",
+     "volumen": "1,384,042",
+     "promedio20": "1,536,280",
+     "relativo": "0.90×",
+     "nota": "Regular: 1,061,369."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "99,648",
+     "nq_pct": 100,
+     "nq_rango": "30,465.75–30,660.75",
+     "nq_mov": "−77",
+     "es_vol": "194,895",
+     "es_mov": "−16",
+     "nota": "Rebote a 30,660.75 (9:45) y rechazo bajo 30,648.5."
+    },
+    {
+     "hora": "10:00",
+     "nq_vol": "98,187",
+     "nq_pct": 99,
+     "nq_rango": "30,417.75–30,538.25",
+     "nq_mov": "+13",
+     "es_vol": "290,585",
+     "es_mov": "−7.75",
+     "nota": "Pierde 30,504 y toca S3 (30,425)."
+    },
+    {
+     "hora": "11:00",
+     "nq_vol": "72,737",
+     "nq_pct": 73,
+     "nq_rango": "30,310.25–30,491",
+     "nq_mov": "−158.25",
+     "es_vol": "216,181",
+     "es_mov": "−17.5",
+     "nota": "Rompe 30,357 (mínimo del 27 sep)."
+    },
+    {
+     "hora": "12:00",
+     "nq_vol": "67,983",
+     "nq_pct": 68,
+     "nq_rango": "30,194.25–30,343.5",
+     "nq_mov": "−35",
+     "es_vol": "188,788",
+     "es_mov": "−5",
+     "nota": "Pausa: rebote débil a 30,293."
+    },
+    {
+     "hora": "1:00",
+     "nq_vol": "52,282",
+     "nq_pct": 52,
+     "nq_rango": "30,138–30,309.75",
+     "nq_mov": "−148",
+     "es_vol": "170,920",
+     "es_mov": "−26.75",
+     "nota": "Nuevo mínimo 30,138 a la 1:50 (hora parcial)."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes de la mañana (sesión regular del martes). El NQ perdió S1, S2 y S3; el ES también. Ninguna resistencia de pivote fue tocada.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,095.5",
+     "es": "7,896.75",
+     "nota": ""
+    },
+    {
+     "nombre": "R2",
+     "nq": "30,955",
+     "es": "7,880",
+     "nota": ""
+    },
+    {
+     "nombre": "R1",
+     "nq": "30,872",
+     "es": "7,868",
+     "nota": ""
+    },
+    {
+     "nombre": "P",
+     "nq": "30,731.5",
+     "es": "7,851.25",
+     "nota": "No alcanzado."
+    },
+    {
+     "nombre": "S1",
+     "nq": "30,648.5",
+     "es": "7,839.25",
+     "nota": "NQ: máximo 30,660.75 a las 9:45, rechazo justo aquí."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,508",
+     "es": "7,822.5",
+     "nota": "Perdido a las 10:00 (NQ) y antes de la apertura (ES)."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,425",
+     "es": "7,810.5",
+     "nota": "NQ: perdido a las 11:05. ES: perdido a las 9:55."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "8:30",
+    "evento": "IPC",
+    "nq": "−287",
+    "es": "−53.75",
+    "lectura": "8:30–9:00: el NQ pasó de 30,844 a 30,557 y rompió el mínimo del martes."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Apertura + Miran",
+    "nq": "−77",
+    "es": "−16",
+    "lectura": "9:30–10:00: rebote a 30,660.75 rechazado en S1; cierra la media hora en 30,474.5."
+   },
+   {
+    "hora": "10:30",
+    "evento": "Inventarios de crudo (EIA)",
+    "nq": "+11.75",
+    "es": "−3.5",
+    "lectura": "10:30–11:00: sin efecto claro; el Brent sigue en ~$106."
+   },
+   {
+    "hora": "11:00",
+    "evento": "Sin evento programado",
+    "nq": "−158.25",
+    "es": "−17.5",
+    "lectura": "11:00–12:00: la caída de CoreWeave y la IA empuja al NQ bajo 30,357."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "Waller",
+    "nq": "−117.75",
+    "es": "−21.25",
+    "lectura": "1:00–1:30: nueva pierna bajista hasta 30,168."
+   },
+   {
+    "hora": "2:00 PM",
+    "evento": "Beige Book — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Presión de precios → prueba de 30,015; tono tranquilo → rebote a 30,295–30,310."
+   }
+  ],
+  "picks": {
+   "nota": "Hoy no hubo picks: ninguna acción pasó los tres filtros en la mañana. BAC (descartada: RVol bajo 3x) tocó 49.26 a las 10:05 y rebota a 50.77 (+1.9% desde la apertura): un corto habría sido atrapado.",
+   "filas": []
+  },
+  "soportes": {
+   "nota": "Tablero de la tarde con precios de las 2:05. NQ bajista en diaria y en 1 hora, en el mínimo del día: grado B como máximo y solo con vela de rebote confirmada. Invalidación = 0.25 ATR bajo el soporte.",
+   "revision": [
+    {
+     "ticker": "AMZN",
+     "nivel": "258.60",
+     "resultado": "Se rompió",
+     "nota": "Aguantó en la apertura (mínimo 257.10) y rebotó a 259.65 (+0.4%) a las 9:45, pero cerró bajo la invalidación a las 10:05; va en 253.38."
+    },
+    {
+     "ticker": "META",
+     "nivel": "756.59",
+     "resultado": "Se rompió",
+     "nota": "Se rompió en la primera vela (cierre 748.89 a las 9:35); mínimo 734.32, va en 735.21 (−2.8% desde el nivel)."
+    },
+    {
+     "ticker": "CEG",
+     "nivel": "291.94",
+     "resultado": "Se rompió",
+     "nota": "Tocó 294.50 en la apertura y se rompió a las 9:35; mínimo 277.84 (−4.8% desde el nivel)."
+    }
+   ],
+   "top3": [
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "rr": "1.6",
+     "nivel": "532.70",
+     "texto": "Máximo anterior 532.70, 0.16 ATR abajo, en tendencia alcista. Primero debe recuperar 535.70 (mínimo del lunes); objetivo 542.74, invalidación 529.68."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "rr": "0.6",
+     "nivel": "346.36",
+     "texto": "Mínimo anterior 346.36 con la media de 20 días (346.77), 0.17 ATR abajo. R:R pobre (0.6) hasta 349.91."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "B",
+     "rr": "0.9",
+     "nivel": "726.39",
+     "texto": "Media de 50 días (726.64) + máximo anterior 726.39, 0.19 ATR abajo. Si el NQ pierde 30,015, este nivel cae con él."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "TSLA",
+     "precio": "364.34",
+     "soporte": "364.02",
+     "tipo_nivel": "Mínimo anterior (probándolo)",
+     "dist_atr": "0.03",
+     "tendencia": "Lateral",
+     "grado": "C",
+     "objetivo": "366.50",
+     "invalidacion": "361.28",
+     "rr": "0.7"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "98.53",
+     "soporte": "98.22",
+     "tipo_nivel": "Mínimo del martes + mínimo anterior 98.33",
+     "dist_atr": "0.06",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "100.71",
+     "invalidacion": "96.89",
+     "rr": "1.3"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "278.34",
+     "soporte": "276.84",
+     "tipo_nivel": "Mínimos anteriores 276.84–277.87",
+     "dist_atr": "0.09",
+     "tendencia": "Lateral",
+     "grado": "C",
+     "objetivo": "282.77",
+     "invalidacion": "272.79",
+     "rr": "0.8"
+    },
+    {
+     "ticker": "MU",
+     "precio": "923.06",
+     "soporte": "918.88",
+     "tipo_nivel": "Mínimo anterior",
+     "dist_atr": "0.10",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "929.03",
+     "invalidacion": "907.91",
+     "rr": "0.4"
+    },
+    {
+     "ticker": "MSFT",
+     "precio": "534.64",
+     "soporte": "532.70",
+     "tipo_nivel": "Máximo anterior (retesteo); recuperar 535.70 (mínimo del lunes) primero",
+     "dist_atr": "0.16",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "542.74",
+     "invalidacion": "529.68",
+     "rr": "1.6"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "347.74",
+     "soporte": "346.36",
+     "tipo_nivel": "Mínimo anterior + media de 20 días (346.77)",
+     "dist_atr": "0.17",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "349.91",
+     "invalidacion": "344.37",
+     "rr": "0.6"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "728.05",
+     "soporte": "726.39",
+     "tipo_nivel": "Máximo anterior + media de 50 días (726.64)",
+     "dist_atr": "0.19",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "731.63",
+     "invalidacion": "724.16",
+     "rr": "0.9"
+    },
+    {
+     "ticker": "META",
+     "precio": "735.21",
+     "soporte": "731.00",
+     "tipo_nivel": "Mínimo anterior + media de 20 días (730.76)",
+     "dist_atr": "0.19",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "743.76",
+     "invalidacion": "725.38",
+     "rr": "0.9"
+    },
+    {
+     "ticker": "AAPL",
+     "precio": "342.25",
+     "soporte": "340.74",
+     "tipo_nivel": "Mínimo del martes",
+     "dist_atr": "0.23",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "344.57",
+     "invalidacion": "339.10",
+     "rr": "0.7"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "253.38",
+     "soporte": "251.93",
+     "tipo_nivel": "Mínimo anterior; ya en la media de 20 días (253.20)",
+     "dist_atr": "0.26",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "255.19",
+     "invalidacion": "250.56",
+     "rr": "0.6"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "151.91",
+     "soporte": "149.80",
+     "tipo_nivel": "Máximo anterior (retesteo)",
+     "dist_atr": "0.31",
+     "tendencia": "Lateral",
+     "grado": "B",
+     "objetivo": "155.00",
+     "invalidacion": "148.10",
+     "rr": "0.8"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "571.58",
+     "soporte": "562.99",
+     "tipo_nivel": "Máximo anterior (retesteo)",
+     "dist_atr": "0.35",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "584.73",
+     "invalidacion": "556.92",
+     "rr": "0.9"
+    },
+    {
+     "ticker": "PLTR",
+     "precio": "201.76",
+     "soporte": "198.88",
+     "tipo_nivel": "Máximo anterior (retesteo de ruptura)",
+     "dist_atr": "0.47",
+     "tendencia": "Alcista",
+     "grado": "B",
+     "objetivo": "205.97",
+     "invalidacion": "197.36",
+     "rr": "1.0"
+    },
+    {
+     "ticker": "NVDA",
+     "precio": "220.74",
+     "soporte": "216.20",
+     "tipo_nivel": "Mínimo anterior + máximo 216.82",
+     "dist_atr": "0.81",
+     "tendencia": "Bajista",
+     "grado": "C",
+     "objetivo": "223.06",
+     "invalidacion": "214.80",
+     "rr": "0.4"
+    }
+   ],
+   "pie": "Ningún soporte de la mañana aguantó y QQQ/PLTR/MSFT, que se recuperaron en la apertura, se volvieron a perder antes de las 10:10. Solo MSFT tiene R:R mayor a 1 (1.6). Chips (NVDA, MU, AMD, INTC), TSLA y CEG en grado C."
+  },
+  "movers": [
+   {
+    "ticker": "BSP",
+    "cambio": "+46.5%",
+    "nota": "Bending Spoons: apps (dueña de AOL)"
+   },
+   {
+    "ticker": "LQDA",
+    "cambio": "+25.2%",
+    "nota": "Acuerdo legal global con UTHR"
+   },
+   {
+    "ticker": "NRIX",
+    "cambio": "+8.0%",
+    "nota": "Salud lidera el día"
+   },
+   {
+    "ticker": "HALO",
+    "cambio": "+7.8%",
+    "nota": "Salud lidera el día"
+   },
+   {
+    "ticker": "IBRX",
+    "cambio": "+5.5%",
+    "nota": "Salud lidera el día"
+   },
+   {
+    "ticker": "AZN",
+    "cambio": "+4.1%",
+    "nota": "Farmacéuticas suben en bloque"
+   },
+   {
+    "ticker": "SKYD",
+    "cambio": "−25.3%",
+    "nota": "Paramount Skydance: medios"
+   },
+   {
+    "ticker": "CRWV",
+    "cambio": "−16.3%",
+    "nota": "Rendimiento de su deuda llega a 15%"
+   },
+   {
+    "ticker": "DOCN",
+    "cambio": "−14.4%",
+    "nota": "Nube para IA cae en bloque"
+   },
+   {
+    "ticker": "BTDR",
+    "cambio": "−14.4%",
+    "nota": "Mineras/centros de datos caen"
+   },
+   {
+    "ticker": "HUT",
+    "cambio": "−13.8%",
+    "nota": "Mineras/centros de datos caen"
+   },
+   {
+    "ticker": "CIFR",
+    "cambio": "−12.9%",
+    "nota": "Mineras/centros de datos caen"
+   }
+  ],
+  "redes": {
+   "gancho": "NQ cae 640 puntos; CoreWeave arrastra a la IA",
+   "subgancho": "IPC caliente + deuda cara: chips y nube para IA en rojo.",
+   "sub2": "Clave NQ: 30,310 arriba y 30,015 abajo."
+  }
+ },
+ "datos_en": {
+  "generado": "Data as of 2:05 PM ET (futures 1:55 PM: ~10 min delayed)",
+  "resumen": "The hot CPI started the drop and the afternoon extended it: NQ is at 30,147.5 (−2.08%, −641 pts), at the day's low, and lost every morning support. The 10-year already gave back its spike (5.21%), so the hit now comes from AI: CoreWeave −17% on its debt cost drags Nebius, bitcoin miners and chips (AMD −5.6%). AAPL is up. No picks today. Beige Book at 2:00.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "−1.36%",
+    "detalle": "767.41",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−2.09%",
+    "detalle": "728.05",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−2.19%",
+    "detalle": "270.63",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,147.5",
+    "detalle": "−2.08% · day 30,138–30,660.75",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,750.75",
+    "detalle": "−1.34% · day 7,749–7,837.75",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "10Y yield",
+    "valor": "5.21%",
+    "detalle": "5.30% after CPI; fully given back",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "17.23",
+    "detalle": "+12.8%",
+    "dir": "up"
+   },
+   {
+    "etiqueta": "Brent",
+    "valor": "$106.5",
+    "detalle": "+0.2%",
+    "dir": "up"
+   }
+  ],
+  "agenda": [
+   {
+    "hora": "8:30",
+    "tema": "September CPI",
+    "efecto": "Hot: 3.7% y/y (3.6% expected), core 0.3% m/m (0.2%). NQ −287 pts 8:30–9:00.",
+    "prob": 9,
+    "estado": "Out",
+    "enlace": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html",
+    "fuente": "Yahoo Finance"
+   },
+   {
+    "hora": "1:00 PM",
+    "tema": "Waller (Fed governor, voter) on AI",
+    "efecto": "Spoke on AI-driven demand pushing inflation and borrowing costs. NQ −117.75 pts 1:00–1:30.",
+    "prob": 5,
+    "estado": "Out",
+    "enlace": "https://cryptobriefing.com/feds-waller-questions-monetary-policys-ability-to-manage-ai-driven-demand/",
+    "fuente": "Crypto Briefing"
+   },
+   {
+    "hora": "2:00 PM",
+    "tema": "Fed Beige Book",
+    "efecto": "If it shows energy prices passing through to other costs, it adds to hike fears: pressure on 30,138. No reaction measured yet.",
+    "prob": 5,
+    "enlace": "https://www.financecalendar.com/beige-book/",
+    "fuente": "FinanceCalendar"
+   },
+   {
+    "hora": "4:00 PM",
+    "tema": "Close: does NQ settle below 30,357?",
+    "efecto": "A settle below the Sep 27 low (30,357) confirms the break of September's range on the daily.",
+    "prob": 6
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "12:00",
+    "categoria": "Market",
+    "titulo": "Hot CPI sinks the Nasdaq and S&P 500",
+    "resumen": "By midday the Nasdaq is down ~1.3% and the S&P ~0.9%; about three of every four stocks are lower. The Dow holds near flat.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "categoria": "Companies",
+    "tickers": [
+     "CRWV",
+     "NBIS"
+    ],
+    "titulo": "CoreWeave plunges on its bond yield",
+    "resumen": "A post showed its bond yield hit 15%, raising alarm about its financing cost; Nebius falls over 9% in sympathy.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "hora": "8:30",
+    "categoria": "Macro",
+    "titulo": "CPI 3.7% y/y: inflation keeps accelerating",
+    "resumen": "Headline rose 0.6% on the month and core 0.3%, both above forecasts on the annual rate; odds of another hike rise.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
+   },
+   {
+    "categoria": "Companies",
+    "tickers": [
+     "BAC"
+    ],
+    "titulo": "Bank of America falls ~6% on a $1.2B penalty",
+    "resumen": "The regulatory penalty and a weak Wall Street quarter weigh; the stock is bouncing from 49.26 to 50.77.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "categoria": "Chips",
+    "tickers": [
+     "AMD",
+     "NVDA",
+     "MU",
+     "INTC"
+    ],
+    "titulo": "Chip stocks extend losses",
+    "resumen": "The semiconductor index is down over 10% in five days; today AMD −5.6%, INTC −4.2%, NVDA −3.4% and MU −3.2%.",
+    "fuente": "HDFC Sky",
+    "url": "https://hdfcsky.com/news/nasdaq-composite-falls-0-59percent-to-27044-49-as-chip-stocks-extend-losses-dow-and-sp-500-open-lower"
+   },
+   {
+    "categoria": "Fed",
+    "titulo": "Waller: AI demand keeps pressure on prices",
+    "resumen": "The governor sees chip and data-center investment as an inflation source that rates struggle to manage.",
+    "fuente": "Crypto Briefing",
+    "url": "https://cryptobriefing.com/feds-waller-questions-monetary-policys-ability-to-manage-ai-driven-demand/"
+   },
+   {
+    "categoria": "Companies",
+    "tickers": [
+     "GFS"
+    ],
+    "titulo": "GlobalFoundries rises on the U.S.–Japan chip plan",
+    "resumen": "It was picked as technology provider for a joint initiative; up 3.7% against a red chip sector.",
+    "fuente": "The Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/14/stock-market-midday-oct-14-hot-inflation-weighs-on-markets-coreweave-plummets-15/"
+   },
+   {
+    "categoria": "Companies",
+    "tickers": [
+     "AAPL"
+    ],
+    "titulo": "Apple bucks the tech selloff",
+    "resumen": "It was up over 1% while the rest of tech fell; now +0.25%.",
+    "fuente": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,147.5",
+   "cambio": "−2.08%",
+   "nota": "Last 30,147.5 at 1:55 (−641.25 vs Tuesday's close, 30,788.75). Regular session: 30,660.75 (9:45) – 30,138 (1:50), the lowest since Sep 20. Daily ATR: 434 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bearish (correction)",
+     "nota": "Changed: broke September's range floor (30,357) with lower lows since the 31,616.5 record; below its 20-day average (30,741), near the 50-day (30,015)."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Unchanged: lower highs and lows every hour; far below its 50-hour average (30,730)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "30,357–30,425",
+     "nota": "Sep 27 low + S3 (lost supports) · +210 to +278 pts (0.48–0.64 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,295–30,310",
+     "nota": "1:00 PM high + 12:00 close · +148 to +162 pts (0.34–0.37 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,194–30,209",
+     "nota": "12:30 low + 1:30 high · +47 to +61 pts (0.11–0.14 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,147.5",
+     "nota": "Last (1:55)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "29,993–30,015",
+     "nota": "50-day average + Sep 17 high (breakout origin) · −133 to −155 pts (0.31–0.36 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "29,904–29,923",
+     "nota": "Sep 20 low + June swing low · −225 to −244 pts (0.52–0.56 ATR)",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Reclaim 30,310 (1:00 high) → back to 30,357–30,425. A 1H close below 30,138 → 29,993–30,015 (50-day average), then 29,904. At the day low in a downtrend: no longs without a confirmed reversal candle."
+  },
+  "es": {
+   "ultimo": "7,750.75",
+   "cambio": "−1.34%",
+   "nota": "Last 7,750.75 (−105.25 vs Tuesday's close, 7,856). Regular session: 7,837.75 (9:45) – 7,749 (1:50). Daily ATR: 69 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Range",
+     "nota": "Changed: lost its 20-day average (7,784.5); testing the 50-day (7,741.6). Still above September's lows."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish",
+     "nota": "Lower highs every hour; below its 50-hour average (7,848)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,800–7,808",
+     "nota": "10:00–11:00 lows · +49 to +57 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,777–7,785",
+     "nota": "12:00–1:00 PM highs · +26 to +34 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,762–7,770",
+     "nota": "1:30 high + 12:30 low · +11 to +19 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,750.75",
+     "nota": "Last (1:55)",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,737–7,742",
+     "nota": "50-day average + Oct 1–2 lows · −9 to −14 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,705–7,712",
+     "nota": "Sep 23, 28 and 29 lows · −39 to −46 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,672.75",
+     "nota": "Sep 30 low · −78 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Above 7,770 → back to 7,777–7,785. Losing 7,737 (50-day average) targets 7,705–7,712."
+  },
+  "volumen": {
+   "resumen": "Normal volume in an orderly slide: NQ is already at 0.99× its 20-day daily average and ES at 0.90×, with 2 hours left. The first two hours carried the volume; the afternoon falls on less volume but with no bounces.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Full session to 1:55",
+     "volumen": "560,849",
+     "promedio20": "565,518",
+     "relativo": "0.99×",
+     "nota": "Regular: 390,837."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Full session to 1:55",
+     "volumen": "1,384,042",
+     "promedio20": "1,536,280",
+     "relativo": "0.90×",
+     "nota": "Regular: 1,061,369."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "99,648",
+     "nq_pct": 100,
+     "nq_rango": "30,465.75–30,660.75",
+     "nq_mov": "−77",
+     "es_vol": "194,895",
+     "es_mov": "−16",
+     "nota": "Bounce to 30,660.75 (9:45), rejected below 30,648.5."
+    },
+    {
+     "hora": "10:00",
+     "nq_vol": "98,187",
+     "nq_pct": 99,
+     "nq_rango": "30,417.75–30,538.25",
+     "nq_mov": "+13",
+     "es_vol": "290,585",
+     "es_mov": "−7.75",
+     "nota": "Loses 30,504 and tags S3 (30,425)."
+    },
+    {
+     "hora": "11:00",
+     "nq_vol": "72,737",
+     "nq_pct": 73,
+     "nq_rango": "30,310.25–30,491",
+     "nq_mov": "−158.25",
+     "es_vol": "216,181",
+     "es_mov": "−17.5",
+     "nota": "Breaks 30,357 (Sep 27 low)."
+    },
+    {
+     "hora": "12:00",
+     "nq_vol": "67,983",
+     "nq_pct": 68,
+     "nq_rango": "30,194.25–30,343.5",
+     "nq_mov": "−35",
+     "es_vol": "188,788",
+     "es_mov": "−5",
+     "nota": "Pause: weak bounce to 30,293."
+    },
+    {
+     "hora": "1:00",
+     "nq_vol": "52,282",
+     "nq_pct": 52,
+     "nq_rango": "30,138–30,309.75",
+     "nq_mov": "−148",
+     "es_vol": "170,920",
+     "es_mov": "−26.75",
+     "nota": "New low 30,138 at 1:50 (partial hour)."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Morning pivots (Tuesday's regular session). NQ lost S1, S2 and S3; so did ES. No pivot resistance was touched.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,095.5",
+     "es": "7,896.75",
+     "nota": ""
+    },
+    {
+     "nombre": "R2",
+     "nq": "30,955",
+     "es": "7,880",
+     "nota": ""
+    },
+    {
+     "nombre": "R1",
+     "nq": "30,872",
+     "es": "7,868",
+     "nota": ""
+    },
+    {
+     "nombre": "P",
+     "nq": "30,731.5",
+     "es": "7,851.25",
+     "nota": "Not reached."
+    },
+    {
+     "nombre": "S1",
+     "nq": "30,648.5",
+     "es": "7,839.25",
+     "nota": "NQ: 9:45 high 30,660.75, rejected right here."
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,508",
+     "es": "7,822.5",
+     "nota": "Lost at 10:00 (NQ) and before the open (ES)."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,425",
+     "es": "7,810.5",
+     "nota": "NQ: lost at 11:05. ES: lost at 9:55."
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "8:30",
+    "evento": "CPI",
+    "nq": "−287",
+    "es": "−53.75",
+    "lectura": "8:30–9:00: NQ went from 30,844 to 30,557 and broke Tuesday's low."
+   },
+   {
+    "hora": "9:30",
+    "evento": "Open + Miran",
+    "nq": "−77",
+    "es": "−16",
+    "lectura": "9:30–10:00: bounce to 30,660.75 rejected at S1; half hour closes at 30,474.5."
+   },
+   {
+    "hora": "10:30",
+    "evento": "Crude inventories (EIA)",
+    "nq": "+11.75",
+    "es": "−3.5",
+    "lectura": "10:30–11:00: no clear effect; Brent stays near $106."
+   },
+   {
+    "hora": "11:00",
+    "evento": "No scheduled event",
+    "nq": "−158.25",
+    "es": "−17.5",
+    "lectura": "11:00–12:00: the CoreWeave/AI slide pushes NQ under 30,357."
+   },
+   {
+    "hora": "1:00 PM",
+    "evento": "Waller",
+    "nq": "−117.75",
+    "es": "−21.25",
+    "lectura": "1:00–1:30: new down leg to 30,168."
+   },
+   {
+    "hora": "2:00 PM",
+    "evento": "Beige Book — watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Price pressure → test of 30,015; calm tone → bounce to 30,295–30,310."
+   }
+  ],
+  "picks": {
+   "nota": "No picks today: nothing passed all three filters this morning. BAC (cut: RVol under 3x) tagged 49.26 at 10:05 and is bouncing to 50.77 (+1.9% from the open): a short would have been trapped.",
+   "filas": []
+  },
+  "soportes": {
+   "nota": "Afternoon board at 2:05 prices. NQ bearish on daily and 1H, at the day low: B grade at most and only with a confirmed bounce candle. Invalidation = 0.25 ATR under support.",
+   "revision": [
+    {
+     "ticker": "AMZN",
+     "nivel": "258.60",
+     "resultado": "Broke",
+     "nota": "Held at the open (low 257.10) and bounced to 259.65 (+0.4%) at 9:45, but closed below the invalidation at 10:05; now 253.38."
+    },
+    {
+     "ticker": "META",
+     "nivel": "756.59",
+     "resultado": "Broke",
+     "nota": "Broke on the first bar (close 748.89 at 9:35); low 734.32, now 735.21 (−2.8% from the level)."
+    },
+    {
+     "ticker": "CEG",
+     "nivel": "291.94",
+     "resultado": "Broke",
+     "nota": "Tagged 294.50 at the open and broke at 9:35; low 277.84 (−4.8% from the level)."
+    }
+   ],
+   "top3": [
+    {
+     "ticker": "MSFT",
+     "grado": "B",
+     "rr": "1.6",
+     "nivel": "532.70",
+     "texto": "Prior swing high 532.70, 0.16 ATR below, in an uptrend. It must first reclaim 535.70 (Monday's low); target 542.74, invalidation 529.68."
+    },
+    {
+     "ticker": "GOOGL",
+     "grado": "B",
+     "rr": "0.6",
+     "nivel": "346.36",
+     "texto": "Prior swing low 346.36 with the 20-day average (346.77), 0.17 ATR below. Poor R:R (0.6) to 349.91."
+    },
+    {
+     "ticker": "QQQ",
+     "grado": "B",
+     "rr": "0.9",
+     "nivel": "726.39",
+     "texto": "50-day average (726.64) + prior swing high 726.39, 0.19 ATR below. If NQ loses 30,015, this level goes with it."
+    }
+   ],
+   "filas": [
+    {
+     "ticker": "TSLA",
+     "precio": "364.34",
+     "soporte": "364.02",
+     "tipo_nivel": "Prior swing low (testing it)",
+     "dist_atr": "0.03",
+     "tendencia": "Range",
+     "grado": "C",
+     "objetivo": "366.50",
+     "invalidacion": "361.28",
+     "rr": "0.7"
+    },
+    {
+     "ticker": "INTC",
+     "precio": "98.53",
+     "soporte": "98.22",
+     "tipo_nivel": "Tuesday's low + prior swing low 98.33",
+     "dist_atr": "0.06",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "100.71",
+     "invalidacion": "96.89",
+     "rr": "1.3"
+    },
+    {
+     "ticker": "CEG",
+     "precio": "278.34",
+     "soporte": "276.84",
+     "tipo_nivel": "Prior swing lows 276.84–277.87",
+     "dist_atr": "0.09",
+     "tendencia": "Range",
+     "grado": "C",
+     "objetivo": "282.77",
+     "invalidacion": "272.79",
+     "rr": "0.8"
+    },
+    {
+     "ticker": "MU",
+     "precio": "923.06",
+     "soporte": "918.88",
+     "tipo_nivel": "Prior swing low",
+     "dist_atr": "0.10",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "929.03",
+     "invalidacion": "907.91",
+     "rr": "0.4"
+    },
+    {
+     "ticker": "MSFT",
+     "precio": "534.64",
+     "soporte": "532.70",
+     "tipo_nivel": "Prior swing high (retest); reclaim 535.70 (Monday's low) first",
+     "dist_atr": "0.16",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "542.74",
+     "invalidacion": "529.68",
+     "rr": "1.6"
+    },
+    {
+     "ticker": "GOOGL",
+     "precio": "347.74",
+     "soporte": "346.36",
+     "tipo_nivel": "Prior swing low + 20-day average (346.77)",
+     "dist_atr": "0.17",
+     "tendencia": "Range",
+     "grado": "B",
+     "objetivo": "349.91",
+     "invalidacion": "344.37",
+     "rr": "0.6"
+    },
+    {
+     "ticker": "QQQ",
+     "precio": "728.05",
+     "soporte": "726.39",
+     "tipo_nivel": "Prior swing high + 50-day average (726.64)",
+     "dist_atr": "0.19",
+     "tendencia": "Range",
+     "grado": "B",
+     "objetivo": "731.63",
+     "invalidacion": "724.16",
+     "rr": "0.9"
+    },
+    {
+     "ticker": "META",
+     "precio": "735.21",
+     "soporte": "731.00",
+     "tipo_nivel": "Prior swing low + 20-day average (730.76)",
+     "dist_atr": "0.19",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "743.76",
+     "invalidacion": "725.38",
+     "rr": "0.9"
+    },
+    {
+     "ticker": "AAPL",
+     "precio": "342.25",
+     "soporte": "340.74",
+     "tipo_nivel": "Tuesday's low",
+     "dist_atr": "0.23",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "344.57",
+     "invalidacion": "339.10",
+     "rr": "0.7"
+    },
+    {
+     "ticker": "AMZN",
+     "precio": "253.38",
+     "soporte": "251.93",
+     "tipo_nivel": "Prior swing low; already at the 20-day average (253.20)",
+     "dist_atr": "0.26",
+     "tendencia": "Range",
+     "grado": "B",
+     "objetivo": "255.19",
+     "invalidacion": "250.56",
+     "rr": "0.6"
+    },
+    {
+     "ticker": "SPCX",
+     "precio": "151.91",
+     "soporte": "149.80",
+     "tipo_nivel": "Prior swing high (retest)",
+     "dist_atr": "0.31",
+     "tendencia": "Range",
+     "grado": "B",
+     "objetivo": "155.00",
+     "invalidacion": "148.10",
+     "rr": "0.8"
+    },
+    {
+     "ticker": "AMD",
+     "precio": "571.58",
+     "soporte": "562.99",
+     "tipo_nivel": "Prior swing high (retest)",
+     "dist_atr": "0.35",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "584.73",
+     "invalidacion": "556.92",
+     "rr": "0.9"
+    },
+    {
+     "ticker": "PLTR",
+     "precio": "201.76",
+     "soporte": "198.88",
+     "tipo_nivel": "Prior swing high (breakout retest)",
+     "dist_atr": "0.47",
+     "tendencia": "Bullish",
+     "grado": "B",
+     "objetivo": "205.97",
+     "invalidacion": "197.36",
+     "rr": "1.0"
+    },
+    {
+     "ticker": "NVDA",
+     "precio": "220.74",
+     "soporte": "216.20",
+     "tipo_nivel": "Prior swing low + swing high 216.82",
+     "dist_atr": "0.81",
+     "tendencia": "Bearish",
+     "grado": "C",
+     "objetivo": "223.06",
+     "invalidacion": "214.80",
+     "rr": "0.4"
+    }
+   ],
+   "pie": "No morning support held, and QQQ/PLTR/MSFT, reclaimed at the open, were lost again by 10:10. Only MSFT has R:R above 1 (1.6). Chips (NVDA, MU, AMD, INTC), TSLA and CEG are C grade."
+  },
+  "movers": [
+   {
+    "ticker": "BSP",
+    "cambio": "+46.5%",
+    "nota": "Bending Spoons: apps (AOL owner)"
+   },
+   {
+    "ticker": "LQDA",
+    "cambio": "+25.2%",
+    "nota": "Global legal settlement with UTHR"
+   },
+   {
+    "ticker": "NRIX",
+    "cambio": "+8.0%",
+    "nota": "Healthcare leads the day"
+   },
+   {
+    "ticker": "HALO",
+    "cambio": "+7.8%",
+    "nota": "Healthcare leads the day"
+   },
+   {
+    "ticker": "IBRX",
+    "cambio": "+5.5%",
+    "nota": "Healthcare leads the day"
+   },
+   {
+    "ticker": "AZN",
+    "cambio": "+4.1%",
+    "nota": "Pharma rises as a group"
+   },
+   {
+    "ticker": "SKYD",
+    "cambio": "−25.3%",
+    "nota": "Paramount Skydance: media"
+   },
+   {
+    "ticker": "CRWV",
+    "cambio": "−16.3%",
+    "nota": "Its bond yield hits 15%"
+   },
+   {
+    "ticker": "DOCN",
+    "cambio": "−14.4%",
+    "nota": "AI cloud falls as a group"
+   },
+   {
+    "ticker": "BTDR",
+    "cambio": "−14.4%",
+    "nota": "Miners/data centers fall"
+   },
+   {
+    "ticker": "HUT",
+    "cambio": "−13.8%",
+    "nota": "Miners/data centers fall"
+   },
+   {
+    "ticker": "CIFR",
+    "cambio": "−12.9%",
+    "nota": "Miners/data centers fall"
+   }
+  ],
+  "redes": {
+   "gancho": "NQ drops 640 points; CoreWeave drags AI",
+   "subgancho": "Hot CPI + costly debt: chips and AI cloud in the red.",
+   "sub2": "NQ keys: 30,310 above, 30,015 below."
+  }
+ }
+}
