@@ -6,3 +6,6 @@ supabase/.branches/
 social/20*/
 .venv-voz/
 social/voces/
+
+# Capturas de trades del equipo (muestran contratos; resultados publicos solo en puntos)
+social/capturas/
