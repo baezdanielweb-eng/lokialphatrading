@@ -1,0 +1,1317 @@
+{
+ "fecha": "2026-10-13",
+ "tipo": "closing",
+ "titulo": "LokiAlphaTrading - Closing",
+ "datos": {
+  "generado": "Cierre 4:00 PM ET (publicado 6:15 PM)",
+  "resumen": "Día plano antes del IPC: el S&P cerró casi sin cambio y el NQ −0.35%. La memoria siguió débil (MU −3.7%) y los bancos tuvieron resultados mixtos, pero AMD, INTC y NVDA se recuperaron en la tarde y el NQ cerró en el 88% de su rango. Sin picks hoy. Tablero de soportes: 8 de 14 llegaron al objetivo y solo 2 rompieron. Mañana: IPC 8:30, BAC y MS antes de la apertura.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "−0.01%",
+    "detalle": "778.02",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−0.32%",
+    "detalle": "743.63",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.42%",
+    "detalle": "276.74",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,788.75",
+    "detalle": "−0.35% · rango 30,591–30,815",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,856",
+    "detalle": "−0.01% · rango 7,834.5–7,863.25",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "Bono 10 años",
+    "valor": "5.22%",
+    "detalle": "−2.5 pb",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.28",
+    "detalle": "+0.5%",
+    "dir": "up"
+   }
+  ],
+  "que_movio": "Los bancos abrieron la temporada de resultados con números mixtos: Goldman fuerte por el trading de acciones, JPMorgan falló en ganancias pero subió su guía de intereses, y Wells Fargo decepcionó. La memoria volvió a caer tras el desplome de Corea (Kospi −5.5%) y el temor a la competencia china (MU −3.7%). UNH subió su guía y llegó a 399.88 en la apertura, pero el mercado vendió la noticia: cerró −0.2%. JNJ cayó ~6% por ventas débiles de dispositivos médicos. En la tarde los chips se recuperaron (AMD +1.9%, INTC +1.5%, NVDA +1.0%) y el NQ cerró cerca del máximo de la tarde. Williams (Fed de Nueva York) dijo que una subida más este año podría ser apropiada; Waller dijo que la subida de los rendimientos de los bonos ya ayuda a enfriar la demanda y que las expectativas de inflación están ancladas. Refinadoras subieron por márgenes altos del diésel. Bono a 10 años 5.22% (−2.5 pb).",
+  "movers": [
+   {
+    "ticker": "FRMI",
+    "cambio": "+14.5%",
+    "nota": "Fermi: energía para centros de datos"
+   },
+   {
+    "ticker": "EFXT",
+    "cambio": "+14.4%",
+    "nota": "Enerflex: equipos de gas natural"
+   },
+   {
+    "ticker": "PARR",
+    "cambio": "+8.1%",
+    "nota": "Refinadoras: márgenes altos del diésel"
+   },
+   {
+    "ticker": "PBF",
+    "cambio": "+7.2%",
+    "nota": "Refinadoras: márgenes altos del diésel"
+   },
+   {
+    "ticker": "CVI",
+    "cambio": "+7.2%",
+    "nota": "Refinadoras: márgenes altos del diésel"
+   },
+   {
+    "ticker": "VG",
+    "cambio": "+5.4%",
+    "nota": "Venture Global: exportador de GNL"
+   },
+   {
+    "ticker": "CIFR",
+    "cambio": "−12.8%",
+    "nota": "Emisión de $850M en convertibles"
+   },
+   {
+    "ticker": "PDFS",
+    "cambio": "−9.6%",
+    "nota": "PDF Solutions: software para chips"
+   },
+   {
+    "ticker": "SMMT",
+    "cambio": "−9.4%",
+    "nota": "Biotecnología cae en bloque"
+   },
+   {
+    "ticker": "ASTS",
+    "cambio": "−8.5%",
+    "nota": "AST SpaceMobile: satélites"
+   },
+   {
+    "ticker": "IMNM",
+    "cambio": "−8.2%",
+    "nota": "Biotecnología cae en bloque"
+   },
+   {
+    "ticker": "TNGX",
+    "cambio": "−8.1%",
+    "nota": "Biotecnología cae en bloque"
+   }
+  ],
+  "despues_cierre": [
+   {
+    "ticker": "—",
+    "cambio": "—",
+    "nota": "Sin resultados grandes después del cierre (América Móvil, Hancock Whitney). Las acciones de la Watchlist se mueven poco y con volumen bajo después de las 4 PM."
+   }
+  ],
+  "manana": [
+   {
+    "hora": "Mié 14 · antes de la apertura",
+    "tema": "Bancos: Bank of America y Morgan Stanley",
+    "efecto": "Segunda ronda de bancos: tono para financieras y el ES.",
+    "prob": 5,
+    "enlace": "https://www.digrin.com/stocks/earnings_calendar/2026-10-14",
+    "fuente": "Digrin"
+   },
+   {
+    "hora": "⚠️ Mié 14 · 8:30 AM",
+    "tema": "IPC de septiembre (esperan ~3.7% anual)",
+    "efecto": "Consenso ~+0.6% mensual; subyacente ~2.4%. El dato de la semana y el último antes de la Fed del 28 oct. Con la Fed hablando de otra subida, un IPC alto pega al NQ.",
+    "prob": 9,
+    "enlace": "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect",
+    "fuente": "Kiplinger"
+   },
+   {
+    "hora": "Mié 14 · 9:30 AM",
+    "tema": "Miran (gobernador de la Fed, vota) en CNBC",
+    "efecto": "Primera lectura de la Fed sobre el IPC.",
+    "prob": 5,
+    "enlace": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-10-09/upcoming.htm",
+    "fuente": "TD Economics"
+   },
+   {
+    "hora": "Mié 14 · 1:00 PM",
+    "tema": "Waller (gobernador, vota) sobre IA",
+    "efecto": "Tema de IA; menor salvo que hable de tasas.",
+    "prob": 3,
+    "enlace": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-10-09/upcoming.htm",
+    "fuente": "TD Economics"
+   },
+   {
+    "hora": "Mié 14 · 2:00 PM",
+    "tema": "Libro Beige de la Fed",
+    "efecto": "Lectura de la economía por distrito; mueve poco salvo sorpresa.",
+    "prob": 4,
+    "enlace": "https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm",
+    "fuente": "Federal Reserve"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "16:00",
+    "categoria": "Mercado",
+    "titulo": "El S&P cierra plano: bancos mixtos y chips débiles",
+    "resumen": "El Dow cedió ~0.35% y el Nasdaq 0.15%; la memoria pesó todo el día y el mercado esperó el IPC.",
+    "fuente": "TheStreet",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026"
+   },
+   {
+    "hora": "16:00",
+    "categoria": "Mercado",
+    "titulo": "Resumen del día: refinadoras arriba, servicios públicos abajo",
+    "resumen": "Las refinadoras ganaron por el salto del diésel; JNJ cayó por dispositivos médicos y Cipher por su emisión de convertibles.",
+    "fuente": "Investrade",
+    "url": "https://investrade.com/market-review-october-13-2026/"
+   },
+   {
+    "categoria": "Fed",
+    "titulo": "Waller: los rendimientos altos ya enfrían la demanda",
+    "resumen": "El gobernador dijo que la subida de los bonos a largo plazo frena vivienda y autos, haciendo parte del trabajo de la Fed.",
+    "fuente": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-waller-says-higher-yields-could-help-fed-cool-demand"
+   },
+   {
+    "categoria": "Fed",
+    "titulo": "Waller: expectativas de inflación ancladas",
+    "resumen": "Atribuyó la subida de los rendimientos a más crecimiento, deuda pública e inversión en IA, no a la inflación.",
+    "fuente": "Reuters (Investing.com)",
+    "url": "https://investing.com/news/economy-news/us-inflation-expectations-are-well-anchored-feds-waller-says-4946202"
+   },
+   {
+    "categoria": "Chips",
+    "tickers": [
+     "MU",
+     "AMD",
+     "NVDA"
+    ],
+    "titulo": "Memoria cae; el resto de los chips se recupera en la tarde",
+    "resumen": "MU cerró −3.7% tras el desplome de Corea, mientras AMD, INTC y NVDA terminaron en verde.",
+    "fuente": "AP (CP24)",
+    "url": "https://www.cp24.com/news/money/2026/10/13/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/"
+   },
+   {
+    "categoria": "Empresas",
+    "tickers": [
+     "UNH"
+    ],
+    "titulo": "UnitedHealth: guía más alta, acción plana",
+    "resumen": "Subió su guía de 2026, tocó 399.88 en la apertura y terminó en 377.60 (−0.2%).",
+    "fuente": "SEC (UNH 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm"
+   },
+   {
+    "categoria": "Empresas",
+    "tickers": [
+     "CIFR"
+    ],
+    "titulo": "Cipher cierra −12.8% por su emisión de convertibles",
+    "resumen": "Propuso $850 millones en notas convertibles; el temor a dilución la dejó entre las peores del día.",
+    "fuente": "Benzinga",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62321952/cipher-digital-stock-falls-after-proposing-850-million-in-notes-heres-where-the-money-would-go"
+   },
+   {
+    "categoria": "Macro",
+    "titulo": "IPC de septiembre: qué esperar mañana",
+    "resumen": "El consenso ve el general cerca de 3.7% anual por la gasolina récord; la subyacente cerca de 2.4%.",
+    "fuente": "Kiplinger",
+    "url": "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,788.75",
+   "cambio": "−0.35%",
+   "nota": "Sesión regular: apertura 30,619 · mínimo 30,591.25 (9:30) · máximo 30,814.75 (10:00) · cierre 30,788.75, en el 88% del rango. Después de las 4 PM: 30,782. ATR diario: 434 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Lateral (corrección)",
+     "nota": "Mínimo más bajo (30,591) pero cerró arriba, de nuevo sobre su media de 20 días (30,741); sigue bajo el máximo del lunes (31,289). Vela de rechazo abajo."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Bajista, mejorando",
+     "nota": "Bajo su media de 50 horas (30,917), pero con mínimos más altos toda la tarde (30,636 → 30,688 → 30,709)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "30,955",
+     "nota": "Pivote R2 · +166 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,844–30,906",
+     "nota": "Mínimo del lunes + máximo de la noche del martes + pivote R1 (30,872) · +55 a +117 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,803–30,815",
+     "nota": "Máximo de hoy (dos rechazos: 10:00 y 12:00) · +14 a +26 pts (0.03–0.06 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,788.75",
+     "nota": "Cierre",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "30,688–30,732",
+     "nota": "Pivote P (30,732) + mínimos más altos de la tarde · −57 a −101 pts (0.13–0.23 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,591–30,648",
+     "nota": "Mínimo de hoy + pivote S1 (30,648) · −141 a −198 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,508–30,571",
+     "nota": "Pivote S2 + mínimos del 29–30 sep · −218 a −281 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "IPC a las 8:30: el rango puede abrirse fuerte (ATR 434). Si cierra 1 hora sobre 30,815, abre 30,844–30,906. Si pierde 30,688, vuelve a 30,591–30,648; bajo 30,591 (mínimo de hoy), 30,508–30,571."
+  },
+  "es": {
+   "ultimo": "7,856",
+   "cambio": "−0.01%",
+   "nota": "Sesión regular: apertura 7,849.25 · máximo 7,863.25 (9:40) · mínimo 7,834.5 (11:35) · cierre 7,856, en el 75% del rango. ATR diario: 69 pts.",
+   "tendencias": [
+    {
+     "marco": "Diaria",
+     "valor": "Alcista",
+     "nota": "Sobre sus medias de 20/50 días (7,784 / 7,742); a 41.5 pts del récord 7,897.5."
+    },
+    {
+     "marco": "1 hora",
+     "valor": "Lateral",
+     "nota": "En su media de 50 horas (7,859.5); rango 7,834.5–7,870 desde el lunes."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,880–7,897.5",
+     "nota": "Pivote R2 + máximo de la noche del lunes (7,887) + récord · +24 a +41.5 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,863–7,870",
+     "nota": "Máximo de hoy + máximo del lunes + pivote R1 (7,868) · +7 a +14 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,856",
+     "nota": "Cierre",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,839–7,851",
+     "nota": "Pivote P (7,851) + pivote S1 (7,839) · −5 a −17 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,834.5",
+     "nota": "Mínimo de hoy · −21.5 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,810–7,822.5",
+     "nota": "Pivotes S2/S3 · −33.5 a −46 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Sobre 7,870 abre 7,880–7,887 y el récord 7,897.5. Si pierde 7,834.5, apunta a 7,810–7,822.5."
+  },
+  "volumen": {
+   "resumen": "Volumen bajo antes del IPC: el NQ movió 0.94× su promedio de 20 días y el ES 0.74×. La primera media hora fue la más pesada (rebote desde 30,591); la última hora repuntó con la subida de los chips.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Completa",
+     "volumen": "529,213",
+     "promedio20": "560,908",
+     "relativo": "0.94×",
+     "nota": "Regular: 360,183 (68%)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Completa",
+     "volumen": "1,143,958",
+     "promedio20": "1,554,133",
+     "relativo": "0.74×",
+     "nota": "Regular: 857,830 (75%)."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "78,440",
+     "nq_pct": 100,
+     "nq_rango": "30,591.25–30,806.25",
+     "nq_mov": "+173.5",
+     "es_vol": "126,911",
+     "es_mov": "+6.75",
+     "nota": "Media hora: barrió el mínimo de la noche y rebotó."
+    },
+    {
+     "hora": "10:00",
+     "nq_vol": "72,598",
+     "nq_pct": 93,
+     "nq_rango": "30,690.25–30,814.75",
+     "nq_mov": "−88.5",
+     "es_vol": "149,032",
+     "es_mov": "−12.25",
+     "nota": "Máximo del día a las 10:00 y rechazo."
+    },
+    {
+     "hora": "11:00",
+     "nq_vol": "51,098",
+     "nq_pct": 65,
+     "nq_rango": "30,635.5–30,731",
+     "nq_mov": "−0.75",
+     "es_vol": "124,148",
+     "es_mov": "−2.5",
+     "nota": "Mínimo de la mañana 30,635.5 (11:35)."
+    },
+    {
+     "hora": "12:00",
+     "nq_vol": "42,326",
+     "nq_pct": 54,
+     "nq_rango": "30,700.25–30,808",
+     "nq_mov": "+36",
+     "es_vol": "99,430",
+     "es_mov": "+5.75",
+     "nota": "Segundo rechazo en 30,808."
+    },
+    {
+     "hora": "13:00",
+     "nq_vol": "34,114",
+     "nq_pct": 43,
+     "nq_rango": "30,688–30,750.5",
+     "nq_mov": "−20.5",
+     "es_vol": "82,463",
+     "es_mov": "−2.25",
+     "nota": "Hora más quieta; mínimo más alto 30,688."
+    },
+    {
+     "hora": "14:00",
+     "nq_vol": "36,130",
+     "nq_pct": 46,
+     "nq_rango": "30,709.25–30,781",
+     "nq_mov": "+19",
+     "es_vol": "109,838",
+     "es_mov": "+7",
+     "nota": "Chips empiezan a subir."
+    },
+    {
+     "hora": "15:00",
+     "nq_vol": "45,477",
+     "nq_pct": 58,
+     "nq_rango": "30,734.25–30,802",
+     "nq_mov": "+50.5",
+     "es_vol": "166,008",
+     "es_mov": "+4.25",
+     "nota": "Cierre fuerte con AMD/NVDA; 30,788.75."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivotes para mañana con el máximo, mínimo y cierre de la sesión regular de hoy. P (30,732) coincide con los mínimos más altos de la tarde; R1 (30,872) cae dentro de 30,844–30,906.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,095.5",
+     "es": "7,896.75",
+     "nota": "ES: junto al récord 7,897.5."
+    },
+    {
+     "nombre": "R2",
+     "nq": "30,955",
+     "es": "7,880",
+     "nota": ""
+    },
+    {
+     "nombre": "R1",
+     "nq": "30,872",
+     "es": "7,868",
+     "nota": "NQ: dentro de 30,844–30,906. ES: máximo del lunes (7,870)."
+    },
+    {
+     "nombre": "P",
+     "nq": "30,731.5",
+     "es": "7,851.25",
+     "nota": "NQ: mínimos más altos de la tarde."
+    },
+    {
+     "nombre": "S1",
+     "nq": "30,648.5",
+     "es": "7,839.25",
+     "nota": ""
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,508",
+     "es": "7,822.5",
+     "nota": "NQ: cerca de los mínimos del 29–30 sep."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,425",
+     "es": "7,810.5",
+     "nota": ""
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "9:30–10:00",
+    "evento": "Apertura",
+    "nq": "+173.5",
+    "es": "+6.75",
+    "lectura": "Barrió el mínimo de la noche (30,591) y subió hasta 30,806."
+   },
+   {
+    "hora": "10:00–10:30",
+    "evento": "Viviendas usadas",
+    "nq": "−41.75",
+    "es": "−5.5",
+    "lectura": "Máximo del día 30,814.75 y rechazo; el dato no movió."
+   },
+   {
+    "hora": "11:00–12:00",
+    "evento": "Sin evento programado",
+    "nq": "−0.75",
+    "es": "−2.5",
+    "lectura": "Mínimo de la mañana 30,635.5; ES mínimo del día 7,834.5."
+   },
+   {
+    "hora": "14:00–16:00",
+    "evento": "Sin evento programado (chips suben)",
+    "nq": "+70",
+    "es": "+11",
+    "lectura": "AMD, NVDA e INTC suben; el NQ cierra en 30,788.75."
+   },
+   {
+    "hora": "3:45–4:00",
+    "evento": "Waller (ventana)",
+    "nq": "+17.25",
+    "es": "−2.25",
+    "lectura": "Sin reacción clara."
+   },
+   {
+    "hora": "Mié 8:30",
+    "evento": "IPC — a vigilar",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Caliente → 30,688 y 30,591; frío → 30,815 y 30,844–30,906."
+   }
+  ],
+  "picks": {
+   "nota": "Hoy no hubo picks: ninguna acción pasó los tres filtros en la mañana. BMBL (descartada: compra sin confirmar) quedó plana todo el día en 5.94, como se esperaba."
+  },
+  "soportes": {
+   "nota": "Resultado del tablero de la mañana (todo B o C). Grado B (10): 4 aguantaron (CEG, GOOGL y AMZN llegaron al objetivo; PLTR aguantó a 5 centavos de la invalidación), 2 rompieron (SPCX en la apertura; AAPL a las 15:30) y 4 no tocaron su soporte (META y QQQ llegaron al objetivo; MSFT y TSLA casi). Grado C (4): los 4 aguantaron y 3 llegaron al objetivo (NVDA, AMD, INTC) por el rebote de los chips. Hoy el grado C no predijo bien.",
+   "revision": [
+    {
+     "ticker": "CEG",
+     "nivel": "286.83",
+     "grado": "B",
+     "resultado": "Objetivo",
+     "nota": "Mecha a 286.31 en la apertura, objetivo 293.23 a las 9:40 y máximo 298.42 a las 14:55 (+4.0%); cierre 295.74."
+    },
+    {
+     "ticker": "GOOGL",
+     "nivel": "353.22",
+     "grado": "B",
+     "resultado": "Objetivo",
+     "nota": "Mínimo 351.60 a las 10:15 (invalidación 351.19 intacta) y rebote a 357.24 (+1.1%) que pasó el objetivo 356.50; cierre 353.74."
+    },
+    {
+     "ticker": "AMZN",
+     "nivel": "258.85",
+     "grado": "B",
+     "resultado": "Objetivo",
+     "nota": "No tocó el nivel en la mañana (mín. 259.19) y llegó a 262.87 (objetivo 261.12); al cierre perdió el nivel (258.42) sin invalidar: cerró 258.63."
+    },
+    {
+     "ticker": "PLTR",
+     "nivel": "207.52",
+     "grado": "B",
+     "resultado": "Sostuvo",
+     "nota": "Mínimo 205.97 a las 12:55, a 5 centavos de la invalidación (205.92), y rebote a 209.35 (+0.9%); objetivo 212.94 no (máx. 210.84); cierre 208.61."
+    },
+    {
+     "ticker": "AAPL",
+     "nivel": "342.99",
+     "grado": "B",
+     "resultado": "Rompió",
+     "nota": "En la mañana lo perdió y recuperó (rebote a 347.02, +1.2%), pero a las 15:30 cerró bajo la invalidación 341.38; mínimo 340.75, cierre 341.33."
+    },
+    {
+     "ticker": "SPCX",
+     "nivel": "160.85",
+     "grado": "B",
+     "resultado": "Rompió",
+     "nota": "Abrió en 161.92 y cerró bajo la invalidación 159.19 a las 9:50; mínimo 156.11, cierre 156.61 (−4.2%)."
+    },
+    {
+     "ticker": "META",
+     "nivel": "728.07",
+     "grado": "B",
+     "resultado": "Sin tocar",
+     "nota": "Mínimo 734.91; objetivo 744 a las 9:35 y máximo 771.21 (+5.9% desde el nivel); cierre 762.45."
+    },
+    {
+     "ticker": "QQQ",
+     "nivel": "737.62",
+     "grado": "B",
+     "resultado": "Sin tocar",
+     "nota": "Mínimo 738.83; objetivo 743.23 a las 9:40; cierre 743.63."
+    },
+    {
+     "ticker": "MSFT",
+     "nivel": "542.74",
+     "grado": "B",
+     "resultado": "Sin tocar",
+     "nota": "Mínimo 543.07 al cierre; objetivo 553.72 casi: máximo 551.15 (a 2.57); cierre 543.52."
+    },
+    {
+     "ticker": "TSLA",
+     "nivel": "368.60",
+     "grado": "B",
+     "resultado": "Sin tocar",
+     "nota": "Mínimo 371.35; objetivo 377.58 casi: máximo 377.05 (a 0.53); cierre 375.24."
+    },
+    {
+     "ticker": "NVDA",
+     "nivel": "224.90",
+     "grado": "C",
+     "resultado": "Objetivo",
+     "nota": "Probaba desde abajo: mínimo 223.07 a las 9:35, recuperó el nivel y llegó al objetivo 227.92 a las 15:20; cierre 228.52 (+1.6% sobre el nivel)."
+    },
+    {
+     "ticker": "AMD",
+     "nivel": "574.20",
+     "grado": "C",
+     "resultado": "Objetivo",
+     "nota": "Mínimo 570.60 en la apertura, objetivo 586.54 a las 9:40 y cierre en el máximo 605.49 (+5.4%)."
+    },
+    {
+     "ticker": "INTC",
+     "nivel": "98.33",
+     "grado": "C",
+     "resultado": "Objetivo",
+     "nota": "Mínimo 98.23 a las 9:35, objetivo 100.71 a las 9:40 y cierre 102.85 (+4.6%)."
+    },
+    {
+     "ticker": "MU",
+     "nivel": "930.88",
+     "grado": "C",
+     "resultado": "Sostuvo",
+     "nota": "Mínimo 929.03 en la apertura y rebote a 953.48 (+2.4%); objetivo 978.50 no; cierre 952.43 (−3.7% en el día)."
+    }
+   ],
+   "top3": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "rr": "1.4",
+     "nivel": "344.57",
+     "texto": "Tablero de la tarde.",
+     "resultado": "Rompió 13:55"
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "rr": "0.3",
+     "nivel": "293.23",
+     "texto": "Tablero de la tarde.",
+     "resultado": "Objetivo 295.89 (12:20); máx. 298.42"
+    },
+    {
+     "ticker": "META",
+     "grado": "B",
+     "rr": "0.9",
+     "nivel": "759.15",
+     "texto": "Tablero de la tarde.",
+     "resultado": "Sostuvo (mín. 757.71); objetivo 771.21 casi (767.90)"
+    }
+   ]
+  },
+  "redes": {
+   "gancho": "Memoria cae, chips rebotan: NQ cierra arriba",
+   "sub2": "NQ cierra en 30,788.75 (88% del rango). Mañana: IPC 8:30."
+  }
+ },
+ "datos_en": {
+  "generado": "4:00 PM ET close (published 6:15 PM)",
+  "resumen": "Flat day ahead of CPI: the S&P closed nearly unchanged and NQ −0.35%. Memory stayed weak (MU −3.7%) and bank earnings were mixed, but AMD, INTC and NVDA recovered in the afternoon and NQ closed at 88% of its range. No picks today. Support board: 8 of 14 hit target and only 2 broke. Tomorrow: CPI 8:30, BAC and MS before the open.",
+  "pulso": [
+   {
+    "etiqueta": "SPY",
+    "valor": "−0.01%",
+    "detalle": "778.02",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "QQQ",
+    "valor": "−0.32%",
+    "detalle": "743.63",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "IWM",
+    "valor": "−0.42%",
+    "detalle": "276.74",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "NQ1!",
+    "valor": "30,788.75",
+    "detalle": "−0.35% · range 30,591–30,815",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "ES1!",
+    "valor": "7,856",
+    "detalle": "−0.01% · range 7,834.5–7,863.25",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "10Y yield",
+    "valor": "5.22%",
+    "detalle": "−2.5 bp",
+    "dir": "down"
+   },
+   {
+    "etiqueta": "VIX",
+    "valor": "15.28",
+    "detalle": "+0.5%",
+    "dir": "up"
+   }
+  ],
+  "que_movio": "Banks kicked off earnings season with mixed numbers: Goldman strong on equities trading, JPMorgan missed on EPS but raised its interest-income outlook, and Wells Fargo disappointed. Memory fell again after Korea's slide (Kospi −5.5%) and fears of Chinese competition (MU −3.7%). UNH raised guidance and hit 399.88 at the open, but the market sold the news: it closed −0.2%. JNJ fell ~6% on weak medtech sales. Chips recovered in the afternoon (AMD +1.9%, INTC +1.5%, NVDA +1.0%) and NQ closed near its afternoon high. Williams (NY Fed) said one more hike this year may be appropriate; Waller said higher Treasury yields are already helping cool demand and inflation expectations are anchored. Refiners rose on strong diesel margins. 10Y 5.22% (−2.5 bp).",
+  "movers": [
+   {
+    "ticker": "FRMI",
+    "cambio": "+14.5%",
+    "nota": "Fermi: power for data centers"
+   },
+   {
+    "ticker": "EFXT",
+    "cambio": "+14.4%",
+    "nota": "Enerflex: natural gas equipment"
+   },
+   {
+    "ticker": "PARR",
+    "cambio": "+8.1%",
+    "nota": "Refiners: strong diesel margins"
+   },
+   {
+    "ticker": "PBF",
+    "cambio": "+7.2%",
+    "nota": "Refiners: strong diesel margins"
+   },
+   {
+    "ticker": "CVI",
+    "cambio": "+7.2%",
+    "nota": "Refiners: strong diesel margins"
+   },
+   {
+    "ticker": "VG",
+    "cambio": "+5.4%",
+    "nota": "Venture Global: LNG exporter"
+   },
+   {
+    "ticker": "CIFR",
+    "cambio": "−12.8%",
+    "nota": "$850M convertible offering"
+   },
+   {
+    "ticker": "PDFS",
+    "cambio": "−9.6%",
+    "nota": "PDF Solutions: chip software"
+   },
+   {
+    "ticker": "SMMT",
+    "cambio": "−9.4%",
+    "nota": "Biotech falls as a group"
+   },
+   {
+    "ticker": "ASTS",
+    "cambio": "−8.5%",
+    "nota": "AST SpaceMobile: satellites"
+   },
+   {
+    "ticker": "IMNM",
+    "cambio": "−8.2%",
+    "nota": "Biotech falls as a group"
+   },
+   {
+    "ticker": "TNGX",
+    "cambio": "−8.1%",
+    "nota": "Biotech falls as a group"
+   }
+  ],
+  "despues_cierre": [
+   {
+    "ticker": "—",
+    "cambio": "—",
+    "nota": "No major after-hours earnings (América Móvil, Hancock Whitney). Watchlist stocks barely move after 4 PM, on thin volume."
+   }
+  ],
+  "manana": [
+   {
+    "hora": "Wed 14 · before the open",
+    "tema": "Banks: Bank of America and Morgan Stanley",
+    "efecto": "Second round of banks: tone for financials and ES.",
+    "prob": 5,
+    "enlace": "https://www.digrin.com/stocks/earnings_calendar/2026-10-14",
+    "fuente": "Digrin"
+   },
+   {
+    "hora": "⚠️ Wed 14 · 8:30 AM",
+    "tema": "September CPI (seen ~3.7% y/y)",
+    "efecto": "Consensus ~+0.6% m/m; core ~2.4%. The data point of the week and the last before the Oct 28 Fed. With Fed officials talking about another hike, a hot print hits NQ.",
+    "prob": 9,
+    "enlace": "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect",
+    "fuente": "Kiplinger"
+   },
+   {
+    "hora": "Wed 14 · 9:30 AM",
+    "tema": "Miran (Fed governor, voter) on CNBC",
+    "efecto": "First Fed read on CPI.",
+    "prob": 5,
+    "enlace": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-10-09/upcoming.htm",
+    "fuente": "TD Economics"
+   },
+   {
+    "hora": "Wed 14 · 1:00 PM",
+    "tema": "Waller (governor, voter) on AI",
+    "efecto": "AI topic; minor unless he talks rates.",
+    "prob": 3,
+    "enlace": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-10-09/upcoming.htm",
+    "fuente": "TD Economics"
+   },
+   {
+    "hora": "Wed 14 · 2:00 PM",
+    "tema": "Fed Beige Book",
+    "efecto": "District-by-district economic read; small mover unless it surprises.",
+    "prob": 4,
+    "enlace": "https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm",
+    "fuente": "Federal Reserve"
+   }
+  ],
+  "titulares": [
+   {
+    "hora": "16:00",
+    "categoria": "Market",
+    "titulo": "S&P closes flat: mixed banks, weak chips",
+    "resumen": "The Dow lost ~0.35% and the Nasdaq 0.15%; memory weighed all day as the market waited for CPI.",
+    "fuente": "TheStreet",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026"
+   },
+   {
+    "hora": "16:00",
+    "categoria": "Market",
+    "titulo": "Day recap: refiners up, utilities down",
+    "resumen": "Refiners gained on the diesel spike; JNJ fell on medtech and Cipher on its convertible offering.",
+    "fuente": "Investrade",
+    "url": "https://investrade.com/market-review-october-13-2026/"
+   },
+   {
+    "categoria": "Fed",
+    "titulo": "Waller: higher yields are already cooling demand",
+    "resumen": "The governor said the jump in long-term yields is slowing housing and autos, doing part of the Fed's work.",
+    "fuente": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-waller-says-higher-yields-could-help-fed-cool-demand"
+   },
+   {
+    "categoria": "Fed",
+    "titulo": "Waller: inflation expectations are anchored",
+    "resumen": "He tied the rise in yields to stronger growth, government debt and AI investment, not inflation.",
+    "fuente": "Reuters (Investing.com)",
+    "url": "https://investing.com/news/economy-news/us-inflation-expectations-are-well-anchored-feds-waller-says-4946202"
+   },
+   {
+    "categoria": "Chips",
+    "tickers": [
+     "MU",
+     "AMD",
+     "NVDA"
+    ],
+    "titulo": "Memory falls; other chips recover in the afternoon",
+    "resumen": "MU closed −3.7% after Korea's slide, while AMD, INTC and NVDA finished green.",
+    "fuente": "AP (CP24)",
+    "url": "https://www.cp24.com/news/money/2026/10/13/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/"
+   },
+   {
+    "categoria": "Companies",
+    "tickers": [
+     "UNH"
+    ],
+    "titulo": "UnitedHealth: higher guidance, flat stock",
+    "resumen": "It raised 2026 guidance, touched 399.88 at the open and ended at 377.60 (−0.2%).",
+    "fuente": "SEC (UNH 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm"
+   },
+   {
+    "categoria": "Companies",
+    "tickers": [
+     "CIFR"
+    ],
+    "titulo": "Cipher closes −12.8% on its convertible offering",
+    "resumen": "It proposed $850M in convertible notes; dilution fears left it among the day's worst.",
+    "fuente": "Benzinga",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62321952/cipher-digital-stock-falls-after-proposing-850-million-in-notes-heres-where-the-money-would-go"
+   },
+   {
+    "categoria": "Macro",
+    "titulo": "September CPI: what to expect tomorrow",
+    "resumen": "Consensus sees headline near 3.7% y/y on record gasoline; core near 2.4%.",
+    "fuente": "Kiplinger",
+    "url": "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect"
+   }
+  ],
+  "nq": {
+   "ultimo": "30,788.75",
+   "cambio": "−0.35%",
+   "nota": "Regular session: open 30,619 · low 30,591.25 (9:30) · high 30,814.75 (10:00) · close 30,788.75, at 88% of the range. After 4 PM: 30,782. Daily ATR: 434 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Range (correction)",
+     "nota": "Lower low (30,591) but closed high, back above its 20-day average (30,741); still below Monday's high (31,289). Lower-wick rejection candle."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Bearish, improving",
+     "nota": "Below its 50-hour average (30,917), but with higher lows all afternoon (30,636 → 30,688 → 30,709)."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "30,955",
+     "nota": "R2 pivot · +166 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,844–30,906",
+     "nota": "Monday's low + Tuesday's overnight high + R1 pivot (30,872) · +55 to +117 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,803–30,815",
+     "nota": "Today's high (two rejections: 10:00 and 12:00) · +14 to +26 pts (0.03–0.06 ATR)",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "30,788.75",
+     "nota": "Close",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "30,688–30,732",
+     "nota": "P pivot (30,732) + afternoon higher lows · −57 to −101 pts (0.13–0.23 ATR)",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,591–30,648",
+     "nota": "Today's low + S1 pivot (30,648) · −141 to −198 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "30,508–30,571",
+     "nota": "S2 pivot + Sep 29–30 lows · −218 to −281 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "CPI at 8:30: the range can open up fast (ATR 434). A 1H close above 30,815 opens 30,844–30,906. Losing 30,688 brings 30,591–30,648; below 30,591 (today's low), 30,508–30,571."
+  },
+  "es": {
+   "ultimo": "7,856",
+   "cambio": "−0.01%",
+   "nota": "Regular session: open 7,849.25 · high 7,863.25 (9:40) · low 7,834.5 (11:35) · close 7,856, at 75% of the range. Daily ATR: 69 pts.",
+   "tendencias": [
+    {
+     "marco": "Daily",
+     "valor": "Bullish",
+     "nota": "Above its 20/50-day averages (7,784 / 7,742); 41.5 pts below the 7,897.5 record."
+    },
+    {
+     "marco": "1 hour",
+     "valor": "Range",
+     "nota": "At its 50-hour average (7,859.5); 7,834.5–7,870 range since Monday."
+    }
+   ],
+   "escalera": [
+    {
+     "nivel": "7,880–7,897.5",
+     "nota": "R2 pivot + Monday's overnight high (7,887) + record · +24 to +41.5 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,863–7,870",
+     "nota": "Today's high + Monday's high + R1 pivot (7,868) · +7 to +14 pts",
+     "tipo": "resistencia"
+    },
+    {
+     "nivel": "7,856",
+     "nota": "Close",
+     "tipo": "precio"
+    },
+    {
+     "nivel": "7,839–7,851",
+     "nota": "P pivot (7,851) + S1 pivot (7,839) · −5 to −17 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,834.5",
+     "nota": "Today's low · −21.5 pts",
+     "tipo": "soporte"
+    },
+    {
+     "nivel": "7,810–7,822.5",
+     "nota": "S2/S3 pivots · −33.5 to −46 pts",
+     "tipo": "soporte"
+    }
+   ],
+   "lectura": "Above 7,870 opens 7,880–7,887 and the 7,897.5 record. Losing 7,834.5 targets 7,810–7,822.5."
+  },
+  "volumen": {
+   "resumen": "Light volume ahead of CPI: NQ traded 0.94× its 20-day average, ES 0.74×. The first half hour was the heaviest (bounce off 30,591); the last hour picked up with the chip rally.",
+   "filas": [
+    {
+     "simbolo": "NQ1!",
+     "sesion": "Full",
+     "volumen": "529,213",
+     "promedio20": "560,908",
+     "relativo": "0.94×",
+     "nota": "Regular: 360,183 (68%)."
+    },
+    {
+     "simbolo": "ES1!",
+     "sesion": "Full",
+     "volumen": "1,143,958",
+     "promedio20": "1,554,133",
+     "relativo": "0.74×",
+     "nota": "Regular: 857,830 (75%)."
+    }
+   ],
+   "horas": [
+    {
+     "hora": "9:30",
+     "nq_vol": "78,440",
+     "nq_pct": 100,
+     "nq_rango": "30,591.25–30,806.25",
+     "nq_mov": "+173.5",
+     "es_vol": "126,911",
+     "es_mov": "+6.75",
+     "nota": "Half hour: swept the overnight low and bounced."
+    },
+    {
+     "hora": "10:00",
+     "nq_vol": "72,598",
+     "nq_pct": 93,
+     "nq_rango": "30,690.25–30,814.75",
+     "nq_mov": "−88.5",
+     "es_vol": "149,032",
+     "es_mov": "−12.25",
+     "nota": "Day high at 10:00, then rejection."
+    },
+    {
+     "hora": "11:00",
+     "nq_vol": "51,098",
+     "nq_pct": 65,
+     "nq_rango": "30,635.5–30,731",
+     "nq_mov": "−0.75",
+     "es_vol": "124,148",
+     "es_mov": "−2.5",
+     "nota": "Morning low 30,635.5 (11:35)."
+    },
+    {
+     "hora": "12:00",
+     "nq_vol": "42,326",
+     "nq_pct": 54,
+     "nq_rango": "30,700.25–30,808",
+     "nq_mov": "+36",
+     "es_vol": "99,430",
+     "es_mov": "+5.75",
+     "nota": "Second rejection at 30,808."
+    },
+    {
+     "hora": "13:00",
+     "nq_vol": "34,114",
+     "nq_pct": 43,
+     "nq_rango": "30,688–30,750.5",
+     "nq_mov": "−20.5",
+     "es_vol": "82,463",
+     "es_mov": "−2.25",
+     "nota": "Quietest hour; higher low 30,688."
+    },
+    {
+     "hora": "14:00",
+     "nq_vol": "36,130",
+     "nq_pct": 46,
+     "nq_rango": "30,709.25–30,781",
+     "nq_mov": "+19",
+     "es_vol": "109,838",
+     "es_mov": "+7",
+     "nota": "Chips start to rise."
+    },
+    {
+     "hora": "15:00",
+     "nq_vol": "45,477",
+     "nq_pct": 58,
+     "nq_rango": "30,734.25–30,802",
+     "nq_mov": "+50.5",
+     "es_vol": "166,008",
+     "es_mov": "+4.25",
+     "nota": "Strong close with AMD/NVDA; 30,788.75."
+    }
+   ]
+  },
+  "pivotes": {
+   "nota": "Pivots for tomorrow from today's regular-session H/L/C. P (30,732) lines up with the afternoon higher lows; R1 (30,872) sits inside 30,844–30,906.",
+   "filas": [
+    {
+     "nombre": "R3",
+     "nq": "31,095.5",
+     "es": "7,896.75",
+     "nota": "ES: next to the 7,897.5 record."
+    },
+    {
+     "nombre": "R2",
+     "nq": "30,955",
+     "es": "7,880",
+     "nota": ""
+    },
+    {
+     "nombre": "R1",
+     "nq": "30,872",
+     "es": "7,868",
+     "nota": "NQ: inside 30,844–30,906. ES: Monday's high (7,870)."
+    },
+    {
+     "nombre": "P",
+     "nq": "30,731.5",
+     "es": "7,851.25",
+     "nota": "NQ: afternoon higher lows."
+    },
+    {
+     "nombre": "S1",
+     "nq": "30,648.5",
+     "es": "7,839.25",
+     "nota": ""
+    },
+    {
+     "nombre": "S2",
+     "nq": "30,508",
+     "es": "7,822.5",
+     "nota": "NQ: near the Sep 29–30 lows."
+    },
+    {
+     "nombre": "S3",
+     "nq": "30,425",
+     "es": "7,810.5",
+     "nota": ""
+    }
+   ]
+  },
+  "eventos": [
+   {
+    "hora": "9:30–10:00",
+    "evento": "Open",
+    "nq": "+173.5",
+    "es": "+6.75",
+    "lectura": "Swept the overnight low (30,591) and ran to 30,806."
+   },
+   {
+    "hora": "10:00–10:30",
+    "evento": "Existing home sales",
+    "nq": "−41.75",
+    "es": "−5.5",
+    "lectura": "Day high 30,814.75 and rejection; the data didn't move it."
+   },
+   {
+    "hora": "11:00–12:00",
+    "evento": "No scheduled event",
+    "nq": "−0.75",
+    "es": "−2.5",
+    "lectura": "Morning low 30,635.5; ES day low 7,834.5."
+   },
+   {
+    "hora": "14:00–16:00",
+    "evento": "No scheduled event (chips rally)",
+    "nq": "+70",
+    "es": "+11",
+    "lectura": "AMD, NVDA and INTC rise; NQ closes at 30,788.75."
+   },
+   {
+    "hora": "3:45–4:00",
+    "evento": "Waller (window)",
+    "nq": "+17.25",
+    "es": "−2.25",
+    "lectura": "No clear reaction."
+   },
+   {
+    "hora": "Wed 8:30",
+    "evento": "CPI — watch",
+    "nq": "—",
+    "es": "—",
+    "lectura": "Hot → 30,688 and 30,591; cool → 30,815 and 30,844–30,906."
+   }
+  ],
+  "picks": {
+   "nota": "No picks today: nothing passed all three filters this morning. BMBL (cut: unconfirmed buyout) stayed flat all day at 5.94, as expected."
+  },
+  "soportes": {
+   "nota": "Morning board result (all B or C). Grade B (10): 4 held (CEG, GOOGL and AMZN hit target; PLTR held 5 cents above invalidation), 2 broke (SPCX at the open; AAPL at 15:30) and 4 didn't touch support (META and QQQ hit target; MSFT and TSLA almost). Grade C (4): all 4 held and 3 hit target (NVDA, AMD, INTC) on the chip rebound. Today the C grade didn't predict well.",
+   "revision": [
+    {
+     "ticker": "CEG",
+     "nivel": "286.83",
+     "grado": "B",
+     "resultado": "Target",
+     "nota": "Wick to 286.31 at the open, 293.23 target at 9:40 and high 298.42 at 14:55 (+4.0%); close 295.74."
+    },
+    {
+     "ticker": "GOOGL",
+     "nivel": "353.22",
+     "grado": "B",
+     "resultado": "Target",
+     "nota": "Low 351.60 at 10:15 (351.19 invalidation intact), bounce to 357.24 (+1.1%) through the 356.50 target; close 353.74."
+    },
+    {
+     "ticker": "AMZN",
+     "nivel": "258.85",
+     "grado": "B",
+     "resultado": "Target",
+     "nota": "Didn't touch the level in the morning (low 259.19) and ran to 262.87 (261.12 target); into the close it slipped under the level (258.42) without invalidating: close 258.63."
+    },
+    {
+     "ticker": "PLTR",
+     "nivel": "207.52",
+     "grado": "B",
+     "resultado": "Held",
+     "nota": "Low 205.97 at 12:55, 5 cents above the 205.92 invalidation, bounce to 209.35 (+0.9%); 212.94 target missed (high 210.84); close 208.61."
+    },
+    {
+     "ticker": "AAPL",
+     "nivel": "342.99",
+     "grado": "B",
+     "resultado": "Broke",
+     "nota": "Lost and reclaimed it in the morning (bounce to 347.02, +1.2%), but closed below the 341.38 invalidation at 15:30; low 340.75, close 341.33."
+    },
+    {
+     "ticker": "SPCX",
+     "nivel": "160.85",
+     "grado": "B",
+     "resultado": "Broke",
+     "nota": "Opened 161.92 and closed below the 159.19 invalidation at 9:50; low 156.11, close 156.61 (−4.2%)."
+    },
+    {
+     "ticker": "META",
+     "nivel": "728.07",
+     "grado": "B",
+     "resultado": "Untouched",
+     "nota": "Low 734.91; 744 target at 9:35 and high 771.21 (+5.9% off the level); close 762.45."
+    },
+    {
+     "ticker": "QQQ",
+     "nivel": "737.62",
+     "grado": "B",
+     "resultado": "Untouched",
+     "nota": "Low 738.83; 743.23 target at 9:40; close 743.63."
+    },
+    {
+     "ticker": "MSFT",
+     "nivel": "542.74",
+     "grado": "B",
+     "resultado": "Untouched",
+     "nota": "Low 543.07 at the close; 553.72 target almost: high 551.15 (2.57 short); close 543.52."
+    },
+    {
+     "ticker": "TSLA",
+     "nivel": "368.60",
+     "grado": "B",
+     "resultado": "Untouched",
+     "nota": "Low 371.35; 377.58 target almost: high 377.05 (0.53 short); close 375.24."
+    },
+    {
+     "ticker": "NVDA",
+     "nivel": "224.90",
+     "grado": "C",
+     "resultado": "Target",
+     "nota": "Testing from below: low 223.07 at 9:35, reclaimed the level and hit the 227.92 target at 15:20; close 228.52 (+1.6% over the level)."
+    },
+    {
+     "ticker": "AMD",
+     "nivel": "574.20",
+     "grado": "C",
+     "resultado": "Target",
+     "nota": "Low 570.60 at the open, 586.54 target at 9:40 and close near the high at 605.49 (+5.4%)."
+    },
+    {
+     "ticker": "INTC",
+     "nivel": "98.33",
+     "grado": "C",
+     "resultado": "Target",
+     "nota": "Low 98.23 at 9:35, 100.71 target at 9:40 and close 102.85 (+4.6%)."
+    },
+    {
+     "ticker": "MU",
+     "nivel": "930.88",
+     "grado": "C",
+     "resultado": "Held",
+     "nota": "Low 929.03 at the open and bounce to 953.48 (+2.4%); 978.50 target missed; close 952.43 (−3.7% on the day)."
+    }
+   ],
+   "top3": [
+    {
+     "ticker": "AAPL",
+     "grado": "B",
+     "rr": "1.4",
+     "nivel": "344.57",
+     "texto": "Afternoon board.",
+     "resultado": "Broke 13:55"
+    },
+    {
+     "ticker": "CEG",
+     "grado": "B",
+     "rr": "0.3",
+     "nivel": "293.23",
+     "texto": "Afternoon board.",
+     "resultado": "Target 295.89 (12:20); high 298.42"
+    },
+    {
+     "ticker": "META",
+     "grado": "B",
+     "rr": "0.9",
+     "nivel": "759.15",
+     "texto": "Afternoon board.",
+     "resultado": "Held (low 757.71); 771.21 target almost (767.90)"
+    }
+   ]
+  },
+  "redes": {
+   "gancho": "Memory falls, chips rebound: NQ closes high",
+   "sub2": "NQ closes at 30,788.75 (88% of range). Tomorrow: CPI 8:30."
+  }
+ }
+}
