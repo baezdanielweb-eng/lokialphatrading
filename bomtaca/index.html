@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Gas Detector Options</title>
+<meta name="description" content="Standalone H2S, CO and fuel-vapor (LEL) detectors for an industrial site: all-in-one and single-gas options, mid and high range, pros, cons and where to buy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#ffffff; --ink:#111827; --muted:#5b6474; --line:#e3e6eb;
+  --accent:#d9480f; --good:#1a7f37; --bad:#c2410c; --chip:#eef1f5;
+  --high:#7c3aed; --mid:#0e7490; --budget:#4d7c0f; --warn-bg:#fff7ed; --warn-line:#fdba74;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b0f17; --card:#121826; --ink:#e7ebf2; --muted:#9aa4b5; --line:#232c3d;
+    --accent:#ff7a45; --good:#4ade80; --bad:#fb923c; --chip:#1b2335;
+    --high:#a78bfa; --mid:#22d3ee; --budget:#a3e635; --warn-bg:#2a1a0e; --warn-line:#9a4a14;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b0f17; --card:#121826; --ink:#e7ebf2; --muted:#9aa4b5; --line:#232c3d;
+  --accent:#ff7a45; --good:#4ade80; --bad:#fb923c; --chip:#1b2335;
+  --high:#a78bfa; --mid:#22d3ee; --budget:#a3e635; --warn-bg:#2a1a0e; --warn-line:#9a4a14;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin:0 0 8px}
+h2{font-size:1.35rem;margin:48px 0 6px}
+h3{font-size:1.1rem;margin:0}
+p{margin:8px 0}
+a{color:var(--accent)}
+.lead{color:var(--muted);max-width:760px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+.chip{background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:.85rem}
+.note{background:var(--warn-bg);border:1px solid var(--warn-line);border-radius:12px;padding:14px 16px;margin:20px 0;font-size:.95rem}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:14px;margin-top:16px}
+.pick{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.pick .k{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+.pick .v{font-weight:700;margin:4px 0}
+.pick p{font-size:.92rem;color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:16px;margin-top:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.tier{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.tier.high{color:var(--high)} .tier.mid{color:var(--mid)} .tier.budget{color:var(--budget)}
+.sub{color:var(--muted);font-size:.9rem;margin:2px 0 0}
+.price{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.95rem}
+.feat{display:flex;flex-wrap:wrap;gap:6px}
+.feat span{font-size:.78rem;background:var(--chip);border-radius:6px;padding:2px 8px}
+ul{margin:0;padding-left:20px}
+li{margin:3px 0;font-size:.93rem}
+.pros li::marker{content:"+  ";color:var(--good);font-weight:700}
+.cons li::marker{content:"−  ";color:var(--bad);font-weight:700}
+.lbl{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:2px}
+.buy{margin-top:auto;padding-top:8px;border-top:1px solid var(--line);font-size:.9rem}
+.buy a{display:inline-block;margin:2px 10px 2px 0}
+.table-wrap{overflow-x:auto;margin-top:14px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.92rem}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+.tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:14px;margin-top:14px}
+.tip{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.tip h3{font-size:1rem;margin-bottom:6px}
+.tip p,.tip li{font-size:.92rem}
+footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Gas detectors for H₂S, CO and fuel vapors</h1>
+  <p class="lead">Options for an industrial site where each detector works <strong>on its own</strong>: no central controller, with a local light (strobe), a horn and, where possible, a screen showing the live gas level. The list covers all-in-one units and one-detector-per-gas setups, in mid and high price ranges.</p>
+  <div class="chips">
+    <span class="chip">H₂S (hydrogen sulfide)</span>
+    <span class="chip">CO (carbon monoxide)</span>
+    <span class="chip">Fuel vapors = combustible gas, % LEL</span>
+    <span class="chip">Standalone: strobe + horn + display</span>
+  </div>
+  <div class="note"><strong>Prices are not quotes.</strong> They are what US/UK resellers listed online in October 2026, before tax, shipping and installation. Most of these units are built to order, and the exact sensor setup changes the price. Ask an authorized distributor for a quote with your gases and ranges before buying.</div>
+</header>
+
+<section>
+  <h2>Short answer</h2>
+  <div class="picks">
+    <div class="pick"><div class="k">Best all-in-one, permanent</div><div class="v">Sensidyne SensAlarm FLEX</div><p>One wall unit with several sensors, a color screen, built-in strobes and a horn.</p></div>
+    <div class="pick"><div class="k">Best per-gas, mid-high</div><div class="v">3 × Crowcon Xgard Bright</div><p>Use the version with the built-in light and sounder, and an infrared sensor for fuel vapors.</p></div>
+    <div class="pick"><div class="k">Lowest cost (non-hazardous area)</div><div class="v">Macurco 6/12 series</div><p>One unit per gas, each with a display and buzzer, plus a strobe wired to its relay.</p></div>
+    <div class="pick"><div class="k">No wiring / temporary</div><div class="v">Industrial Scientific Radius BZ1</div><p>A battery area monitor with a screen, a 108 dB horn and strobes. You can move it around the site.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>First: is the area classified?</h2>
+  <p class="lead">Where fuel vapors can build up, the area is often classified as hazardous (Class I Div 1/2 in the US, ATEX/IECEx zones elsewhere). In a classified area, the detector, horn and strobe all need the matching explosion-proof rating. The cheaper "general purpose" units below (Macurco, Forensics) are <strong>not</strong> for classified areas. Your safety officer or the plant's area classification drawing settles this, and the answer decides which half of this page applies.</p>
+</section>
+
+<section>
+  <h2>All-in-one (several gases in one unit)</h2>
+  <div class="grid">
+
+    <article class="card">
+      <div class="top"><div><h3>Sensidyne SensAlarm FLEX</h3><p class="sub">Fixed, wall-mounted, permanent</p></div><span class="tier high">High</span></div>
+      <div class="feat"><span>7" color LCD</span><span>Built-in LED strobes</span><span>95 dB horn</span><span>4–8 relays</span><span>4–20 mA / Modbus</span></div>
+      <p class="price">Price: quote only</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Closest match to the brief: one box shows every gas on a big screen and alarms on its own, with no central needed.</li>
+        <li>The sensor heads are rated Class I Div 1, so they can go in the hazardous spot.</li>
+        <li>Spare relays can drive extra strobes, fans or valves later.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>The main display is rated only Class I Div 2, so it must sit in a less hazardous spot.</li>
+        <li>No public price. Expect it to be the most expensive fixed option.</li>
+        <li>A 95 dB horn is quieter than the area monitors; add a horn on a relay in a noisy plant.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.sensidyne.com/FLEX" target="_blank" rel="noopener">Sensidyne product page ↗</a><a href="https://sensidyne.com/wp-content/uploads/2024/03/Sensidyne_SensAlarmFlex_4page_C1D1-GP_012326.pdf" target="_blank" rel="noopener">Brochure (PDF) ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Industrial Scientific Radius BZ1</h3><p class="sub">Transportable area monitor</p></div><span class="tier high">High</span></div>
+      <div class="feat"><span>LCD</span><span>108 dB horn</span><span>Red + blue strobes</span><span>Battery</span><span>Up to 7 gases</span></div>
+      <p class="price">≈ $7,400 – $14,100 (4-gas LEL / CO / H₂S / O₂)</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Very loud and very visible; built for loud industrial sites.</li>
+        <li>No wiring: about 7 days typical on battery, about 30 days with the external power supply.</li>
+        <li>Can add a PID sensor for diesel or other heavy fuel vapors.</li>
+        <li>Hazardous-location rated.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>Expensive per unit, and the docking station is extra.</li>
+        <li>Made for temporary use; someone has to charge it or keep it on external power.</li>
+        <li>The "with pump" models drain the battery about twice as fast.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.buygasmonitors.com/industrial-scientific-radius-bz1-area-monitor-non-wireless-with-pump-o2-lel-co-h2s-sensors/" target="_blank" rel="noopener">BuyGasMonitors ↗</a><a href="https://www.airgas.com/product/Safety-Products/Monitors-%26-Calibration-Equipment/Gas-Monitors-%26-Sensors/p/I24BZ1-K123001111" target="_blank" rel="noopener">Airgas ↗</a><a href="https://www.tenaquip.com/product/industrial-scientific-radius-bz1-area-monitor-4-gas-lel-co-h2s-o2-bz1-k123000111-hz506" target="_blank" rel="noopener">Tenaquip ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Honeywell BW RigRat</h3><p class="sub">Transportable area monitor</p></div><span class="tier high">High</span></div>
+      <div class="feat"><span>LCD</span><span>Audible + visual alarm</span><span>Battery</span><span>LEL / CO / H₂S / O₂</span></div>
+      <p class="price">≈ $9,400 – $11,050</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Same idea as the Radius: one rugged box, loud alarm, no wiring.</li>
+        <li>Honeywell service network and calibration gas are easy to find.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>Costs more than the Radius in most listings.</li>
+        <li>Many configurations; check that the exact part number has the sensors you need.</li>
+        <li>Built to order, so lead times can be long.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.zoro.com/honeywell-bw-rigrat-multi-gas-detector-audible-vibrating-visual-lcd-2-yr-battery-life-hrr-c303100abk-000/i/G201252779/" target="_blank" rel="noopener">Zoro ↗</a><a href="https://www.airgas.com/product/Safety-Products/Monitors-%26-Calibration-Equipment/Other-Instruments-%26-Accessories/p/B86HRRA300009ABK00" target="_blank" rel="noopener">Airgas ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Blackline G7 EXO</h3><p class="sub">Area monitor + cellular alerts</p></div><span class="tier high">High</span></div>
+      <div class="feat"><span>LCD</span><span>Audible + visual alarm</span><span>100-day battery</span><span>Cellular</span><span>H₂S / LEL-IR / CO / O₂</span></div>
+      <p class="price">Subscription (device + service plan), quote only</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>About 100 days on one charge, with the longest-life sensor setup.</li>
+        <li>Sends alarms to phones over cellular, so people hear about it even off site, still without a central panel.</li>
+        <li>Uses an infrared LEL sensor, which H₂S can't poison.</li>
+        <li>3-year hardware warranty.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>Monthly or yearly service fee; the remote features stop if you stop paying.</li>
+        <li>Needs cellular coverage at the site for the remote alerts.</li>
+      </ul></div>
+      <div class="buy"><a href="https://allsafeindustries.com/g7-exo-area-monitor.aspx" target="_blank" rel="noopener">AllSafe Industries ↗</a><a href="https://www.blacklinesafety.com/hubfs/Datasheet_G7EXO/2023-10-18-G7%20EXO%20Datasheet-NA-R17.pdf?hsLang=en" target="_blank" rel="noopener">Datasheet (PDF) ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Forensics Detectors 4-Gas Wall Mount (FD-60-4GAS)</h3><p class="sub">Fixed, general purpose</p></div><span class="tier budget">Budget</span></div>
+      <div class="feat"><span>CO / H₂S / O₂ / LEL</span><span>Relay output</span><span>Wall mount</span></div>
+      <p class="price">≈ $1,395</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>By far the cheapest way to get all three gases in one wall unit.</li>
+        <li>The relay can switch an external strobe or fan.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>Not for classified (explosive) areas.</li>
+        <li>Smaller brand with thinner support and spare-sensor supply.</li>
+        <li>Online listings don't confirm the display or alarm specs; check the datasheet before buying.</li>
+      </ul></div>
+      <div class="buy"><a href="https://wcsafety.com/collections/4-gas-monitors/products/forensics-4-gas-wall-mount-monitor" target="_blank" rel="noopener">WC Safety ↗</a></div>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <h2>One detector per gas (you need 3)</h2>
+  <p class="lead">You install three heads: H₂S, CO and LEL. Each one shows its own reading and alarms on its own. This costs more up front than one box, but you can place each sensor at the right height for its gas (see the tips below), and one failed sensor leaves the other two working.</p>
+  <div class="grid">
+
+    <article class="card">
+      <div class="top"><div><h3>Crowcon Xgard Bright</h3><p class="sub">Fixed, explosion-proof, per gas</p></div><span class="tier mid">Mid-high</span></div>
+      <div class="feat"><span>Display</span><span>Built-in beacon + sounder option</span><span>Relays</span><span>4–20 mA / Modbus</span><span>IR LEL available</span></div>
+      <p class="price">≈ £740 – £985 per head (≈ $950 – $1,300), ×3</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Order it with the integrated audio-visual alarm and each head is a complete standalone station: screen, light and sound.</li>
+        <li>Flameproof, so it works in classified areas.</li>
+        <li>Wide H₂S ranges (10–200 ppm), and an infrared LEL sensor for fuel vapors.</li>
+        <li>Best price for that feature set among the big brands.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>Mostly sold through UK/EU distributors; fewer US stockists.</li>
+        <li>The beacon/sounder add-on is often out of stock; confirm the lead time.</li>
+        <li>The built-in sounder isn't as loud as a dedicated horn in a very noisy plant.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.frontline-safety.co.uk/crowcon-xgard-bright-fixed-gas-detector" target="_blank" rel="noopener">Frontline Safety ↗</a><a href="https://www.rockallsafety.co.uk/product/crowcon-xgard-bright-fixed-gas-detector/" target="_blank" rel="noopener">Rockall Safety ↗</a><a href="https://www.safety.com.sg/products/crowcon-integrated-beacon-sounder-for-xgardbright-crnbcs-d46h73" target="_blank" rel="noopener">Beacon/sounder add-on ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>MSA Ultima X5000</h3><p class="sub">Fixed, explosion-proof, 1–2 sensors per head</p></div><span class="tier high">High</span></div>
+      <div class="feat"><span>Display</span><span>Relays</span><span>Bluetooth app</span><span>XIR+ infrared LEL</span><span>2 sensors per head</span></div>
+      <p class="price">≈ £3,010 – £5,125 per head (≈ $3,900 – $6,600)</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Two sensors in one head, so two heads cover all three gases (e.g. H₂S + IR LEL, and CO).</li>
+        <li>Top-tier sensors with long life; the Bluetooth app makes setup and checks easy.</li>
+        <li>Strong US support network.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>No built-in horn or strobe: add an explosion-proof horn/strobe wired to its relay.</li>
+        <li>Most expensive per head.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.frontline-safety.co.uk/msa-ultima-x5000-gas-monitor-dual-sensor-with-relay" target="_blank" rel="noopener">Frontline Safety (dual) ↗</a><a href="https://www.rockallsafety.co.uk/?p=18565" target="_blank" rel="noopener">Rockall Safety ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Honeywell Sensepoint XCD</h3><p class="sub">Fixed, explosion-proof, per gas</p></div><span class="tier mid">Mid-high</span></div>
+      <div class="feat"><span>Backlit LCD</span><span>2 alarm + 1 fault relay</span><span>4–20 mA / Modbus</span></div>
+      <p class="price">≈ $2,250 – $3,100 per head, ×3</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Proven, widely stocked; you can set it up without opening the housing.</li>
+        <li>The relays can drive a horn/strobe directly, with no controller.</li>
+        <li>Replaceable sensor cartridges (H₂S ≈ $570).</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>No built-in horn or strobe; budget for three explosion-proof horn/strobes.</li>
+        <li>Honeywell added a 16% surcharge in 2025, and lead times can run 2+ weeks.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.kele.com/product/hazardous-locations/gas-sensor/honeywell-analytics/spxcdusnhx" target="_blank" rel="noopener">Kele (H₂S) ↗</a><a href="https://e-controls.net/products/honeywell-analytics-spxcdulnh2m-explosion-proof-gas-sensor" target="_blank" rel="noopener">e-Controls ↗</a><a href="https://www.instrumart.com/products/33620/honeywell-sensepoint-xcd-gas-detector" target="_blank" rel="noopener">Instrumart ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>CTI GG series + CTI horn/strobe</h3><p class="sub">Fixed, per gas; explosion-proof (EXP) versions</p></div><span class="tier mid">Mid</span></div>
+      <div class="feat"><span>Display</span><span>Relays</span><span>4–20 mA</span><span>Matching horn/strobes</span></div>
+      <p class="price">GG-H2S ≈ $1,120 – $1,600 · horn/strobe ≈ $260 – $780</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>US maker that sells the detector and the matching horn/strobe together, so they're easy to pair.</li>
+        <li>The EXP version is made to drive a horn/strobe and ventilation directly.</li>
+        <li>Mid-range price with an online store.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>The horn/strobe is a separate box (more wiring).</li>
+        <li>Less known outside North America.</li>
+      </ul></div>
+      <div class="buy"><a href="https://ctigas.com/shop/page/5/" target="_blank" rel="noopener">CTI online store ↗</a><a href="https://www.keepsupply.com/gg-h2s-50-exp-calibration-technologies-gas-sensor-hydrogen-sulfide-0-50-ppm-4-20-ma-output-explosion-proof-enclosure" target="_blank" rel="noopener">GG-H2S-EXP at Keep Supply ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>RKI Beacon 110 kit</h3><p class="sub">Explosion-proof horn + strobe with a one-sensor local controller</p></div><span class="tier mid">Mid-high</span></div>
+      <div class="feat"><span>Horn + strobe built in</span><span>Display</span><span>12 VDC option</span></div>
+      <p class="price">Varies by kit; see Transcat</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Explosion-proof horn and strobe built into one package.</li>
+        <li>Each kit runs one sensor locally, so it's still standalone with no plant-wide central.</li>
+        <li>Can run on 12 VDC, which helps where mains power is awkward.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>You still need three kits (one per gas) plus the sensors.</li>
+        <li>Bulkier install than a single head.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.transcat.com/rki-instruments-72-2110rk-hr-72-2110rk-hr-262359" target="_blank" rel="noopener">Transcat ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Macurco 6 / 12 series</h3><p class="sub">Fixed, general purpose, per gas</p></div><span class="tier budget">Budget</span></div>
+      <div class="feat"><span>Digital display</span><span>Internal buzzer</span><span>Alarm relay → strobe</span><span>Fan relay</span></div>
+      <p class="price">H₂S TX-6-HS ≈ $865 · CO CX-6 ≈ $415 · LEL GD-6 ≈ $550</p>
+      <div><div class="lbl">Good</div><ul class="pros">
+        <li>Lowest cost for three real standalone detectors (about $1,850 for all three).</li>
+        <li>Each one has a display and a buzzer; the relay runs a strobe and an exhaust fan.</li>
+        <li>Simple to install and maintain.</li>
+      </ul></div>
+      <div><div class="lbl">Bad</div><ul class="cons">
+        <li>Not explosion-proof: only for non-classified areas (shops, garages, battery rooms).</li>
+        <li>The buzzer is small; add a strobe/horn for a loud plant.</li>
+        <li>Catalytic LEL sensor; see the H₂S warning below.</li>
+      </ul></div>
+      <div class="buy"><a href="https://pksafety.com/products/macurco-h2s-fixed-gas-detector-controller-transducer" target="_blank" rel="noopener">PK Safety (H₂S) ↗</a><a href="https://www.123securityproducts.com/products/fire-safety/detection-devices/gd-6.html" target="_blank" rel="noopener">123 Security (LEL) ↗</a><a href="https://www.123securityproducts.com/security-products/burglar-alarms/sensors/gas-detection/cx6coladbs.html" target="_blank" rel="noopener">123 Security (CO) ↗</a><a href="https://buygasmonitors.com/macurco-standalone-hydrogen-sulfide-h2s-detector" target="_blank" rel="noopener">BuyGasMonitors ↗</a></div>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <h2>Side by side</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Option</th><th>Type</th><th>Screen</th><th>Strobe / horn</th><th>Classified area</th><th>Approx. cost for all 3 gases</th></tr></thead>
+    <tbody>
+      <tr><td>Sensidyne SensAlarm FLEX</td><td>All-in-one, fixed</td><td>7" color</td><td>Built in (95 dB)</td><td>Sensors C1D1, display C1D2</td><td>Quote</td></tr>
+      <tr><td>Industrial Scientific Radius BZ1</td><td>All-in-one, battery</td><td>Yes</td><td>Built in (108 dB)</td><td>Yes</td><td>$7.4k – $14.1k</td></tr>
+      <tr><td>Honeywell BW RigRat</td><td>All-in-one, battery</td><td>Yes</td><td>Built in</td><td>Yes</td><td>$9.4k – $11k</td></tr>
+      <tr><td>Blackline G7 EXO</td><td>All-in-one, battery + cell</td><td>Yes</td><td>Built in</td><td>Yes</td><td>Subscription</td></tr>
+      <tr><td>Forensics FD-60-4GAS</td><td>All-in-one, fixed</td><td>Check</td><td>Relay → external</td><td>No</td><td>≈ $1.4k</td></tr>
+      <tr><td>3 × Crowcon Xgard Bright</td><td>Per gas, fixed</td><td>Yes</td><td>Built-in option</td><td>Yes</td><td>≈ $2.9k – $3.9k</td></tr>
+      <tr><td>2 × MSA Ultima X5000</td><td>Per gas (2 per head)</td><td>Yes</td><td>Relay → external</td><td>Yes</td><td>≈ $7.8k – $13k + horns</td></tr>
+      <tr><td>3 × Honeywell Sensepoint XCD</td><td>Per gas, fixed</td><td>Backlit LCD</td><td>Relay → external</td><td>Yes</td><td>≈ $6.7k – $9.3k + horns</td></tr>
+      <tr><td>3 × CTI GG (EXP)</td><td>Per gas, fixed</td><td>Yes</td><td>CTI horn/strobe</td><td>EXP version</td><td>≈ $4k – $7k incl. horns</td></tr>
+      <tr><td>3 × Macurco 6-series</td><td>Per gas, fixed</td><td>Yes</td><td>Buzzer + relay → strobe</td><td>No</td><td>≈ $1.85k + strobes</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2>Things that matter for this install</h2>
+  <div class="tips">
+    <div class="tip"><h3>H₂S kills catalytic LEL sensors</h3><p>The common "catalytic bead" LEL sensor gets poisoned by H₂S and silicones and slowly stops reading. With H₂S on site, choose an <strong>infrared (IR) LEL</strong> sensor (Crowcon IR, MSA XIR+, Blackline LEL-IR, Radius IR). IR doesn't see hydrogen, but it does see gasoline and most fuel vapors.</p></div>
+    <div class="tip"><h3>Diesel and heavy fuels</h3><p>Gasoline vapor is easy to detect as % LEL. Diesel, kerosene and jet fuel give off little vapor, so an LEL sensor may read near zero even when the smell is strong. If heavy fuels are the main concern, add a <strong>PID</strong> sensor (an option on the Radius BZ1 and SensAlarm FLEX).</p></div>
+    <div class="tip"><h3>Mounting height</h3><ul><li><strong>H₂S</strong> and <strong>gasoline vapor</strong> are heavier than air: mount 30–45 cm (12–18 in) above the floor, near pits, drains and low spots.</li><li><strong>CO</strong> is close to air weight: mount in the breathing zone, about 1.2–1.8 m (4–6 ft).</li><li>That's a big reason to prefer one head per gas over a single box.</li></ul></div>
+    <div class="tip"><h3>Typical alarm levels</h3><ul><li>H₂S: low 10 ppm / high 15–20 ppm</li><li>CO: low 25 ppm / high 50 ppm</li><li>Fuel vapor: low 10% LEL / high 20% LEL</li></ul><p>Set yours with your safety officer and local rules (OSHA, or your country's equivalent).</p></div>
+    <div class="tip"><h3>Running cost</h3><p>Plan for a bump test with gas every month or so, a full calibration about every 6 months, and new H₂S/CO sensors every 2–3 years. Calibration gas and a regulator cost a few hundred dollars a year. A cheap unit with expensive or hard-to-find sensors costs more in the long run.</p></div>
+    <div class="tip"><h3>Before you order</h3><ul><li>Area classification (hazardous or not)</li><li>Power at each point (24 VDC, 120/240 VAC, or battery)</li><li>Gas ranges: H₂S 0–50 ppm, CO 0–500 ppm, LEL 0–100%</li><li>Indoor or outdoor (IP rating, temperature)</li><li>Ask for the horn/strobe in the same quote</li></ul></div>
+  </div>
+</section>
+
+<footer>
+  <p>Research compiled October 2026 from manufacturer pages and online reseller listings. Prices and availability change; get a written quote from an authorized distributor. This page compares products; it is not an engineering design. A qualified installer should confirm the area classification, placement and alarm set points.</p>
+</footer>
+
+</div>
+</body>
+</html>
