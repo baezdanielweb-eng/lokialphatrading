@@ -51,7 +51,7 @@ a{color:var(--accent)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}
 .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .tier{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
-.tier.high{color:var(--high)} .tier.mid{color:var(--mid)} .tier.budget{color:var(--budget)}
+.tier.high{color:var(--high)} .tier.mid{color:var(--mid)} .tier.budget{color:var(--budget)} .tier.no{color:var(--bad)}
 .sub{color:var(--muted);font-size:.9rem;margin:2px 0 0}
 .price{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.95rem}
 .feat{display:flex;flex-wrap:wrap;gap:6px}
@@ -306,6 +306,50 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
     </article>
 
   </div>
+</section>
+
+<section id="revisados">
+  <h2>Otras opciones revisadas: Honeywell Midas S2 y Sensepoint XRL</h2>
+  <p class="lead">Se evaluaron contra el requisito: detectores independientes, sin central, con alarma visual y sonora y, de ser posible, pantalla LCD. Ninguno es la mejor opción para detectores de pared; abajo el porqué.</p>
+  <div class="grid">
+
+    <article class="card">
+      <div class="top"><div><h3>Honeywell Midas S2</h3><p class="sub">Detector por muestreo: aspira aire por manguera desde hasta 30 m, uno por gas</p></div><span class="tier mid">Casos especiales</span></div>
+      <div class="feat"><span>Pantalla a color 2.4"</span><span>LED de alarma</span><span>Relés</span><span>4–20 mA / Modbus TCP</span><span>24 VDC o PoE</span></div>
+      <p class="price">≈ $1,780 por equipo + cartucho $448–680, + recargo de 16%; &gt; $7,000 para los 3 gases</p>
+      <div><div class="lbl">A favor</div><ul class="pros">
+        <li>Pantalla a color y LED brillantes; los relés pueden activar una sirena/estrobo, así que funciona sin central.</li>
+        <li>Sirve para vigilar fosas, tanques o lugares de difícil acceso sin meter el equipo en la zona peligrosa.</li>
+        <li>Hay cartuchos para H₂S, CO e inflamables (LEL); se calibra cambiando el cartucho.</li>
+      </ul></div>
+      <div><div class="lbl">En contra</div><ul class="cons">
+        <li>Un solo gas por equipo: se necesitan 3.</li>
+        <li>No encontré sirena integrada: el sonido requiere una sirena externa en los relés.</li>
+        <li>No encontré certificación para área clasificada: el equipo debe ir en zona no peligrosa.</li>
+        <li>El H₂S se adhiere a la manguera (lectura más lenta y más baja en tramos largos), y el vapor de diésel puede condensarse.</li>
+        <li>Mantenimiento de bomba, filtros y mangueras. Pensado para semiconductores y laboratorios.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.instrumart.com/products/820545/honeywell-midas-s2-gas-monitoring-system" target="_blank" rel="noopener">Instrumart ↗</a><a href="https://www.instrumart.com/products/820617/honeywell-midas-s2-sensor-cartridge" target="_blank" rel="noopener">Cartuchos (Instrumart) ↗</a><a href="https://www.frontline-safety.co.uk/honeywell-midas-s2-gas-detector-sensor-cartridges" target="_blank" rel="noopener">Frontline Safety ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Honeywell Sensepoint XRL</h3><p class="sub">Transmisor fijo económico, se configura por Bluetooth</p></div><span class="tier no">No recomendado</span></div>
+      <div class="feat"><span>Solo LED de estado</span><span>4–20 mA / Modbus RTU</span><span>IP66 / NEMA 4X</span></div>
+      <p class="price">≈ $1,325 – $1,560 por cabezal, ×3, + recargo de 16%</p>
+      <div><div class="lbl">A favor</div><ul class="pros">
+        <li>Precio bajo y construcción robusta para la industria.</li>
+        <li>Versiones para H₂S, CO, O₂, H₂ e inflamables.</li>
+      </ul></div>
+      <div><div class="lbl">En contra</div><ul class="cons">
+        <li>No tiene pantalla LCD: los niveles se ven en la app del teléfono.</li>
+        <li>No tiene relés ni sirena: solo envía señal a una central. <strong>Sin central no puede dar alarma sonora.</strong></li>
+        <li>El sensor de inflamables es catalítico; el H₂S lo envenena y puede hacer que marque menos de lo real.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.instrumart.com/products/44846/honeywell-sensepoint-xrl-gas-detector" target="_blank" rel="noopener">Instrumart ↗</a><a href="https://www.e-controls.net/honeywell-analytics-sensepoint-xrl-splih2baxcnuzz-fixed-gas-detector.html" target="_blank" rel="noopener">e-Controls (H₂S) ↗</a><a href="https://www.frontline-safety.co.uk/honeywell-sensepoint-xrl-bluetooth-yellow-modbus" target="_blank" rel="noopener">Frontline Safety ↗</a></div>
+    </article>
+
+  </div>
+  <p class="note"><strong>Conclusión:</strong> el Sensepoint XRL no cumple (sin pantalla ni alarma local). El Midas S2 solo conviene para tomar muestras de un lugar donde no se puede instalar un detector. Para detectores de pared independientes, seguir con el <strong>Sensepoint XCD</strong> (versión IR para inflamables), el <strong>Crowcon Xgard Bright</strong> o el <strong>SensAlarm FLEX</strong>.</p>
 </section>
 
 <section>

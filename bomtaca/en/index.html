@@ -51,7 +51,7 @@ a{color:var(--accent)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}
 .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .tier{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
-.tier.high{color:var(--high)} .tier.mid{color:var(--mid)} .tier.budget{color:var(--budget)}
+.tier.high{color:var(--high)} .tier.mid{color:var(--mid)} .tier.budget{color:var(--budget)} .tier.no{color:var(--bad)}
 .sub{color:var(--muted);font-size:.9rem;margin:2px 0 0}
 .price{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.95rem}
 .feat{display:flex;flex-wrap:wrap;gap:6px}
@@ -305,6 +305,50 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
     </article>
 
   </div>
+</section>
+
+<section id="reviewed">
+  <h2>Other options reviewed: Honeywell Midas S2 and Sensepoint XRL</h2>
+  <p class="lead">Checked against the requirement: standalone detectors, no central panel, visual and audible alarm and, if possible, an LCD screen. Neither is the best choice for wall-mounted detectors; here's why.</p>
+  <div class="grid">
+
+    <article class="card">
+      <div class="top"><div><h3>Honeywell Midas S2</h3><p class="sub">Sampling detector: draws air through tubing from up to 30 m away, one per gas</p></div><span class="tier mid">Special cases</span></div>
+      <div class="feat"><span>2.4" color display</span><span>Alarm LEDs</span><span>Relays</span><span>4–20 mA / Modbus TCP</span><span>24 VDC or PoE</span></div>
+      <p class="price">≈ $1,780 per unit + $448–680 cartridge, + 16% surcharge; &gt; $7,000 for all 3 gases</p>
+      <div><div class="lbl">Pros</div><ul class="pros">
+        <li>Color display and bright LEDs; relays can drive a horn/strobe, so it works without a central panel.</li>
+        <li>Good for watching pits, tanks or hard-to-reach spots without putting the unit in the hazard.</li>
+        <li>Cartridges for H₂S, CO and flammables (LEL); calibration is a cartridge swap.</li>
+      </ul></div>
+      <div><div class="lbl">Cons</div><ul class="cons">
+        <li>One gas per unit: you need 3.</li>
+        <li>I found no built-in sounder: audible alarm needs an external horn on the relays.</li>
+        <li>I found no hazardous-area rating: the unit must sit in a non-classified area.</li>
+        <li>H₂S sticks to sample tubing (slower, lower readings on long runs), and diesel vapor can condense.</li>
+        <li>Pump, filter and tubing upkeep. Built mainly for semiconductor fabs and labs.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.instrumart.com/products/820545/honeywell-midas-s2-gas-monitoring-system" target="_blank" rel="noopener">Instrumart ↗</a><a href="https://www.instrumart.com/products/820617/honeywell-midas-s2-sensor-cartridge" target="_blank" rel="noopener">Cartridges (Instrumart) ↗</a><a href="https://www.frontline-safety.co.uk/honeywell-midas-s2-gas-detector-sensor-cartridges" target="_blank" rel="noopener">Frontline Safety ↗</a></div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div><h3>Honeywell Sensepoint XRL</h3><p class="sub">Budget fixed transmitter, set up over Bluetooth</p></div><span class="tier no">Not recommended</span></div>
+      <div class="feat"><span>Status LED only</span><span>4–20 mA / Modbus RTU</span><span>IP66 / NEMA 4X</span></div>
+      <p class="price">≈ $1,325 – $1,560 per head, ×3, + 16% surcharge</p>
+      <div><div class="lbl">Pros</div><ul class="pros">
+        <li>Low price and rugged industrial build.</li>
+        <li>Versions for H₂S, CO, O₂, H₂ and flammables.</li>
+      </ul></div>
+      <div><div class="lbl">Cons</div><ul class="cons">
+        <li>No LCD screen: levels are read on a phone app.</li>
+        <li>No relays or sounder: it only sends a signal to a controller. <strong>Without a central panel it can't sound an alarm.</strong></li>
+        <li>Catalytic-bead flammable sensor; H₂S poisons it and it can read low.</li>
+      </ul></div>
+      <div class="buy"><a href="https://www.instrumart.com/products/44846/honeywell-sensepoint-xrl-gas-detector" target="_blank" rel="noopener">Instrumart ↗</a><a href="https://www.e-controls.net/honeywell-analytics-sensepoint-xrl-splih2baxcnuzz-fixed-gas-detector.html" target="_blank" rel="noopener">e-Controls (H₂S) ↗</a><a href="https://www.frontline-safety.co.uk/honeywell-sensepoint-xrl-bluetooth-yellow-modbus" target="_blank" rel="noopener">Frontline Safety ↗</a></div>
+    </article>
+
+  </div>
+  <p class="note"><strong>Bottom line:</strong> the Sensepoint XRL doesn't qualify (no screen, no local alarm). The Midas S2 only makes sense for sampling a spot where you can't mount a detector. For standalone wall detectors, stick with the <strong>Sensepoint XCD</strong> (IR version for flammables), the <strong>Crowcon Xgard Bright</strong> or the <strong>SensAlarm FLEX</strong>.</p>
 </section>
 
 <section>
