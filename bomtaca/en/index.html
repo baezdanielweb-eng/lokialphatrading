@@ -101,10 +101,19 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
   <div class="note"><strong>Prices are not quotes.</strong> They are what US/UK resellers listed online in October 2026, before tax, shipping and installation. Most of these units are built to order, and the exact sensor setup changes the price. Ask an authorized distributor for a quote with your gases and ranges before buying.</div>
 </header>
 
+<section id="our-case">
+  <h2>Our case</h2>
+  <div class="tips">
+    <div class="tip"><h3>The site</h3><ul><li><strong>Administrative office, unclassified area</strong>: general-purpose equipment is fine.</li><li>About <strong>1 km away there is a port</strong> where fuel and crude oil tankers unload; odors reach the office.</li><li>Goal: <strong>local alarm</strong> (visual and audible) when levels get high, with no central panel.</li></ul></div>
+    <div class="tip"><h3>Chosen sensors</h3><ul><li><strong>H₂S</strong>, in the lowest range available, to get closer to odor levels.</li><li><strong>CO</strong>, at breathing height.</li><li><strong>Infrared LEL</strong>, as a safety backstop. At 1 km it will normally read 0; it would only rise with a strong vapor cloud, and that's not a fault.</li><li>Optional: <strong>PID</strong> for fuel and crude vapors in ppm/ppb, the most sensitive sensor for these odors.</li></ul></div>
+    <div class="tip"><h3>Quotes (Oct 19–20, 2026)</h3><ul><li>Manufacturers: Sensidyne, Honeywell, Crowcon.</li><li>US distributors: PK Safety, FLW, Instrumart.</li><li><strong>Sensidyne replied</strong>: the SensAlarm FLEX takes up to 2 sensors, so they propose <strong>2 units</strong> (CO + remote H₂S low; IR LEL + an open channel for a PID). Site details sent; quote pending.</li><li>Others: pending.</li></ul></div>
+  </div>
+</section>
+
 <section>
   <h2>Short answer</h2>
   <div class="picks">
-    <div class="pick"><div class="k">Best all-in-one, permanent</div><div class="v">Sensidyne SensAlarm FLEX</div><p>One wall unit with several sensors, a color screen, built-in strobes and a horn.</p></div>
+    <div class="pick"><div class="k">Best all-in-one, permanent</div><div class="v">Sensidyne SensAlarm FLEX</div><p>Two wall units (up to 2 sensors each), with a color screen, built-in strobes and a horn. Configuration proposed by Sensidyne for our case.</p></div>
     <div class="pick"><div class="k">Best per-gas, mid-high</div><div class="v">3 × Crowcon Xgard Bright</div><p>Use the version with the built-in light and sounder, and an infrared sensor for fuel vapors.</p></div>
     <div class="pick"><div class="k">Lowest cost (non-hazardous area)</div><div class="v">Macurco 6/12 series</div><p>One unit per gas, each with a display and buzzer, plus a strobe wired to its relay.</p></div>
     <div class="pick"><div class="k">No wiring / temporary</div><div class="v">Industrial Scientific Radius BZ1</div><p>A battery area monitor with a screen, a 108 dB horn and strobes. You can move it around the site.</p></div>
@@ -114,6 +123,7 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 <section>
   <h2>First: is the area classified?</h2>
   <p class="lead">Where fuel vapors can build up, the area is often classified as hazardous (Class I Div 1/2 in the US, ATEX/IECEx zones elsewhere). In a classified area, the detector, horn and strobe all need the matching explosion-proof rating. The cheaper "general purpose" units below (Macurco, Forensics) are <strong>not</strong> for classified areas. Your safety officer or the plant's area classification drawing settles this, and the answer decides which half of this page applies.</p>
+  <p class="note"><strong>Our case: unclassified</strong> (administrative office). No explosion-proof equipment is needed, so the general-purpose options also apply.</p>
 </section>
 
 <section>
@@ -125,12 +135,14 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
       <div class="feat"><span>7" color LCD</span><span>Built-in LED strobes</span><span>95 dB horn</span><span>4–8 relays</span><span>4–20 mA / Modbus</span></div>
       <p class="price">Price: quote only</p>
       <div><div class="lbl">Good</div><ul class="pros">
-        <li>Closest match to the brief: one box shows every gas on a big screen and alarms on its own, with no central needed.</li>
+        <li>Closest match to the brief: each unit shows its gases on a big screen and alarms on its own, with no central needed.</li>
+        <li>With 2 units there is a spare channel to add a PID (fuel and crude vapors).</li>
         <li>The sensor heads are rated Class I Div 1, so they can go in the hazardous spot.</li>
         <li>Spare relays can drive extra strobes, fans or valves later.</li>
       </ul></div>
       <div><div class="lbl">Bad</div><ul class="cons">
-        <li>The main display is rated only Class I Div 2, so it must sit in a less hazardous spot.</li>
+        <li><strong>Up to 2 sensors per unit</strong> (confirmed by Sensidyne): H₂S, CO and LEL need 2 units.</li>
+        <li>The main display is rated only Class I Div 2, so it must sit in a less hazardous spot (not an issue in our case, unclassified area).</li>
         <li>No public price. Expect it to be the most expensive fixed option.</li>
         <li>A 95 dB horn is quieter than the area monitors; add a horn on a relay in a noisy plant.</li>
       </ul></div>
@@ -364,7 +376,7 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
   <table>
     <thead><tr><th>Option</th><th>Type</th><th>Screen</th><th>Strobe / horn</th><th>Classified area</th><th>Approx. cost for all 3 gases</th></tr></thead>
     <tbody>
-      <tr><td>Sensidyne SensAlarm FLEX</td><td>All-in-one, fixed</td><td>7" color</td><td>Built in (95 dB)</td><td>Sensors C1D1, display C1D2</td><td>Quote</td></tr>
+      <tr><td>2 × Sensidyne SensAlarm FLEX</td><td>All-in-one, fixed (2 sensors per unit)</td><td>7" color</td><td>Built in (95 dB)</td><td>Sensors C1D1, display C1D2</td><td>Quote</td></tr>
       <tr><td>Industrial Scientific Radius BZ1</td><td>All-in-one, battery</td><td>Yes</td><td>Built in (108 dB)</td><td>Yes</td><td>$7.4k – $14.1k</td></tr>
       <tr><td>Honeywell BW RigRat</td><td>All-in-one, battery</td><td>Yes</td><td>Built in</td><td>Yes</td><td>$9.4k – $11k</td></tr>
       <tr><td>Blackline G7 EXO</td><td>All-in-one, battery + cell</td><td>Yes</td><td>Built in</td><td>Yes</td><td>Subscription</td></tr>

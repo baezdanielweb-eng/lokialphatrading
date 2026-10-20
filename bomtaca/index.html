@@ -102,10 +102,19 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
   <div class="note"><strong>Los precios no son cotizaciones.</strong> Son lo que tiendas de EE.UU. y Reino Unido publicaban en línea en octubre de 2026, sin impuestos, envío ni instalación. La mayoría de estos equipos se fabrican por pedido y la configuración exacta de sensores cambia el precio. Pide una cotización a un distribuidor autorizado con tus gases y rangos antes de comprar.</div>
 </header>
 
+<section id="caso">
+  <h2>Nuestro caso</h2>
+  <div class="tips">
+    <div class="tip"><h3>El sitio</h3><ul><li><strong>Oficina administrativa, área no clasificada</strong>: sirven equipos de uso general.</li><li>A unos <strong>1 km hay un puerto</strong> donde descargan barcos de combustible y petróleo; los olores llegan a la oficina.</li><li>Objetivo: <strong>alarma local</strong> (visual y sonora) cuando los niveles suban mucho, sin central.</li></ul></div>
+    <div class="tip"><h3>Sensores elegidos</h3><ul><li><strong>H₂S</strong>, en el rango más bajo disponible, para acercarse a los niveles de olor.</li><li><strong>CO</strong>, a la altura de respiración.</li><li><strong>LEL infrarrojo</strong>, como respaldo de seguridad. A 1 km lo normal es que marque 0; solo subiría con una nube de vapor fuerte, y eso no es una falla.</li><li>Opcional: <strong>PID</strong> para vapores de combustible y crudo en ppm/ppb, el sensor más sensible para estos olores.</li></ul></div>
+    <div class="tip"><h3>Cotizaciones (19–20 oct 2026)</h3><ul><li>Fabricantes: Sensidyne, Honeywell, Crowcon.</li><li>Distribuidores en EE. UU.: PK Safety, FLW, Instrumart.</li><li><strong>Sensidyne respondió</strong>: el SensAlarm FLEX lleva máximo 2 sensores, así que propone <strong>2 unidades</strong> (CO + H₂S remoto abajo; LEL IR + canal libre para PID). Ya se le enviaron los datos del sitio; falta la cotización.</li><li>Los demás: pendientes.</li></ul></div>
+  </div>
+</section>
+
 <section>
   <h2>Respuesta corta</h2>
   <div class="picks">
-    <div class="pick"><div class="k">Mejor todo en uno, fijo</div><div class="v">Sensidyne SensAlarm FLEX</div><p>Una unidad de pared con varios sensores, pantalla a color, estrobos y sirena integrados.</p></div>
+    <div class="pick"><div class="k">Mejor todo en uno, fijo</div><div class="v">Sensidyne SensAlarm FLEX</div><p>Dos unidades de pared (máximo 2 sensores cada una), con pantalla a color, estrobos y sirena integrados. Configuración propuesta por Sensidyne para nuestro caso.</p></div>
     <div class="pick"><div class="k">Mejor por gas, gama media-alta</div><div class="v">3 × Crowcon Xgard Bright</div><p>La versión con luz y sirena integradas, y sensor infrarrojo para los vapores de combustible.</p></div>
     <div class="pick"><div class="k">Menor costo (área no peligrosa)</div><div class="v">Macurco serie 6/12</div><p>Uno por gas, cada uno con pantalla y zumbador, más un estrobo conectado a su relé.</p></div>
     <div class="pick"><div class="k">Sin cableado / temporal</div><div class="v">Industrial Scientific Radius BZ1</div><p>Monitor de área a batería con pantalla, sirena de 108 dB y estrobos. Se puede mover por el sitio.</p></div>
@@ -115,6 +124,7 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 <section>
   <h2>Primero: ¿el área está clasificada?</h2>
   <p class="lead">Donde se pueden acumular vapores de combustible, el área suele estar clasificada como peligrosa (Clase I Div 1/2 en EE.UU., zonas ATEX/IECEx en otros países). En un área clasificada, el detector, la sirena y el estrobo necesitan la certificación a prueba de explosión correspondiente. Los equipos más baratos de "uso general" (Macurco, Forensics) <strong>no</strong> sirven para áreas clasificadas. Lo define el encargado de seguridad o el plano de clasificación de áreas de la planta, y esa respuesta decide qué mitad de esta página aplica.</p>
+  <p class="note"><strong>En nuestro caso: no clasificada</strong> (oficina administrativa). No hace falta equipo a prueba de explosión, así que también sirven las opciones de uso general.</p>
 </section>
 
 <section>
@@ -126,12 +136,14 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
       <div class="feat"><span>Pantalla LCD a color de 7"</span><span>Estrobos LED integrados</span><span>Sirena de 95 dB</span><span>4–8 relés</span><span>4–20 mA / Modbus</span></div>
       <p class="price">Precio: solo por cotización</p>
       <div><div class="lbl">A favor</div><ul class="pros">
-        <li>Lo más parecido a lo que se pide: una caja muestra todos los gases en pantalla grande y da la alarma sola, sin central.</li>
+        <li>Lo más parecido a lo que se pide: cada unidad muestra sus gases en pantalla grande y da la alarma sola, sin central.</li>
+        <li>Con 2 unidades queda un canal libre para agregar un PID (vapores de combustible y crudo).</li>
         <li>Los cabezales de sensor son Clase I Div 1, así que van en el punto peligroso.</li>
         <li>Los relés libres pueden activar más estrobos, extractores o válvulas después.</li>
       </ul></div>
       <div><div class="lbl">En contra</div><ul class="cons">
-        <li>La pantalla principal solo es Clase I Div 2: debe ir en un punto menos peligroso.</li>
+        <li><strong>Máximo 2 sensores por unidad</strong> (confirmado por Sensidyne): para H₂S, CO y LEL hacen falta 2 unidades.</li>
+        <li>La pantalla principal solo es Clase I Div 2: debe ir en un punto menos peligroso (no aplica en nuestro caso, área no clasificada).</li>
         <li>Sin precio público. Probablemente es la opción fija más cara.</li>
         <li>La sirena de 95 dB es más baja que la de los monitores de área; en una planta ruidosa conviene agregar otra en un relé.</li>
       </ul></div>
@@ -365,7 +377,7 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
   <table>
     <thead><tr><th>Opción</th><th>Tipo</th><th>Pantalla</th><th>Estrobo / sirena</th><th>Área clasificada</th><th>Costo aprox. para los 3 gases</th></tr></thead>
     <tbody>
-      <tr><td>Sensidyne SensAlarm FLEX</td><td>Todo en uno, fijo</td><td>7" a color</td><td>Integrados (95 dB)</td><td>Sensores C1D1, pantalla C1D2</td><td>Cotización</td></tr>
+      <tr><td>2 × Sensidyne SensAlarm FLEX</td><td>Todo en uno, fijo (2 sensores por unidad)</td><td>7" a color</td><td>Integrados (95 dB)</td><td>Sensores C1D1, pantalla C1D2</td><td>Cotización</td></tr>
       <tr><td>Industrial Scientific Radius BZ1</td><td>Todo en uno, batería</td><td>Sí</td><td>Integrados (108 dB)</td><td>Sí</td><td>$7.4k – $14.1k</td></tr>
       <tr><td>Honeywell BW RigRat</td><td>Todo en uno, batería</td><td>Sí</td><td>Integrados</td><td>Sí</td><td>$9.4k – $11k</td></tr>
       <tr><td>Blackline G7 EXO</td><td>Todo en uno, batería + celular</td><td>Sí</td><td>Integrados</td><td>Sí</td><td>Suscripción</td></tr>
