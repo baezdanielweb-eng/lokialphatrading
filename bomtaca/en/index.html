@@ -76,6 +76,12 @@ tr:last-child td{border-bottom:0}
 .lang a,.lang span{padding:4px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none}
 .lang span{background:var(--chip);font-weight:700}
 footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:16px}
+
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:12px;margin:14px 0 0}
+.gloss div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.gloss dt{font-weight:700;margin-bottom:4px}
+.gloss dd{margin:0;color:var(--muted);font-size:.92rem}
+.jump{font-size:.92rem;margin:10px 0 0}
 </style>
 </head>
 <body>
@@ -91,6 +97,7 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
     <span class="chip">Fuel vapors = combustible gas, % LEL</span>
     <span class="chip">Standalone: strobe + horn + display</span>
   </div>
+  <p class="jump">Technical terms? <a href="#glossary">See the glossary ↓</a></p>
   <div class="note"><strong>Prices are not quotes.</strong> They are what US/UK resellers listed online in October 2026, before tax, shipping and installation. Most of these units are built to order, and the exact sensor setup changes the price. Ask an authorized distributor for a quote with your gases and ranges before buying.</div>
 </header>
 
@@ -382,6 +389,48 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
     <div class="tip"><h3>Running cost</h3><p>Plan for a bump test with gas every month or so, a full calibration about every 6 months, and new H₂S/CO sensors every 2–3 years. Calibration gas and a regulator cost a few hundred dollars a year. A cheap unit with expensive or hard-to-find sensors costs more in the long run.</p></div>
     <div class="tip"><h3>Before you order</h3><ul><li>Area classification (hazardous or not)</li><li>Power at each point (24 VDC, 120/240 VAC, or battery)</li><li>Gas ranges: H₂S 0–50 ppm, CO 0–500 ppm, LEL 0–100%</li><li>Indoor or outdoor (IP rating, temperature)</li><li>Ask for the horn/strobe in the same quote</li></ul></div>
   </div>
+</section>
+
+<section id="glossary">
+  <h2>Glossary</h2>
+  <p class="lead">The technical terms used on this page and in the quotes, in plain words.</p>
+  <dl class="gloss">
+    <div><dt>H₂S (hydrogen sulfide)</dt><dd>Toxic gas that smells like rotten eggs. At high levels you stop smelling it because it deadens the sense of smell, which is why you need a detector. It is heavier than air and collects in low spots.</dd></div>
+    <div><dt>CO (carbon monoxide)</dt><dd>Toxic gas with no smell or color, produced by engines, boilers and any incomplete combustion. It weighs about the same as air.</dd></div>
+    <div><dt>ppm (parts per million)</dt><dd>Unit for measuring toxic gases in small amounts. 10 ppm of H₂S means 10 parts of H₂S per million parts of air.</dd></div>
+    <div><dt>LEL / % LEL (lower explosive limit)</dt><dd>The lowest concentration of a gas or vapor in air that can ignite. A reading of 20% LEL means there is one fifth of what's needed for an explosion.</dd></div>
+    <div><dt>Fuel vapors</dt><dd>The gas given off by gasoline, diesel and other liquid fuels. Measured as combustible gas in % LEL, or with a PID sensor for heavy fuels.</dd></div>
+    <div><dt>Electrochemical sensor</dt><dd>The sensor type normally used for H₂S and CO. Accurate and inexpensive, but it wears out and needs replacing every 2–3 years.</dd></div>
+    <div><dt>Catalytic (catalytic bead) sensor</dt><dd>Combustible-gas sensor that "burns" a tiny sample to measure it. Cheap and common, but H₂S and silicones poison it and it stops reading correctly without warning.</dd></div>
+    <div><dt>Infrared (IR) sensor</dt><dd>Combustible-gas sensor that measures how much infrared light the gas absorbs. H₂S doesn't poison it and it lasts longer, but it costs more and can't detect hydrogen.</dd></div>
+    <div><dt>PID (photoionization detector)</dt><dd>Sensor that measures organic vapors in ppm using an ultraviolet lamp. Works for diesel, kerosene and other heavy fuels an LEL sensor barely sees. The lamp needs periodic cleaning.</dd></div>
+    <div><dt>Sensor poisoning</dt><dd>Permanent damage to a sensor from exposure to certain chemicals (H₂S, silicones, lead). The sensor stays on but reads lower than reality.</dd></div>
+    <div><dt>Fixed detector</dt><dd>Unit installed permanently on a wall or post, powered by the plant. It watches an area 24 hours a day.</dd></div>
+    <div><dt>Personal (portable) monitor</dt><dd>Small detector worn by a worker, with a rechargeable battery. It protects the person wherever they go, but doesn't watch a fixed area.</dd></div>
+    <div><dt>Transportable area monitor</dt><dd>Battery unit, larger than a personal one, placed at a spot for days or weeks and movable. Examples: Radius BZ1, RigRat.</dd></div>
+    <div><dt>Sampling (extractive) detector</dt><dd>Unit that pumps air through tubing from the point being watched. The detector itself stays in a safe area. Example: Midas S2.</dd></div>
+    <div><dt>Head / transmitter</dt><dd>The part of a fixed detector that holds the sensor. A "transmitter" only sends the reading to other equipment; it may have no display or alarm of its own.</dd></div>
+    <div><dt>Controller / central panel</dt><dd>Panel that receives signals from several detectors and triggers the alarms. This site won't have one, so each detector must alarm on its own.</dd></div>
+    <div><dt>Standalone</dt><dd>A detector that works alone: it measures, shows the level and triggers its own alarm without a controller.</dd></div>
+    <div><dt>Relay</dt><dd>A switch inside the detector that trips at an alarm level. Used to turn on a horn, a strobe or a fan.</dd></div>
+    <div><dt>Horn / strobe</dt><dd>The audible alarm (horn, measured in dB) and the flashing light (strobe or beacon). Some detectors have them built in; others need an external one wired to the relay.</dd></div>
+    <div><dt>dB (decibels)</dt><dd>How loud a horn is. 95 dB is clearly heard in a workshop; 108 dB carries over a noisy site.</dd></div>
+    <div><dt>Alarm levels (low / high)</dt><dd>The readings at which the detector warns. Low is a caution; high means evacuate or act immediately.</dd></div>
+    <div><dt>4–20 mA / Modbus</dt><dd>Standard ways to send a detector's reading to a controller or control system. Not needed for standalone detectors, but useful if a controller is added later.</dd></div>
+    <div><dt>Classified (hazardous) area</dt><dd>A zone where flammable gas or vapor can be in the air. Only equipment certified not to cause a spark can be installed there.</dd></div>
+    <div><dt>Class I, Division 1 / Division 2</dt><dd>The US classification for flammable-gas areas. Division 1: gas may be present in normal operation. Division 2: only during a leak or failure. Set by an engineer or local code.</dd></div>
+    <div><dt>Zone 0 / 1 / 2 (ATEX / IECEx)</dt><dd>The equivalent international classification. Zone 1 roughly matches Division 1, and Zone 2 matches Division 2.</dd></div>
+    <div><dt>Explosion-proof (XP / Ex d)</dt><dd>A housing built so that if a spark happens inside, the explosion can't escape. Required in classified areas.</dd></div>
+    <div><dt>General purpose</dt><dd>Equipment with no hazardous-area rating. Only for non-classified zones such as offices, workshops or warehouses without flammable vapors.</dd></div>
+    <div><dt>IP66 / NEMA 4X</dt><dd>Protection ratings against dust and water. IP66 and NEMA 4X mean it withstands water jets and outdoor use.</dd></div>
+    <div><dt>Bump test</dt><dd>A quick test that exposes the detector to a small amount of gas to confirm it responds and the alarm sounds. Done periodically.</dd></div>
+    <div><dt>Calibration</dt><dd>Adjusting the detector with a gas of known concentration so the reading is accurate. Usually every 6 months.</dd></div>
+    <div><dt>Calibration gas</dt><dd>A cylinder with an exact gas mixture, used for bump tests and calibration. You need one per sensor type.</dd></div>
+    <div><dt>Calibration kit</dt><dd>The accessories for calibrating: cylinder regulator, tubing, and the adapter or cup that fits over the sensor.</dd></div>
+    <div><dt>Sensor cartridge</dt><dd>The replacement sensor swapped in when the original reaches end of life, without replacing the whole detector.</dd></div>
+    <div><dt>Surcharge</dt><dd>An extra charge on top of list price. Honeywell added 16% to many of its products in 2025.</dd></div>
+    <div><dt>Incoterms</dt><dd>International terms that define who pays shipping, insurance and customs, and where risk passes to the buyer (for example, EXW or DAP).</dd></div>
+  </dl>
 </section>
 
 <footer>

@@ -76,6 +76,12 @@ tr:last-child td{border-bottom:0}
 .lang a,.lang span{padding:4px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none}
 .lang span{background:var(--chip);font-weight:700}
 footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:16px}
+
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:12px;margin:14px 0 0}
+.gloss div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.gloss dt{font-weight:700;margin-bottom:4px}
+.gloss dd{margin:0;color:var(--muted);font-size:.92rem}
+.jump{font-size:.92rem;margin:10px 0 0}
 </style>
 </head>
 <body>
@@ -92,6 +98,7 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
     <span class="chip">Vapores de combustible = gas combustible, % LEL</span>
     <span class="chip">Autónomo: estrobo + sirena + pantalla</span>
   </div>
+  <p class="jump">¿Términos técnicos? <a href="#glosario">Ver el glosario ↓</a></p>
   <div class="note"><strong>Los precios no son cotizaciones.</strong> Son lo que tiendas de EE.UU. y Reino Unido publicaban en línea en octubre de 2026, sin impuestos, envío ni instalación. La mayoría de estos equipos se fabrican por pedido y la configuración exacta de sensores cambia el precio. Pide una cotización a un distribuidor autorizado con tus gases y rangos antes de comprar.</div>
 </header>
 
@@ -383,6 +390,48 @@ footer{margin-top:48px;color:var(--muted);font-size:.85rem;border-top:1px solid 
     <div class="tip"><h3>Costo de operación</h3><p>Hay que hacer una prueba con gas más o menos cada mes, una calibración completa cada 6 meses aproximadamente, y cambiar los sensores de H₂S y CO cada 2–3 años. El gas de calibración y el regulador cuestan unos cientos de dólares al año. Un equipo barato con sensores caros o difíciles de conseguir sale más caro a la larga.</p></div>
     <div class="tip"><h3>Antes de pedir</h3><ul><li>Clasificación del área (peligrosa o no)</li><li>Corriente en cada punto (24 VDC, 120/240 VAC o batería)</li><li>Rangos de gas: H₂S 0–50 ppm, CO 0–500 ppm, LEL 0–100%</li><li>Interior o exterior (grado IP, temperatura)</li><li>Pedir la sirena/estrobo en la misma cotización</li></ul></div>
   </div>
+</section>
+
+<section id="glosario">
+  <h2>Glosario</h2>
+  <p class="lead">Los términos técnicos que aparecen en esta página y en las cotizaciones, explicados en palabras simples.</p>
+  <dl class="gloss">
+    <div><dt>H₂S (sulfuro de hidrógeno)</dt><dd>Gas tóxico con olor a huevo podrido. A concentraciones altas deja de olerse porque paraliza el olfato, por eso hace falta un detector. Pesa más que el aire y se acumula en zonas bajas.</dd></div>
+    <div><dt>CO (monóxido de carbono)</dt><dd>Gas tóxico sin olor ni color, producido por motores, calderas y cualquier combustión incompleta. Pesa casi lo mismo que el aire.</dd></div>
+    <div><dt>ppm (partes por millón)</dt><dd>Unidad para medir gases tóxicos en cantidades pequeñas. 10 ppm de H₂S significa 10 partes de H₂S por cada millón de partes de aire.</dd></div>
+    <div><dt>LEL / % LEL (límite inferior de explosividad)</dt><dd>La concentración mínima de un gas o vapor en el aire a la que puede encenderse. Un detector que marca 20% LEL indica que hay una quinta parte de lo necesario para una explosión. En español también se dice LIE.</dd></div>
+    <div><dt>Vapores de combustible</dt><dd>El gas que sueltan la gasolina, el diésel y otros combustibles líquidos. Se miden como gas inflamable en % LEL, o con un sensor PID si son combustibles pesados.</dd></div>
+    <div><dt>Sensor electroquímico</dt><dd>El tipo de sensor que normalmente mide H₂S y CO. Es preciso y económico, pero se gasta y hay que cambiarlo cada 2–3 años.</dd></div>
+    <div><dt>Sensor catalítico (perla catalítica)</dt><dd>Sensor de gas inflamable que "quema" una pequeña muestra para medirla. Es barato y común, pero el H₂S y las siliconas lo envenenan y deja de medir bien sin avisar.</dd></div>
+    <div><dt>Sensor infrarrojo (IR)</dt><dd>Sensor de gas inflamable que mide cuánta luz infrarroja absorbe el gas. No se envenena con H₂S y dura más, pero cuesta más y no detecta hidrógeno.</dd></div>
+    <div><dt>PID (detector de fotoionización)</dt><dd>Sensor que mide vapores orgánicos en ppm con una lámpara ultravioleta. Sirve para diésel, queroseno y otros combustibles pesados que un sensor LEL casi no ve. La lámpara necesita limpieza periódica.</dd></div>
+    <div><dt>Envenenamiento del sensor</dt><dd>Daño permanente que sufre un sensor al estar expuesto a ciertos químicos (H₂S, siliconas, plomo). El sensor sigue encendido pero marca menos de lo real.</dd></div>
+    <div><dt>Detector fijo</dt><dd>Equipo instalado de forma permanente en una pared o poste, con corriente de la planta. Vigila un área las 24 horas.</dd></div>
+    <div><dt>Monitor personal (portátil)</dt><dd>Detector pequeño que lleva puesto el trabajador, con batería recargable. Protege a la persona donde vaya, pero no vigila un área fija.</dd></div>
+    <div><dt>Monitor de área transportable</dt><dd>Equipo a batería, más grande que uno personal, que se coloca en un punto por días o semanas y se puede mover. Ejemplos: Radius BZ1, RigRat.</dd></div>
+    <div><dt>Detector por muestreo (extractivo)</dt><dd>Equipo que aspira aire con una bomba a través de una manguera desde el punto a vigilar. El detector queda en una zona segura. Ejemplo: Midas S2.</dd></div>
+    <div><dt>Cabezal / transmisor</dt><dd>La parte del detector fijo que contiene el sensor. Un "transmisor" solo envía la lectura a otro equipo; puede no tener pantalla ni alarma propia.</dd></div>
+    <div><dt>Central / controlador</dt><dd>Panel que recibe las señales de varios detectores y activa las alarmas. En esta instalación no habrá central, así que cada detector debe alarmar por su cuenta.</dd></div>
+    <div><dt>Autónomo (standalone)</dt><dd>Detector que funciona solo: mide, muestra el nivel y activa su propia alarma sin depender de una central.</dd></div>
+    <div><dt>Relé</dt><dd>Un interruptor dentro del detector que se activa al llegar a un nivel de alarma. Se usa para encender una sirena, un estrobo o un ventilador.</dd></div>
+    <div><dt>Sirena / estrobo</dt><dd>La alarma sonora (sirena, medida en dB) y la luz intermitente (estrobo o baliza). Algunos detectores las traen integradas; otros necesitan una externa conectada al relé.</dd></div>
+    <div><dt>dB (decibeles)</dt><dd>Medida del volumen de una sirena. 95 dB se oye bien en un taller; 108 dB se oye en un sitio ruidoso.</dd></div>
+    <div><dt>Niveles de alarma (baja / alta)</dt><dd>Los valores en los que el detector avisa. La alarma baja es una advertencia; la alta indica evacuar o actuar de inmediato.</dd></div>
+    <div><dt>4–20 mA / Modbus</dt><dd>Formas estándar de enviar la lectura de un detector a una central o a un sistema de control. No hacen falta si los detectores funcionan solos, pero sirven si después se agrega una central.</dd></div>
+    <div><dt>Área clasificada (área peligrosa)</dt><dd>Zona donde puede haber gas o vapor inflamable en el aire. Ahí solo se pueden instalar equipos certificados para no provocar una chispa.</dd></div>
+    <div><dt>Clase I, División 1 / División 2</dt><dd>La clasificación de EE. UU. para áreas con gases inflamables. División 1: el gas puede estar presente en operación normal. División 2: solo en caso de fuga o falla. Lo define un ingeniero o la norma local.</dd></div>
+    <div><dt>Zona 0 / 1 / 2 (ATEX / IECEx)</dt><dd>La clasificación internacional equivalente. Zona 1 corresponde más o menos a División 1, y Zona 2 a División 2.</dd></div>
+    <div><dt>A prueba de explosión (XP / Ex d)</dt><dd>Carcasa diseñada para que, si ocurre una chispa adentro, la explosión no salga al exterior. Necesaria en áreas clasificadas.</dd></div>
+    <div><dt>Uso general</dt><dd>Equipo sin certificación para áreas peligrosas. Solo se puede instalar en zonas no clasificadas, como oficinas, talleres o bodegas sin vapores inflamables.</dd></div>
+    <div><dt>IP66 / NEMA 4X</dt><dd>Grados de protección del equipo contra polvo y agua. IP66 y NEMA 4X indican que aguanta chorros de agua y uso a la intemperie.</dd></div>
+    <div><dt>Prueba con gas (bump test)</dt><dd>Prueba rápida que expone el detector a una pequeña cantidad de gas para confirmar que responde y que la alarma suena. Se hace periódicamente.</dd></div>
+    <div><dt>Calibración</dt><dd>Ajuste del detector con un gas de concentración conocida para que la lectura sea exacta. Normalmente cada 6 meses.</dd></div>
+    <div><dt>Gas de calibración</dt><dd>Cilindro con una mezcla de gas a concentración exacta, usado para la prueba con gas y la calibración. Se compra uno por cada tipo de sensor.</dd></div>
+    <div><dt>Kit de calibración</dt><dd>Los accesorios para calibrar: regulador del cilindro, manguera y el adaptador o copa que se pone sobre el sensor.</dd></div>
+    <div><dt>Cartucho de sensor</dt><dd>El sensor de repuesto que se cambia cuando el original llega al fin de su vida útil, sin cambiar todo el detector.</dd></div>
+    <div><dt>Recargo (surcharge)</dt><dd>Un cargo extra sobre el precio de lista. Honeywell agregó un 16% a muchos de sus equipos en 2025.</dd></div>
+    <div><dt>Incoterms</dt><dd>Términos internacionales que definen quién paga el envío, el seguro y la aduana, y dónde pasa el riesgo al comprador (por ejemplo, EXW o DAP).</dd></div>
+  </dl>
 </section>
 
 <footer>
